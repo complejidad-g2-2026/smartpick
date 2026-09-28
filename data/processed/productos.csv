@@ -1,0 +1,1501 @@
+ubicacion,zona,pasillo,posicion,lado,product_id,product_name,aisle,department,pedidos
+A01-01-I,A,1,1,I,24852,Banana,fresh fruits,produce,18726
+A01-01-D,A,1,1,D,13176,Bag of Organic Bananas,fresh fruits,produce,15480
+A01-02-I,A,1,2,I,21137,Organic Strawberries,fresh fruits,produce,10894
+A01-02-D,A,1,2,D,47626,Large Lemon,fresh fruits,produce,8135
+A01-03-I,A,1,3,I,47766,Organic Avocado,fresh fruits,produce,7409
+A01-03-D,A,1,3,D,47209,Organic Hass Avocado,fresh fruits,produce,7293
+A01-04-I,A,1,4,I,16797,Strawberries,fresh fruits,produce,6494
+A01-04-D,A,1,4,D,26209,Limes,fresh fruits,produce,6033
+A01-05-I,A,1,5,I,45066,Honeycrisp Apple,fresh fruits,produce,3551
+A01-05-D,A,1,5,D,5876,Organic Lemon,fresh fruits,produce,3505
+A01-06-I,A,1,6,I,28204,Organic Fuji Apple,fresh fruits,produce,3257
+A01-06-D,A,1,6,D,5450,Small Hass Avocado,fresh fruits,produce,3103
+A01-07-I,A,1,7,I,19057,Organic Large Extra Fancy Fuji Apple,fresh fruits,produce,2891
+A01-07-D,A,1,7,D,26604,Organic Blackberries,fresh fruits,produce,2843
+A01-08-I,A,1,8,I,37646,Organic Gala Apples,fresh fruits,produce,2809
+A01-08-D,A,1,8,D,39877,Organic Granny Smith Apple,fresh fruits,produce,2337
+A01-09-I,A,1,9,I,37067,Organic Banana,fresh fruits,produce,2332
+A01-09-D,A,1,9,D,8277,Apple Honeycrisp Organic,fresh fruits,produce,2252
+A01-10-I,A,1,10,I,8174,Organic Navel Orange,fresh fruits,produce,1980
+A01-10-D,A,1,10,D,22825,Organic D'Anjou Pears,fresh fruits,produce,1893
+A01-11-I,A,1,11,I,39928,Organic Kiwi,fresh fruits,produce,1880
+A01-11-D,A,1,11,D,46906,Grape White/Green Seedless,fresh fruits,produce,1527
+A01-12-I,A,1,12,I,9387,Granny Smith Apples,fresh fruits,produce,1379
+A01-12-D,A,1,12,D,260,Cantaloupe,fresh fruits,produce,1215
+A01-13-I,A,1,13,I,41787,Bartlett Pears,fresh fruits,produce,1207
+A01-13-D,A,1,13,D,21288,Blackberries,fresh fruits,produce,1077
+A01-14-I,A,1,14,I,43122,Organic Bartlett Pear,fresh fruits,produce,980
+A01-14-D,A,1,14,D,39408,Gala Apples,fresh fruits,produce,959
+A01-15-I,A,1,15,I,38456,Large Grapefruit,fresh fruits,produce,845
+A01-15-D,A,1,15,D,47630,Medium Navel Orange,fresh fruits,produce,796
+A01-16-I,A,1,16,I,40723,Organic Cripps Pink Apples,fresh fruits,produce,730
+A01-16-D,A,1,16,D,46969,Organic Bosc Pear,fresh fruits,produce,706
+A01-17-I,A,1,17,I,38159,Organic Yellow Peaches,fresh fruits,produce,692
+A01-17-D,A,1,17,D,17122,Honeycrisp Apples,fresh fruits,produce,670
+A01-18-I,A,1,18,I,32177,Blood Oranges,fresh fruits,produce,610
+A01-18-D,A,1,18,D,38557,Citrus Mandarins Organic,fresh fruits,produce,593
+A01-19-I,A,1,19,I,32303,Red Seedless Grapes,fresh fruits,produce,554
+A01-19-D,A,1,19,D,31915,Organic Red Delicious Apple,fresh fruits,produce,501
+A01-20-I,A,1,20,I,47759,Mandarin Oranges,fresh fruits,produce,489
+A01-20-D,A,1,20,D,7969,Lime,fresh fruits,produce,472
+A01-21-I,A,1,21,I,47788,Honeydew Melon,fresh fruits,produce,430
+A01-21-D,A,1,21,D,10326,Organic Fuji Apples,fresh fruits,produce,421
+A01-22-I,A,1,22,I,14161,Kiwi,fresh fruits,produce,412
+A01-22-D,A,1,22,D,25588,Seedless Small Watermelon,fresh fruits,produce,401
+A01-23-I,A,1,23,I,32429,Red Mango,fresh fruits,produce,390
+A01-23-D,A,1,23,D,10305,Black Plum,fresh fruits,produce,379
+A01-24-I,A,1,24,I,39276,Bananas,fresh fruits,produce,360
+A01-24-D,A,1,24,D,48527,Avocado,fresh fruits,produce,342
+A01-25-I,A,1,25,I,4149,Frozen Organic Blueberries,fresh fruits,produce,338
+A01-25-D,A,1,25,D,33055,Organic Golden Delicious Apple,fresh fruits,produce,337
+A02-01-I,A,2,1,I,36082,Organic Mango,fresh fruits,produce,313
+A02-01-D,A,2,1,D,13575,Apples,fresh fruits,produce,308
+A02-02-I,A,2,2,I,31717,Organic Cilantro,fresh herbs,produce,3526
+A02-02-D,A,2,2,D,34126,Organic Italian Parsley Bunch,fresh herbs,produce,2400
+A02-03-I,A,2,3,I,28842,Bunched Cilantro,fresh herbs,produce,1920
+A02-03-D,A,2,3,D,43789,Organic Basil,fresh herbs,produce,1222
+A02-04-I,A,2,4,I,13984,Organic Mint,fresh herbs,produce,742
+A02-04-D,A,2,4,D,39812,Organic Thyme,fresh herbs,produce,665
+A02-05-I,A,2,5,I,42625,"Flat Parsley, Bunch",fresh herbs,produce,658
+A02-05-D,A,2,5,D,39984,Organic Dill,fresh herbs,produce,631
+A02-06-I,A,2,6,I,4086,Mint,fresh herbs,produce,510
+A02-06-D,A,2,6,D,15261,Organic Rosemary,fresh herbs,produce,391
+A02-07-I,A,2,7,I,1529,"Parsley, Italian (Flat), New England Grown",fresh herbs,produce,382
+A02-07-D,A,2,7,D,8955,Basil,fresh herbs,produce,324
+A02-08-I,A,2,8,I,30391,Organic Cucumber,fresh vegetables,produce,4613
+A02-08-D,A,2,8,D,45007,Organic Zucchini,fresh vegetables,produce,4589
+A02-09-I,A,2,9,I,22935,Organic Yellow Onion,fresh vegetables,produce,4290
+A02-09-D,A,2,9,D,24964,Organic Garlic,fresh vegetables,produce,4158
+A02-10-I,A,2,10,I,46979,Asparagus,fresh vegetables,produce,3868
+A02-10-D,A,2,10,D,8518,Organic Red Onion,fresh vegetables,produce,3818
+A02-11-I,A,2,11,I,4605,Yellow Onions,fresh vegetables,produce,3762
+A02-11-D,A,2,11,D,8424,Broccoli Crown,fresh vegetables,produce,2932
+A02-12-I,A,2,12,I,24184,Red Peppers,fresh vegetables,produce,2905
+A02-12-D,A,2,12,D,27104,Fresh Cauliflower,fresh vegetables,produce,2651
+A02-13-I,A,2,13,I,28985,Michigan Organic Kale,fresh vegetables,produce,2627
+A02-13-D,A,2,13,D,44359,Organic Small Bunch Celery,fresh vegetables,produce,2623
+A02-14-I,A,2,14,I,48679,Organic Garnet Sweet Potato (Yam),fresh vegetables,produce,2568
+A02-14-D,A,2,14,D,41950,Organic Tomato Cluster,fresh vegetables,produce,2538
+A02-15-I,A,2,15,I,21938,Green Bell Pepper,fresh vegetables,produce,2521
+A02-15-D,A,2,15,D,17794,Carrots,fresh vegetables,produce,2497
+A02-16-I,A,2,16,I,49683,Cucumber Kirby,fresh vegetables,produce,2413
+A02-16-D,A,2,16,D,10749,Organic Red Bell Pepper,fresh vegetables,produce,2393
+A02-17-I,A,2,17,I,34969,Red Vine Tomato,fresh vegetables,produce,2234
+A02-17-D,A,2,17,D,46667,Organic Ginger Root,fresh vegetables,produce,2007
+A02-18-I,A,2,18,I,29487,Roma Tomato,fresh vegetables,produce,1953
+A02-18-D,A,2,18,D,34358,Garlic,fresh vegetables,produce,1920
+A02-19-I,A,2,19,I,20114,Jalapeno Peppers,fresh vegetables,produce,1899
+A02-19-D,A,2,19,D,15290,Orange Bell Pepper,fresh vegetables,produce,1864
+A02-20-I,A,2,20,I,27521,Organic Lacinato (Dinosaur) Kale,fresh vegetables,produce,1761
+A02-20-D,A,2,20,D,16759,Organic Carrot Bunch,fresh vegetables,produce,1742
+A02-21-I,A,2,21,I,9839,Organic Broccoli,fresh vegetables,produce,1653
+A02-21-D,A,2,21,D,38739,Hass Avocado,fresh vegetables,produce,1633
+A02-22-I,A,2,22,I,44142,Red Onion,fresh vegetables,produce,1468
+A02-22-D,A,2,22,D,5025,Green Onions,fresh vegetables,produce,1445
+A02-23-I,A,2,23,I,8193,Russet Potato,fresh vegetables,produce,1418
+A02-23-D,A,2,23,D,34243,Organic Baby Broccoli,fresh vegetables,produce,1351
+A02-24-I,A,2,24,I,31553,Fresh Ginger Root,fresh vegetables,produce,1284
+A02-24-D,A,2,24,D,26369,Organic Roma Tomato,fresh vegetables,produce,1221
+A02-25-I,A,2,25,I,19678,Organic Russet Potato,fresh vegetables,produce,1174
+A02-25-D,A,2,25,D,2295,Yellow Bell Pepper,fresh vegetables,produce,1166
+A03-01-I,A,3,1,I,14992,Green Beans,fresh vegetables,produce,1160
+A03-01-D,A,3,1,D,41220,Organic Romaine Lettuce,fresh vegetables,produce,1154
+A03-02-I,A,3,2,I,44683,Brussels Sprouts,fresh vegetables,produce,1149
+A03-02-D,A,3,2,D,10246,Organic Celery Hearts,fresh vegetables,produce,1062
+A03-03-I,A,3,3,I,21405,"Organic Red Radish, Bunch",fresh vegetables,produce,1041
+A03-03-D,A,3,3,D,43772,Cherubs Heavenly Salad Tomatoes,fresh vegetables,produce,1024
+A03-04-I,A,3,4,I,43768,Organic Bell Pepper,fresh vegetables,produce,943
+A03-04-D,A,3,4,D,36695,Organic Hothouse Cucumbers,fresh vegetables,produce,926
+A03-05-I,A,3,5,I,48364,Sweet Onion,fresh vegetables,produce,916
+A03-05-D,A,3,5,D,5818,White Onion,fresh vegetables,produce,873
+A03-06-I,A,3,6,I,35939,Organic Jalapeno Pepper,fresh vegetables,produce,850
+A03-06-D,A,3,6,D,38383,Organic White Onions,fresh vegetables,produce,850
+A03-07-I,A,3,7,I,3952,Organic Broccoli Crowns,fresh vegetables,produce,804
+A03-07-D,A,3,7,D,47734,Organic Green Cabbage,fresh vegetables,produce,785
+A03-08-I,A,3,8,I,15937,Shallot,fresh vegetables,produce,778
+A03-08-D,A,3,8,D,4562,English Seedless Cucumber,fresh vegetables,produce,773
+A03-09-I,A,3,9,I,13629,Organic Snipped Green Beans,fresh vegetables,produce,772
+A03-09-D,A,3,9,D,23165,Organic Leek,fresh vegetables,produce,764
+A03-10-I,A,3,10,I,26940,Organic Large Green Asparagus,fresh vegetables,produce,730
+A03-10-D,A,3,10,D,28993,Iceberg Lettuce,fresh vegetables,produce,728
+A03-11-I,A,3,11,I,19048,Organic Butternut Squash,fresh vegetables,produce,715
+A03-11-D,A,3,11,D,39993,Vine Ripe Tomatoes,fresh vegetables,produce,708
+A03-12-I,A,3,12,I,16349,Organic Yams,fresh vegetables,produce,704
+A03-12-D,A,3,12,D,15872,Celery Hearts,fresh vegetables,produce,686
+A03-13-I,A,3,13,I,48745,Globe Eggplant,fresh vegetables,produce,663
+A03-13-D,A,3,13,D,30720,Sugar Snap Peas,fresh vegetables,produce,657
+A03-14-I,A,3,14,I,7628,"Dressing, Jersey Sweet Onion, Calorie Free",fresh vegetables,produce,653
+A03-14-D,A,3,14,D,49383,Organic Bunch Beets,fresh vegetables,produce,641
+A03-15-I,A,3,15,I,38400,Asparation/Broccolini/Baby Broccoli,fresh vegetables,produce,633
+A03-15-D,A,3,15,D,45,European Cucumber,fresh vegetables,produce,625
+A03-16-I,A,3,16,I,35547,Organic Baby Kale,fresh vegetables,produce,619
+A03-16-D,A,3,16,D,44570,Kale Greens,fresh vegetables,produce,616
+A03-17-I,A,3,17,I,26497,Romaine Lettuce,fresh vegetables,produce,615
+A03-17-D,A,3,17,D,17795,Organic Green Leaf Lettuce,fresh vegetables,produce,598
+A03-18-I,A,3,18,I,48775,Organic Red Cabbage,fresh vegetables,produce,590
+A03-18-D,A,3,18,D,6873,Organic Iceberg Lettuce,fresh vegetables,produce,587
+A03-19-I,A,3,19,I,5618,Cauliflower,fresh vegetables,produce,578
+A03-19-D,A,3,19,D,33768,Sinfully Sweet Campari Tomatoes,fresh vegetables,produce,542
+A03-20-I,A,3,20,I,13733,Red Potatoes,fresh vegetables,produce,525
+A03-20-D,A,3,20,D,10385,Organic English Cucumber,fresh vegetables,produce,518
+A03-21-I,A,3,21,I,26283,White Corn,fresh vegetables,produce,494
+A03-21-D,A,3,21,D,35163,Red Leaf Lettuce,fresh vegetables,produce,493
+A03-22-I,A,3,22,I,1244,Organic Orange Bell Pepper,fresh vegetables,produce,487
+A03-22-D,A,3,22,D,18234,Organic Spinach Bunch,fresh vegetables,produce,475
+A03-23-I,A,3,23,I,45200,Organic Cauliflower,fresh vegetables,produce,444
+A03-23-D,A,3,23,D,37065,Serrano Chile Peppers,fresh vegetables,produce,442
+A03-24-I,A,3,24,I,3464,"Organic Butterhead (Boston, Butter, Bibb) Lettuce",fresh vegetables,produce,428
+A03-24-D,A,3,24,D,30406,Butternut Squash,fresh vegetables,produce,421
+A03-25-I,A,3,25,I,18656,Organic Red Potato,fresh vegetables,produce,411
+A03-25-D,A,3,25,D,14897,Sweet Potato Yam,fresh vegetables,produce,407
+A04-01-I,A,4,1,I,29662,Potato Yukon Gold Organic,fresh vegetables,produce,392
+A04-01-D,A,4,1,D,29675,Organic Bagged Carrots,fresh vegetables,produce,390
+A04-02-I,A,4,2,I,41065,Organic Yellow Squash,fresh vegetables,produce,387
+A04-02-D,A,4,2,D,21295,Organic Spaghetti Squash,fresh vegetables,produce,385
+A04-03-I,A,4,3,I,47042,Organic Red On the Vine Tomato,fresh vegetables,produce,373
+A04-03-D,A,4,3,D,15200,Organic Green Beans,fresh vegetables,produce,372
+A04-04-I,A,4,4,I,39558,Gold Potato,fresh vegetables,produce,371
+A04-04-D,A,4,4,D,12614,Yellow Grape Tomatoes,fresh vegetables,produce,368
+A04-05-I,A,4,5,I,44661,Bicolor Sweet Corn,fresh vegetables,produce,365
+A04-05-D,A,4,5,D,28601,Collard Greens,fresh vegetables,produce,356
+A04-06-I,A,4,6,I,23622,Organic Hot House Tomato,fresh vegetables,produce,346
+A04-06-D,A,4,6,D,12980,Large Greenhouse Tomato,fresh vegetables,produce,345
+A04-07-I,A,4,7,I,31562,Sweet Onions,fresh vegetables,produce,344
+A04-07-D,A,4,7,D,19003,Celery,fresh vegetables,produce,340
+A04-08-I,A,4,8,I,35535,Organic Red Chard Greens,fresh vegetables,produce,336
+A04-08-D,A,4,8,D,13852,Organic Broccoli Crown,fresh vegetables,produce,324
+A04-09-I,A,4,9,I,30305,Fancy Eggplant,fresh vegetables,produce,315
+A04-09-D,A,4,9,D,37011,Artichokes,fresh vegetables,produce,315
+A04-10-I,A,4,10,I,581,Garnet Sweet Potato (Yam),fresh vegetables,produce,308
+A04-10-D,A,4,10,D,5652,Organic Red Potatoes,fresh vegetables,produce,308
+A04-11-I,A,4,11,I,41259,Poblano Pepper,fresh vegetables,produce,305
+A04-11-D,A,4,11,D,43352,Raspberries,packaged produce,produce,3279
+A04-12-I,A,4,12,I,12341,Hass Avocados,packaged produce,produce,2276
+A04-12-D,A,4,12,D,6184,Clementines,packaged produce,produce,1351
+A04-13-I,A,4,13,I,30827,Seedless Cucumbers,packaged produce,produce,693
+A04-13-D,A,4,13,D,8571,Baby Cucumbers,packaged produce,produce,632
+A04-14-I,A,4,14,I,8048,Packaged Grape Tomatoes,packaged produce,produce,610
+A04-14-D,A,4,14,D,19691,Green Seedless Grapes,packaged produce,produce,599
+A04-15-I,A,4,15,I,38768,Sweet Kale Salad Mix,packaged produce,produce,591
+A04-15-D,A,4,15,D,21292,Rainbow Bell Peppers,packaged produce,produce,536
+A04-16-I,A,4,16,I,4724,Broccoli Florettes,packaged produce,produce,385
+A04-16-D,A,4,16,D,5068,Cauliflower Florets,packaged produce,produce,373
+A04-17-I,A,4,17,I,21903,Organic Baby Spinach,packaged vegetables fruits,produce,9784
+A04-17-D,A,4,17,D,27966,Organic Raspberries,packaged vegetables fruits,produce,5546
+A04-18-I,A,4,18,I,39275,Organic Blueberries,packaged vegetables fruits,produce,4966
+A04-18-D,A,4,18,D,4920,Seedless Red Grapes,packaged vegetables fruits,produce,4059
+A04-19-I,A,4,19,I,40706,Organic Grape Tomatoes,packaged vegetables fruits,produce,3823
+A04-19-D,A,4,19,D,42265,Organic Baby Carrots,packaged vegetables fruits,produce,3597
+A04-20-I,A,4,20,I,21616,Organic Baby Arugula,packaged vegetables fruits,produce,2923
+A04-20-D,A,4,20,D,43961,Organic Peeled Whole Baby Carrots,packaged vegetables fruits,produce,2460
+A04-21-I,A,4,21,I,11777,Red Raspberries,packaged vegetables fruits,produce,1493
+A04-21-D,A,4,21,D,28199,"Clementines, Bag",packaged vegetables fruits,produce,1478
+A04-22-I,A,4,22,I,37687,Organic Spring Mix,packaged vegetables fruits,produce,1362
+A04-22-D,A,4,22,D,24830,Organic Romaine,packaged vegetables fruits,produce,1152
+A04-23-I,A,4,23,I,11182,Baby Spinach,packaged vegetables fruits,produce,1147
+A04-23-D,A,4,23,D,32689,Romaine Hearts,packaged vegetables fruits,produce,988
+A04-24-I,A,4,24,I,32864,Organic Baby Rainbow Carrots,packaged vegetables fruits,produce,914
+A04-24-D,A,4,24,D,48205,Spinach,packaged vegetables fruits,produce,878
+A04-25-I,A,4,25,I,5212,Watermelon Chunks,packaged vegetables fruits,produce,854
+A04-25-D,A,4,25,D,28289,Organic Shredded Carrots,packaged vegetables fruits,produce,830
+A05-01-I,A,5,1,I,44910,Organic Spring Mix Salad,packaged vegetables fruits,produce,777
+A05-01-D,A,5,1,D,36070,"Super Spinach! Baby Spinach, Baby Bok Choy, Sweet Baby Kale",packaged vegetables fruits,produce,754
+A05-02-I,A,5,2,I,25931,Organic Baby Spinach Salad,packaged vegetables fruits,produce,710
+A05-02-D,A,5,2,D,43086,Super Greens Salad,packaged vegetables fruits,produce,644
+A05-03-I,A,5,3,I,37766,XL Emerald White Seedless Grapes,packaged vegetables fruits,produce,635
+A05-03-D,A,5,3,D,40516,Organic Romaine Hearts,packaged vegetables fruits,produce,624
+A05-04-I,A,5,4,I,27336,Organic Rainbow Carrots,packaged vegetables fruits,produce,607
+A05-04-D,A,5,4,D,38777,Organic Green Seedless Grapes,packaged vegetables fruits,produce,590
+A05-05-I,A,5,5,I,21174,I Heart Baby Kale,packaged vegetables fruits,produce,475
+A05-05-D,A,5,5,D,29307,Baby Arugula,packaged vegetables fruits,produce,459
+A05-06-I,A,5,6,I,21872,Organic Italian Salad,packaged vegetables fruits,produce,450
+A05-06-D,A,5,6,D,26800,Organic Baby Kale Mix,packaged vegetables fruits,produce,433
+A05-07-I,A,5,7,I,33352,Organic Kale Greens,packaged vegetables fruits,produce,401
+A05-07-D,A,5,7,D,32465,Sliced White Mushrooms,packaged vegetables fruits,produce,399
+A05-08-I,A,5,8,I,11140,Organic Romaine Leaf,packaged vegetables fruits,produce,385
+A05-08-D,A,5,8,D,16616,Organic Sliced White Mushrooms,packaged vegetables fruits,produce,381
+A05-09-I,A,5,9,I,22849,Bunny-Luv Fresh Organic Carrots,packaged vegetables fruits,produce,381
+A05-09-D,A,5,9,D,1408,Mini Cucumbers,packaged vegetables fruits,produce,367
+A05-10-I,A,5,10,I,39922,Celery Sticks,packaged vegetables fruits,produce,367
+A05-10-D,A,5,10,D,45063,Organic Baby Bella Mushrooms,packaged vegetables fruits,produce,339
+A05-11-I,A,5,11,I,36956,Stringless Sugar Snap Peas,packaged vegetables fruits,produce,333
+A05-11-D,A,5,11,D,41273,Broccoli Florets,packaged vegetables fruits,produce,326
+A05-12-I,A,5,12,I,39040,Organic Sliced Crimini Mushrooms,packaged vegetables fruits,produce,302
+A05-12-D,A,5,12,D,33000,Pure Irish Butter,butter,dairy eggs,1476
+A05-13-I,A,5,13,I,42736,Unsalted Butter,butter,dairy eggs,1435
+A05-13-D,A,5,13,D,35108,Salted Butter,butter,dairy eggs,808
+A05-14-I,A,5,14,I,7948,Organic Unsalted Butter,butter,dairy eggs,743
+A05-14-D,A,5,14,D,2078,Unsalted Pure Irish Butter,butter,dairy eggs,736
+A05-15-I,A,5,15,I,651,Organic Salted Butter,butter,dairy eggs,586
+A05-15-D,A,5,15,D,15613,Salted Tub of Butter,butter,dairy eggs,495
+A05-16-I,A,5,16,I,5460,Butter,butter,dairy eggs,325
+A05-16-D,A,5,16,D,49235,Organic Half & Half,cream,dairy eggs,2646
+A05-17-I,A,5,17,I,27086,Half & Half,cream,dairy eggs,2424
+A05-17-D,A,5,17,D,44987,Heavy Whipping Cream,cream,dairy eggs,878
+A05-18-I,A,5,18,I,18531,Organic Heavy Whipping Cream,cream,dairy eggs,866
+A05-18-D,A,5,18,D,39581,French Vanilla Creamer,cream,dairy eggs,362
+A05-19-I,A,5,19,I,47156,Coconut Almond Unsweetened Creamer Blend,cream,dairy eggs,353
+A05-19-D,A,5,19,D,27744,Organic Whipping Cream,cream,dairy eggs,315
+A05-20-I,A,5,20,I,11520,Large Alfresco Eggs,eggs,dairy eggs,1898
+A05-20-D,A,5,20,D,18465,Organic Grade A Free Range Large Brown Eggs,eggs,dairy eggs,1767
+A05-21-I,A,5,21,I,30233,Organic Large Brown Grade AA Cage Free Eggs,eggs,dairy eggs,1137
+A05-21-D,A,5,21,D,32655,Organic Large Grade AA Brown Eggs,eggs,dairy eggs,1052
+A05-22-I,A,5,22,I,46654,Organic Grade A Large Brown Eggs,eggs,dairy eggs,874
+A05-22-D,A,5,22,D,33120,Organic Egg Whites,eggs,dairy eggs,834
+A05-23-I,A,5,23,I,35921,Organic Large Grade A Brown Eggs,eggs,dairy eggs,769
+A05-23-D,A,5,23,D,40332,"Cage Free Brown Eggs-Large, Grade A",eggs,dairy eggs,690
+A05-24-I,A,5,24,I,5782,Grade A Large White Eggs,eggs,dairy eggs,647
+A05-24-D,A,5,24,D,16083,Organic Large Brown Eggs,eggs,dairy eggs,619
+A05-25-I,A,5,25,I,36550,Organic Extra Large Grade AA Brown Eggs,eggs,dairy eggs,562
+A05-25-D,A,5,25,D,14218,Grade A Large Eggs Cage Free Omega 3,eggs,dairy eggs,540
+A06-01-I,A,6,1,I,11712,Cage Free Large White Eggs,eggs,dairy eggs,458
+A06-01-D,A,6,1,D,44799,Fresh CA Grown Eggs,eggs,dairy eggs,397
+A06-02-I,A,6,2,I,23341,Large Grade AA Eggs,eggs,dairy eggs,362
+A06-02-D,A,6,2,D,14999,Grade A Large Brown Eggs,eggs,dairy eggs,347
+A06-03-I,A,6,3,I,23543,Organic Extra Large Brown Eggs,eggs,dairy eggs,346
+A06-03-D,A,6,3,D,26384,Large Brown Eggs,eggs,dairy eggs,328
+A06-04-I,A,6,4,I,27307,Cage Free Grade A Large Brown Eggs,eggs,dairy eggs,323
+A06-04-D,A,6,4,D,27845,Organic Whole Milk,milk,dairy eggs,4908
+A06-05-I,A,6,5,I,23909,2% Reduced Fat Milk,milk,dairy eggs,1540
+A06-05-D,A,6,5,D,5785,Organic Reduced Fat 2% Milk,milk,dairy eggs,1535
+A06-06-I,A,6,6,I,4210,Whole Milk,milk,dairy eggs,1335
+A06-06-D,A,6,6,D,19348,Fat Free Milk,milk,dairy eggs,1220
+A06-07-I,A,6,7,I,38689,Organic Reduced Fat Milk,milk,dairy eggs,1206
+A06-07-D,A,6,7,D,1940,Organic 2% Reduced Fat Milk,milk,dairy eggs,931
+A06-08-I,A,6,8,I,1463,Organic Milk,milk,dairy eggs,858
+A06-08-D,A,6,8,D,36011,Organic Fat Free Milk,milk,dairy eggs,811
+A06-09-I,A,6,9,I,32478,Reduced Fat 2% Milk,milk,dairy eggs,763
+A06-09-D,A,6,9,D,40174,2% Reduced Fat Organic Milk,milk,dairy eggs,686
+A06-10-I,A,6,10,I,1511,2% Reduced Fat DHA Omega-3 Reduced Fat Milk,milk,dairy eggs,575
+A06-10-D,A,6,10,D,29447,"Milk, Organic, Vitamin D",milk,dairy eggs,572
+A06-11-I,A,6,11,I,20082,Organic Whole Milk with DHA Omega-3,milk,dairy eggs,523
+A06-11-D,A,6,11,D,13249,Skim Milk,milk,dairy eggs,515
+A06-12-I,A,6,12,I,39180,Organic Lowfat 1% Milk,milk,dairy eggs,483
+A06-12-D,A,6,12,D,329,Organic Whole Grassmilk Milk,milk,dairy eggs,480
+A06-13-I,A,6,13,I,17316,Vitamin D Organic Whole Milk,milk,dairy eggs,468
+A06-13-D,A,6,13,D,24024,1% Lowfat Milk,milk,dairy eggs,461
+A06-14-I,A,6,14,I,5612,Reduced Fat Milk,milk,dairy eggs,432
+A06-14-D,A,6,14,D,10070,Organic 1% Low Fat Milk,milk,dairy eggs,409
+A06-15-I,A,6,15,I,28427,Vitamin D Whole Milk,milk,dairy eggs,395
+A06-15-D,A,6,15,D,13166,"Organic Milk Reduced Fat, 2% Milkfat",milk,dairy eggs,382
+A06-16-I,A,6,16,I,20940,Organic Low Fat Milk,milk,dairy eggs,368
+A06-16-D,A,6,16,D,35914,Dha Omega 3 Reduced Fat 2% Milk,milk,dairy eggs,361
+A06-17-I,A,6,17,I,32747,Low Fat 1% Milk,milk,dairy eggs,360
+A06-17-D,A,6,17,D,32403,Fat Free Skim Milk,milk,dairy eggs,332
+A06-18-I,A,6,18,I,31981,1% Low Fat Milk,milk,dairy eggs,312
+A06-18-D,A,6,18,D,36929,"Milk, Vitamin D",milk,dairy eggs,306
+A06-19-I,A,6,19,I,3583,Unsweetened Coconut Milk Beverage,milk,dairy eggs,302
+A06-19-D,A,6,19,D,45504,Whole Organic Omega 3 Milk,milk,dairy eggs,302
+A06-20-I,A,6,20,I,42828,Whipped Cream Cheese,other creams cheeses,dairy eggs,1078
+A06-20-D,A,6,20,D,42701,Organic Sour Cream,other creams cheeses,dairy eggs,1047
+A06-21-I,A,6,21,I,23734,Sour Cream,other creams cheeses,dairy eggs,1022
+A06-21-D,A,6,21,D,27323,Pure & Natural Sour Cream,other creams cheeses,dairy eggs,543
+A06-22-I,A,6,22,I,21333,Original Whipped Cream Cheese,other creams cheeses,dairy eggs,516
+A06-22-D,A,6,22,D,37029,Cream Cheese Spread,other creams cheeses,dairy eggs,423
+A06-23-I,A,6,23,I,28476,Organic Small Curd Cottage Cheese,other creams cheeses,dairy eggs,393
+A06-23-D,A,6,23,D,36086,Philadelphia Original Cream Cheese,other creams cheeses,dairy eggs,368
+A06-24-I,A,6,24,I,11005,Organic Cream Cheese Bar,other creams cheeses,dairy eggs,365
+A06-24-D,A,6,24,D,2314,Whole Milk Ricotta Cheese,other creams cheeses,dairy eggs,347
+A06-25-I,A,6,25,I,40593,Cream Cheese,other creams cheeses,dairy eggs,330
+A06-25-D,A,6,25,D,13083,Lowfat Small Curd Cottage Cheese,other creams cheeses,dairy eggs,321
+A07-01-I,A,7,1,I,22035,Organic Whole String Cheese,packaged cheese,dairy eggs,1993
+A07-01-D,A,7,1,D,33731,Grated Parmesan,packaged cheese,dairy eggs,1694
+A07-02-I,A,7,2,I,40604,Feta Cheese Crumbles,packaged cheese,dairy eggs,1449
+A07-02-D,A,7,2,D,7781,Organic Sticks Low Moisture Part Skim Mozzarella String Cheese,packaged cheese,dairy eggs,1342
+A07-03-I,A,7,3,I,4799,Shredded Parmesan,packaged cheese,dairy eggs,1324
+A07-03-D,A,7,3,D,16185,Sharp Cheddar Cheese,packaged cheese,dairy eggs,1262
+A07-04-I,A,7,4,I,31343,Shredded Mild Cheddar Cheese,packaged cheese,dairy eggs,1036
+A07-04-D,A,7,4,D,29987,Shredded Mozzarella,packaged cheese,dairy eggs,944
+A07-05-I,A,7,5,I,10132,Organic American Cheese Singles,packaged cheese,dairy eggs,696
+A07-05-D,A,7,5,D,41665,Organic Mexican Blend Finely Shredded Cheese,packaged cheese,dairy eggs,664
+A07-06-I,A,7,6,I,18370,Organic Shredded Mozzarella,packaged cheese,dairy eggs,592
+A07-06-D,A,7,6,D,33401,Goat Cheese Crumbles,packaged cheese,dairy eggs,568
+A07-07-I,A,7,7,I,6348,Mini Original Babybel Cheese,packaged cheese,dairy eggs,564
+A07-07-D,A,7,7,D,27548,Original Semisoft Cheese,packaged cheese,dairy eggs,496
+A07-08-I,A,7,8,I,44765,Colby Cheese Sticks,packaged cheese,dairy eggs,465
+A07-08-D,A,7,8,D,11068,Medium Cheddar Cheese Block,packaged cheese,dairy eggs,462
+A07-09-I,A,7,9,I,17008,Shredded Sharp Cheddar Cheese,packaged cheese,dairy eggs,433
+A07-09-D,A,7,9,D,4367,Garlic & Fine Herbs Gournay Cheese,packaged cheese,dairy eggs,429
+A07-10-I,A,7,10,I,3990,Natural Sharp Cheddar Sliced Cheese,packaged cheese,dairy eggs,386
+A07-10-D,A,7,10,D,45646,Grated Parmesan Cheese,packaged cheese,dairy eggs,378
+A07-11-I,A,7,11,I,17949,Mild Cheddar Cheese Sticks,packaged cheese,dairy eggs,372
+A07-11-D,A,7,11,D,3298,Mozzarella String Cheese,packaged cheese,dairy eggs,369
+A07-12-I,A,7,12,I,38772,Provolone,packaged cheese,dairy eggs,368
+A07-12-D,A,7,12,D,18594,Emmentaler Swiss Slices,packaged cheese,dairy eggs,363
+A07-13-I,A,7,13,I,44479,Organic Stringles Mozzarella String Cheese,packaged cheese,dairy eggs,363
+A07-13-D,A,7,13,D,7131,Light Semisoft Cheese,packaged cheese,dairy eggs,316
+A07-14-I,A,7,14,I,35951,Organic Unsweetened Almond Milk,soy lactosefree,dairy eggs,2176
+A07-14-D,A,7,14,D,24838,Unsweetened Almondmilk,soy lactosefree,dairy eggs,2169
+A07-15-I,A,7,15,I,47144,Unsweetened Original Almond Breeze Almond Milk,soy lactosefree,dairy eggs,1465
+A07-15-D,A,7,15,D,432,Vanilla Almond Breeze Almond Milk,soy lactosefree,dairy eggs,1277
+A07-16-I,A,7,16,I,43295,Unsweetened Vanilla Almond Milk,soy lactosefree,dairy eggs,1248
+A07-16-D,A,7,16,D,25659,Organic Coconut Milk,soy lactosefree,dairy eggs,1045
+A07-17-I,A,7,17,I,4472,Toasted Coconut Almondmilk Blend,soy lactosefree,dairy eggs,618
+A07-17-D,A,7,17,D,7175,Organic Whipped Naturally Buttery Spread,soy lactosefree,dairy eggs,567
+A07-18-I,A,7,18,I,19677,Original Pure Creamy Almond Milk,soy lactosefree,dairy eggs,564
+A07-18-D,A,7,18,D,14084,Organic Unsweetened Vanilla Almond Milk,soy lactosefree,dairy eggs,544
+A07-19-I,A,7,19,I,39190,Vanilla Unsweetened Almond Milk,soy lactosefree,dairy eggs,516
+A07-19-D,A,7,19,D,22959,Reduced Fat Milk 100% Lactose Free,soy lactosefree,dairy eggs,488
+A07-20-I,A,7,20,I,27730,Almond Breeze Original Almond Milk,soy lactosefree,dairy eggs,459
+A07-20-D,A,7,20,D,46820,Vanilla Pure Almond Milk,soy lactosefree,dairy eggs,458
+A07-21-I,A,7,21,I,45104,ALMONDBREEZE UNSWEETENED,soy lactosefree,dairy eggs,436
+A07-21-D,A,7,21,D,29127,Dairy Free Unsweetened Coconut Milk,soy lactosefree,dairy eggs,419
+A07-22-I,A,7,22,I,4942,Vanilla Almond Breeze,soy lactosefree,dairy eggs,361
+A07-22-D,A,7,22,D,35503,Organic Vanilla Almond Milk,soy lactosefree,dairy eggs,358
+A07-23-I,A,7,23,I,49610,100% Lactose Free Fat Free Milk,soy lactosefree,dairy eggs,330
+A07-23-D,A,7,23,D,6948,Organic Original Almond Milk,soy lactosefree,dairy eggs,320
+A07-24-I,A,7,24,I,37524,Fresh Mozzarella Ball,specialty cheeses,dairy eggs,450
+A07-24-D,A,7,24,D,20842,Total 0% Greek Yogurt,yogurt,dairy eggs,1046
+A07-25-I,A,7,25,I,46676,Total 0% Nonfat Greek Yogurt,yogurt,dairy eggs,993
+A07-25-D,A,7,25,D,33754,Total 2% with Strawberry Lowfat Greek Strained Yogurt,yogurt,dairy eggs,973
+A08-01-I,A,8,1,I,39475,Total Greek Strained Yogurt,yogurt,dairy eggs,951
+A08-01-D,A,8,1,D,18523,Total 2% All Natural Greek Strained Yogurt with Honey,yogurt,dairy eggs,810
+A08-02-I,A,8,2,I,24799,Vanilla Skyr Nonfat Yogurt,yogurt,dairy eggs,757
+A08-02-D,A,8,2,D,17600,"YoKids Squeezers Organic Low-Fat Yogurt, Strawberry",yogurt,dairy eggs,733
+A08-03-I,A,8,3,I,28465,Icelandic Style Skyr Blueberry Non-fat Yogurt,yogurt,dairy eggs,705
+A08-03-D,A,8,3,D,28156,Total 0% Nonfat Plain Greek Yogurt,yogurt,dairy eggs,660
+A08-04-I,A,8,4,I,40571,Total 2% Greek Strained Yogurt with Cherry 5.3 oz,yogurt,dairy eggs,648
+A08-04-D,A,8,4,D,4957,Total 2% Lowfat Greek Strained Yogurt With Blueberry,yogurt,dairy eggs,647
+A08-05-I,A,8,5,I,33787,Total 2% Lowfat Greek Strained Yogurt with Peach,yogurt,dairy eggs,644
+A08-05-D,A,8,5,D,30169,Total 2% All Natural Plain Greek Yogurt,yogurt,dairy eggs,638
+A08-06-I,A,8,6,I,17872,Total 2% Lowfat Plain Greek Yogurt,yogurt,dairy eggs,628
+A08-06-D,A,8,6,D,36865,Non Fat Raspberry Yogurt,yogurt,dairy eggs,576
+A08-07-I,A,8,7,I,6104,Whole Milk Plain Yogurt,yogurt,dairy eggs,554
+A08-07-D,A,8,7,D,42244,Total 2% All Natural Low Fat 2% Milkfat Greek Strained Yogurt,yogurt,dairy eggs,531
+A08-08-I,A,8,8,I,25138,Organic Plain Greek Whole Milk Yogurt,yogurt,dairy eggs,518
+A08-08-D,A,8,8,D,17758,Strawberry Rhubarb Yoghurt,yogurt,dairy eggs,507
+A08-09-I,A,8,9,I,40198,Blueberry Yoghurt,yogurt,dairy eggs,506
+A08-09-D,A,8,9,D,11422,Plain Greek Yogurt,yogurt,dairy eggs,486
+A08-10-I,A,8,10,I,46584,YoKids Blueberry & Strawberry/Vanilla Yogurt,yogurt,dairy eggs,459
+A08-10-D,A,8,10,D,31215,Lemon Yogurt,yogurt,dairy eggs,445
+A08-11-I,A,8,11,I,35628,Organic Strawberry Smoothie,yogurt,dairy eggs,443
+A08-11-D,A,8,11,D,22124,Total 0% Raspberry Yogurt,yogurt,dairy eggs,441
+A08-12-I,A,8,12,I,43662,"Yogurt, Strained Low-Fat, Coconut",yogurt,dairy eggs,437
+A08-12-D,A,8,12,D,42445,Organic Plain Whole Milk Yogurt,yogurt,dairy eggs,428
+A08-13-I,A,8,13,I,13263,Non Fat Acai & Mixed Berries Yogurt,yogurt,dairy eggs,420
+A08-13-D,A,8,13,D,38928,0% Greek Strained Yogurt,yogurt,dairy eggs,413
+A08-14-I,A,8,14,I,44008,Organic Greek Whole Milk Blended Vanilla Bean Yogurt,yogurt,dairy eggs,395
+A08-14-D,A,8,14,D,24954,Total 0% with Honey Nonfat Greek Strained Yogurt,yogurt,dairy eggs,384
+A08-15-I,A,8,15,I,11512,Honey Yoghurt,yogurt,dairy eggs,376
+A08-15-D,A,8,15,D,46886,Raspberry Yoghurt,yogurt,dairy eggs,372
+A08-16-I,A,8,16,I,8309,Nonfat Icelandic Style Strawberry Yogurt,yogurt,dairy eggs,362
+A08-16-D,A,8,16,D,18926,Fat Free Strawberry Yogurt,yogurt,dairy eggs,349
+A08-17-I,A,8,17,I,47912,Vanilla Skyr Style Yogurt,yogurt,dairy eggs,323
+A08-17-D,A,8,17,D,33548,Peach on the Bottom Nonfat Greek Yogurt,yogurt,dairy eggs,309
+A08-18-I,A,8,18,I,12099,Honey Greek Yogurt,yogurt,dairy eggs,306
+A08-18-D,A,8,18,D,47672,Uncured Hickory Smoked Sunday Bacon,hot dogs bacon sausage,meat seafood,835
+A08-19-I,A,8,19,I,5646,Organic Turkey Bacon,hot dogs bacon sausage,meat seafood,603
+A08-19-D,A,8,19,D,27695,Natural Chicken & Sage Breakfast Sausage,hot dogs bacon sausage,meat seafood,554
+A08-20-I,A,8,20,I,12456,Organic Sunday Bacon,hot dogs bacon sausage,meat seafood,521
+A08-20-D,A,8,20,D,9339,Organic Chicken & Apple Sausage,hot dogs bacon sausage,meat seafood,484
+A08-21-I,A,8,21,I,46041,Beef Franks,hot dogs bacon sausage,meat seafood,349
+A08-21-D,A,8,21,D,13198,85% Lean Ground Beef,meat counter,meat seafood,642
+A08-22-I,A,8,22,I,25890,Boneless Skinless Chicken Breasts,packaged poultry,meat seafood,2088
+A08-22-D,A,8,22,D,17878,Grilled Chicken Breast Strips,packaged poultry,meat seafood,364
+A08-23-I,A,8,23,I,43565,Lean Ground Turky,packaged poultry,meat seafood,350
+A08-23-D,A,8,23,D,27360,Boneless Skinless Chicken Breast Fillets,packaged poultry,meat seafood,347
+A08-24-I,A,8,24,I,38293,Ground Turkey Breast,poultry counter,meat seafood,958
+A08-24-D,A,8,24,D,6046,Boneless Skinless Chicken Breast,poultry counter,meat seafood,943
+A08-25-I,A,8,25,I,17461,Air Chilled Organic Boneless Skinless Chicken Breasts,poultry counter,meat seafood,646
+A08-25-D,A,8,25,D,9020,Boneless Skinless Chicken Thighs,poultry counter,meat seafood,426
+A09-01-I,A,9,1,I,19068,Boneless And Skinless Chicken Breast,poultry counter,meat seafood,321
+A09-01-D,A,9,1,D,10017,Tilapia Filet,seafood counter,meat seafood,543
+A09-02-I,A,9,2,I,30489,Original Hummus,fresh dips tapenades,deli,2858
+A09-02-D,A,9,2,D,21019,Roasted Red Pepper Hummus,fresh dips tapenades,deli,791
+A09-03-I,A,9,3,I,33129,Classic Hummus,fresh dips tapenades,deli,694
+A09-03-D,A,9,3,D,40396,Guacamole,fresh dips tapenades,deli,654
+A09-04-I,A,9,4,I,13646,Lemon Hummus,fresh dips tapenades,deli,622
+A09-04-D,A,9,4,D,21573,Roasted Pine Nut Hummus,fresh dips tapenades,deli,540
+A09-05-I,A,9,5,I,2825,Organic Original Hommus,fresh dips tapenades,deli,416
+A09-05-D,A,9,5,D,7485,Garlic Hummus,fresh dips tapenades,deli,379
+A09-06-I,A,9,6,I,8138,Traditional Hummus,fresh dips tapenades,deli,369
+A09-06-D,A,9,6,D,33846,Roasted Garlic Hummus,fresh dips tapenades,deli,309
+A09-07-I,A,9,7,I,27344,Uncured Genoa Salami,lunch meat,deli,1788
+A09-07-D,A,9,7,D,22963,Organic Roasted Turkey Breast,lunch meat,deli,1123
+A09-08-I,A,9,8,I,42342,Roasted Turkey Breast,lunch meat,deli,928
+A09-08-D,A,9,8,D,40310,Oven Roasted Turkey Breast,lunch meat,deli,897
+A09-09-I,A,9,9,I,5456,Green Tea With Ginseng and Honey,lunch meat,deli,516
+A09-09-D,A,9,9,D,19019,Uncured Slow Cooked Ham,lunch meat,deli,508
+A09-10-I,A,9,10,I,23029,Organic Uncured Sliced Black Forest Ham,lunch meat,deli,495
+A09-10-D,A,9,10,D,36735,Organic Roasted Sliced Chicken Breast,lunch meat,deli,457
+A09-11-I,A,9,11,I,49131,Smoked Turkey Breast Slices,lunch meat,deli,444
+A09-11-D,A,9,11,D,28745,Oven Roasted Turkey,lunch meat,deli,429
+A09-12-I,A,9,12,I,20574,Roasted Turkey,lunch meat,deli,326
+A09-12-D,A,9,12,D,28373,Original Rotisserie Chicken,prepared meals,deli,332
+A09-13-I,A,9,13,I,42585,Organic Extra Firm Tofu,tofu meat alternatives,deli,1186
+A09-13-D,A,9,13,D,41588,Firm Tofu,tofu meat alternatives,deli,391
+A09-14-I,A,9,14,I,5077,100% Whole Wheat Bread,bread,bakery,2298
+A09-14-D,A,9,14,D,18362,Organic Bread with 21 Whole Grains,bread,bakery,938
+A09-15-I,A,9,15,I,21267,Sourdough Bread,bread,bakery,738
+A09-15-D,A,9,15,D,18027,Ezekiel 4:9 Bread Organic Sprouted Whole Grain,bread,bakery,698
+A09-16-I,A,9,16,I,45123,Organic 21 Grain Thin Sliced Bread,bread,bakery,546
+A09-16-D,A,9,16,D,13517,Whole Wheat Bread,bread,bakery,498
+A09-17-I,A,9,17,I,2855,Organic Good Seed Bread,bread,bakery,428
+A09-17-D,A,9,17,D,48628,Organic Whole Wheat Bread,bread,bakery,400
+A09-18-I,A,9,18,I,3896,Organic Honey Sweet Whole Wheat Bread,bread,bakery,383
+A09-18-D,A,9,18,D,45948,Gluten Free 7 Grain Bread,bread,bakery,347
+A09-19-I,A,9,19,I,35383,Classic White Bread,bread,bakery,332
+A09-19-D,A,9,19,D,45064,Honey Wheat Bread,bread,bakery,316
+A09-20-I,A,9,20,I,10673,Original Nooks & Crannies English Muffins,breakfast bakery,bakery,669
+A09-20-D,A,9,20,D,20738,Plain Bagels,breakfast bakery,bakery,443
+A09-21-I,A,9,21,I,17706,Organic Whole Grain Wheat English Muffins,breakfast bakery,bakery,417
+A09-21-D,A,9,21,D,42460,Plain Mini Bagels,breakfast bakery,bakery,344
+A09-22-I,A,9,22,I,17341,Presliced Everything Bagels,breakfast bakery,bakery,315
+A09-22-D,A,9,22,D,41658,Authentic French Brioche Hamburger Buns,buns rolls,bakery,380
+A09-23-I,A,9,23,I,18987,Hot Dog Buns,buns rolls,bakery,343
+A09-23-D,A,9,23,D,19508,Corn Tortillas,tortillas flat bread,bakery,609
+A09-24-I,A,9,24,I,29553,Super Soft Taco Flour Tortillas,tortillas flat bread,bakery,471
+A09-24-D,A,9,24,D,11461,White Corn Tortillas,tortillas flat bread,bakery,337
+A09-25-I,A,9,25,I,40348,Large Burrito Flour Tortillas,tortillas flat bread,bakery,310
+A09-25-D,A,9,25,D,2452,Naturals Chicken Nuggets,frozen appetizers sides,frozen,453
+A10-01-I,A,10,1,I,31766,Cheese Pizza Snacks,frozen appetizers sides,frozen,368
+A10-01-D,A,10,1,D,11440,Chicken Breast Tenders Breaded,frozen appetizers sides,frozen,337
+A10-02-I,A,10,2,I,48171,Shredded Hash Browns,frozen appetizers sides,frozen,336
+A10-02-D,A,10,2,D,17652,Air Chilled Breaded Chicken Breast Nuggets,frozen appetizers sides,frozen,330
+A10-03-I,A,10,3,I,1215,Kidz All Natural Baked Chicken Nuggets,frozen appetizers sides,frozen,327
+A10-03-D,A,10,3,D,7963,Gluten Free Whole Grain Bread,frozen breads doughs,frozen,492
+A10-04-I,A,10,4,I,37158,Chicken & Maple Breakfast Sausage,frozen breakfast,frozen,570
+A10-04-D,A,10,4,D,30696,Eggo Homestyle Waffles,frozen breakfast,frozen,470
+A10-05-I,A,10,5,I,9825,Organic Multigrain Waffles,frozen breakfast,frozen,421
+A10-05-D,A,10,5,D,9515,Natural Classic Pork Breakfast Sausage,frozen breakfast,frozen,335
+A10-06-I,A,10,6,I,25753,Organic Homestyle Waffles,frozen breakfast,frozen,324
+A10-06-D,A,10,6,D,2326,Organic Blueberry Waffles,frozen breakfast,frozen,309
+A10-07-I,A,10,7,I,42450,Macaroni & Cheese,frozen meals,frozen,712
+A10-07-D,A,10,7,D,49075,Organic Brown Rice,frozen meals,frozen,572
+A10-08-I,A,10,8,I,34217,Pesto Tortellini  Bowls,frozen meals,frozen,394
+A10-08-D,A,10,8,D,9124,Broccoli & Cheddar Bake Meal Bowl,frozen meals,frozen,367
+A10-09-I,A,10,9,I,13966,Chicken Pot Pie,frozen meals,frozen,359
+A10-09-D,A,10,9,D,47792,Organic Beans & Rice Cheddar Cheese Burrito,frozen meals,frozen,312
+A10-10-I,A,10,10,I,43504,Organic Chicken Strips,frozen meat seafood,frozen,451
+A10-10-D,A,10,10,D,24561,Organic Cheese Frozen Pizza,frozen pizza,frozen,538
+A10-11-I,A,10,11,I,20345,Thin Crust Pepperoni Pizza,frozen pizza,frozen,473
+A10-11-D,A,10,11,D,5449,Margherita Pizza,frozen pizza,frozen,336
+A10-12-I,A,10,12,I,9741,Cheese Pizza,frozen pizza,frozen,305
+A10-12-D,A,10,12,D,9076,Blueberries,frozen produce,frozen,2323
+A10-13-I,A,10,13,I,20995,Organic Broccoli Florets,frozen produce,frozen,1361
+A10-13-D,A,10,13,D,24489,Organic Whole Strawberries,frozen produce,frozen,1213
+A10-14-I,A,10,14,I,46802,Pineapple Chunks,frozen produce,frozen,1077
+A10-14-D,A,10,14,D,17948,Frozen Organic Wild Blueberries,frozen produce,frozen,1065
+A10-15-I,A,10,15,I,14678,Organic Frozen Peas,frozen produce,frozen,753
+A10-15-D,A,10,15,D,1158,Mango Chunks,frozen produce,frozen,746
+A10-16-I,A,10,16,I,28934,Frozen Broccoli Florets,frozen produce,frozen,687
+A10-16-D,A,10,16,D,40545,Berry Medley,frozen produce,frozen,667
+A10-17-I,A,10,17,I,32433,Green Peas,frozen produce,frozen,497
+A10-17-D,A,10,17,D,34466,Sweet Potatoes,frozen produce,frozen,443
+A10-18-I,A,10,18,I,18918,Organic Chopped Spinach,frozen produce,frozen,441
+A10-18-D,A,10,18,D,35887,Organic Mixed Vegetables,frozen produce,frozen,398
+A10-19-I,A,10,19,I,34584,Organic Sliced Peaches,frozen produce,frozen,378
+A10-19-D,A,10,19,D,28553,Whole Strawberries,frozen produce,frozen,365
+A10-20-I,A,10,20,I,23236,Chopped Spinach,frozen produce,frozen,364
+A10-20-D,A,10,20,D,2228,Organic Frozen Mango Chunks,frozen produce,frozen,354
+A10-21-I,A,10,21,I,31869,Organic Edamame,frozen produce,frozen,329
+A10-21-D,A,10,21,D,26128,Organic Mango Chunks,frozen produce,frozen,322
+A10-22-I,A,10,22,I,38944,Seven Grain Crispy Tenders,frozen vegan vegetarian,frozen,341
+A10-22-D,A,10,22,D,16965,Chocolate Ice Cream,ice cream ice,frozen,635
+A10-23-I,A,10,23,I,32691,Vanilla Ice Cream,ice cream ice,frozen,443
+A10-23-D,A,10,23,D,12276,Chocolate Chip Cookie Dough Ice Cream,ice cream ice,frozen,418
+A10-24-I,A,10,24,I,2361,Mint Chip,ice cream ice,frozen,369
+A10-24-D,A,10,24,D,20754,Mediterranean Mint Gelato,ice cream ice,frozen,337
+A10-25-I,A,10,25,I,48523,Birthday Cake Light Ice Cream,ice cream ice,frozen,333
+A10-25-D,A,10,25,D,41319,Sea Salt Caramel Gelato,ice cream ice,frozen,302
+B01-01-I,B,1,1,I,23537,Light Brown Sugar,baking ingredients,pantry,499
+B01-01-D,B,1,1,D,23405,Pure Baking Soda,baking ingredients,pantry,387
+B01-02-I,B,1,2,I,49533,Cane Sugar,baking ingredients,pantry,336
+B01-02-D,B,1,2,D,27243,Premium Pure Cane Granulated Sugar,baking ingredients,pantry,329
+B01-03-I,B,1,3,I,7500,Organic Vanilla Extract,baking ingredients,pantry,327
+B01-03-D,B,1,3,D,23516,Organic Unbleached All-Purpose Flour,baking ingredients,pantry,291
+B01-04-I,B,1,4,I,15359,All Purpose Flour,baking ingredients,pantry,277
+B01-04-D,B,1,4,D,22142,100% Pure Pumpkin,baking ingredients,pantry,247
+B01-05-I,B,1,5,I,34551,Organic Cane Sugar,baking ingredients,pantry,244
+B01-05-D,B,1,5,D,22890,Toll House Semi-Sweet Chocolate Morsels,baking ingredients,pantry,206
+B01-06-I,B,1,6,I,41570,Active Dry Yeast,baking ingredients,pantry,194
+B01-06-D,B,1,6,D,44303,Organic Shredded Unsweetened Coconut,baking ingredients,pantry,193
+B01-07-I,B,1,7,I,397,Pure Granulated Cane Sugar,baking ingredients,pantry,188
+B01-07-D,B,1,7,D,8671,Semi-Sweet Chocolate Premium Baking Chips,baking ingredients,pantry,184
+B01-08-I,B,1,8,I,35855,Unbleached All-Purpose Flour,baking ingredients,pantry,184
+B01-08-D,B,1,8,D,27451,Almond Meal/Flour,baking ingredients,pantry,168
+B01-09-I,B,1,9,I,46473,Pure Vanilla Extract,baking ingredients,pantry,168
+B01-09-D,B,1,9,D,44912,Baking Powder,baking ingredients,pantry,164
+B01-10-I,B,1,10,I,2099,Natural Cane Turbinado Sugar,baking ingredients,pantry,153
+B01-10-D,B,1,10,D,2350,60% Cacao Bittersweet Premium Baking Chips,baking ingredients,pantry,137
+B01-11-I,B,1,11,I,7751,Tomato Ketchup,condiments,pantry,625
+B01-11-D,B,1,11,D,18441,Organic Ketchup,condiments,pantry,610
+B01-12-I,B,1,12,I,35898,Original Hot Sauce,condiments,pantry,495
+B01-12-D,B,1,12,D,27796,Real Mayonnaise,condiments,pantry,488
+B01-13-I,B,1,13,I,44628,Organic Dijon Mustard,condiments,pantry,400
+B01-13-D,B,1,13,D,44234,Squeeze Tomato Ketchup,condiments,pantry,394
+B01-14-I,B,1,14,I,15392,Organic Mayonnaise,condiments,pantry,320
+B01-14-D,B,1,14,D,28785,Organic Tahini,condiments,pantry,276
+B01-15-I,B,1,15,I,19468,Classic Yellow Mustard,condiments,pantry,253
+B01-15-D,B,1,15,D,14332,Organic Yellow Mustard,condiments,pantry,234
+B01-16-I,B,1,16,I,43262,Original Sauce,condiments,pantry,213
+B01-16-D,B,1,16,D,32299,Dijon Mustard,condiments,pantry,203
+B01-17-I,B,1,17,I,44014,Authentic Red Curry Paste,condiments,pantry,180
+B01-17-D,B,1,17,D,37053,Just Mayo,condiments,pantry,165
+B01-18-I,B,1,18,I,7632,Old Style Whole Grain Dijon Mustard,condiments,pantry,137
+B01-18-D,B,1,18,D,36854,Hot Sauce,condiments,pantry,135
+B01-19-I,B,1,19,I,47479,Squeeze Real Mayonnaise,condiments,pantry,135
+B01-19-D,B,1,19,D,37642,Ccnut Raw Cocoaminos,condiments,pantry,133
+B01-20-I,B,1,20,I,7559,Cinnamon Rolls with Icing,doughs gelatins bake mixes,pantry,459
+B01-20-D,B,1,20,D,13431,Flaky Biscuits,doughs gelatins bake mixes,pantry,343
+B01-21-I,B,1,21,I,33043,Crescent Rolls,doughs gelatins bake mixes,pantry,329
+B01-21-D,B,1,21,D,27288,Chocolate Chip Cookie Dough,doughs gelatins bake mixes,pantry,180
+B01-22-I,B,1,22,I,16020,Original Crescent Rolls,doughs gelatins bake mixes,pantry,155
+B01-22-D,B,1,22,D,22504,Organic Mountain Forest Amber Honey,honeys syrups nectars,pantry,267
+B01-23-I,B,1,23,I,5067,Original Syrup,honeys syrups nectars,pantry,224
+B01-23-D,B,1,23,D,18471,Organic Light Agave Nectar,honeys syrups nectars,pantry,147
+B01-24-I,B,1,24,I,43129,Panko Bread Crumbs,marinades meat preparation,pantry,364
+B01-24-D,B,1,24,D,49481,Original Barbecue Sauce,marinades meat preparation,pantry,149
+B01-25-I,B,1,25,I,23541,Veri Veri Teriyaki Marinade & Sauce,marinades meat preparation,pantry,133
+B01-25-D,B,1,25,D,31506,Extra Virgin Olive Oil,oils vinegars,pantry,2068
+B02-01-I,B,2,1,I,21195,Organic Extra Virgin Olive Oil,oils vinegars,pantry,620
+B02-01-D,B,2,1,D,10644,Italian Extra Virgin Olive Oil,oils vinegars,pantry,579
+B02-02-I,B,2,2,I,18963,Apple Cider Vinegar,oils vinegars,pantry,433
+B02-02-D,B,2,2,D,4461,Organic Raw Unfiltered Apple Cider Vinegar,oils vinegars,pantry,407
+B02-03-I,B,2,3,I,12409,Organic Distilled White Vinegar,oils vinegars,pantry,382
+B02-03-D,B,2,3,D,48697,Canola Oil,oils vinegars,pantry,368
+B02-04-I,B,2,4,I,40377,Unrefined Virgin Coconut Oil,oils vinegars,pantry,345
+B02-04-D,B,2,4,D,30021,Distilled White Vinegar,oils vinegars,pantry,225
+B02-05-I,B,2,5,I,45002,Organic Balsamic Vinegar Of Modena,oils vinegars,pantry,176
+B02-05-D,B,2,5,D,22922,Organic Canola Oil,oils vinegars,pantry,159
+B02-06-I,B,2,6,I,35217,Toasted Sesame Seed Oil,oils vinegars,pantry,157
+B02-06-D,B,2,6,D,20608,Grapeseed Oil,oils vinegars,pantry,148
+B02-07-I,B,2,7,I,18761,Balsamic Vinegar Of Modena,oils vinegars,pantry,139
+B02-07-D,B,2,7,D,49585,Organic Refined Coconut Oil,oils vinegars,pantry,137
+B02-08-I,B,2,8,I,14462,Sliced Black Olives,pickled goods olives,pantry,409
+B02-08-D,B,2,8,D,8006,Chopped Organic Garlic,pickled goods olives,pantry,193
+B02-09-I,B,2,9,I,40233,Organic Kosher Dill Pickles,pickled goods olives,pantry,176
+B02-09-D,B,2,9,D,27881,"Olives, Organic, Kalamata, Pitted",pickled goods olives,pantry,158
+B02-10-I,B,2,10,I,29439,"Wild Non-Pareil Capers, Sunkissed in the Mediterranean",pickled goods olives,pantry,146
+B02-10-D,B,2,10,D,33407,Ripe Large Pitted Olives,pickled goods olives,pantry,134
+B02-11-I,B,2,11,I,13535,Organic Medium Salsa,preserved dips spreads,pantry,723
+B02-11-D,B,2,11,D,13829,Mild Salsa,preserved dips spreads,pantry,521
+B02-12-I,B,2,12,I,28535,Cucumber & Garlic  Tzatziki,preserved dips spreads,pantry,386
+B02-12-D,B,2,12,D,7600,Mild Chunky Salsa,preserved dips spreads,pantry,216
+B02-13-I,B,2,13,I,11827,Chunky Medium Salsa,preserved dips spreads,pantry,199
+B02-13-D,B,2,13,D,19370,Roasted Tomato Salsa,preserved dips spreads,pantry,199
+B02-14-I,B,2,14,I,23594,Medium Salsa,preserved dips spreads,pantry,191
+B02-14-D,B,2,14,D,49139,Salsa Con Queso Medium,preserved dips spreads,pantry,183
+B02-15-I,B,2,15,I,11250,Organic Hot Salsa,preserved dips spreads,pantry,156
+B02-15-D,B,2,15,D,14780,Jalapeno Cilantro Salsa,preserved dips spreads,pantry,132
+B02-16-I,B,2,16,I,24382,Ranch Dressing,salad dressing toppings,pantry,362
+B02-16-D,B,2,16,D,9327,Garlic Powder,spices seasonings,pantry,270
+B02-17-I,B,2,17,I,7746,Oregano,spices seasonings,pantry,214
+B02-17-D,B,2,17,D,40136,Original Taco Seasoning Mix,spices seasonings,pantry,200
+B02-18-I,B,2,18,I,13212,Ground Black Pepper,spices seasonings,pantry,189
+B02-18-D,B,2,18,D,47226,Taco Seasoning Mix Original,spices seasonings,pantry,175
+B02-19-I,B,2,19,I,5621,Sea Salt Fine Crystals,spices seasonings,pantry,168
+B02-19-D,B,2,19,D,37107,Ground Cumin,spices seasonings,pantry,164
+B02-20-I,B,2,20,I,46962,Organic Ground Cumin,spices seasonings,pantry,158
+B02-20-D,B,2,20,D,10960,Nutritional Yeast Seasoning,spices seasonings,pantry,154
+B02-21-I,B,2,21,I,22034,Rosemary,spices seasonings,pantry,138
+B02-21-D,B,2,21,D,35973,Paprika,spices seasonings,pantry,138
+B02-22-I,B,2,22,I,45664,Onion Powder,spices seasonings,pantry,138
+B02-22-D,B,2,22,D,33884,Bay Leaves,spices seasonings,pantry,136
+B02-23-I,B,2,23,I,16953,Creamy Peanut Butter,spreads,pantry,991
+B02-23-D,B,2,23,D,30450,Creamy Almond Butter,spreads,pantry,850
+B02-24-I,B,2,24,I,43713,Organic Creamy Peanut Butter,spreads,pantry,760
+B02-24-D,B,2,24,D,42356,Strawberry Preserves,spreads,pantry,622
+B02-25-I,B,2,25,I,37220,Organic Strawberry Fruit Spread,spreads,pantry,460
+B02-25-D,B,2,25,D,4656,Raspberry Preserves,spreads,pantry,438
+B03-01-I,B,3,1,I,8239,Peanut Butter Creamy With Salt,spreads,pantry,324
+B03-01-D,B,3,1,D,42557,Crunchy Almond Butter,spreads,pantry,313
+B03-02-I,B,3,2,I,4006,Hazelnut Spread With Skim Milk & Cocoa,spreads,pantry,283
+B03-02-D,B,3,2,D,1360,Crunchy Peanut Butter,spreads,pantry,244
+B03-03-I,B,3,3,I,31338,Classic Almond Butter,spreads,pantry,229
+B03-03-D,B,3,3,D,40261,Extra Crunchy Peanut Butter,spreads,pantry,178
+B03-04-I,B,3,4,I,32338,Natural Jif Creamy Peanut Butter Spread,spreads,pantry,175
+B03-04-D,B,3,4,D,41198,Classic Peanut Butter,spreads,pantry,151
+B03-05-I,B,3,5,I,12962,Apricot Preserves,spreads,pantry,141
+B03-05-D,B,3,5,D,34582,Natural Creamy Peanut Butter Spread,spreads,pantry,139
+B03-06-I,B,3,6,I,18891,Classic Almond Butter All Natural,spreads,pantry,137
+B03-06-D,B,3,6,D,32734,Spaghetti,dry pasta,dry goods pasta,640
+B03-07-I,B,3,7,I,46522,Spaghetti Pasta,dry pasta,dry goods pasta,430
+B03-07-D,B,3,7,D,12872,Penne Rigate,dry pasta,dry goods pasta,420
+B03-08-I,B,3,8,I,14168,Penne Pasta,dry pasta,dry goods pasta,384
+B03-08-D,B,3,8,D,2180,Angel Hair Pasta,dry pasta,dry goods pasta,305
+B03-09-I,B,3,9,I,5240,Spaghetti  No 12,dry pasta,dry goods pasta,299
+B03-09-D,B,3,9,D,9366,Penne Rigate #41 Pasta,dry pasta,dry goods pasta,287
+B03-10-I,B,3,10,I,28278,Organic Penne Rigate,dry pasta,dry goods pasta,273
+B03-10-D,B,3,10,D,37825,Organic Whole Wheat Fusilli,dry pasta,dry goods pasta,257
+B03-11-I,B,3,11,I,24097,Rotini Pasta,dry pasta,dry goods pasta,253
+B03-11-D,B,3,11,D,23801,Fusilli No. 34,dry pasta,dry goods pasta,249
+B03-12-I,B,3,12,I,29898,Organic Spaghetti Pasta,dry pasta,dry goods pasta,234
+B03-12-D,B,3,12,D,22952,Farfalle Pasta,dry pasta,dry goods pasta,219
+B03-13-I,B,3,13,I,12564,Rigatoni Pasta,dry pasta,dry goods pasta,200
+B03-13-D,B,3,13,D,20549,Organic Orzo,dry pasta,dry goods pasta,193
+B03-14-I,B,3,14,I,40229,Organic Whole Wheat Penne Rigate,dry pasta,dry goods pasta,187
+B03-14-D,B,3,14,D,45290,Thin Spaghetti Pasta,dry pasta,dry goods pasta,164
+B03-15-I,B,3,15,I,44325,Elbow Macaroni Pasta,dry pasta,dry goods pasta,158
+B03-15-D,B,3,15,D,6101,Farfalle No. 93,dry pasta,dry goods pasta,141
+B03-16-I,B,3,16,I,43076,Wide Egg Noodles,dry pasta,dry goods pasta,134
+B03-16-D,B,3,16,D,39719,"Freshly Made. Filled with Creamy Ricotta, Aged Parmesan and Romano Cheeses Three Cheese Tortellini",fresh pasta,dry goods pasta,161
+B03-17-I,B,3,17,I,48395,Original Rice Pilaf Mix,grains rice dried goods,dry goods pasta,397
+B03-17-D,B,3,17,D,24009,Organic Long Grain White Rice,grains rice dried goods,dry goods pasta,359
+B03-18-I,B,3,18,I,3142,Organic Short Grain Brown Rice,grains rice dried goods,dry goods pasta,314
+B03-18-D,B,3,18,D,38650,Organic Red Lentils,grains rice dried goods,dry goods pasta,296
+B03-19-I,B,3,19,I,25005,Organic Green Lentils,grains rice dried goods,dry goods pasta,255
+B03-19-D,B,3,19,D,33438,Rosemary & Olive Oil Quinoa Blend,grains rice dried goods,dry goods pasta,188
+B03-20-I,B,3,20,I,11481,Organic Quinoa & Brown Rice With Garlic,grains rice dried goods,dry goods pasta,175
+B03-20-D,B,3,20,D,46505,Organic Long Grain Brown Rice,grains rice dried goods,dry goods pasta,160
+B03-21-I,B,3,21,I,7010,Organic White Basmati Rice,grains rice dried goods,dry goods pasta,140
+B03-21-D,B,3,21,D,29311,Organic California White Basmati Rice,grains rice dried goods,dry goods pasta,139
+B03-22-I,B,3,22,I,39059,Extra Long Grain Enriched Rice,grains rice dried goods,dry goods pasta,135
+B03-22-D,B,3,22,D,35004,Macaroni Shells & White Cheddar Cheese,instant foods,dry goods pasta,448
+B03-23-I,B,3,23,I,42110,Organic Macaroni Shells & Real Aged Cheddar,instant foods,dry goods pasta,409
+B03-23-D,B,3,23,D,1090,Shells & Real Aged Cheddar Macaroni & Cheese,instant foods,dry goods pasta,372
+B03-24-I,B,3,24,I,36772,Bunny Pasta with Yummy Cheese Macaroni & Cheese,instant foods,dry goods pasta,332
+B03-24-D,B,3,24,D,18019,Macaroni & Cheese Dinner Original Flavor,instant foods,dry goods pasta,316
+B03-25-I,B,3,25,I,18599,Garlic Couscous,instant foods,dry goods pasta,290
+B03-25-D,B,3,25,D,32360,Creamy Deluxe Shells & Real Aged Cheddar Sauce,instant foods,dry goods pasta,254
+B04-01-I,B,4,1,I,33636,Organic Shells And White Cheddar,instant foods,dry goods pasta,226
+B04-01-D,B,4,1,D,18337,Classic Mild Cheddar Macaroni & Cheese,instant foods,dry goods pasta,215
+B04-02-I,B,4,2,I,4163,Spanish Rice Pilaf Mix,instant foods,dry goods pasta,213
+B04-02-D,B,4,2,D,12087,Chicken Flavor Ramen Noodle Soup,instant foods,dry goods pasta,193
+B04-03-I,B,4,3,I,41238,Parmesan Couscous Mix,instant foods,dry goods pasta,186
+B04-03-D,B,4,3,D,45679,Gluten Free Cheddar Macaroni & Cheese Rice Pasta,instant foods,dry goods pasta,145
+B04-04-I,B,4,4,I,40878,Macaroni And Cheese,instant foods,dry goods pasta,135
+B04-04-D,B,4,4,D,27423,Real Aged Cheddar Macaroni & Cheese,instant foods,dry goods pasta,130
+B04-05-I,B,4,5,I,39619,Organic Tomato Basil Pasta Sauce,pasta sauce,dry goods pasta,772
+B04-05-D,B,4,5,D,23375,Marinara Sauce,pasta sauce,dry goods pasta,754
+B04-06-I,B,4,6,I,12206,Basil Pesto,pasta sauce,dry goods pasta,699
+B04-06-D,B,4,6,D,38273,Marinara Pasta Sauce,pasta sauce,dry goods pasta,511
+B04-07-I,B,4,7,I,14197,Tomato Paste,pasta sauce,dry goods pasta,503
+B04-07-D,B,4,7,D,14852,All Natural Marinara Sauce,pasta sauce,dry goods pasta,316
+B04-08-I,B,4,8,I,19478,Organic Marinara Pasta Sauce,pasta sauce,dry goods pasta,266
+B04-08-D,B,4,8,D,8204,Traditional Favorites Tomato & Basil Pasta Sauce,pasta sauce,dry goods pasta,248
+B04-09-I,B,4,9,I,31927,Four Cheese Pasta Sauce,pasta sauce,dry goods pasta,227
+B04-09-D,B,4,9,D,21955,All Natural Marinara Pasta Sauce,pasta sauce,dry goods pasta,209
+B04-10-I,B,4,10,I,26751,Organic Tomato Basil Sauce,pasta sauce,dry goods pasta,207
+B04-10-D,B,4,10,D,38288,Pizza Sauce,pasta sauce,dry goods pasta,176
+B04-11-I,B,4,11,I,12320,Organic Italian Herb Pasta Sauce,pasta sauce,dry goods pasta,173
+B04-11-D,B,4,11,D,34034,Roasted Garlic Pasta Sauce,pasta sauce,dry goods pasta,173
+B04-12-I,B,4,12,I,210,Homemade Hot Arrabbiata Fra Diavolo Sauce,pasta sauce,dry goods pasta,161
+B04-12-D,B,4,12,D,43568,Traditional Italian Sauce,pasta sauce,dry goods pasta,155
+B04-13-I,B,4,13,I,2537,Tomato Basil Marinara Sauce,pasta sauce,dry goods pasta,141
+B04-13-D,B,4,13,D,26790,Organic AppleApple,canned fruit applesauce,canned goods,651
+B04-14-I,B,4,14,I,45013,Apple Sauce,canned fruit applesauce,canned goods,239
+B04-14-D,B,4,14,D,9598,Gogo Squeez Organic Apple Strawberry Applesauce on the Go,canned fruit applesauce,canned goods,172
+B04-15-I,B,4,15,I,15995,Organic Cinnamon Apple Sauce,canned fruit applesauce,canned goods,161
+B04-15-D,B,4,15,D,11009,Apple Apple Applesauce On The Go Pouches,canned fruit applesauce,canned goods,132
+B04-16-I,B,4,16,I,15860,Natural Apple Sauce Cups,canned fruit applesauce,canned goods,132
+B04-16-D,B,4,16,D,890,Organic Diced Tomatoes,canned jarred vegetables,canned goods,837
+B04-17-I,B,4,17,I,7021,Organic Tomato Paste,canned jarred vegetables,canned goods,707
+B04-17-D,B,4,17,D,8670,Diced Tomatoes,canned jarred vegetables,canned goods,628
+B04-18-I,B,4,18,I,3376,Organic Whole Kernel Sweet Corn No Salt Added,canned jarred vegetables,canned goods,592
+B04-18-D,B,4,18,D,44449,Organic Tomato Sauce,canned jarred vegetables,canned goods,584
+B04-19-I,B,4,19,I,22395,Tomato Sauce,canned jarred vegetables,canned goods,542
+B04-19-D,B,4,19,D,11408,Crushed Tomatoes,canned jarred vegetables,canned goods,485
+B04-20-I,B,4,20,I,5373,Organic No Salt Added Diced Tomatoes,canned jarred vegetables,canned goods,358
+B04-20-D,B,4,20,D,25544,Fresh Cut Golden Sweet Whole Kernel Corn,canned jarred vegetables,canned goods,321
+B04-21-I,B,4,21,I,41544,Organic Crushed Fire Roasted Tomatoes,canned jarred vegetables,canned goods,304
+B04-21-D,B,4,21,D,17862,Minced Garlic,canned jarred vegetables,canned goods,283
+B04-22-I,B,4,22,I,20520,Mild Diced Green Chiles,canned jarred vegetables,canned goods,263
+B04-22-D,B,4,22,D,30480,"Tomatoes, Whole Peeled",canned jarred vegetables,canned goods,224
+B04-23-I,B,4,23,I,12797,Organic Whole Peeled Tomatoes,canned jarred vegetables,canned goods,214
+B04-23-D,B,4,23,D,48094,Crushed Tomatoes With Basil,canned jarred vegetables,canned goods,213
+B04-24-I,B,4,24,I,48871,Natural Tomato Paste,canned jarred vegetables,canned goods,167
+B04-24-D,B,4,24,D,16525,Organic Chopped Garlic,canned jarred vegetables,canned goods,162
+B04-25-I,B,4,25,I,40992,Chopped Tomatoes,canned jarred vegetables,canned goods,159
+B04-25-D,B,4,25,D,34449,100% Natural Tomato Sauce,canned jarred vegetables,canned goods,151
+B05-01-I,B,5,1,I,9689,Whole Hearts of Palm,canned jarred vegetables,canned goods,138
+B05-01-D,B,5,1,D,12232,Original Diced Tomatoes & Green Chilies,canned jarred vegetables,canned goods,133
+B05-02-I,B,5,2,I,21010,Organic Crushed Tomatoes with Basil,canned jarred vegetables,canned goods,133
+B05-02-D,B,5,2,D,23400,Organic Premium Tomato Paste,canned jarred vegetables,canned goods,131
+B05-03-I,B,5,3,I,31727,"Organic Tomato Paste, No Salt Added",canned jarred vegetables,canned goods,130
+B05-03-D,B,5,3,D,27156,Organic Black Beans,canned meals beans,canned goods,1576
+B05-04-I,B,5,4,I,28849,No Salt Added Black Beans,canned meals beans,canned goods,1250
+B05-04-D,B,5,4,D,42768,Organic Garbanzo Beans,canned meals beans,canned goods,1141
+B05-05-I,B,5,5,I,35042,Black Beans,canned meals beans,canned goods,734
+B05-05-D,B,5,5,D,49175,Organic Pinto Beans,canned meals beans,canned goods,385
+B05-06-I,B,5,6,I,16145,Organic Cannellini Beans,canned meals beans,canned goods,280
+B05-06-D,B,5,6,D,14267,Organic Refried Black Beans,canned meals beans,canned goods,225
+B05-07-I,B,5,7,I,5994,Traditional Refried Beans,canned meals beans,canned goods,205
+B05-07-D,B,5,7,D,27683,Black Beans No Salt Added,canned meals beans,canned goods,196
+B05-08-I,B,5,8,I,32717,Baked Beans,canned meals beans,canned goods,195
+B05-08-D,B,5,8,D,26668,Cannellini White Kidney Beans No Salt Added,canned meals beans,canned goods,176
+B05-09-I,B,5,9,I,17634,Chick Peas,canned meals beans,canned goods,175
+B05-09-D,B,5,9,D,790,Garbanzo Beans,canned meals beans,canned goods,169
+B05-10-I,B,5,10,I,7461,Pinto Beans No Salt Added,canned meals beans,canned goods,166
+B05-10-D,B,5,10,D,35750,Organic Garbanzo Beans No Salt Added,canned meals beans,canned goods,166
+B05-11-I,B,5,11,I,20127,Organic Lentil Beans,canned meals beans,canned goods,143
+B05-11-D,B,5,11,D,429,Dark Red Kidney Beans,canned meals beans,canned goods,138
+B05-12-I,B,5,12,I,4317,Solid White Albacore Tuna In Water,canned meat seafood,canned goods,193
+B05-12-D,B,5,12,D,79,Wild Albacore Tuna No Salt Added,canned meat seafood,canned goods,170
+B05-13-I,B,5,13,I,45149,Chunk Light Tuna In Water,canned meat seafood,canned goods,162
+B05-13-D,B,5,13,D,45535,Organic Low Sodium Chicken Broth,soup broth bouillon,canned goods,536
+B05-14-I,B,5,14,I,46720,Organic Free Range Chicken Broth,soup broth bouillon,canned goods,527
+B05-14-D,B,5,14,D,5769,Organic Chicken Stock,soup broth bouillon,canned goods,508
+B05-15-I,B,5,15,I,1999,Organic Chicken Broth,soup broth bouillon,canned goods,450
+B05-15-D,B,5,15,D,9092,Organic Vegetable Broth,soup broth bouillon,canned goods,423
+B05-16-I,B,5,16,I,18479,Organic Low Sodium Vegetable Broth,soup broth bouillon,canned goods,412
+B05-16-D,B,5,16,D,14129,Organic Chicken Bone Broth,soup broth bouillon,canned goods,328
+B05-17-I,B,5,17,I,18880,Organic Free Range Low Sodium Chicken Broth,soup broth bouillon,canned goods,305
+B05-17-D,B,5,17,D,21417,Organic Creamy Tomato Soup,soup broth bouillon,canned goods,302
+B05-18-I,B,5,18,I,16823,Organic Beef Broth,soup broth bouillon,canned goods,295
+B05-18-D,B,5,18,D,20378,Chicken Broth,soup broth bouillon,canned goods,275
+B05-19-I,B,5,19,I,46900,Organic Chicken Noodle Soup,soup broth bouillon,canned goods,258
+B05-19-D,B,5,19,D,14536,Natural Goodness 33% Less Sodium Chicken Broth,soup broth bouillon,canned goods,230
+B05-20-I,B,5,20,I,11136,Organic Low Sodium Chicken Cooking Stock,soup broth bouillon,canned goods,224
+B05-20-D,B,5,20,D,20670,Organic Lentil Vegetable Soup,soup broth bouillon,canned goods,197
+B05-21-I,B,5,21,I,44843,Traditional Chicken Noodle Soup,soup broth bouillon,canned goods,185
+B05-21-D,B,5,21,D,23094,Organic Lentil Soup,soup broth bouillon,canned goods,163
+B05-22-I,B,5,22,I,3682,Organic Roasted Red Pepper & Tomato Soup,soup broth bouillon,canned goods,146
+B05-22-D,B,5,22,D,30591,Cinnamon Brown Sugar Breakfast Biscuits,breakfast bars pastries,breakfast,163
+B05-23-I,B,5,23,I,41844,Honey Nut Cheerios,cereal,breakfast,1218
+B05-23-D,B,5,23,D,6187,Raisin Bran Cereal,cereal,breakfast,600
+B05-24-I,B,5,24,I,20955,Cereal,cereal,breakfast,590
+B05-24-D,B,5,24,D,31433,Organic Cinnamon Crunch Cereal,cereal,breakfast,384
+B05-25-I,B,5,25,I,31759,Cherrios Honey Nut,cereal,breakfast,321
+B05-25-D,B,5,25,D,4137,Whole Grain Oat Cereal,cereal,breakfast,301
+B06-01-I,B,6,1,I,365,Cheerios Cereal,cereal,breakfast,295
+B06-01-D,B,6,1,D,43409,Frosted Mini-Wheats Original Cereal,cereal,breakfast,247
+B06-02-I,B,6,2,I,30183,Quaker Life Cinnamon Cereal,cereal,breakfast,246
+B06-02-D,B,6,2,D,34,Peanut Butter Cereal,cereal,breakfast,243
+B06-03-I,B,6,3,I,39216,Original Multigrain Spoonfuls Cereal,cereal,breakfast,211
+B06-03-D,B,6,3,D,20512,Original Cereal,cereal,breakfast,204
+B06-04-I,B,6,4,I,26177,Organic Honey Nut O's Cereal,cereal,breakfast,198
+B06-04-D,B,6,4,D,30340,Oatmeal Squares Brown Sugar,cereal,breakfast,197
+B06-05-I,B,6,5,I,41351,Family Size Naturally Flavored Whole Grain Oats Cereal,cereal,breakfast,187
+B06-05-D,B,6,5,D,4792,Panda Puffs Peanut Butter Cereal,cereal,breakfast,185
+B06-06-I,B,6,6,I,27663,GOLEAN Crunch! Cereal,cereal,breakfast,181
+B06-06-D,B,6,6,D,31640,Original Puffins Cereal,cereal,breakfast,178
+B06-07-I,B,6,7,I,39560,Go Lean Crunch! Honey Almond Flax Cereal,cereal,breakfast,178
+B06-07-D,B,6,7,D,24253,Go Lean Cereal,cereal,breakfast,176
+B06-08-I,B,6,8,I,21513,Heart to Heart Honey Toasted Oat Cereal,cereal,breakfast,173
+B06-08-D,B,6,8,D,39411,Organic Cinnamon Harvest Cereal,cereal,breakfast,166
+B06-09-I,B,6,9,I,13042,with Crispy Almonds Cereal,cereal,breakfast,163
+B06-09-D,B,6,9,D,44475,Honey Bunches of Oats Honey Roasted with Almonds Cereal,cereal,breakfast,159
+B06-10-I,B,6,10,I,28931,Honey Bunches of Oats Honey Roasted Cereal,cereal,breakfast,154
+B06-10-D,B,6,10,D,13032,Cinnamon Toast Crunch,cereal,breakfast,153
+B06-11-I,B,6,11,I,19376,Gluten Free Crunchy Vanilla Cereal,cereal,breakfast,149
+B06-11-D,B,6,11,D,36994,Organic Graham Crunch Cereal,cereal,breakfast,144
+B06-12-I,B,6,12,I,25691,Original Life Cereal,cereal,breakfast,143
+B06-12-D,B,6,12,D,29363,Cinnamon Cereal,cereal,breakfast,142
+B06-13-I,B,6,13,I,2519,Rice Krispies Cereal,cereal,breakfast,140
+B06-13-D,B,6,13,D,25767,Organic Multi Grain Squares Cereal,cereal,breakfast,136
+B06-14-I,B,6,14,I,21506,Organic Raisin Bran Cereal,cereal,breakfast,134
+B06-14-D,B,6,14,D,32579,Organic Promise Autumn Wheat Cereal,cereal,breakfast,131
+B06-15-I,B,6,15,I,31663,Vanilla Blueberry Clusters With Flax Seeds Granola,granola,breakfast,239
+B06-15-D,B,6,15,D,18352,Flax Plus Organic Pumpkin Flax Granola,granola,breakfast,237
+B06-16-I,B,6,16,I,9550,Ancient Grain Original Granola,granola,breakfast,218
+B06-16-D,B,6,16,D,812,Healthy Grains Oats & Honey Clusters with Toasted Coconut Gluten Free,granola,breakfast,184
+B06-17-I,B,6,17,I,34565,Peanut Butter Whole Grain Clusters,granola,breakfast,174
+B06-17-D,B,6,17,D,25630,Healthy Grains Fiber Cinnamon Oat Clusters,granola,breakfast,155
+B06-18-I,B,6,18,I,14553,Oats & Honey Granola,granola,breakfast,147
+B06-18-D,B,6,18,D,44422,Organic Old Fashioned Rolled Oats,hot cereal pancake mixes,breakfast,747
+B06-19-I,B,6,19,I,21543,Organic Quick Oats,hot cereal pancake mixes,breakfast,357
+B06-19-D,B,6,19,D,47966,Old Fashioned Rolled Oats,hot cereal pancake mixes,breakfast,232
+B06-20-I,B,6,20,I,37464,Apple Cinnamon Instant Oatmeal,hot cereal pancake mixes,breakfast,200
+B06-20-D,B,6,20,D,49111,Original Instant Oatmeal,hot cereal pancake mixes,breakfast,199
+B06-21-I,B,6,21,I,25043,Instant Oatmeal Variety Pack,hot cereal pancake mixes,breakfast,195
+B06-21-D,B,6,21,D,45965,Steel Cut Oats,hot cereal pancake mixes,breakfast,193
+B06-22-I,B,6,22,I,46709,Gluten Free Old Fashioned Rolled Oats,hot cereal pancake mixes,breakfast,193
+B06-22-D,B,6,22,D,13755,Instant Oatmeal Maple & Brown Sugar,hot cereal pancake mixes,breakfast,142
+B06-23-I,B,6,23,I,38164,Almonds & Sea Salt in Dark Chocolate,candy chocolate,snacks,461
+B06-23-D,B,6,23,D,46616,Organic Dark Chocolate Peanut Butter Cups,candy chocolate,snacks,408
+B06-24-I,B,6,24,I,13424,Almonds,candy chocolate,snacks,265
+B06-24-D,B,6,24,D,39657,Milk Chocolate Almonds,candy chocolate,snacks,259
+B06-25-I,B,6,25,I,2480,Organic 85% Cacao Dark Chocolate Bar,candy chocolate,snacks,205
+B06-25-D,B,6,25,D,43192,Dark with 70% Cacao Content Organic Chocolate Bar,candy chocolate,snacks,197
+B07-01-I,B,7,1,I,45445,Organic Bagged Mini Dark Peanut Butter,candy chocolate,snacks,188
+B07-01-D,B,7,1,D,29077,Organic Milk Chocolate Peanut Butter Cups,candy chocolate,snacks,177
+B07-02-I,B,7,2,I,37276,"Bar, Toffee & Almonds in Milk Chocolate",candy chocolate,snacks,172
+B07-02-D,B,7,2,D,37496,Organic Deep Dark Sea Salt Chocolate,candy chocolate,snacks,150
+B07-03-I,B,7,3,I,13870,Lightly Salted Baked Snap Pea Crisps,chips pretzels,snacks,991
+B07-03-D,B,7,3,D,21376,Pretzel Crisps Original Deli Style Pretzel Crackers,chips pretzels,snacks,753
+B07-04-I,B,7,4,I,31040,Sea Salt Pita Chips,chips pretzels,snacks,707
+B07-04-D,B,7,4,D,35561,Organic Tortilla Chips,chips pretzels,snacks,637
+B07-05-I,B,7,5,I,40709,Sea Salt & Vinegar Potato Chips,chips pretzels,snacks,597
+B07-05-D,B,7,5,D,25824,Pita Chips Simply Naked,chips pretzels,snacks,524
+B07-06-I,B,7,6,I,18288,Sea Salt Potato Chips,chips pretzels,snacks,511
+B07-06-D,B,7,6,D,13380,Organic Blue Corn Tortilla Chips,chips pretzels,snacks,473
+B07-07-I,B,7,7,I,11759,Organic Simply Naked Pita Chips,chips pretzels,snacks,416
+B07-07-D,B,7,7,D,7644,Scoops! Tortilla Chips,chips pretzels,snacks,398
+B07-08-I,B,7,8,I,24841,Aged White Cheddar Baked Rice & Corn Puffs Gluten Free Lunch Packs,chips pretzels,snacks,377
+B07-08-D,B,7,8,D,19006,Dark Chocolate Pretzels with Sea Salt,chips pretzels,snacks,343
+B07-09-I,B,7,9,I,14633,Veggie Chips,chips pretzels,snacks,334
+B07-09-D,B,7,9,D,11576,Corn Chips,chips pretzels,snacks,325
+B07-10-I,B,7,10,I,47357,Original Restaurant Style Tortilla Chips,chips pretzels,snacks,325
+B07-10-D,B,7,10,D,6489,Backyard Barbeque Potato Chips,chips pretzels,snacks,311
+B07-11-I,B,7,11,I,23645,Sour Cream & Onion Potato Chips,chips pretzels,snacks,308
+B07-11-D,B,7,11,D,17835,Thin & Light Tortilla Chips,chips pretzels,snacks,301
+B07-12-I,B,7,12,I,14858,Multigrain Pita Chips,chips pretzels,snacks,288
+B07-12-D,B,7,12,D,16589,Plantain Chips,chips pretzels,snacks,282
+B07-13-I,B,7,13,I,46692,Multigrain Tortilla Chips,chips pretzels,snacks,280
+B07-13-D,B,7,13,D,20580,Original Real Vegetable Chips,chips pretzels,snacks,272
+B07-14-I,B,7,14,I,34862,Tiny Twists Pretzels,chips pretzels,snacks,272
+B07-14-D,B,7,14,D,46049,Salt & Pepper Krinkle Chips,chips pretzels,snacks,271
+B07-15-I,B,7,15,I,47866,Jalapeno Potato Chips,chips pretzels,snacks,267
+B07-15-D,B,7,15,D,3397,Organic Lightly Salted Sea Salt Thin & Crispy Restaurant Style Tortilla Chips,chips pretzels,snacks,258
+B07-16-I,B,7,16,I,46226,Thick & Crispy Tortilla Chips,chips pretzels,snacks,257
+B07-16-D,B,7,16,D,19863,Classic Potato Chips,chips pretzels,snacks,249
+B07-17-I,B,7,17,I,36076,Everything Deli Style Pretzel Crisps Crackers,chips pretzels,snacks,249
+B07-17-D,B,7,17,D,25952,Original Potato Chips,chips pretzels,snacks,239
+B07-18-I,B,7,18,I,44548,Barbecue Potato Chips,chips pretzels,snacks,237
+B07-18-D,B,7,18,D,38185,Hint of Lime Flavored Tortilla Chips,chips pretzels,snacks,234
+B07-19-I,B,7,19,I,8555,Sweet Potato Tortilla Chips,chips pretzels,snacks,233
+B07-19-D,B,7,19,D,19734,Classic Mix Variety,chips pretzels,snacks,226
+B07-20-I,B,7,20,I,33651,Harvest Cheddar Multigrain Chips,chips pretzels,snacks,218
+B07-20-D,B,7,20,D,33647,Blue Chips Corn Tortilla Chips,chips pretzels,snacks,211
+B07-21-I,B,7,21,I,15386,Whole Grain White Corn Salted Tortilla Chips,chips pretzels,snacks,209
+B07-21-D,B,7,21,D,19051,"Pita Chips, Simply Naked, Party Size",chips pretzels,snacks,208
+B07-22-I,B,7,22,I,46260,"Tortilla Chips, Mexican Kitchen Style, Salted",chips pretzels,snacks,196
+B07-22-D,B,7,22,D,2732,Gluten Free Pretzel Sticks,chips pretzels,snacks,189
+B07-23-I,B,7,23,I,41165,Cheese Puffs,chips pretzels,snacks,187
+B07-23-D,B,7,23,D,32573,Pretzel Sticks,chips pretzels,snacks,185
+B07-24-I,B,7,24,I,48109,"Tortilla Chips, Clasico, Jalapeno Lime",chips pretzels,snacks,181
+B07-24-D,B,7,24,D,18721,"Baked Rice and Corn Puffs, Aged White Cheddar",chips pretzels,snacks,173
+B07-25-I,B,7,25,I,45051,Pub Mix,chips pretzels,snacks,163
+B07-25-D,B,7,25,D,39491,Pirate's Booty Aged White Cheddar Baked Rice and Corn Puffs,chips pretzels,snacks,162
+B08-01-I,B,8,1,I,12914,Corn Tortilla Chips,chips pretzels,snacks,153
+B08-01-D,B,8,1,D,28571,Pretzel Rods,chips pretzels,snacks,152
+B08-02-I,B,8,2,I,27471,Parmesan Garlic Pita Chips,chips pretzels,snacks,151
+B08-02-D,B,8,2,D,45437,Sea Salt Made With Organic Grain Rice Chips,chips pretzels,snacks,150
+B08-03-I,B,8,3,I,28647,Nacho Cheese Tortilla Chips,chips pretzels,snacks,149
+B08-03-D,B,8,3,D,1313,Tortilla Strips Restaurant Style,chips pretzels,snacks,148
+B08-04-I,B,8,4,I,34160,of Hanover 100 Calorie Pretzels Mini,chips pretzels,snacks,148
+B08-04-D,B,8,4,D,141,Restaurant Style Organic Chia & Quinoa Tortilla Chips,chips pretzels,snacks,146
+B08-05-I,B,8,5,I,7412,Gluten-Free Red Hot Blues Made with Organic Blue  Corn Tortilla Chips,chips pretzels,snacks,146
+B08-05-D,B,8,5,D,6297,Cheese Puffs Original,chips pretzels,snacks,140
+B08-06-I,B,8,6,I,18200,Aged White Cheddar Gluten-Free Baked Rice And Corn Puffs,chips pretzels,snacks,134
+B08-06-D,B,8,6,D,40199,Chocolate Chip Cookies,cookies cakes,snacks,614
+B08-07-I,B,8,7,I,40063,Gluten Free Chocolate Chip Cookies,cookies cakes,snacks,380
+B08-07-D,B,8,7,D,12481,Oreo Chocolate Sandwich Cookies,cookies cakes,snacks,232
+B08-08-I,B,8,8,I,45866,Fig Newmans Fruit Filled Cookies,cookies cakes,snacks,195
+B08-08-D,B,8,8,D,26634,"Cookies, Chocolate Chip Walnut",cookies cakes,snacks,174
+B08-09-I,B,8,9,I,11281,Double Stuf Oreo Sandwich Cookies,cookies cakes,snacks,172
+B08-09-D,B,8,9,D,49054,Original Chocolate Chip Cookies,cookies cakes,snacks,170
+B08-10-I,B,8,10,I,42193,Chocolate Chip Cookie,cookies cakes,snacks,156
+B08-10-D,B,8,10,D,22362,Original Rice Krispies Treats,cookies cakes,snacks,150
+B08-11-I,B,8,11,I,42139,Fudge Mint Cookies,cookies cakes,snacks,140
+B08-11-D,B,8,11,D,34262,Hint Of Sea Salt Almond Nut Thins,crackers,snacks,494
+B08-12-I,B,8,12,I,39561,Crackers Cheddar Bunnies Snack Packs,crackers,snacks,437
+B08-12-D,B,8,12,D,22474,Cheddar Bunnies Snack Crackers,crackers,snacks,397
+B08-13-I,B,8,13,I,17616,Goldfish Cheddar Baked Snack Crackers,crackers,snacks,394
+B08-13-D,B,8,13,D,24810,Organic Lightly Salted Brown Rice Cakes,crackers,snacks,363
+B08-14-I,B,8,14,I,2091,Almond Nut & Rice Cracker Snacks,crackers,snacks,362
+B08-14-D,B,8,14,D,7736,Premium Original Saltine Crackers,crackers,snacks,332
+B08-15-I,B,8,15,I,18382,Saltine Crackers,crackers,snacks,325
+B08-15-D,B,8,15,D,6128,Original Fresh Stack Crackers,crackers,snacks,311
+B08-16-I,B,8,16,I,8479,Original Black Box Tablewater Cracker,crackers,snacks,311
+B08-16-D,B,8,16,D,32455,Whole Grain Cheddar Baked Snack Crackers,crackers,snacks,307
+B08-17-I,B,8,17,I,40268,Organic Wheat-Free & Gluten-Free Original Crackers,crackers,snacks,276
+B08-17-D,B,8,17,D,48595,Organic Wheat Square Crackers,crackers,snacks,270
+B08-18-I,B,8,18,I,33894,Goldfish Cheddar Baked Snack Crackers Multi Packs,crackers,snacks,266
+B08-18-D,B,8,18,D,21009,"Crispy Wheat, Crackers",crackers,snacks,254
+B08-19-I,B,8,19,I,11352,Organic Mini Sandwich Crackers Peanut Butter,crackers,snacks,245
+B08-19-D,B,8,19,D,21614,Crackers Harvest Whole Wheat,crackers,snacks,245
+B08-20-I,B,8,20,I,39041,Original Wheat Thins,crackers,snacks,231
+B08-20-D,B,8,20,D,31564,Crackers,crackers,snacks,230
+B08-21-I,B,8,21,I,12817,Original Baked Whole Grain Wheat Crackers,crackers,snacks,228
+B08-21-D,B,8,21,D,12572,6 OZ LA PANZANELLA CROSTINI ORIGINAL CRACKERS,crackers,snacks,227
+B08-22-I,B,8,22,I,44245,Honey Maid Graham Crackers,crackers,snacks,227
+B08-22-D,B,8,22,D,28597,Organic Stoneground Wheat Crackers,crackers,snacks,222
+B08-23-I,B,8,23,I,4778,Wheat Thins Reduced Fat Crackers,crackers,snacks,196
+B08-23-D,B,8,23,D,44487,Lightly Salted Rice Cakes,crackers,snacks,192
+B08-24-I,B,8,24,I,3696,Original Baked Snack Crackers,crackers,snacks,176
+B08-24-D,B,8,24,D,21572,Cheez-It Cheddar Cracker,crackers,snacks,168
+B08-25-I,B,8,25,I,22993,Super Seed Crispy Crackers,crackers,snacks,168
+B08-25-D,B,8,25,D,35132,Cheese Square Crackers,crackers,snacks,156
+B09-01-I,B,9,1,I,7361,Herb Crackers,crackers,snacks,155
+B09-01-D,B,9,1,D,32052,Organic Brown Rice Cake Salt-Free,crackers,snacks,155
+B09-02-I,B,9,2,I,33527,Organic Classic Rich Crackers,crackers,snacks,151
+B09-02-D,B,9,2,D,13914,Cheez-It Baked Snack Crackers,crackers,snacks,150
+B09-03-I,B,9,3,I,38622,Cheddar Snack Crackers Cheddar Bunnies,crackers,snacks,150
+B09-03-D,B,9,3,D,44201,Original Gluten Free Crackers,crackers,snacks,150
+B09-04-I,B,9,4,I,4565,Baked Snack Crackers Original,crackers,snacks,149
+B09-04-D,B,9,4,D,23630,Multi-Seed Original Crackers,crackers,snacks,145
+B09-05-I,B,9,5,I,27454,Organic Mini Sandwich Crackers Cheddar Cheese,crackers,snacks,144
+B09-05-D,B,9,5,D,21526,Organic Golden Round Crackers,crackers,snacks,143
+B09-06-I,B,9,6,I,45537,Classic Round Crackers,crackers,snacks,142
+B09-06-D,B,9,6,D,7185,Rosemary Mini Croccantini,crackers,snacks,141
+B09-07-I,B,9,7,I,15700,Cheddar Cheese Nut Thins Cracker Snacks,crackers,snacks,135
+B09-07-D,B,9,7,D,7088,Organic Cheddar Bunnies,crackers,snacks,134
+B09-08-I,B,9,8,I,46107,Whole Wheat Crackers,crackers,snacks,132
+B09-08-D,B,9,8,D,44560,Kids Organic Chocolate Chip ZBars,energy granola bars,snacks,451
+B09-09-I,B,9,9,I,5322,Gluten Free Dark Chocolate Chunk Chewy with a Crunch Granola Bars,energy granola bars,snacks,361
+B09-09-D,B,9,9,D,41400,Crunchy Oats 'n Honey Granola Bars,energy granola bars,snacks,359
+B09-10-I,B,9,10,I,16254,ZBar Organic Chocolate Brownie Energy Snack,energy granola bars,snacks,329
+B09-10-D,B,9,10,D,17224,Oats & Honey Gluten Free Granola,energy granola bars,snacks,303
+B09-11-I,B,9,11,I,14778,Organic Chocolate Chip Chewy Granola Bars,energy granola bars,snacks,299
+B09-11-D,B,9,11,D,23579,Peanut Butter Chocolate Chip Fruit & Nut Food Bar,energy granola bars,snacks,275
+B09-12-I,B,9,12,I,34137,Chocolate Sea Salt,energy granola bars,snacks,265
+B09-12-D,B,9,12,D,33716,Apple Pie Fruit & Nut Food Bar,energy granola bars,snacks,252
+B09-13-I,B,9,13,I,38656,Gluten Free Peanut Butter Dark Chocolate Chewy With a Crunch Granola Bars,energy granola bars,snacks,238
+B09-13-D,B,9,13,D,43263,Crunchy Oats N' Honey Granola Bars,energy granola bars,snacks,202
+B09-14-I,B,9,14,I,10753,Peanut Butter Bar,energy granola bars,snacks,199
+B09-14-D,B,9,14,D,25197,Iced Oatmeal Cookie Kid Z Bar,energy granola bars,snacks,199
+B09-15-I,B,9,15,I,5250,Blueberry Muffin Bar,energy granola bars,snacks,192
+B09-15-D,B,9,15,D,26629,Cherry Pie Fruit & Nut Bar,energy granola bars,snacks,192
+B09-16-I,B,9,16,I,24035,Coconut  Chocolate Bar,energy granola bars,snacks,186
+B09-16-D,B,9,16,D,35633,Chocolate Peanut Butter,energy granola bars,snacks,184
+B09-17-I,B,9,17,I,47990,White Chocolate Macadamia Nut Energy Bar,energy granola bars,snacks,176
+B09-17-D,B,9,17,D,23291,Coconut Chia Bar,energy granola bars,snacks,170
+B09-18-I,B,9,18,I,11688,Lemon Fruit & Nut Food Bar,energy granola bars,snacks,169
+B09-18-D,B,9,18,D,20876,Crunchy Peanut Butter Energy Bar,energy granola bars,snacks,167
+B09-19-I,B,9,19,I,24518,Gluten Free Lemonzest Nutrition bar,energy granola bars,snacks,164
+B09-19-D,B,9,19,D,47717,Peanut Butter Cookie,energy granola bars,snacks,159
+B09-20-I,B,9,20,I,19821,Chocolate Chip,energy granola bars,snacks,154
+B09-20-D,B,9,20,D,46562,Sweet & Salty Nut Granola Bars Peanut,energy granola bars,snacks,150
+B09-21-I,B,9,21,I,36205,Peanut Butter Egg White Protein Bar,energy granola bars,snacks,149
+B09-21-D,B,9,21,D,38730,Brownie Crunch High Protein Bar,energy granola bars,snacks,145
+B09-22-I,B,9,22,I,22227,Coconut Cream Pie,energy granola bars,snacks,141
+B09-22-D,B,9,22,D,6069,Maple Pumpkin Seeds with Sea Salt Chewy with a Crunch Granola Bars,energy granola bars,snacks,137
+B09-23-I,B,9,23,I,25346,Peanut Butter Dark Chocolate + Protein Bar,energy granola bars,snacks,136
+B09-23-D,B,9,23,D,45645,Dark Chocolate Nuts & Sea Salt Bars,energy granola bars,snacks,135
+B09-24-I,B,9,24,I,31730,Chewy Granola Bar Chocolate Chip Granola,energy granola bars,snacks,131
+B09-24-D,B,9,24,D,34448,Original Veggie Straws,fruit vegetable snacks,snacks,684
+B09-25-I,B,9,25,I,26348,Mixed Fruit Fruit Snacks,fruit vegetable snacks,snacks,489
+B09-25-D,B,9,25,D,5194,Organic Bunny Fruit Snacks Berry Patch,fruit vegetable snacks,snacks,475
+B10-01-I,B,10,1,I,13740,Organic Summer Strawberry Bunny Fruit Snacks,fruit vegetable snacks,snacks,475
+B10-01-D,B,10,1,D,42803,Organic Apple Slices,fruit vegetable snacks,snacks,284
+B10-02-I,B,10,2,I,27690,Apple Cinnamon GoGo Squeez,fruit vegetable snacks,snacks,269
+B10-02-D,B,10,2,D,41177,Sea Salt Roasted Seaweed,fruit vegetable snacks,snacks,190
+B10-03-I,B,10,3,I,18618,Baked Caesar Snapea Crisps,fruit vegetable snacks,snacks,180
+B10-03-D,B,10,3,D,20169,Annie Peely Fruit 4.5 Z,fruit vegetable snacks,snacks,155
+B10-04-I,B,10,4,I,23265,Chives,fruit vegetable snacks,snacks,141
+B10-04-D,B,10,4,D,38313,Organic Apple Banana GoGo Squeez,fruit vegetable snacks,snacks,140
+B10-05-I,B,10,5,I,32293,Organic Bunny Fruit Tropical Treat Fruit Snacks,fruit vegetable snacks,snacks,138
+B10-05-D,B,10,5,D,5134,Organic Thompson Seedless Raisins,nuts seeds dried fruit,snacks,513
+B10-06-I,B,10,6,I,35140,Organic Whole Cashews,nuts seeds dried fruit,snacks,476
+B10-06-D,B,10,6,D,7503,Whole Almonds,nuts seeds dried fruit,snacks,448
+B10-07-I,B,10,7,I,12845,Chopped Walnuts,nuts seeds dried fruit,snacks,444
+B10-07-D,B,10,7,D,20734,Organic Medjool Dates,nuts seeds dried fruit,snacks,420
+B10-08-I,B,10,8,I,16521,Walnut Halves & Pieces,nuts seeds dried fruit,snacks,389
+B10-08-D,B,10,8,D,29926,Roasted & Salted Almonds,nuts seeds dried fruit,snacks,380
+B10-09-I,B,10,9,I,31651,Extra Fancy Unsalted Mixed Nuts,nuts seeds dried fruit,snacks,321
+B10-09-D,B,10,9,D,14901,Raisins,nuts seeds dried fruit,snacks,308
+B10-10-I,B,10,10,I,13819,Roasted Salted Cashews,nuts seeds dried fruit,snacks,292
+B10-10-D,B,10,10,D,248,Dried Sweetened Cranberries,nuts seeds dried fruit,snacks,219
+B10-11-I,B,10,11,I,34590,Pitted Dates,nuts seeds dried fruit,snacks,216
+B10-11-D,B,10,11,D,28918,Marcona Almonds,nuts seeds dried fruit,snacks,178
+B10-12-I,B,10,12,I,7179,Chopped Pecans,nuts seeds dried fruit,snacks,160
+B10-12-D,B,10,12,D,17568,Pitted Prunes,nuts seeds dried fruit,snacks,157
+B10-13-I,B,10,13,I,11266,Dried Mangos,nuts seeds dried fruit,snacks,148
+B10-13-D,B,10,13,D,39332,Dried Mangoes,nuts seeds dried fruit,snacks,134
+B10-14-I,B,10,14,I,15902,100 Calorie  Per Bag Popcorn,popcorn jerky,snacks,552
+B10-14-D,B,10,14,D,3599,Baked Aged White Cheddar Rice and Corn Puffs,popcorn jerky,snacks,546
+B10-15-I,B,10,15,I,25513,Boomchickapop Sea Salt Popcorn,popcorn jerky,snacks,497
+B10-15-D,B,10,15,D,1700,White Cheddar Popcorn,popcorn jerky,snacks,370
+B10-16-I,B,10,16,I,9755,Original Popcorn,popcorn jerky,snacks,330
+B10-16-D,B,10,16,D,29370,Organic White Cheddar Popcorn,popcorn jerky,snacks,308
+B10-17-I,B,10,17,I,46061,Popcorn,popcorn jerky,snacks,273
+B10-17-D,B,10,17,D,12427,Original Beef Jerky,popcorn jerky,snacks,221
+B10-18-I,B,10,18,I,6448,Smartfood White Cheddar Cheese Popcorn,popcorn jerky,snacks,164
+B10-18-D,B,10,18,D,21083,Corn Puffs with Aged White Cheddar (Lunch Packs),popcorn jerky,snacks,147
+B10-19-I,B,10,19,I,26088,Aged White Cheddar Popcorn,popcorn jerky,snacks,136
+B10-19-D,B,10,19,D,21070,Lightly Sweet Popcorn,popcorn jerky,snacks,135
+B10-20-I,B,10,20,I,31487,Boomchickapop Sweet & Salty Kettle Corn,popcorn jerky,snacks,130
+B10-20-D,B,10,20,D,37710,Trail Mix,trail mix snack mix,snacks,533
+B10-21-I,B,10,21,I,25072,Organic Cheddar Snack Mix,trail mix snack mix,snacks,200
+B10-21-D,B,10,21,D,36724,Organic Sea Salt Roasted Seaweed Snacks,asian foods,international,345
+B10-22-I,B,10,22,I,23032,Sriracha Chili Sauce,asian foods,international,188
+B10-22-D,B,10,22,D,10492,Coconut Milk,asian foods,international,185
+B10-23-I,B,10,23,I,22275,Sriracha Hot Chili Sauce,asian foods,international,153
+B10-23-D,B,10,23,D,2450,Taco Seasoning,latino foods,international,405
+B10-24-I,B,10,24,I,39430,New Mexico Taco Skillet Sauce For Chicken,latino foods,international,224
+B10-24-D,B,10,24,D,35167,Organic Spicy Taco Seasoning,latino foods,international,172
+B10-25-I,B,10,25,I,5161,Dried Mango,bulk dried fruits vegetables,bulk,446
+B10-25-D,B,10,25,D,22260,Organic Rolled Oats,bulk grains rice dried goods,bulk,259
+C01-01-I,C,1,1,I,17956,Cocoa Powder,cocoa drink mixes,beverages,88
+C01-01-D,C,1,1,D,25718,Cold Brew Coffee,coffee,beverages,272
+C01-02-I,C,1,2,I,1695,Major Dickason's Blend Ground Coffee Dark Roast,coffee,beverages,256
+C01-02-D,C,1,2,D,32740,Cold-Brew Black Coffee,coffee,beverages,213
+C01-03-I,C,1,3,I,30850,French Roast Ground Coffee,coffee,beverages,186
+C01-03-D,C,1,3,D,7521,New Orleans Iced Coffee,coffee,beverages,181
+C01-04-I,C,1,4,I,9411,Unsweetened Iced Coffee,coffee,beverages,157
+C01-04-D,C,1,4,D,5794,House Blend Deep Roast Ground Coffee,coffee,beverages,154
+C01-05-I,C,1,5,I,41774,XX Espresso Iced Coffee With Almond Milk,coffee,beverages,139
+C01-05-D,C,1,5,D,40386,Major Dickason's Blend Whole Bean Coffee,coffee,beverages,123
+C01-06-I,C,1,6,I,8501,Breakfast Blend Medium Keurig Brewed K-Cups Ground Coffee,coffee,beverages,108
+C01-06-D,C,1,6,D,14127,Tesora Medium Roast,coffee,beverages,102
+C01-07-I,C,1,7,I,15780,Breakfast Blend Medium Roast Ground Coffee,coffee,beverages,100
+C01-07-D,C,1,7,D,16714,Mocha Frappucino Chilled Coffee Drink,coffee,beverages,100
+C01-08-I,C,1,8,I,20392,Hair Bender Whole Bean Coffee,coffee,beverages,95
+C01-08-D,C,1,8,D,34063,Medium Roast Original Blend Ground Coffee,coffee,beverages,91
+C01-09-I,C,1,9,I,25305,Cold Brew Coffee Nitro Can,coffee,beverages,86
+C01-09-D,C,1,9,D,17638,Vanilla Coffee Concentrate,coffee,beverages,85
+C01-10-I,C,1,10,I,27464,Direct Trade House Blend Medium Roast Ground Coffee,coffee,beverages,85
+C01-10-D,C,1,10,D,43744,Medium Roast Ground Coffee,coffee,beverages,83
+C01-11-I,C,1,11,I,14891,Black Coffee,coffee,beverages,82
+C01-11-D,C,1,11,D,49192,Holler Mountain Organic Coffee,coffee,beverages,82
+C01-12-I,C,1,12,I,1891,Instant Coffee,coffee,beverages,78
+C01-12-D,C,1,12,D,17355,Compostable Coffee Filters,coffee,beverages,78
+C01-13-I,C,1,13,I,40742,French Roast Whole Bean Coffee,coffee,beverages,78
+C01-13-D,C,1,13,D,16908,Jacob's Wonderbar Dark Roast,coffee,beverages,72
+C01-14-I,C,1,14,I,33452,Fruit Punch Sports Drink,energy sports drinks,beverages,275
+C01-14-D,C,1,14,D,11123,Vitamin Water Zero Squeezed Lemonade,energy sports drinks,beverages,257
+C01-15-I,C,1,15,I,41276,Energy Drink,energy sports drinks,beverages,234
+C01-15-D,C,1,15,D,25783,Lemon Lime Thirst Quencher,energy sports drinks,beverages,199
+C01-16-I,C,1,16,I,31102,Sugar Free Energy Drink,energy sports drinks,beverages,198
+C01-16-D,C,1,16,D,31231,Vitamin Water Zero Rise Orange,energy sports drinks,beverages,190
+C01-17-I,C,1,17,I,8580,VitaminWater Zero™ XXX Acai Blueberry Pomegranate,energy sports drinks,beverages,157
+C01-17-D,C,1,17,D,2876,vitaminwater® XXX Acai Blueberry Pomegranate,energy sports drinks,beverages,97
+C01-18-I,C,1,18,I,29103,Zero Go-Go Mixed Berry Vitamin Water,energy sports drinks,beverages,97
+C01-18-D,C,1,18,D,49030,Glacier Freeze Frost,energy sports drinks,beverages,92
+C01-19-I,C,1,19,I,44051,Zero Vitamin Water,energy sports drinks,beverages,91
+C01-19-D,C,1,19,D,21240,Orange Sports Drink,energy sports drinks,beverages,88
+C01-20-I,C,1,20,I,33589,G2 Grape Sports Drink,energy sports drinks,beverages,87
+C01-20-D,C,1,20,D,6799,Revive Zero Vitamin Water,energy sports drinks,beverages,85
+C01-21-I,C,1,21,I,38433,Glacier Freeze,energy sports drinks,beverages,85
+C01-21-D,C,1,21,D,23540,Orange,energy sports drinks,beverages,78
+C01-22-I,C,1,22,I,12672,G Series Perform Lemon Lime Sports Drink,energy sports drinks,beverages,74
+C01-22-D,C,1,22,D,2966,Pure Coconut Water,juice nectars,beverages,729
+C01-23-I,C,1,23,I,18811,Organic Apple Juice,juice nectars,beverages,462
+C01-23-D,C,1,23,D,42719,Natural Premium Coconut Water,juice nectars,beverages,452
+C01-24-I,C,1,24,I,19173,Orange Calcium & Vitamin D Pulp Free,juice nectars,beverages,444
+C01-24-D,C,1,24,D,14715,Coconut Water,juice nectars,beverages,414
+C01-25-I,C,1,25,I,26317,Organic Lemonade,juice nectars,beverages,370
+C01-25-D,C,1,25,D,38890,No Pulp Calcium & Vitamin D Pure Premium 100% Pure Orange Juice,juice nectars,beverages,369
+C02-01-I,C,2,1,I,30639,Organic Orange Juice,juice nectars,beverages,325
+C02-01-D,C,2,1,D,32156,Cranberry Juice Cocktail,juice nectars,beverages,238
+C02-02-I,C,2,2,I,35199,100% Apple Juice,juice nectars,beverages,236
+C02-02-D,C,2,2,D,24850,Organic Super Fruit Punch Juice Drink,juice nectars,beverages,233
+C02-03-I,C,2,3,I,45840,100% Pure Apple Juice,juice nectars,beverages,230
+C02-03-D,C,2,3,D,36036,Organic Orange Fruit Juice,juice nectars,beverages,207
+C02-04-I,C,2,4,I,44098,Appley Ever After Organic Juice Drink,juice nectars,beverages,207
+C02-04-D,C,2,4,D,18339,100% Lemon Juice,juice nectars,beverages,199
+C02-05-I,C,2,5,I,37215,100% Cranberry Juice,juice nectars,beverages,199
+C02-05-D,C,2,5,D,13259,Organic Variety Pack,juice nectars,beverages,194
+C02-06-I,C,2,6,I,34335,Ruby Red Grapefruit Juice,juice nectars,beverages,191
+C02-06-D,C,2,6,D,37552,Sparkling Blackberry Juice,juice nectars,beverages,187
+C02-07-I,C,2,7,I,32553,"Country Stand Juice, Medium Pulp",juice nectars,beverages,178
+C02-07-D,C,2,7,D,23178,Pure Lemon Juice,juice nectars,beverages,176
+C02-08-I,C,2,8,I,44116,Goodness Grapeness Organic Juice Drink,juice nectars,beverages,162
+C02-08-D,C,2,8,D,33671,100% Pineapple Juice,juice nectars,beverages,136
+C02-09-I,C,2,9,I,28913,100% Lime Juice,juice nectars,beverages,134
+C02-09-D,C,2,9,D,36085,Berry Berry Good Lemonade Organic Juice Drink,juice nectars,beverages,127
+C02-10-I,C,2,10,I,32047,Original Apple 100% Juice,juice nectars,beverages,123
+C02-10-D,C,2,10,D,47325,100% Pomegranate Juice,juice nectars,beverages,116
+C02-11-I,C,2,11,I,5883,Organic Strawberry Lemonade,juice nectars,beverages,114
+C02-11-D,C,2,11,D,8968,Tangerine Juice,juice nectars,beverages,110
+C02-12-I,C,2,12,I,13113,Organic Apple Juice Boxes,juice nectars,beverages,105
+C02-12-D,C,2,12,D,37971,Organic Cranberry Pomegranate Juice,juice nectars,beverages,105
+C02-13-I,C,2,13,I,34423,Pure Organic Pineapple Juice,juice nectars,beverages,101
+C02-13-D,C,2,13,D,25332,Unsweetened Coconut Water,juice nectars,beverages,99
+C02-14-I,C,2,14,I,3835,"Coconut Water, Pure Organic",juice nectars,beverages,96
+C02-14-D,C,2,14,D,945,Fruit Punch Juice Drink,juice nectars,beverages,94
+C02-15-I,C,2,15,I,1896,Organic Sensible Sipper Apple Juice,juice nectars,beverages,91
+C02-15-D,C,2,15,D,16387,Cold-Pressed Organic Grapefruit,juice nectars,beverages,89
+C02-16-I,C,2,16,I,35504,Real Coconut Water,juice nectars,beverages,88
+C02-16-D,C,2,16,D,14086,Sparkling Apple Juice,juice nectars,beverages,84
+C02-17-I,C,2,17,I,49615,Cran-Apple Juice Drink,juice nectars,beverages,76
+C02-17-D,C,2,17,D,3957,100% Raw Coconut Water,refrigerated,beverages,1298
+C02-18-I,C,2,18,I,25146,Original Orange Juice,refrigerated,beverages,1054
+C02-18-D,C,2,18,D,30776,Organic Raw Kombucha Gingerade,refrigerated,beverages,855
+C02-19-I,C,2,19,I,31683,Original No Pulp 100% Florida Orange Juice,refrigerated,beverages,819
+C02-19-D,C,2,19,D,41290,Lemonade,refrigerated,beverages,791
+C02-20-I,C,2,20,I,45603,Trilogy Kombucha Drink,refrigerated,beverages,644
+C02-20-D,C,2,20,D,34050,Orange Juice,refrigerated,beverages,581
+C02-21-I,C,2,21,I,6631,No Pulp Calcium & Vitamin D Pure Orange Juice,refrigerated,beverages,428
+C02-21-D,C,2,21,D,39108,Pulp Free Orange Juice,refrigerated,beverages,388
+C02-22-I,C,2,22,I,48559,Synergy Organic Kombucha Gingerberry,refrigerated,beverages,366
+C02-22-D,C,2,22,D,38200,Apple Juice,refrigerated,beverages,327
+C02-23-I,C,2,23,I,35336,Naked Green Machine Boosted Juice Smoothie,refrigerated,beverages,299
+C02-23-D,C,2,23,D,8087,Florida Orange Juice With Calcium & Vitamin D,refrigerated,beverages,283
+C02-24-I,C,2,24,I,13292,"Juice Beverage, Cold Pressed, Kale Apple Ginger Romaine Spinach Cucumber Celery Parsley Lemon",refrigerated,beverages,281
+C02-24-D,C,2,24,D,9421,Organic Raw Multigreen Kobmbucha,refrigerated,beverages,253
+C02-25-I,C,2,25,I,6287,Organic & Raw Strawberry Serenity Kombucha,refrigerated,beverages,252
+C02-25-D,C,2,25,D,36127,Freshly Squeezed Orange Juice,refrigerated,beverages,238
+C03-01-I,C,3,1,I,8736,Synergy Organic & Raw Cosmic Cranberry,refrigerated,beverages,236
+C03-01-D,C,3,1,D,28836,Grapefruit Juice,refrigerated,beverages,236
+C03-02-I,C,3,2,I,43967,Raspberry Lemonade,refrigerated,beverages,236
+C03-02-D,C,3,2,D,32578,Organic Fresh Squeezed Orange Juice,refrigerated,beverages,224
+C03-03-I,C,3,3,I,17615,Calcium Pulp Free Orange Juice,refrigerated,beverages,213
+C03-03-D,C,3,3,D,19894,Enlightened Organic Raw Kombucha,refrigerated,beverages,213
+C03-04-I,C,3,4,I,9018,All Natural Virgin Lemonade,refrigerated,beverages,209
+C03-04-D,C,3,4,D,47280,California Orange Juice,refrigerated,beverages,181
+C03-05-I,C,3,5,I,37317,Wonderful 100% Pomegranate Juice,refrigerated,beverages,178
+C03-05-D,C,3,5,D,35121,Lemon Ginger Sparkling Probiotic Drink,refrigerated,beverages,174
+C03-06-I,C,3,6,I,34270,"Cold-pressed, Deliciously Hydrating Watermelon Water",refrigerated,beverages,168
+C03-06-D,C,3,6,D,27316,"Trop50 No Pulp Orange Juice w/ Calcium + Vitamin D, 50% Less Sugar & Calories",refrigerated,beverages,167
+C03-07-I,C,3,7,I,35045,Original No Pulp Pure 100% Florida Orange Juice,refrigerated,beverages,166
+C03-07-D,C,3,7,D,36406,Essential Greens With Lime  Vegetable and Fruit Juice Blend,refrigerated,beverages,166
+C03-08-I,C,3,8,I,35842,Organic Lemon Cayenne Sparkling Probiotic Drink,refrigerated,beverages,154
+C03-08-D,C,3,8,D,48246,Green Machine Juice Smoothie,refrigerated,beverages,143
+C03-09-I,C,3,9,I,14996,Ruby Red Grapefruit,refrigerated,beverages,142
+C03-09-D,C,3,9,D,29270,Beet Apple Carrot Lemon Ginger Organic Cold Pressed Juice Beverage,refrigerated,beverages,140
+C03-10-I,C,3,10,I,17487,Orange Juice 100% Juice,refrigerated,beverages,136
+C03-10-D,C,3,10,D,20794,"Kombucha, Organic Raw, Citrus",refrigerated,beverages,134
+C03-11-I,C,3,11,I,14399,Limeade,refrigerated,beverages,131
+C03-11-D,C,3,11,D,11143,Defense Up Cold Pressed Fruit Smoothie,refrigerated,beverages,129
+C03-12-I,C,3,12,I,33956,Mighty Mango Juice Smoothie,refrigerated,beverages,129
+C03-12-D,C,3,12,D,27413,100% Mighty Mango Juice Smoothie,refrigerated,beverages,116
+C03-13-I,C,3,13,I,38490,Coconut Water Organic,refrigerated,beverages,113
+C03-13-D,C,3,13,D,16398,Guava Goddess Organic Kambucha,refrigerated,beverages,112
+C03-14-I,C,3,14,I,19731,Organic Orange Juice With Calcium & Vitamin D,refrigerated,beverages,110
+C03-14-D,C,3,14,D,15153,Blue Machine Boosted 100% Juice Smoothie,refrigerated,beverages,109
+C03-15-I,C,3,15,I,12440,California Lemonade,refrigerated,beverages,108
+C03-15-D,C,3,15,D,23576,Sweet Greens and Lemon Vegetable and Fruit Juice Blend,refrigerated,beverages,108
+C03-16-I,C,3,16,I,2913,Mango Tango Fruit Smoothie Blend,refrigerated,beverages,107
+C03-16-D,C,3,16,D,35782,Mango Flavor Probiotic Juice Drink,refrigerated,beverages,98
+C03-17-I,C,3,17,I,24703,Fruit Punch,refrigerated,beverages,96
+C03-17-D,C,3,17,D,20282,Blue Machine 100% Juice Smoothie,refrigerated,beverages,94
+C03-18-I,C,3,18,I,45774,Organic Sweet Greens and Ginger Juice Blend,refrigerated,beverages,93
+C03-18-D,C,3,18,D,46402,With Raspberry Lemonade,refrigerated,beverages,93
+C03-19-I,C,3,19,I,20339,Chocolate Protein Soy & Dairy Protein Shake,refrigerated,beverages,92
+C03-19-D,C,3,19,D,35065,Orange Strawberry Banana Juice,refrigerated,beverages,92
+C03-20-I,C,3,20,I,20947,Passionberry Bliss Kombucha Drink,refrigerated,beverages,90
+C03-20-D,C,3,20,D,24363,Lemon Cayenne Agave Cold Pressed Juice Beverage,refrigerated,beverages,90
+C03-21-I,C,3,21,I,31299,Some Pulp Orange Juice,refrigerated,beverages,89
+C03-21-D,C,3,21,D,27729,Cold-Pressed Organic Orange,refrigerated,beverages,88
+C03-22-I,C,3,22,I,4142,Trilogy Kombucha,refrigerated,beverages,87
+C03-22-D,C,3,22,D,20084,Pineapple Apple Mint Organic Cold Pressed Juicd,refrigerated,beverages,86
+C03-23-I,C,3,23,I,45954,Premium Calcium & Vitamin D No Pulp Orange Juice,refrigerated,beverages,86
+C03-23-D,C,3,23,D,28577,No Pulp Orange Juice,refrigerated,beverages,84
+C03-24-I,C,3,24,I,12846,Pomegranate Blackberry Probiotics Juice Drink,refrigerated,beverages,83
+C03-24-D,C,3,24,D,34688,Good Belly Probiotics Juice Drink Blueberry Acai Flavor,refrigerated,beverages,83
+C03-25-I,C,3,25,I,1710,Kombucha Gingerade,refrigerated,beverages,81
+C03-25-D,C,3,25,D,36923,Trop50 No Pulp Orange Juice,refrigerated,beverages,80
+C04-01-I,C,4,1,I,1017,Strawberry Banana Juice,refrigerated,beverages,78
+C04-01-D,C,4,1,D,40541,Sparkling Probiotic Drink Mojita Lime Mint Coconut,refrigerated,beverages,78
+C04-02-I,C,4,2,I,4289,15 Calories Light Lemonade,refrigerated,beverages,77
+C04-02-D,C,4,2,D,29603,Pink Virgin Lemonade,refrigerated,beverages,77
+C04-03-I,C,4,3,I,45599,Organic Strawberry Lemonade Fruit Juice Drink,refrigerated,beverages,75
+C04-03-D,C,4,3,D,21704,Original Superfood Fruit Smoothie Blend,refrigerated,beverages,74
+C04-04-I,C,4,4,I,31422,100% Orange Juice,refrigerated,beverages,74
+C04-04-D,C,4,4,D,11543,Vanilla Protein Protein Shake,refrigerated,beverages,73
+C04-05-I,C,4,5,I,25670,High Pulp Orange Juice,refrigerated,beverages,73
+C04-05-D,C,4,5,D,23737,Organic 100% Grapefruit  Juice,refrigerated,beverages,72
+C04-06-I,C,4,6,I,196,Soda,soft drinks,beverages,1507
+C04-06-D,C,4,6,D,10957,Fridge Pack Cola,soft drinks,beverages,645
+C04-07-I,C,4,7,I,12916,Ginger Ale,soft drinks,beverages,634
+C04-07-D,C,4,7,D,47141,Cola,soft drinks,beverages,565
+C04-08-I,C,4,8,I,16696,Coke Classic,soft drinks,beverages,493
+C04-08-D,C,4,8,D,43631,Diet Coke,soft drinks,beverages,348
+C04-09-I,C,4,9,I,46149,Zero Calorie Cola,soft drinks,beverages,347
+C04-09-D,C,4,9,D,40910,Root Beer,soft drinks,beverages,340
+C04-10-I,C,4,10,I,47877,Coke Zero,soft drinks,beverages,326
+C04-10-D,C,4,10,D,4138,Arancita Rossa,soft drinks,beverages,325
+C04-11-I,C,4,11,I,24759,Club Soda,soft drinks,beverages,310
+C04-11-D,C,4,11,D,10032,Cola Soft Drink,soft drinks,beverages,298
+C04-12-I,C,4,12,I,44375,Canned Aranciata Orange,soft drinks,beverages,285
+C04-12-D,C,4,12,D,17191,Tangerine,soft drinks,beverages,268
+C04-13-I,C,4,13,I,34024,Classic Soda,soft drinks,beverages,261
+C04-13-D,C,4,13,D,19125,Extra Ginger Brew Jamaican Style Ginger Beer,soft drinks,beverages,259
+C04-14-I,C,4,14,I,16290,Sparkling Clementine Juice,soft drinks,beverages,258
+C04-14-D,C,4,14,D,39921,Lemon Lime Soda,soft drinks,beverages,246
+C04-15-I,C,4,15,I,18564,Diet Ginger Ale All Natural Soda,soft drinks,beverages,234
+C04-15-D,C,4,15,D,42731,Original Citrus Sparkling Flavored Soda,soft drinks,beverages,229
+C04-16-I,C,4,16,I,18418,Ginger Ale Soda,soft drinks,beverages,215
+C04-16-D,C,4,16,D,3389,Diet Dr.Pepper Soda Pack,soft drinks,beverages,201
+C04-17-I,C,4,17,I,18610,Cola Soda,soft drinks,beverages,177
+C04-17-D,C,4,17,D,18389,Blood Orange Italian Soda,soft drinks,beverages,173
+C04-18-I,C,4,18,I,8475,Diet 12 Oz Ginger Ale,soft drinks,beverages,170
+C04-18-D,C,4,18,D,39409,"Ginger Root Beer, Naturally Flavored Zero Calorie Soda, Caffeine Free",soft drinks,beverages,168
+C04-19-I,C,4,19,I,42500,Orange & Lemon Flavor Variety Pack Sparkling Fruit Beverage,soft drinks,beverages,166
+C04-19-D,C,4,19,D,277,Diet Root Beer,soft drinks,beverages,158
+C04-20-I,C,4,20,I,48142,Diet,soft drinks,beverages,154
+C04-20-D,C,4,20,D,8390,Diet Ginger Ale,soft drinks,beverages,151
+C04-21-I,C,4,21,I,32141,Diet Coke Soda,soft drinks,beverages,148
+C04-21-D,C,4,21,D,6846,Diet Pepsi Pack,soft drinks,beverages,140
+C04-22-I,C,4,22,I,21131,Lemon-Lime Fridge Pack Soda,soft drinks,beverages,138
+C04-22-D,C,4,22,D,49198,Zero Soda,soft drinks,beverages,138
+C04-23-I,C,4,23,I,12140,Diet Soda,soft drinks,beverages,136
+C04-23-D,C,4,23,D,9175,Diet Coke Caffeine Free Soda,soft drinks,beverages,132
+C04-24-I,C,4,24,I,31808,Lemon-Lime 12 Pack Soda,soft drinks,beverages,127
+C04-24-D,C,4,24,D,8615,Sparkling Pomegranate,soft drinks,beverages,125
+C04-25-I,C,4,25,I,29503,Coke,soft drinks,beverages,121
+C04-25-D,C,4,25,D,7898,Ginger Beer,soft drinks,beverages,113
+C05-01-I,C,5,1,I,14766,Sparkling Grapefruit,soft drinks,beverages,109
+C05-01-D,C,5,1,D,29529,Lemon-Lime Soda,soft drinks,beverages,109
+C05-02-I,C,5,2,I,27959,Premium Indian Tonic Water,soft drinks,beverages,101
+C05-02-D,C,5,2,D,37103,Sparkling Peach,soft drinks,beverages,100
+C05-03-I,C,5,3,I,23020,Diet Tonic Water,soft drinks,beverages,98
+C05-03-D,C,5,3,D,41406,Orange Soda,soft drinks,beverages,97
+C05-04-I,C,5,4,I,47931,Diet Cola,soft drinks,beverages,93
+C05-04-D,C,5,4,D,6475,Limonata Sparkling Lemon Beverage,soft drinks,beverages,88
+C05-05-I,C,5,5,I,2974,Regular,soft drinks,beverages,87
+C05-05-D,C,5,5,D,14252,Coke Zero Diet Soda,soft drinks,beverages,86
+C05-06-I,C,5,6,I,21462,Zero Calorie Cola Soda,soft drinks,beverages,85
+C05-06-D,C,5,6,D,33911,Zero Calorie Cream Soda,soft drinks,beverages,81
+C05-07-I,C,5,7,I,4462,Pink Lady Apple Kombucha,tea,beverages,233
+C05-07-D,C,5,7,D,44292,Premium Unsweetened Iced Tea,tea,beverages,216
+C05-08-I,C,5,8,I,10312,Zen Tea,tea,beverages,173
+C05-08-D,C,5,8,D,35749,Ginger Tea,tea,beverages,148
+C05-09-I,C,5,9,I,48946,Earl Grey Tea,tea,beverages,118
+C05-09-D,C,5,9,D,40411,Calm Chamomile Herbal Tea,tea,beverages,116
+C05-10-I,C,5,10,I,45223,Just Green Unsweetened Tea,tea,beverages,110
+C05-10-D,C,5,10,D,48988,Unsweetened Premium Iced Tea,tea,beverages,109
+C05-11-I,C,5,11,I,18606,Moroccan Mint Green Tea,tea,beverages,106
+C05-11-D,C,5,11,D,14788,Unsweetened Iced Tea,tea,beverages,101
+C05-12-I,C,5,12,I,3274,Black Tea Pyramids,tea,beverages,97
+C05-12-D,C,5,12,D,27117,Refresh Herbal Tea,tea,beverages,97
+C05-13-I,C,5,13,I,15693,Organic Peach Oo La Long Tea,tea,beverages,91
+C05-13-D,C,5,13,D,29640,Unsweetened Ice Tea,tea,beverages,87
+C05-14-I,C,5,14,I,41621,Lemon Ginger Tea Bags,tea,beverages,87
+C05-14-D,C,5,14,D,43739,Variety Diet Tea,tea,beverages,80
+C05-15-I,C,5,15,I,29848,Diet Peach Tea,tea,beverages,79
+C05-15-D,C,5,15,D,40749,Organic Green Tea Bags,tea,beverages,76
+C05-16-I,C,5,16,I,6760,Organic Iced Green Tea,tea,beverages,75
+C05-16-D,C,5,16,D,20767,Organic Peppermint Herbal Tea,tea,beverages,73
+C05-17-I,C,5,17,I,42183,Super Antioxidant Green Tea,tea,beverages,73
+C05-17-D,C,5,17,D,44632,Sparkling Water Grapefruit,water seltzer sparkling water,beverages,3359
+C05-18-I,C,5,18,I,19660,Spring Water,water seltzer sparkling water,beverages,2225
+C05-18-D,C,5,18,D,35221,Lime Sparkling Water,water seltzer sparkling water,beverages,1966
+C05-19-I,C,5,19,I,33198,Sparkling Natural Mineral Water,water seltzer sparkling water,beverages,1803
+C05-19-D,C,5,19,D,21709,Sparkling Lemon Water,water seltzer sparkling water,beverages,1423
+C05-20-I,C,5,20,I,5479,Italian Sparkling Mineral Water,water seltzer sparkling water,beverages,1132
+C05-20-D,C,5,20,D,14947,Pure Sparkling Water,water seltzer sparkling water,beverages,1125
+C05-21-I,C,5,21,I,8859,Natural Spring Water,water seltzer sparkling water,beverages,950
+C05-21-D,C,5,21,D,26620,Peach Pear Flavored Sparkling Water,water seltzer sparkling water,beverages,899
+C05-22-I,C,5,22,I,26165,Electrolyte Enhanced Water,water seltzer sparkling water,beverages,847
+C05-22-D,C,5,22,D,23288,Distilled Water,water seltzer sparkling water,beverages,793
+C05-23-I,C,5,23,I,20119,Sparkling Water Berry,water seltzer sparkling water,beverages,714
+C05-23-D,C,5,23,D,25466,Water,water seltzer sparkling water,beverages,689
+C05-24-I,C,5,24,I,43154,Sparkling Mineral Water,water seltzer sparkling water,beverages,686
+C05-24-D,C,5,24,D,5258,Sparkling Water,water seltzer sparkling water,beverages,673
+C05-25-I,C,5,25,I,49520,Orange Sparkling Water,water seltzer sparkling water,beverages,651
+C05-25-D,C,5,25,D,47977,Grapefruit Sparkling Water,water seltzer sparkling water,beverages,630
+C06-01-I,C,6,1,I,14233,Natural Artesian Water,water seltzer sparkling water,beverages,554
+C06-01-D,C,6,1,D,15424,Purified Water,water seltzer sparkling water,beverages,524
+C06-02-I,C,6,2,I,39947,Blackberry Cucumber Sparkling Water,water seltzer sparkling water,beverages,518
+C06-02-D,C,6,2,D,49191,Cran Raspberry Sparkling Water,water seltzer sparkling water,beverages,503
+C06-03-I,C,6,3,I,31964,Passionfruit Sparkling Water,water seltzer sparkling water,beverages,483
+C06-03-D,C,6,3,D,12576,Kiwi Sandia Sparkling Water,water seltzer sparkling water,beverages,465
+C06-04-I,C,6,4,I,36316,Lemon Sparkling Water,water seltzer sparkling water,beverages,460
+C06-04-D,C,6,4,D,27325,Alpine Spring Water,water seltzer sparkling water,beverages,441
+C06-05-I,C,6,5,I,1194,Natural Artisan Water,water seltzer sparkling water,beverages,428
+C06-05-D,C,6,5,D,30353,Curate Cherry Lime Sparkling Water,water seltzer sparkling water,beverages,415
+C06-06-I,C,6,6,I,21386,Smartwater,water seltzer sparkling water,beverages,370
+C06-06-D,C,6,6,D,12606,100% Natural Spring Water,water seltzer sparkling water,beverages,354
+C06-07-I,C,6,7,I,22802,Mineral Water,water seltzer sparkling water,beverages,344
+C06-07-D,C,6,7,D,40939,Drinking Water,water seltzer sparkling water,beverages,342
+C06-08-I,C,6,8,I,45747,Curate Melon Pomelo Sparking Water,water seltzer sparkling water,beverages,319
+C06-08-D,C,6,8,D,9623,Sparkling Natural Spring Water,water seltzer sparkling water,beverages,265
+C06-09-I,C,6,9,I,3873,Mountain Spring Water,water seltzer sparkling water,beverages,263
+C06-09-D,C,6,9,D,36107,smartwater® Electrolyte Enhanced Water,water seltzer sparkling water,beverages,254
+C06-10-I,C,6,10,I,13944,Pure Water,water seltzer sparkling water,beverages,248
+C06-10-D,C,6,10,D,27985,Smartwater Electrolyte Enhanced Water,water seltzer sparkling water,beverages,238
+C06-11-I,C,6,11,I,22556,All Natural Apricot Sparkling Water,water seltzer sparkling water,beverages,232
+C06-11-D,C,6,11,D,18023,Organic Coconut Water,water seltzer sparkling water,beverages,213
+C06-12-I,C,6,12,I,35989,Coconut Flavored Sparkling Water,water seltzer sparkling water,beverages,211
+C06-12-D,C,6,12,D,6182,Natural Artesian Bottled Water,water seltzer sparkling water,beverages,202
+C06-13-I,C,6,13,I,5428,1 Liter,water seltzer sparkling water,beverages,198
+C06-13-D,C,6,13,D,24186,Slim Can Pink Grapefruit Natural Mineral Water,water seltzer sparkling water,beverages,194
+C06-14-I,C,6,14,I,35948,Tonic Water,water seltzer sparkling water,beverages,194
+C06-14-D,C,6,14,D,35507,Pure Life Purified Water,water seltzer sparkling water,beverages,179
+C06-15-I,C,6,15,I,7693,Cran-Raspberry Flavored Sparkling Water,water seltzer sparkling water,beverages,170
+C06-15-D,C,6,15,D,2717,Mango Sparkling Water,water seltzer sparkling water,beverages,152
+C06-16-I,C,6,16,I,4658,Imported Mineral Water,water seltzer sparkling water,beverages,144
+C06-16-D,C,6,16,D,12919,Coconut Sparkling Water,water seltzer sparkling water,beverages,143
+C06-17-I,C,6,17,I,13245,"Natural Artesian Water, Mini & Mobile",water seltzer sparkling water,beverages,141
+C06-17-D,C,6,17,D,27275,Pineapple Strawberry Sparkling Water,water seltzer sparkling water,beverages,136
+C06-18-I,C,6,18,I,48015,Lime Slim Can,water seltzer sparkling water,beverages,135
+C06-18-D,C,6,18,D,17530,Unsweetened Watermelon Water,water seltzer sparkling water,beverages,134
+C06-19-I,C,6,19,I,1831,Peach-Pear Sparkling Water,water seltzer sparkling water,beverages,132
+C06-19-D,C,6,19,D,7350,Natural Lime Flavor Sparkling Mineral Water,water seltzer sparkling water,beverages,131
+C06-20-I,C,6,20,I,36216,Lime Italian Sparkling Mineral Water,water seltzer sparkling water,beverages,130
+C06-20-D,C,6,20,D,36691,Purified Drinking Water,water seltzer sparkling water,beverages,128
+C06-21-I,C,6,21,I,42972,Natural Pure Sparkling Water,water seltzer sparkling water,beverages,124
+C06-21-D,C,6,21,D,41682,Curate Pomme Baya-Apple Berry Sparkling Water,water seltzer sparkling water,beverages,120
+C06-22-I,C,6,22,I,10,Sparkling Orange Juice & Prickly Pear Beverage,water seltzer sparkling water,beverages,119
+C06-22-D,C,6,22,D,23650,Electrolyte Water,water seltzer sparkling water,beverages,114
+C06-23-I,C,6,23,I,9138,Lemon Italian Sparkling Mineral Water,water seltzer sparkling water,beverages,105
+C06-23-D,C,6,23,D,17924,Seltzer Water,water seltzer sparkling water,beverages,93
+C06-24-I,C,6,24,I,33852,Black Raspberry Sparkling Water Drink,water seltzer sparkling water,beverages,92
+C06-24-D,C,6,24,D,10339,Unsweetened Blackberry Water,water seltzer sparkling water,beverages,89
+C06-25-I,C,6,25,I,4493,Italian Sparkling Pomegranate And Orange Soda,water seltzer sparkling water,beverages,85
+C06-25-D,C,6,25,D,40997,Lemon Sparkling Mountain Spring Water,water seltzer sparkling water,beverages,83
+C07-01-I,C,7,1,I,38889,Perrier Lime,water seltzer sparkling water,beverages,79
+C07-01-D,C,7,1,D,42504,Original Seltzer Water,water seltzer sparkling water,beverages,78
+C07-02-I,C,7,2,I,46485,Natural Lemon Flavor Sparkling Mineral Water,water seltzer sparkling water,beverages,78
+C07-02-D,C,7,2,D,17080,Clementina Sparkling Beverage,water seltzer sparkling water,beverages,75
+C07-03-I,C,7,3,I,46088,Beer,beers coolers,alcohol,224
+C07-03-D,C,7,3,D,41131,India Pale Ale,beers coolers,alcohol,157
+C07-04-I,C,7,4,I,33065,Cabernet Sauvignon,red wines,alcohol,237
+C07-04-D,C,7,4,D,12013,Pinot Noir,red wines,alcohol,139
+C07-05-I,C,7,5,I,27885,Malbec,red wines,alcohol,91
+C07-05-D,C,7,5,D,37923,Prosecco Sparkling Wine,specialty wines champagnes,alcohol,80
+C07-06-I,C,7,6,I,45190,Vodka,spirits,alcohol,191
+C07-06-D,C,7,6,D,27652,Handmade Vodka,spirits,alcohol,72
+C07-07-I,C,7,7,I,2120,Sauvignon Blanc,white wines,alcohol,295
+C07-07-D,C,7,7,D,38444,Chardonnay,white wines,alcohol,193
+C07-08-I,C,7,8,I,1160,Pinot Grigio,white wines,alcohol,116
+C07-08-D,C,7,8,D,36425,Chardonnay Wine,white wines,alcohol,76
+C07-09-I,C,7,9,I,21847,Lemongrass Citrus Scent Disinfecting Wipes,cleaning products,household,144
+C07-09-D,C,7,9,D,34287,"Disinfecting Wipes, Lemon",cleaning products,household,141
+C07-10-I,C,7,10,I,881,Heavy Duty Scrub Sponges,cleaning products,household,134
+C07-10-D,C,7,10,D,20590,Disinfecting Wipes Fresh Scent,cleaning products,household,115
+C07-11-I,C,7,11,I,45566,Clean Up Cleaner with Bleach Fresh Scent,cleaning products,household,115
+C07-11-D,C,7,11,D,48118,Max Gel Clog Remover,cleaning products,household,113
+C07-12-I,C,7,12,I,5586,Original Glass Cleaner,cleaning products,household,108
+C07-12-D,C,7,12,D,500,Non-Scratch Scrub Sponges,cleaning products,household,106
+C07-13-I,C,7,13,I,6210,Kitchen Scrubber Sponge,cleaning products,household,98
+C07-13-D,C,7,13,D,48532,All Purpose Cleaner,cleaning products,household,97
+C07-14-I,C,7,14,I,717,Sweeper Open Window Fresh Scent Wet Mopping Cloths Refill,cleaning products,household,90
+C07-14-D,C,7,14,D,32939,Disinfecting Wipes Fresh Scent & Lemon,cleaning products,household,89
+C07-15-I,C,7,15,I,22565,"Disinfecting Wipes, Lemon Scent",cleaning products,household,85
+C07-15-D,C,7,15,D,36051,Glass Cleaner,cleaning products,household,78
+C07-16-I,C,7,16,I,13838,Natural Free & Clear Dish Liquid,dish detergents,household,277
+C07-16-D,C,7,16,D,33290,Lemon Verbena Dish Soap,dish detergents,household,250
+C07-17-I,C,7,17,I,7014,Dishwasher Gel Free & Clear,dish detergents,household,147
+C07-17-D,C,7,17,D,22950,Natural Free & Clear Dishwasher Detergent Packs,dish detergents,household,146
+C07-18-I,C,7,18,I,2581,Lavender Floral & Mint Natural Dish Liquid,dish detergents,household,138
+C07-18-D,C,7,18,D,3098,Lavender Dish Soap,dish detergents,household,129
+C07-19-I,C,7,19,I,12442,Basil Dish Soap,dish detergents,household,120
+C07-19-D,C,7,19,D,33316,Lemongrass & Clementine Zest Natural Dish Liquid,dish detergents,household,117
+C07-20-I,C,7,20,I,46673,Ultra Original Scent Dishwashing Liquid,dish detergents,household,110
+C07-20-D,C,7,20,D,33810,Citrus Dish Soap,dish detergents,household,109
+C07-21-I,C,7,21,I,2707,Complete™ ActionPacs™ Fresh Scent Dishwasher Detergent,dish detergents,household,91
+C07-21-D,C,7,21,D,42677,Ultra Apple Blossom Antibacterial Dish Liquid,dish detergents,household,84
+C07-22-I,C,7,22,I,26717,Ginger Yuzu Scented Dish Soap,dish detergents,household,82
+C07-22-D,C,7,22,D,40925,Ultra Concentrated Original Scent Dishwashing Liquid,dish detergents,household,79
+C07-23-I,C,7,23,I,1939,Geranium Liquid Dish Soap,dish detergents,household,78
+C07-23-D,C,7,23,D,31066,Aluminum Foil,food storage,household,407
+C07-24-I,C,7,24,I,48812,Variety Pack,food storage,household,242
+C07-24-D,C,7,24,D,31268,Sandwich Bags,food storage,household,188
+C07-25-I,C,7,25,I,47865,Quart Storage Bags,food storage,household,156
+C07-25-D,C,7,25,D,5047,Easy Open TabsBags,food storage,household,131
+C08-01-I,C,8,1,I,36618,"12\"" Aluminium Foil",food storage,household,120
+C08-01-D,C,8,1,D,10243,Parchment Paper,food storage,household,116
+C08-02-I,C,8,2,I,49441,Slider Stand & Fill Storage Gallon Bags,food storage,household,84
+C08-02-D,C,8,2,D,44643,Gallon Freezer Bags,food storage,household,80
+C08-03-I,C,8,3,I,204,Free & Clear Natural Laundry Detergent For Sensitive Skin,laundry,household,177
+C08-03-D,C,8,3,D,605,Natural Liquid Laundry Detergent - Blue Eucalyptus and Lavender,laundry,household,152
+C08-04-I,C,8,4,I,9358,April Fresh Liquid Fabric Softener,laundry,household,128
+C08-04-D,C,8,4,D,14419,Fresh Scent Laundry Detergent,laundry,household,119
+C08-05-I,C,8,5,I,5748,Free and Gentle High Efficiency Liquid Laundry Detergent,laundry,household,113
+C08-05-D,C,8,5,D,46129,Versatile Stain Remover,laundry,household,107
+C08-06-I,C,8,6,I,1957,Fabric Softener Dryer Sheet Outdoor Fresh 160CT Fabric Enhancers,laundry,household,102
+C08-06-D,C,8,6,D,42441,Regular Concentrated Bleach,laundry,household,95
+C08-07-I,C,8,7,I,37357,"Natural Laundry Detergent, Free & Clear 33",laundry,household,94
+C08-07-D,C,8,7,D,23892,Original High Efficiency Liquid Laundry Detergent,laundry,household,91
+C08-08-I,C,8,8,I,21849,Original Scent HE Laundry Detergent,laundry,household,73
+C08-08-D,C,8,8,D,41694,Free & Clear Bleach,laundry,household,73
+C08-09-I,C,8,9,I,1947,Tulips 10 Stem,more household,household,92
+C08-09-D,C,8,9,D,8021,100% Recycled Paper Towels,paper goods,household,1183
+C08-10-I,C,8,10,I,2086,Sustainably Soft Bath Tissue,paper goods,household,821
+C08-10-D,C,8,10,D,32650,White Giant Paper Towel Rolls,paper goods,household,379
+C08-11-I,C,8,11,I,19488,Select-A-Size White Paper Towels,paper goods,household,376
+C08-11-D,C,8,11,D,42240,Ultra Soft Facial Tissues,paper goods,household,368
+C08-12-I,C,8,12,I,8230,100% Recycled Bathroom Tissue,paper goods,household,282
+C08-12-D,C,8,12,D,30290,100% Recycled Bath Tissue Rolls,paper goods,household,226
+C08-13-I,C,8,13,I,1217,"Select-A-Size Paper Towels, White, 2 Huge Rolls = 5 Regular Rolls  Towels/Napkins",paper goods,household,219
+C08-13-D,C,8,13,D,37229,"Bathroom Tissue Softness & Strength, Double Rolls",paper goods,household,218
+C08-14-I,C,8,14,I,2536,Ultra Plush 3 ply Toilet Paper 12 Double Rolls,paper goods,household,205
+C08-14-D,C,8,14,D,48370,Sensitive Toilet Paper,paper goods,household,184
+C08-15-I,C,8,15,I,45622,"Paper Towels Choose-A-Sheet, Mega Rolls, One-Ply",paper goods,household,176
+C08-15-D,C,8,15,D,10255,Clean Care Mega Rolls Toilet Paper,paper goods,household,173
+C08-16-I,C,8,16,I,38371,Plus Lotion Facial Tissues,paper goods,household,172
+C08-16-D,C,8,16,D,29628,Ultra Strong Toilet Paper Double Rolls Bathroom Tissue,paper goods,household,167
+C08-17-I,C,8,17,I,27903,CleanCare 1-Ply Double Rolls Toilet Paper,paper goods,household,155
+C08-17-D,C,8,17,D,34658,100% Recycled 2 Ply Jumbo Paper Towel Roll,paper goods,household,154
+C08-18-I,C,8,18,I,12212,Unscented 1000 Sheets Per Roll Bathroom Tissue,paper goods,household,151
+C08-18-D,C,8,18,D,35986,2-Ply 100% Recycled Bathroom Tissue,paper goods,household,150
+C08-19-I,C,8,19,I,21050,"Bathroom Tissue, 1‑Ply, 1000 Sheet Rolls",paper goods,household,145
+C08-19-D,C,8,19,D,45698,One Ply Choose A Size Big Roll Paper Towel Rolls,paper goods,household,142
+C08-20-I,C,8,20,I,8195,Paper Towels,paper goods,household,141
+C08-20-D,C,8,20,D,17858,Everyday 2 Ply Premium Napkins,paper goods,household,139
+C08-21-I,C,8,21,I,29345,Choose-A-Sheet Regular Roll Paper Towels,paper goods,household,138
+C08-21-D,C,8,21,D,29801,100% Recycled White Paper Towels,paper goods,household,137
+C08-22-I,C,8,22,I,23410,Bathroom Tissue Double Rolls,paper goods,household,129
+C08-22-D,C,8,22,D,38511,1 Ply Paper Towels,paper goods,household,129
+C08-23-I,C,8,23,I,4374,Ultra Soft Bathroom Tissue Double Rolls,paper goods,household,126
+C08-23-D,C,8,23,D,48642,2-Ply Right Size 100% Recycled Paper Towels,paper goods,household,119
+C08-24-I,C,8,24,I,20711,Choose-A-Size White Paper Towels 8 Giant Rolls,paper goods,household,118
+C08-24-D,C,8,24,D,31992,"Select-A-Size Paper Towels, White",paper goods,household,109
+C08-25-I,C,8,25,I,26405,XL Pick-A-Size Paper Towel Rolls,paper goods,household,105
+C08-25-D,C,8,25,D,17747,Plastic Wrap,paper goods,household,103
+C09-01-I,C,9,1,I,47000,Ultra Soft Toilet Paper,paper goods,household,101
+C09-01-D,C,9,1,D,44290,Unscented Bathroom Tissue,paper goods,household,99
+C09-02-I,C,9,2,I,48226,Select-A-Size White Giant Roll Paper Towels,paper goods,household,99
+C09-02-D,C,9,2,D,15057,Fresh Care Flushable Cleansing Cloths Refills,paper goods,household,92
+C09-03-I,C,9,3,I,25844,Double Rolls Bath Tissue,paper goods,household,91
+C09-03-D,C,9,3,D,18988,Ultra Soft & Strong® Toilet Paper Double Rolls,paper goods,household,85
+C09-04-I,C,9,4,I,40592,Ultra Soft Facial 3-Ply White Facial Tissues,paper goods,household,83
+C09-04-D,C,9,4,D,35473,Everyday 2-Ply White Facial Tissues,paper goods,household,82
+C09-05-I,C,9,5,I,30638,White Paper Towels,paper goods,household,81
+C09-05-D,C,9,5,D,27629,Trusted Care 2-Ply Tissues,paper goods,household,79
+C09-06-I,C,9,6,I,859,2-Ply Everyday Napkins,paper goods,household,72
+C09-06-D,C,9,6,D,37606,White Quilted Napkins,paper goods,household,72
+C09-07-I,C,9,7,I,31801,9 Inch Plates,plates bowls cups flatware,household,119
+C09-07-D,C,9,7,D,15680,Red Plastic Cups,plates bowls cups flatware,household,106
+C09-08-I,C,9,8,I,28031,"8.5\"" Microwavable Cut Resistant Plates",plates bowls cups flatware,household,92
+C09-08-D,C,9,8,D,32085,Grab 'N Go® Cups & Lids 12 Ounce,plates bowls cups flatware,household,81
+C09-09-I,C,9,9,I,39132,Plastic Cup Squared Base - 30 CT,plates bowls cups flatware,household,77
+C09-09-D,C,9,9,D,49113,Tall Kitchen Drawstring Bags,trash bags liners,household,203
+C09-10-I,C,9,10,I,38300,Tall Kitchen Bag With Febreze Odor Shield,trash bags liners,household,178
+C09-10-D,C,9,10,D,20607,Fresh Vanilla Odor Shield Tall 13 Gallon Drawstring Bags,trash bags liners,household,81
+C09-11-I,C,9,11,I,38949,Febreze Fresh Clean Garbage Bags,trash bags liners,household,78
+C09-11-D,C,9,11,D,8075,Small Compostable Waste Bag,trash bags liners,household,77
+C09-12-I,C,9,12,I,33439,Deep Moisture Body Wash,body lotions soap,personal care,88
+C09-12-D,C,9,12,D,3868,White Beauty Bar,body lotions soap,personal care,83
+C09-13-I,C,9,13,I,35601,Sensitive Skin Moisturizing Cream Soap Bars,body lotions soap,personal care,76
+C09-13-D,C,9,13,D,14711,Organic Lowfat Mango Kefir,digestion,personal care,98
+C09-14-I,C,9,14,I,33493,Cotton Swabs,eye ear care,personal care,258
+C09-14-D,C,9,14,D,280,Makeup Remover Cleansing Towelettes,facial care,personal care,100
+C09-15-I,C,9,15,I,39858,Hydrogen Peroxide,first aid,personal care,81
+C09-15-D,C,9,15,D,9047,Premium Epsom Salt,muscles joints pain relief,personal care,149
+C09-16-I,C,9,16,I,36534,Epsom Salt,muscles joints pain relief,personal care,115
+C09-16-D,C,9,16,D,29418,Fluoride-Free Antiplaque & Whitening Peppermint Toothpaste,oral hygiene,personal care,159
+C09-17-I,C,9,17,I,3007,Natural Anticavity Silly Strawberry Fluoride Toothpaste for Children,oral hygiene,personal care,97
+C09-17-D,C,9,17,D,26606,Simply White Natural Clean Mint Fluoride Toothpaste,oral hygiene,personal care,83
+C09-18-I,C,9,18,I,35206,Whitening Plus Scope Crest Complete Whitening + Scope Multi-Benefit Minty Fresh Striped Toothpaste 6.2oz Dentifrice,oral hygiene,personal care,79
+C09-18-D,C,9,18,D,2272,Peppermint,oral hygiene,personal care,76
+C09-19-I,C,9,19,I,28450,Colagate Total Whitening Toothpaste,oral hygiene,personal care,76
+C09-19-D,C,9,19,D,14650,Vanilla Whey Protein Powder,protein meal replacements,personal care,97
+C09-20-I,C,9,20,I,12312,Lavender Hand Soap,soap,personal care,258
+C09-20-D,C,9,20,D,27544,Lemon Verbena Hand Soap,soap,personal care,191
+C09-21-I,C,9,21,I,39162,Clean Day Basil Hand Soap,soap,personal care,113
+C09-21-D,C,9,21,D,32463,Olive Oil & Aloe Vera Hand Soap,soap,personal care,77
+C09-22-I,C,9,22,I,2996,Honeysuckle Hand Soap,soap,personal care,71
+C09-22-D,C,9,22,D,2238,Vitamin C Super Orange Dietary Supplement,vitamins supplements,personal care,106
+C09-23-I,C,9,23,I,2309,Organic Ground Flaxseed,vitamins supplements,personal care,96
+C09-23-D,C,9,23,D,44471,Free & Clear Unscented Baby Wipes,baby accessories,babies,225
+C09-24-I,C,9,24,I,43875,Baby Food Stage 2 Blueberry Pear & Purple Carrot,baby food formula,babies,310
+C09-24-D,C,9,24,D,34134,Spinach Peas & Pear Stage 2 Baby Food,baby food formula,babies,268
+C09-25-I,C,9,25,I,2611,Gluten Free SpongeBob Spinach Littles,baby food formula,babies,259
+C09-25-D,C,9,25,D,3020,Broccoli & Apple Stage 2 Baby Food,baby food formula,babies,217
+C10-01-I,C,10,1,I,49215,Kids Sensible Foods Broccoli Littles,baby food formula,babies,194
+C10-01-D,C,10,1,D,5114,"Peach,  Apricot & Banana Stage 2 Baby Food",baby food formula,babies,182
+C10-02-I,C,10,2,I,21162,Organic Mixed Berry Yogurt & Fruit Snack,baby food formula,babies,180
+C10-02-D,C,10,2,D,18176,Organic Strawberry Yogurt & Fruit Snack,baby food formula,babies,158
+C10-03-I,C,10,3,I,14211,Baby Food Stage 2 Pumpkin Banana,baby food formula,babies,157
+C10-03-D,C,10,3,D,23025,Organic Stage 4 Green Bean Pear & Pea Baby Food,baby food formula,babies,150
+C10-04-I,C,10,4,I,14491,"Happy Baby Spinach, Mango, and Pear Baby Food",baby food formula,babies,149
+C10-04-D,C,10,4,D,5491,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,baby food formula,babies,146
+C10-05-I,C,10,5,I,38192,Pear & Mango Stage 2 Baby Food,baby food formula,babies,138
+C10-05-D,C,10,5,D,39468,"Apples, Kale & Avocados Organic Baby Food",baby food formula,babies,136
+C10-06-I,C,10,6,I,39427,Apples + Strawberries Organic Nibbly Fingers,baby food formula,babies,134
+C10-06-D,C,10,6,D,1202,Organic Whole Grain Oatmeal Cereal Baby Food,baby food formula,babies,128
+C10-07-I,C,10,7,I,47888,Apple and Carrot Stage 2 Baby Food,baby food formula,babies,123
+C10-07-D,C,10,7,D,38985,Organic Stage 4 Spinach Mango & Pear Baby Food,baby food formula,babies,120
+C10-08-I,C,10,8,I,45767,Sunny Days Strawberry Snack Bars,baby food formula,babies,116
+C10-08-D,C,10,8,D,32018,Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,baby food formula,babies,115
+C10-09-I,C,10,9,I,49044,"Organic Pears, Peas and Broccoli Puree Stage 1",baby food formula,babies,115
+C10-09-D,C,10,9,D,28378,Stage 2 Sweet Potato Corn & Apple Baby Food,baby food formula,babies,104
+C10-10-I,C,10,10,I,19046,Banana & Mango Organic Yogurt & Fruit Snacks ,baby food formula,babies,102
+C10-10-D,C,10,10,D,46807,"Bananas, Raspberries & Oats Organic Baby Food",baby food formula,babies,102
+C10-11-I,C,10,11,I,38984,Kale & Spinach Superfood Puffs,baby food formula,babies,101
+C10-11-D,C,10,11,D,47167,Organic Sunny Days Apple Snack Bars,baby food formula,babies,101
+C10-12-I,C,10,12,I,34249,Strawberry Puffs,baby food formula,babies,98
+C10-12-D,C,10,12,D,24413,Organic Strawberry Banana Fruit Yogurt Smoothie,baby food formula,babies,97
+C10-13-I,C,10,13,I,30192,Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,baby food formula,babies,97
+C10-13-D,C,10,13,D,8912,"Pears, Kale & Spinach Organic Baby Food",baby food formula,babies,96
+C10-14-I,C,10,14,I,44787,Stage 1 - Just Prunes,baby food formula,babies,95
+C10-14-D,C,10,14,D,2664,First Prunes,baby food formula,babies,92
+C10-15-I,C,10,15,I,22210,Organic Stage 2 Broccoli Pears & Peas Baby Food,baby food formula,babies,92
+C10-15-D,C,10,15,D,22969,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",baby food formula,babies,91
+C10-16-I,C,10,16,I,38141,"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",baby food formula,babies,89
+C10-16-D,C,10,16,D,24834,Organic Sweet Potato Puffs,baby food formula,babies,88
+C10-17-I,C,10,17,I,34745,Organic Stage 3 Pear Carrot Apricot Baby Food,baby food formula,babies,88
+C10-17-D,C,10,17,D,4812,Stage 1 Apples & Strawberries Organic Pureed Baby Food,baby food formula,babies,85
+C10-18-I,C,10,18,I,25371,Organic Banana Blueberry Baby Food Puree,baby food formula,babies,85
+C10-18-D,C,10,18,D,31504,Organic Stage 2 Peaches & Bananas Baby Food,baby food formula,babies,83
+C10-19-I,C,10,19,I,12020,"Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack",baby food formula,babies,82
+C10-19-D,C,10,19,D,41375,Organic Atage 3 Nibbly Fingers Mangoes Carrots,baby food formula,babies,82
+C10-20-I,C,10,20,I,16560,Organic Stage 2 Carrots Baby Food,baby food formula,babies,78
+C10-20-D,C,10,20,D,32647,"Apples, Guavas & Beets Organic Baby Food",baby food formula,babies,77
+C10-21-I,C,10,21,I,6188,Organic Apple & Butternut Squash Baby Food,baby food formula,babies,76
+C10-21-D,C,10,21,D,39578,Organic Go Go Apple Peach Applesauce,baby food formula,babies,76
+C10-22-I,C,10,22,I,29557,"Apples, Pumpkin & Carrots Organic Baby Food",baby food formula,babies,75
+C10-22-D,C,10,22,D,12492,Baby Food Pears Squash,baby food formula,babies,72
+C10-23-I,C,10,23,I,12955,"Super Foods/Organic Apples, Spinach, Peas & Broccoli + Super Chia Snack Pouch",baby food formula,babies,72
+C10-23-D,C,10,23,D,36441,Baby Wipes,diapers wipes,babies,81
+C10-24-I,C,10,24,I,5922,"Honest Face, Hand, & Baby Wipes",diapers wipes,babies,78
+C10-24-D,C,10,24,D,16647,Double Duty Advanced Odor Control Clumping Cat Litter,cat food care,pets,84
+C10-25-I,C,10,25,I,54,24/7 Performance Cat Litter,cat food care,pets,76
+C10-25-D,C,10,25,D,49355,Instant Action Cat Litter,cat food care,pets,73

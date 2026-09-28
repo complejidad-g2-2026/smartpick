@@ -1,0 +1,14 @@
+# Entorno virtual y caché de Python
+.venv/
+__pycache__/
+*.pyc
+
+# CSV originales de Instacart (~700 MB): cada uno los descarga, ver data/raw/README.md
+data/raw/*
+!data/raw/README.md
+
+# Editor y sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

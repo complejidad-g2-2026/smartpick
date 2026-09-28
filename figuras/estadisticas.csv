@@ -1,0 +1,5 @@
+zona,nodos,estantes,puntos_pasillo,intersecciones,aristas_internas,departamentos
+A · Frescos,770,500,250,20,778,6
+B · Despensa,770,500,250,20,778,7
+C · Bebidas y hogar,770,500,250,20,778,6
+Total (incluye depósito y enlaces entre zonas),2311,1500,750,60,2339,19

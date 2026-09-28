@@ -1,0 +1,2312 @@
+id,tipo,zona,pasillo,posicion,lado,x,y,product_id,producto,departamento
+A01-00,interseccion,A,1,0,,0.0,0.0,,,
+A01-01,pasillo,A,1,1,,0.0,1.2,,,
+A01-02,pasillo,A,1,2,,0.0,2.4,,,
+A01-03,pasillo,A,1,3,,0.0,3.5999999999999996,,,
+A01-04,pasillo,A,1,4,,0.0,4.8,,,
+A01-05,pasillo,A,1,5,,0.0,6.0,,,
+A01-06,pasillo,A,1,6,,0.0,7.199999999999999,,,
+A01-07,pasillo,A,1,7,,0.0,8.4,,,
+A01-08,pasillo,A,1,8,,0.0,9.6,,,
+A01-09,pasillo,A,1,9,,0.0,10.799999999999999,,,
+A01-10,pasillo,A,1,10,,0.0,12.0,,,
+A01-11,pasillo,A,1,11,,0.0,13.2,,,
+A01-12,pasillo,A,1,12,,0.0,14.399999999999999,,,
+A01-13,pasillo,A,1,13,,0.0,15.6,,,
+A01-14,pasillo,A,1,14,,0.0,16.8,,,
+A01-15,pasillo,A,1,15,,0.0,18.0,,,
+A01-16,pasillo,A,1,16,,0.0,19.2,,,
+A01-17,pasillo,A,1,17,,0.0,20.4,,,
+A01-18,pasillo,A,1,18,,0.0,21.599999999999998,,,
+A01-19,pasillo,A,1,19,,0.0,22.8,,,
+A01-20,pasillo,A,1,20,,0.0,24.0,,,
+A01-21,pasillo,A,1,21,,0.0,25.2,,,
+A01-22,pasillo,A,1,22,,0.0,26.4,,,
+A01-23,pasillo,A,1,23,,0.0,27.599999999999998,,,
+A01-24,pasillo,A,1,24,,0.0,28.799999999999997,,,
+A01-25,pasillo,A,1,25,,0.0,30.0,,,
+A01-26,interseccion,A,1,26,,0.0,31.2,,,
+A01-01-I,estante,A,1,1,I,-2.0,1.2,24852,Banana,produce
+A01-01-D,estante,A,1,1,D,2.0,1.2,13176,Bag of Organic Bananas,produce
+A01-02-I,estante,A,1,2,I,-2.0,2.4,21137,Organic Strawberries,produce
+A01-02-D,estante,A,1,2,D,2.0,2.4,47626,Large Lemon,produce
+A01-03-I,estante,A,1,3,I,-2.0,3.5999999999999996,47766,Organic Avocado,produce
+A01-03-D,estante,A,1,3,D,2.0,3.5999999999999996,47209,Organic Hass Avocado,produce
+A01-04-I,estante,A,1,4,I,-2.0,4.8,16797,Strawberries,produce
+A01-04-D,estante,A,1,4,D,2.0,4.8,26209,Limes,produce
+A01-05-I,estante,A,1,5,I,-2.0,6.0,45066,Honeycrisp Apple,produce
+A01-05-D,estante,A,1,5,D,2.0,6.0,5876,Organic Lemon,produce
+A01-06-I,estante,A,1,6,I,-2.0,7.199999999999999,28204,Organic Fuji Apple,produce
+A01-06-D,estante,A,1,6,D,2.0,7.199999999999999,5450,Small Hass Avocado,produce
+A01-07-I,estante,A,1,7,I,-2.0,8.4,19057,Organic Large Extra Fancy Fuji Apple,produce
+A01-07-D,estante,A,1,7,D,2.0,8.4,26604,Organic Blackberries,produce
+A01-08-I,estante,A,1,8,I,-2.0,9.6,37646,Organic Gala Apples,produce
+A01-08-D,estante,A,1,8,D,2.0,9.6,39877,Organic Granny Smith Apple,produce
+A01-09-I,estante,A,1,9,I,-2.0,10.799999999999999,37067,Organic Banana,produce
+A01-09-D,estante,A,1,9,D,2.0,10.799999999999999,8277,Apple Honeycrisp Organic,produce
+A01-10-I,estante,A,1,10,I,-2.0,12.0,8174,Organic Navel Orange,produce
+A01-10-D,estante,A,1,10,D,2.0,12.0,22825,Organic D'Anjou Pears,produce
+A01-11-I,estante,A,1,11,I,-2.0,13.2,39928,Organic Kiwi,produce
+A01-11-D,estante,A,1,11,D,2.0,13.2,46906,Grape White/Green Seedless,produce
+A01-12-I,estante,A,1,12,I,-2.0,14.399999999999999,9387,Granny Smith Apples,produce
+A01-12-D,estante,A,1,12,D,2.0,14.399999999999999,260,Cantaloupe,produce
+A01-13-I,estante,A,1,13,I,-2.0,15.6,41787,Bartlett Pears,produce
+A01-13-D,estante,A,1,13,D,2.0,15.6,21288,Blackberries,produce
+A01-14-I,estante,A,1,14,I,-2.0,16.8,43122,Organic Bartlett Pear,produce
+A01-14-D,estante,A,1,14,D,2.0,16.8,39408,Gala Apples,produce
+A01-15-I,estante,A,1,15,I,-2.0,18.0,38456,Large Grapefruit,produce
+A01-15-D,estante,A,1,15,D,2.0,18.0,47630,Medium Navel Orange,produce
+A01-16-I,estante,A,1,16,I,-2.0,19.2,40723,Organic Cripps Pink Apples,produce
+A01-16-D,estante,A,1,16,D,2.0,19.2,46969,Organic Bosc Pear,produce
+A01-17-I,estante,A,1,17,I,-2.0,20.4,38159,Organic Yellow Peaches,produce
+A01-17-D,estante,A,1,17,D,2.0,20.4,17122,Honeycrisp Apples,produce
+A01-18-I,estante,A,1,18,I,-2.0,21.599999999999998,32177,Blood Oranges,produce
+A01-18-D,estante,A,1,18,D,2.0,21.599999999999998,38557,Citrus Mandarins Organic,produce
+A01-19-I,estante,A,1,19,I,-2.0,22.8,32303,Red Seedless Grapes,produce
+A01-19-D,estante,A,1,19,D,2.0,22.8,31915,Organic Red Delicious Apple,produce
+A01-20-I,estante,A,1,20,I,-2.0,24.0,47759,Mandarin Oranges,produce
+A01-20-D,estante,A,1,20,D,2.0,24.0,7969,Lime,produce
+A01-21-I,estante,A,1,21,I,-2.0,25.2,47788,Honeydew Melon,produce
+A01-21-D,estante,A,1,21,D,2.0,25.2,10326,Organic Fuji Apples,produce
+A01-22-I,estante,A,1,22,I,-2.0,26.4,14161,Kiwi,produce
+A01-22-D,estante,A,1,22,D,2.0,26.4,25588,Seedless Small Watermelon,produce
+A01-23-I,estante,A,1,23,I,-2.0,27.599999999999998,32429,Red Mango,produce
+A01-23-D,estante,A,1,23,D,2.0,27.599999999999998,10305,Black Plum,produce
+A01-24-I,estante,A,1,24,I,-2.0,28.799999999999997,39276,Bananas,produce
+A01-24-D,estante,A,1,24,D,2.0,28.799999999999997,48527,Avocado,produce
+A01-25-I,estante,A,1,25,I,-2.0,30.0,4149,Frozen Organic Blueberries,produce
+A01-25-D,estante,A,1,25,D,2.0,30.0,33055,Organic Golden Delicious Apple,produce
+A02-00,interseccion,A,2,0,,5.0,0.0,,,
+A02-01,pasillo,A,2,1,,5.0,1.2,,,
+A02-02,pasillo,A,2,2,,5.0,2.4,,,
+A02-03,pasillo,A,2,3,,5.0,3.5999999999999996,,,
+A02-04,pasillo,A,2,4,,5.0,4.8,,,
+A02-05,pasillo,A,2,5,,5.0,6.0,,,
+A02-06,pasillo,A,2,6,,5.0,7.199999999999999,,,
+A02-07,pasillo,A,2,7,,5.0,8.4,,,
+A02-08,pasillo,A,2,8,,5.0,9.6,,,
+A02-09,pasillo,A,2,9,,5.0,10.799999999999999,,,
+A02-10,pasillo,A,2,10,,5.0,12.0,,,
+A02-11,pasillo,A,2,11,,5.0,13.2,,,
+A02-12,pasillo,A,2,12,,5.0,14.399999999999999,,,
+A02-13,pasillo,A,2,13,,5.0,15.6,,,
+A02-14,pasillo,A,2,14,,5.0,16.8,,,
+A02-15,pasillo,A,2,15,,5.0,18.0,,,
+A02-16,pasillo,A,2,16,,5.0,19.2,,,
+A02-17,pasillo,A,2,17,,5.0,20.4,,,
+A02-18,pasillo,A,2,18,,5.0,21.599999999999998,,,
+A02-19,pasillo,A,2,19,,5.0,22.8,,,
+A02-20,pasillo,A,2,20,,5.0,24.0,,,
+A02-21,pasillo,A,2,21,,5.0,25.2,,,
+A02-22,pasillo,A,2,22,,5.0,26.4,,,
+A02-23,pasillo,A,2,23,,5.0,27.599999999999998,,,
+A02-24,pasillo,A,2,24,,5.0,28.799999999999997,,,
+A02-25,pasillo,A,2,25,,5.0,30.0,,,
+A02-26,interseccion,A,2,26,,5.0,31.2,,,
+A02-01-I,estante,A,2,1,I,3.0,1.2,36082,Organic Mango,produce
+A02-01-D,estante,A,2,1,D,7.0,1.2,13575,Apples,produce
+A02-02-I,estante,A,2,2,I,3.0,2.4,31717,Organic Cilantro,produce
+A02-02-D,estante,A,2,2,D,7.0,2.4,34126,Organic Italian Parsley Bunch,produce
+A02-03-I,estante,A,2,3,I,3.0,3.5999999999999996,28842,Bunched Cilantro,produce
+A02-03-D,estante,A,2,3,D,7.0,3.5999999999999996,43789,Organic Basil,produce
+A02-04-I,estante,A,2,4,I,3.0,4.8,13984,Organic Mint,produce
+A02-04-D,estante,A,2,4,D,7.0,4.8,39812,Organic Thyme,produce
+A02-05-I,estante,A,2,5,I,3.0,6.0,42625,"Flat Parsley, Bunch",produce
+A02-05-D,estante,A,2,5,D,7.0,6.0,39984,Organic Dill,produce
+A02-06-I,estante,A,2,6,I,3.0,7.199999999999999,4086,Mint,produce
+A02-06-D,estante,A,2,6,D,7.0,7.199999999999999,15261,Organic Rosemary,produce
+A02-07-I,estante,A,2,7,I,3.0,8.4,1529,"Parsley, Italian (Flat), New England Grown",produce
+A02-07-D,estante,A,2,7,D,7.0,8.4,8955,Basil,produce
+A02-08-I,estante,A,2,8,I,3.0,9.6,30391,Organic Cucumber,produce
+A02-08-D,estante,A,2,8,D,7.0,9.6,45007,Organic Zucchini,produce
+A02-09-I,estante,A,2,9,I,3.0,10.799999999999999,22935,Organic Yellow Onion,produce
+A02-09-D,estante,A,2,9,D,7.0,10.799999999999999,24964,Organic Garlic,produce
+A02-10-I,estante,A,2,10,I,3.0,12.0,46979,Asparagus,produce
+A02-10-D,estante,A,2,10,D,7.0,12.0,8518,Organic Red Onion,produce
+A02-11-I,estante,A,2,11,I,3.0,13.2,4605,Yellow Onions,produce
+A02-11-D,estante,A,2,11,D,7.0,13.2,8424,Broccoli Crown,produce
+A02-12-I,estante,A,2,12,I,3.0,14.399999999999999,24184,Red Peppers,produce
+A02-12-D,estante,A,2,12,D,7.0,14.399999999999999,27104,Fresh Cauliflower,produce
+A02-13-I,estante,A,2,13,I,3.0,15.6,28985,Michigan Organic Kale,produce
+A02-13-D,estante,A,2,13,D,7.0,15.6,44359,Organic Small Bunch Celery,produce
+A02-14-I,estante,A,2,14,I,3.0,16.8,48679,Organic Garnet Sweet Potato (Yam),produce
+A02-14-D,estante,A,2,14,D,7.0,16.8,41950,Organic Tomato Cluster,produce
+A02-15-I,estante,A,2,15,I,3.0,18.0,21938,Green Bell Pepper,produce
+A02-15-D,estante,A,2,15,D,7.0,18.0,17794,Carrots,produce
+A02-16-I,estante,A,2,16,I,3.0,19.2,49683,Cucumber Kirby,produce
+A02-16-D,estante,A,2,16,D,7.0,19.2,10749,Organic Red Bell Pepper,produce
+A02-17-I,estante,A,2,17,I,3.0,20.4,34969,Red Vine Tomato,produce
+A02-17-D,estante,A,2,17,D,7.0,20.4,46667,Organic Ginger Root,produce
+A02-18-I,estante,A,2,18,I,3.0,21.599999999999998,29487,Roma Tomato,produce
+A02-18-D,estante,A,2,18,D,7.0,21.599999999999998,34358,Garlic,produce
+A02-19-I,estante,A,2,19,I,3.0,22.8,20114,Jalapeno Peppers,produce
+A02-19-D,estante,A,2,19,D,7.0,22.8,15290,Orange Bell Pepper,produce
+A02-20-I,estante,A,2,20,I,3.0,24.0,27521,Organic Lacinato (Dinosaur) Kale,produce
+A02-20-D,estante,A,2,20,D,7.0,24.0,16759,Organic Carrot Bunch,produce
+A02-21-I,estante,A,2,21,I,3.0,25.2,9839,Organic Broccoli,produce
+A02-21-D,estante,A,2,21,D,7.0,25.2,38739,Hass Avocado,produce
+A02-22-I,estante,A,2,22,I,3.0,26.4,44142,Red Onion,produce
+A02-22-D,estante,A,2,22,D,7.0,26.4,5025,Green Onions,produce
+A02-23-I,estante,A,2,23,I,3.0,27.599999999999998,8193,Russet Potato,produce
+A02-23-D,estante,A,2,23,D,7.0,27.599999999999998,34243,Organic Baby Broccoli,produce
+A02-24-I,estante,A,2,24,I,3.0,28.799999999999997,31553,Fresh Ginger Root,produce
+A02-24-D,estante,A,2,24,D,7.0,28.799999999999997,26369,Organic Roma Tomato,produce
+A02-25-I,estante,A,2,25,I,3.0,30.0,19678,Organic Russet Potato,produce
+A02-25-D,estante,A,2,25,D,7.0,30.0,2295,Yellow Bell Pepper,produce
+A03-00,interseccion,A,3,0,,10.0,0.0,,,
+A03-01,pasillo,A,3,1,,10.0,1.2,,,
+A03-02,pasillo,A,3,2,,10.0,2.4,,,
+A03-03,pasillo,A,3,3,,10.0,3.5999999999999996,,,
+A03-04,pasillo,A,3,4,,10.0,4.8,,,
+A03-05,pasillo,A,3,5,,10.0,6.0,,,
+A03-06,pasillo,A,3,6,,10.0,7.199999999999999,,,
+A03-07,pasillo,A,3,7,,10.0,8.4,,,
+A03-08,pasillo,A,3,8,,10.0,9.6,,,
+A03-09,pasillo,A,3,9,,10.0,10.799999999999999,,,
+A03-10,pasillo,A,3,10,,10.0,12.0,,,
+A03-11,pasillo,A,3,11,,10.0,13.2,,,
+A03-12,pasillo,A,3,12,,10.0,14.399999999999999,,,
+A03-13,pasillo,A,3,13,,10.0,15.6,,,
+A03-14,pasillo,A,3,14,,10.0,16.8,,,
+A03-15,pasillo,A,3,15,,10.0,18.0,,,
+A03-16,pasillo,A,3,16,,10.0,19.2,,,
+A03-17,pasillo,A,3,17,,10.0,20.4,,,
+A03-18,pasillo,A,3,18,,10.0,21.599999999999998,,,
+A03-19,pasillo,A,3,19,,10.0,22.8,,,
+A03-20,pasillo,A,3,20,,10.0,24.0,,,
+A03-21,pasillo,A,3,21,,10.0,25.2,,,
+A03-22,pasillo,A,3,22,,10.0,26.4,,,
+A03-23,pasillo,A,3,23,,10.0,27.599999999999998,,,
+A03-24,pasillo,A,3,24,,10.0,28.799999999999997,,,
+A03-25,pasillo,A,3,25,,10.0,30.0,,,
+A03-26,interseccion,A,3,26,,10.0,31.2,,,
+A03-01-I,estante,A,3,1,I,8.0,1.2,14992,Green Beans,produce
+A03-01-D,estante,A,3,1,D,12.0,1.2,41220,Organic Romaine Lettuce,produce
+A03-02-I,estante,A,3,2,I,8.0,2.4,44683,Brussels Sprouts,produce
+A03-02-D,estante,A,3,2,D,12.0,2.4,10246,Organic Celery Hearts,produce
+A03-03-I,estante,A,3,3,I,8.0,3.5999999999999996,21405,"Organic Red Radish, Bunch",produce
+A03-03-D,estante,A,3,3,D,12.0,3.5999999999999996,43772,Cherubs Heavenly Salad Tomatoes,produce
+A03-04-I,estante,A,3,4,I,8.0,4.8,43768,Organic Bell Pepper,produce
+A03-04-D,estante,A,3,4,D,12.0,4.8,36695,Organic Hothouse Cucumbers,produce
+A03-05-I,estante,A,3,5,I,8.0,6.0,48364,Sweet Onion,produce
+A03-05-D,estante,A,3,5,D,12.0,6.0,5818,White Onion,produce
+A03-06-I,estante,A,3,6,I,8.0,7.199999999999999,35939,Organic Jalapeno Pepper,produce
+A03-06-D,estante,A,3,6,D,12.0,7.199999999999999,38383,Organic White Onions,produce
+A03-07-I,estante,A,3,7,I,8.0,8.4,3952,Organic Broccoli Crowns,produce
+A03-07-D,estante,A,3,7,D,12.0,8.4,47734,Organic Green Cabbage,produce
+A03-08-I,estante,A,3,8,I,8.0,9.6,15937,Shallot,produce
+A03-08-D,estante,A,3,8,D,12.0,9.6,4562,English Seedless Cucumber,produce
+A03-09-I,estante,A,3,9,I,8.0,10.799999999999999,13629,Organic Snipped Green Beans,produce
+A03-09-D,estante,A,3,9,D,12.0,10.799999999999999,23165,Organic Leek,produce
+A03-10-I,estante,A,3,10,I,8.0,12.0,26940,Organic Large Green Asparagus,produce
+A03-10-D,estante,A,3,10,D,12.0,12.0,28993,Iceberg Lettuce,produce
+A03-11-I,estante,A,3,11,I,8.0,13.2,19048,Organic Butternut Squash,produce
+A03-11-D,estante,A,3,11,D,12.0,13.2,39993,Vine Ripe Tomatoes,produce
+A03-12-I,estante,A,3,12,I,8.0,14.399999999999999,16349,Organic Yams,produce
+A03-12-D,estante,A,3,12,D,12.0,14.399999999999999,15872,Celery Hearts,produce
+A03-13-I,estante,A,3,13,I,8.0,15.6,48745,Globe Eggplant,produce
+A03-13-D,estante,A,3,13,D,12.0,15.6,30720,Sugar Snap Peas,produce
+A03-14-I,estante,A,3,14,I,8.0,16.8,7628,"Dressing, Jersey Sweet Onion, Calorie Free",produce
+A03-14-D,estante,A,3,14,D,12.0,16.8,49383,Organic Bunch Beets,produce
+A03-15-I,estante,A,3,15,I,8.0,18.0,38400,Asparation/Broccolini/Baby Broccoli,produce
+A03-15-D,estante,A,3,15,D,12.0,18.0,45,European Cucumber,produce
+A03-16-I,estante,A,3,16,I,8.0,19.2,35547,Organic Baby Kale,produce
+A03-16-D,estante,A,3,16,D,12.0,19.2,44570,Kale Greens,produce
+A03-17-I,estante,A,3,17,I,8.0,20.4,26497,Romaine Lettuce,produce
+A03-17-D,estante,A,3,17,D,12.0,20.4,17795,Organic Green Leaf Lettuce,produce
+A03-18-I,estante,A,3,18,I,8.0,21.599999999999998,48775,Organic Red Cabbage,produce
+A03-18-D,estante,A,3,18,D,12.0,21.599999999999998,6873,Organic Iceberg Lettuce,produce
+A03-19-I,estante,A,3,19,I,8.0,22.8,5618,Cauliflower,produce
+A03-19-D,estante,A,3,19,D,12.0,22.8,33768,Sinfully Sweet Campari Tomatoes,produce
+A03-20-I,estante,A,3,20,I,8.0,24.0,13733,Red Potatoes,produce
+A03-20-D,estante,A,3,20,D,12.0,24.0,10385,Organic English Cucumber,produce
+A03-21-I,estante,A,3,21,I,8.0,25.2,26283,White Corn,produce
+A03-21-D,estante,A,3,21,D,12.0,25.2,35163,Red Leaf Lettuce,produce
+A03-22-I,estante,A,3,22,I,8.0,26.4,1244,Organic Orange Bell Pepper,produce
+A03-22-D,estante,A,3,22,D,12.0,26.4,18234,Organic Spinach Bunch,produce
+A03-23-I,estante,A,3,23,I,8.0,27.599999999999998,45200,Organic Cauliflower,produce
+A03-23-D,estante,A,3,23,D,12.0,27.599999999999998,37065,Serrano Chile Peppers,produce
+A03-24-I,estante,A,3,24,I,8.0,28.799999999999997,3464,"Organic Butterhead (Boston, Butter, Bibb) Lettuce",produce
+A03-24-D,estante,A,3,24,D,12.0,28.799999999999997,30406,Butternut Squash,produce
+A03-25-I,estante,A,3,25,I,8.0,30.0,18656,Organic Red Potato,produce
+A03-25-D,estante,A,3,25,D,12.0,30.0,14897,Sweet Potato Yam,produce
+A04-00,interseccion,A,4,0,,15.0,0.0,,,
+A04-01,pasillo,A,4,1,,15.0,1.2,,,
+A04-02,pasillo,A,4,2,,15.0,2.4,,,
+A04-03,pasillo,A,4,3,,15.0,3.5999999999999996,,,
+A04-04,pasillo,A,4,4,,15.0,4.8,,,
+A04-05,pasillo,A,4,5,,15.0,6.0,,,
+A04-06,pasillo,A,4,6,,15.0,7.199999999999999,,,
+A04-07,pasillo,A,4,7,,15.0,8.4,,,
+A04-08,pasillo,A,4,8,,15.0,9.6,,,
+A04-09,pasillo,A,4,9,,15.0,10.799999999999999,,,
+A04-10,pasillo,A,4,10,,15.0,12.0,,,
+A04-11,pasillo,A,4,11,,15.0,13.2,,,
+A04-12,pasillo,A,4,12,,15.0,14.399999999999999,,,
+A04-13,pasillo,A,4,13,,15.0,15.6,,,
+A04-14,pasillo,A,4,14,,15.0,16.8,,,
+A04-15,pasillo,A,4,15,,15.0,18.0,,,
+A04-16,pasillo,A,4,16,,15.0,19.2,,,
+A04-17,pasillo,A,4,17,,15.0,20.4,,,
+A04-18,pasillo,A,4,18,,15.0,21.599999999999998,,,
+A04-19,pasillo,A,4,19,,15.0,22.8,,,
+A04-20,pasillo,A,4,20,,15.0,24.0,,,
+A04-21,pasillo,A,4,21,,15.0,25.2,,,
+A04-22,pasillo,A,4,22,,15.0,26.4,,,
+A04-23,pasillo,A,4,23,,15.0,27.599999999999998,,,
+A04-24,pasillo,A,4,24,,15.0,28.799999999999997,,,
+A04-25,pasillo,A,4,25,,15.0,30.0,,,
+A04-26,interseccion,A,4,26,,15.0,31.2,,,
+A04-01-I,estante,A,4,1,I,13.0,1.2,29662,Potato Yukon Gold Organic,produce
+A04-01-D,estante,A,4,1,D,17.0,1.2,29675,Organic Bagged Carrots,produce
+A04-02-I,estante,A,4,2,I,13.0,2.4,41065,Organic Yellow Squash,produce
+A04-02-D,estante,A,4,2,D,17.0,2.4,21295,Organic Spaghetti Squash,produce
+A04-03-I,estante,A,4,3,I,13.0,3.5999999999999996,47042,Organic Red On the Vine Tomato,produce
+A04-03-D,estante,A,4,3,D,17.0,3.5999999999999996,15200,Organic Green Beans,produce
+A04-04-I,estante,A,4,4,I,13.0,4.8,39558,Gold Potato,produce
+A04-04-D,estante,A,4,4,D,17.0,4.8,12614,Yellow Grape Tomatoes,produce
+A04-05-I,estante,A,4,5,I,13.0,6.0,44661,Bicolor Sweet Corn,produce
+A04-05-D,estante,A,4,5,D,17.0,6.0,28601,Collard Greens,produce
+A04-06-I,estante,A,4,6,I,13.0,7.199999999999999,23622,Organic Hot House Tomato,produce
+A04-06-D,estante,A,4,6,D,17.0,7.199999999999999,12980,Large Greenhouse Tomato,produce
+A04-07-I,estante,A,4,7,I,13.0,8.4,31562,Sweet Onions,produce
+A04-07-D,estante,A,4,7,D,17.0,8.4,19003,Celery,produce
+A04-08-I,estante,A,4,8,I,13.0,9.6,35535,Organic Red Chard Greens,produce
+A04-08-D,estante,A,4,8,D,17.0,9.6,13852,Organic Broccoli Crown,produce
+A04-09-I,estante,A,4,9,I,13.0,10.799999999999999,30305,Fancy Eggplant,produce
+A04-09-D,estante,A,4,9,D,17.0,10.799999999999999,37011,Artichokes,produce
+A04-10-I,estante,A,4,10,I,13.0,12.0,581,Garnet Sweet Potato (Yam),produce
+A04-10-D,estante,A,4,10,D,17.0,12.0,5652,Organic Red Potatoes,produce
+A04-11-I,estante,A,4,11,I,13.0,13.2,41259,Poblano Pepper,produce
+A04-11-D,estante,A,4,11,D,17.0,13.2,43352,Raspberries,produce
+A04-12-I,estante,A,4,12,I,13.0,14.399999999999999,12341,Hass Avocados,produce
+A04-12-D,estante,A,4,12,D,17.0,14.399999999999999,6184,Clementines,produce
+A04-13-I,estante,A,4,13,I,13.0,15.6,30827,Seedless Cucumbers,produce
+A04-13-D,estante,A,4,13,D,17.0,15.6,8571,Baby Cucumbers,produce
+A04-14-I,estante,A,4,14,I,13.0,16.8,8048,Packaged Grape Tomatoes,produce
+A04-14-D,estante,A,4,14,D,17.0,16.8,19691,Green Seedless Grapes,produce
+A04-15-I,estante,A,4,15,I,13.0,18.0,38768,Sweet Kale Salad Mix,produce
+A04-15-D,estante,A,4,15,D,17.0,18.0,21292,Rainbow Bell Peppers,produce
+A04-16-I,estante,A,4,16,I,13.0,19.2,4724,Broccoli Florettes,produce
+A04-16-D,estante,A,4,16,D,17.0,19.2,5068,Cauliflower Florets,produce
+A04-17-I,estante,A,4,17,I,13.0,20.4,21903,Organic Baby Spinach,produce
+A04-17-D,estante,A,4,17,D,17.0,20.4,27966,Organic Raspberries,produce
+A04-18-I,estante,A,4,18,I,13.0,21.599999999999998,39275,Organic Blueberries,produce
+A04-18-D,estante,A,4,18,D,17.0,21.599999999999998,4920,Seedless Red Grapes,produce
+A04-19-I,estante,A,4,19,I,13.0,22.8,40706,Organic Grape Tomatoes,produce
+A04-19-D,estante,A,4,19,D,17.0,22.8,42265,Organic Baby Carrots,produce
+A04-20-I,estante,A,4,20,I,13.0,24.0,21616,Organic Baby Arugula,produce
+A04-20-D,estante,A,4,20,D,17.0,24.0,43961,Organic Peeled Whole Baby Carrots,produce
+A04-21-I,estante,A,4,21,I,13.0,25.2,11777,Red Raspberries,produce
+A04-21-D,estante,A,4,21,D,17.0,25.2,28199,"Clementines, Bag",produce
+A04-22-I,estante,A,4,22,I,13.0,26.4,37687,Organic Spring Mix,produce
+A04-22-D,estante,A,4,22,D,17.0,26.4,24830,Organic Romaine,produce
+A04-23-I,estante,A,4,23,I,13.0,27.599999999999998,11182,Baby Spinach,produce
+A04-23-D,estante,A,4,23,D,17.0,27.599999999999998,32689,Romaine Hearts,produce
+A04-24-I,estante,A,4,24,I,13.0,28.799999999999997,32864,Organic Baby Rainbow Carrots,produce
+A04-24-D,estante,A,4,24,D,17.0,28.799999999999997,48205,Spinach,produce
+A04-25-I,estante,A,4,25,I,13.0,30.0,5212,Watermelon Chunks,produce
+A04-25-D,estante,A,4,25,D,17.0,30.0,28289,Organic Shredded Carrots,produce
+A05-00,interseccion,A,5,0,,20.0,0.0,,,
+A05-01,pasillo,A,5,1,,20.0,1.2,,,
+A05-02,pasillo,A,5,2,,20.0,2.4,,,
+A05-03,pasillo,A,5,3,,20.0,3.5999999999999996,,,
+A05-04,pasillo,A,5,4,,20.0,4.8,,,
+A05-05,pasillo,A,5,5,,20.0,6.0,,,
+A05-06,pasillo,A,5,6,,20.0,7.199999999999999,,,
+A05-07,pasillo,A,5,7,,20.0,8.4,,,
+A05-08,pasillo,A,5,8,,20.0,9.6,,,
+A05-09,pasillo,A,5,9,,20.0,10.799999999999999,,,
+A05-10,pasillo,A,5,10,,20.0,12.0,,,
+A05-11,pasillo,A,5,11,,20.0,13.2,,,
+A05-12,pasillo,A,5,12,,20.0,14.399999999999999,,,
+A05-13,pasillo,A,5,13,,20.0,15.6,,,
+A05-14,pasillo,A,5,14,,20.0,16.8,,,
+A05-15,pasillo,A,5,15,,20.0,18.0,,,
+A05-16,pasillo,A,5,16,,20.0,19.2,,,
+A05-17,pasillo,A,5,17,,20.0,20.4,,,
+A05-18,pasillo,A,5,18,,20.0,21.599999999999998,,,
+A05-19,pasillo,A,5,19,,20.0,22.8,,,
+A05-20,pasillo,A,5,20,,20.0,24.0,,,
+A05-21,pasillo,A,5,21,,20.0,25.2,,,
+A05-22,pasillo,A,5,22,,20.0,26.4,,,
+A05-23,pasillo,A,5,23,,20.0,27.599999999999998,,,
+A05-24,pasillo,A,5,24,,20.0,28.799999999999997,,,
+A05-25,pasillo,A,5,25,,20.0,30.0,,,
+A05-26,interseccion,A,5,26,,20.0,31.2,,,
+A05-01-I,estante,A,5,1,I,18.0,1.2,44910,Organic Spring Mix Salad,produce
+A05-01-D,estante,A,5,1,D,22.0,1.2,36070,"Super Spinach! Baby Spinach, Baby Bok Choy, Sweet Baby Kale",produce
+A05-02-I,estante,A,5,2,I,18.0,2.4,25931,Organic Baby Spinach Salad,produce
+A05-02-D,estante,A,5,2,D,22.0,2.4,43086,Super Greens Salad,produce
+A05-03-I,estante,A,5,3,I,18.0,3.5999999999999996,37766,XL Emerald White Seedless Grapes,produce
+A05-03-D,estante,A,5,3,D,22.0,3.5999999999999996,40516,Organic Romaine Hearts,produce
+A05-04-I,estante,A,5,4,I,18.0,4.8,27336,Organic Rainbow Carrots,produce
+A05-04-D,estante,A,5,4,D,22.0,4.8,38777,Organic Green Seedless Grapes,produce
+A05-05-I,estante,A,5,5,I,18.0,6.0,21174,I Heart Baby Kale,produce
+A05-05-D,estante,A,5,5,D,22.0,6.0,29307,Baby Arugula,produce
+A05-06-I,estante,A,5,6,I,18.0,7.199999999999999,21872,Organic Italian Salad,produce
+A05-06-D,estante,A,5,6,D,22.0,7.199999999999999,26800,Organic Baby Kale Mix,produce
+A05-07-I,estante,A,5,7,I,18.0,8.4,33352,Organic Kale Greens,produce
+A05-07-D,estante,A,5,7,D,22.0,8.4,32465,Sliced White Mushrooms,produce
+A05-08-I,estante,A,5,8,I,18.0,9.6,11140,Organic Romaine Leaf,produce
+A05-08-D,estante,A,5,8,D,22.0,9.6,16616,Organic Sliced White Mushrooms,produce
+A05-09-I,estante,A,5,9,I,18.0,10.799999999999999,22849,Bunny-Luv Fresh Organic Carrots,produce
+A05-09-D,estante,A,5,9,D,22.0,10.799999999999999,1408,Mini Cucumbers,produce
+A05-10-I,estante,A,5,10,I,18.0,12.0,39922,Celery Sticks,produce
+A05-10-D,estante,A,5,10,D,22.0,12.0,45063,Organic Baby Bella Mushrooms,produce
+A05-11-I,estante,A,5,11,I,18.0,13.2,36956,Stringless Sugar Snap Peas,produce
+A05-11-D,estante,A,5,11,D,22.0,13.2,41273,Broccoli Florets,produce
+A05-12-I,estante,A,5,12,I,18.0,14.399999999999999,39040,Organic Sliced Crimini Mushrooms,produce
+A05-12-D,estante,A,5,12,D,22.0,14.399999999999999,33000,Pure Irish Butter,dairy eggs
+A05-13-I,estante,A,5,13,I,18.0,15.6,42736,Unsalted Butter,dairy eggs
+A05-13-D,estante,A,5,13,D,22.0,15.6,35108,Salted Butter,dairy eggs
+A05-14-I,estante,A,5,14,I,18.0,16.8,7948,Organic Unsalted Butter,dairy eggs
+A05-14-D,estante,A,5,14,D,22.0,16.8,2078,Unsalted Pure Irish Butter,dairy eggs
+A05-15-I,estante,A,5,15,I,18.0,18.0,651,Organic Salted Butter,dairy eggs
+A05-15-D,estante,A,5,15,D,22.0,18.0,15613,Salted Tub of Butter,dairy eggs
+A05-16-I,estante,A,5,16,I,18.0,19.2,5460,Butter,dairy eggs
+A05-16-D,estante,A,5,16,D,22.0,19.2,49235,Organic Half & Half,dairy eggs
+A05-17-I,estante,A,5,17,I,18.0,20.4,27086,Half & Half,dairy eggs
+A05-17-D,estante,A,5,17,D,22.0,20.4,44987,Heavy Whipping Cream,dairy eggs
+A05-18-I,estante,A,5,18,I,18.0,21.599999999999998,18531,Organic Heavy Whipping Cream,dairy eggs
+A05-18-D,estante,A,5,18,D,22.0,21.599999999999998,39581,French Vanilla Creamer,dairy eggs
+A05-19-I,estante,A,5,19,I,18.0,22.8,47156,Coconut Almond Unsweetened Creamer Blend,dairy eggs
+A05-19-D,estante,A,5,19,D,22.0,22.8,27744,Organic Whipping Cream,dairy eggs
+A05-20-I,estante,A,5,20,I,18.0,24.0,11520,Large Alfresco Eggs,dairy eggs
+A05-20-D,estante,A,5,20,D,22.0,24.0,18465,Organic Grade A Free Range Large Brown Eggs,dairy eggs
+A05-21-I,estante,A,5,21,I,18.0,25.2,30233,Organic Large Brown Grade AA Cage Free Eggs,dairy eggs
+A05-21-D,estante,A,5,21,D,22.0,25.2,32655,Organic Large Grade AA Brown Eggs,dairy eggs
+A05-22-I,estante,A,5,22,I,18.0,26.4,46654,Organic Grade A Large Brown Eggs,dairy eggs
+A05-22-D,estante,A,5,22,D,22.0,26.4,33120,Organic Egg Whites,dairy eggs
+A05-23-I,estante,A,5,23,I,18.0,27.599999999999998,35921,Organic Large Grade A Brown Eggs,dairy eggs
+A05-23-D,estante,A,5,23,D,22.0,27.599999999999998,40332,"Cage Free Brown Eggs-Large, Grade A",dairy eggs
+A05-24-I,estante,A,5,24,I,18.0,28.799999999999997,5782,Grade A Large White Eggs,dairy eggs
+A05-24-D,estante,A,5,24,D,22.0,28.799999999999997,16083,Organic Large Brown Eggs,dairy eggs
+A05-25-I,estante,A,5,25,I,18.0,30.0,36550,Organic Extra Large Grade AA Brown Eggs,dairy eggs
+A05-25-D,estante,A,5,25,D,22.0,30.0,14218,Grade A Large Eggs Cage Free Omega 3,dairy eggs
+A06-00,interseccion,A,6,0,,25.0,0.0,,,
+A06-01,pasillo,A,6,1,,25.0,1.2,,,
+A06-02,pasillo,A,6,2,,25.0,2.4,,,
+A06-03,pasillo,A,6,3,,25.0,3.5999999999999996,,,
+A06-04,pasillo,A,6,4,,25.0,4.8,,,
+A06-05,pasillo,A,6,5,,25.0,6.0,,,
+A06-06,pasillo,A,6,6,,25.0,7.199999999999999,,,
+A06-07,pasillo,A,6,7,,25.0,8.4,,,
+A06-08,pasillo,A,6,8,,25.0,9.6,,,
+A06-09,pasillo,A,6,9,,25.0,10.799999999999999,,,
+A06-10,pasillo,A,6,10,,25.0,12.0,,,
+A06-11,pasillo,A,6,11,,25.0,13.2,,,
+A06-12,pasillo,A,6,12,,25.0,14.399999999999999,,,
+A06-13,pasillo,A,6,13,,25.0,15.6,,,
+A06-14,pasillo,A,6,14,,25.0,16.8,,,
+A06-15,pasillo,A,6,15,,25.0,18.0,,,
+A06-16,pasillo,A,6,16,,25.0,19.2,,,
+A06-17,pasillo,A,6,17,,25.0,20.4,,,
+A06-18,pasillo,A,6,18,,25.0,21.599999999999998,,,
+A06-19,pasillo,A,6,19,,25.0,22.8,,,
+A06-20,pasillo,A,6,20,,25.0,24.0,,,
+A06-21,pasillo,A,6,21,,25.0,25.2,,,
+A06-22,pasillo,A,6,22,,25.0,26.4,,,
+A06-23,pasillo,A,6,23,,25.0,27.599999999999998,,,
+A06-24,pasillo,A,6,24,,25.0,28.799999999999997,,,
+A06-25,pasillo,A,6,25,,25.0,30.0,,,
+A06-26,interseccion,A,6,26,,25.0,31.2,,,
+A06-01-I,estante,A,6,1,I,23.0,1.2,11712,Cage Free Large White Eggs,dairy eggs
+A06-01-D,estante,A,6,1,D,27.0,1.2,44799,Fresh CA Grown Eggs,dairy eggs
+A06-02-I,estante,A,6,2,I,23.0,2.4,23341,Large Grade AA Eggs,dairy eggs
+A06-02-D,estante,A,6,2,D,27.0,2.4,14999,Grade A Large Brown Eggs,dairy eggs
+A06-03-I,estante,A,6,3,I,23.0,3.5999999999999996,23543,Organic Extra Large Brown Eggs,dairy eggs
+A06-03-D,estante,A,6,3,D,27.0,3.5999999999999996,26384,Large Brown Eggs,dairy eggs
+A06-04-I,estante,A,6,4,I,23.0,4.8,27307,Cage Free Grade A Large Brown Eggs,dairy eggs
+A06-04-D,estante,A,6,4,D,27.0,4.8,27845,Organic Whole Milk,dairy eggs
+A06-05-I,estante,A,6,5,I,23.0,6.0,23909,2% Reduced Fat Milk,dairy eggs
+A06-05-D,estante,A,6,5,D,27.0,6.0,5785,Organic Reduced Fat 2% Milk,dairy eggs
+A06-06-I,estante,A,6,6,I,23.0,7.199999999999999,4210,Whole Milk,dairy eggs
+A06-06-D,estante,A,6,6,D,27.0,7.199999999999999,19348,Fat Free Milk,dairy eggs
+A06-07-I,estante,A,6,7,I,23.0,8.4,38689,Organic Reduced Fat Milk,dairy eggs
+A06-07-D,estante,A,6,7,D,27.0,8.4,1940,Organic 2% Reduced Fat Milk,dairy eggs
+A06-08-I,estante,A,6,8,I,23.0,9.6,1463,Organic Milk,dairy eggs
+A06-08-D,estante,A,6,8,D,27.0,9.6,36011,Organic Fat Free Milk,dairy eggs
+A06-09-I,estante,A,6,9,I,23.0,10.799999999999999,32478,Reduced Fat 2% Milk,dairy eggs
+A06-09-D,estante,A,6,9,D,27.0,10.799999999999999,40174,2% Reduced Fat Organic Milk,dairy eggs
+A06-10-I,estante,A,6,10,I,23.0,12.0,1511,2% Reduced Fat DHA Omega-3 Reduced Fat Milk,dairy eggs
+A06-10-D,estante,A,6,10,D,27.0,12.0,29447,"Milk, Organic, Vitamin D",dairy eggs
+A06-11-I,estante,A,6,11,I,23.0,13.2,20082,Organic Whole Milk with DHA Omega-3,dairy eggs
+A06-11-D,estante,A,6,11,D,27.0,13.2,13249,Skim Milk,dairy eggs
+A06-12-I,estante,A,6,12,I,23.0,14.399999999999999,39180,Organic Lowfat 1% Milk,dairy eggs
+A06-12-D,estante,A,6,12,D,27.0,14.399999999999999,329,Organic Whole Grassmilk Milk,dairy eggs
+A06-13-I,estante,A,6,13,I,23.0,15.6,17316,Vitamin D Organic Whole Milk,dairy eggs
+A06-13-D,estante,A,6,13,D,27.0,15.6,24024,1% Lowfat Milk,dairy eggs
+A06-14-I,estante,A,6,14,I,23.0,16.8,5612,Reduced Fat Milk,dairy eggs
+A06-14-D,estante,A,6,14,D,27.0,16.8,10070,Organic 1% Low Fat Milk,dairy eggs
+A06-15-I,estante,A,6,15,I,23.0,18.0,28427,Vitamin D Whole Milk,dairy eggs
+A06-15-D,estante,A,6,15,D,27.0,18.0,13166,"Organic Milk Reduced Fat, 2% Milkfat",dairy eggs
+A06-16-I,estante,A,6,16,I,23.0,19.2,20940,Organic Low Fat Milk,dairy eggs
+A06-16-D,estante,A,6,16,D,27.0,19.2,35914,Dha Omega 3 Reduced Fat 2% Milk,dairy eggs
+A06-17-I,estante,A,6,17,I,23.0,20.4,32747,Low Fat 1% Milk,dairy eggs
+A06-17-D,estante,A,6,17,D,27.0,20.4,32403,Fat Free Skim Milk,dairy eggs
+A06-18-I,estante,A,6,18,I,23.0,21.599999999999998,31981,1% Low Fat Milk,dairy eggs
+A06-18-D,estante,A,6,18,D,27.0,21.599999999999998,36929,"Milk, Vitamin D",dairy eggs
+A06-19-I,estante,A,6,19,I,23.0,22.8,3583,Unsweetened Coconut Milk Beverage,dairy eggs
+A06-19-D,estante,A,6,19,D,27.0,22.8,45504,Whole Organic Omega 3 Milk,dairy eggs
+A06-20-I,estante,A,6,20,I,23.0,24.0,42828,Whipped Cream Cheese,dairy eggs
+A06-20-D,estante,A,6,20,D,27.0,24.0,42701,Organic Sour Cream,dairy eggs
+A06-21-I,estante,A,6,21,I,23.0,25.2,23734,Sour Cream,dairy eggs
+A06-21-D,estante,A,6,21,D,27.0,25.2,27323,Pure & Natural Sour Cream,dairy eggs
+A06-22-I,estante,A,6,22,I,23.0,26.4,21333,Original Whipped Cream Cheese,dairy eggs
+A06-22-D,estante,A,6,22,D,27.0,26.4,37029,Cream Cheese Spread,dairy eggs
+A06-23-I,estante,A,6,23,I,23.0,27.599999999999998,28476,Organic Small Curd Cottage Cheese,dairy eggs
+A06-23-D,estante,A,6,23,D,27.0,27.599999999999998,36086,Philadelphia Original Cream Cheese,dairy eggs
+A06-24-I,estante,A,6,24,I,23.0,28.799999999999997,11005,Organic Cream Cheese Bar,dairy eggs
+A06-24-D,estante,A,6,24,D,27.0,28.799999999999997,2314,Whole Milk Ricotta Cheese,dairy eggs
+A06-25-I,estante,A,6,25,I,23.0,30.0,40593,Cream Cheese,dairy eggs
+A06-25-D,estante,A,6,25,D,27.0,30.0,13083,Lowfat Small Curd Cottage Cheese,dairy eggs
+A07-00,interseccion,A,7,0,,30.0,0.0,,,
+A07-01,pasillo,A,7,1,,30.0,1.2,,,
+A07-02,pasillo,A,7,2,,30.0,2.4,,,
+A07-03,pasillo,A,7,3,,30.0,3.5999999999999996,,,
+A07-04,pasillo,A,7,4,,30.0,4.8,,,
+A07-05,pasillo,A,7,5,,30.0,6.0,,,
+A07-06,pasillo,A,7,6,,30.0,7.199999999999999,,,
+A07-07,pasillo,A,7,7,,30.0,8.4,,,
+A07-08,pasillo,A,7,8,,30.0,9.6,,,
+A07-09,pasillo,A,7,9,,30.0,10.799999999999999,,,
+A07-10,pasillo,A,7,10,,30.0,12.0,,,
+A07-11,pasillo,A,7,11,,30.0,13.2,,,
+A07-12,pasillo,A,7,12,,30.0,14.399999999999999,,,
+A07-13,pasillo,A,7,13,,30.0,15.6,,,
+A07-14,pasillo,A,7,14,,30.0,16.8,,,
+A07-15,pasillo,A,7,15,,30.0,18.0,,,
+A07-16,pasillo,A,7,16,,30.0,19.2,,,
+A07-17,pasillo,A,7,17,,30.0,20.4,,,
+A07-18,pasillo,A,7,18,,30.0,21.599999999999998,,,
+A07-19,pasillo,A,7,19,,30.0,22.8,,,
+A07-20,pasillo,A,7,20,,30.0,24.0,,,
+A07-21,pasillo,A,7,21,,30.0,25.2,,,
+A07-22,pasillo,A,7,22,,30.0,26.4,,,
+A07-23,pasillo,A,7,23,,30.0,27.599999999999998,,,
+A07-24,pasillo,A,7,24,,30.0,28.799999999999997,,,
+A07-25,pasillo,A,7,25,,30.0,30.0,,,
+A07-26,interseccion,A,7,26,,30.0,31.2,,,
+A07-01-I,estante,A,7,1,I,28.0,1.2,22035,Organic Whole String Cheese,dairy eggs
+A07-01-D,estante,A,7,1,D,32.0,1.2,33731,Grated Parmesan,dairy eggs
+A07-02-I,estante,A,7,2,I,28.0,2.4,40604,Feta Cheese Crumbles,dairy eggs
+A07-02-D,estante,A,7,2,D,32.0,2.4,7781,Organic Sticks Low Moisture Part Skim Mozzarella String Cheese,dairy eggs
+A07-03-I,estante,A,7,3,I,28.0,3.5999999999999996,4799,Shredded Parmesan,dairy eggs
+A07-03-D,estante,A,7,3,D,32.0,3.5999999999999996,16185,Sharp Cheddar Cheese,dairy eggs
+A07-04-I,estante,A,7,4,I,28.0,4.8,31343,Shredded Mild Cheddar Cheese,dairy eggs
+A07-04-D,estante,A,7,4,D,32.0,4.8,29987,Shredded Mozzarella,dairy eggs
+A07-05-I,estante,A,7,5,I,28.0,6.0,10132,Organic American Cheese Singles,dairy eggs
+A07-05-D,estante,A,7,5,D,32.0,6.0,41665,Organic Mexican Blend Finely Shredded Cheese,dairy eggs
+A07-06-I,estante,A,7,6,I,28.0,7.199999999999999,18370,Organic Shredded Mozzarella,dairy eggs
+A07-06-D,estante,A,7,6,D,32.0,7.199999999999999,33401,Goat Cheese Crumbles,dairy eggs
+A07-07-I,estante,A,7,7,I,28.0,8.4,6348,Mini Original Babybel Cheese,dairy eggs
+A07-07-D,estante,A,7,7,D,32.0,8.4,27548,Original Semisoft Cheese,dairy eggs
+A07-08-I,estante,A,7,8,I,28.0,9.6,44765,Colby Cheese Sticks,dairy eggs
+A07-08-D,estante,A,7,8,D,32.0,9.6,11068,Medium Cheddar Cheese Block,dairy eggs
+A07-09-I,estante,A,7,9,I,28.0,10.799999999999999,17008,Shredded Sharp Cheddar Cheese,dairy eggs
+A07-09-D,estante,A,7,9,D,32.0,10.799999999999999,4367,Garlic & Fine Herbs Gournay Cheese,dairy eggs
+A07-10-I,estante,A,7,10,I,28.0,12.0,3990,Natural Sharp Cheddar Sliced Cheese,dairy eggs
+A07-10-D,estante,A,7,10,D,32.0,12.0,45646,Grated Parmesan Cheese,dairy eggs
+A07-11-I,estante,A,7,11,I,28.0,13.2,17949,Mild Cheddar Cheese Sticks,dairy eggs
+A07-11-D,estante,A,7,11,D,32.0,13.2,3298,Mozzarella String Cheese,dairy eggs
+A07-12-I,estante,A,7,12,I,28.0,14.399999999999999,38772,Provolone,dairy eggs
+A07-12-D,estante,A,7,12,D,32.0,14.399999999999999,18594,Emmentaler Swiss Slices,dairy eggs
+A07-13-I,estante,A,7,13,I,28.0,15.6,44479,Organic Stringles Mozzarella String Cheese,dairy eggs
+A07-13-D,estante,A,7,13,D,32.0,15.6,7131,Light Semisoft Cheese,dairy eggs
+A07-14-I,estante,A,7,14,I,28.0,16.8,35951,Organic Unsweetened Almond Milk,dairy eggs
+A07-14-D,estante,A,7,14,D,32.0,16.8,24838,Unsweetened Almondmilk,dairy eggs
+A07-15-I,estante,A,7,15,I,28.0,18.0,47144,Unsweetened Original Almond Breeze Almond Milk,dairy eggs
+A07-15-D,estante,A,7,15,D,32.0,18.0,432,Vanilla Almond Breeze Almond Milk,dairy eggs
+A07-16-I,estante,A,7,16,I,28.0,19.2,43295,Unsweetened Vanilla Almond Milk,dairy eggs
+A07-16-D,estante,A,7,16,D,32.0,19.2,25659,Organic Coconut Milk,dairy eggs
+A07-17-I,estante,A,7,17,I,28.0,20.4,4472,Toasted Coconut Almondmilk Blend,dairy eggs
+A07-17-D,estante,A,7,17,D,32.0,20.4,7175,Organic Whipped Naturally Buttery Spread,dairy eggs
+A07-18-I,estante,A,7,18,I,28.0,21.599999999999998,19677,Original Pure Creamy Almond Milk,dairy eggs
+A07-18-D,estante,A,7,18,D,32.0,21.599999999999998,14084,Organic Unsweetened Vanilla Almond Milk,dairy eggs
+A07-19-I,estante,A,7,19,I,28.0,22.8,39190,Vanilla Unsweetened Almond Milk,dairy eggs
+A07-19-D,estante,A,7,19,D,32.0,22.8,22959,Reduced Fat Milk 100% Lactose Free,dairy eggs
+A07-20-I,estante,A,7,20,I,28.0,24.0,27730,Almond Breeze Original Almond Milk,dairy eggs
+A07-20-D,estante,A,7,20,D,32.0,24.0,46820,Vanilla Pure Almond Milk,dairy eggs
+A07-21-I,estante,A,7,21,I,28.0,25.2,45104,ALMONDBREEZE UNSWEETENED,dairy eggs
+A07-21-D,estante,A,7,21,D,32.0,25.2,29127,Dairy Free Unsweetened Coconut Milk,dairy eggs
+A07-22-I,estante,A,7,22,I,28.0,26.4,4942,Vanilla Almond Breeze,dairy eggs
+A07-22-D,estante,A,7,22,D,32.0,26.4,35503,Organic Vanilla Almond Milk,dairy eggs
+A07-23-I,estante,A,7,23,I,28.0,27.599999999999998,49610,100% Lactose Free Fat Free Milk,dairy eggs
+A07-23-D,estante,A,7,23,D,32.0,27.599999999999998,6948,Organic Original Almond Milk,dairy eggs
+A07-24-I,estante,A,7,24,I,28.0,28.799999999999997,37524,Fresh Mozzarella Ball,dairy eggs
+A07-24-D,estante,A,7,24,D,32.0,28.799999999999997,20842,Total 0% Greek Yogurt,dairy eggs
+A07-25-I,estante,A,7,25,I,28.0,30.0,46676,Total 0% Nonfat Greek Yogurt,dairy eggs
+A07-25-D,estante,A,7,25,D,32.0,30.0,33754,Total 2% with Strawberry Lowfat Greek Strained Yogurt,dairy eggs
+A08-00,interseccion,A,8,0,,35.0,0.0,,,
+A08-01,pasillo,A,8,1,,35.0,1.2,,,
+A08-02,pasillo,A,8,2,,35.0,2.4,,,
+A08-03,pasillo,A,8,3,,35.0,3.5999999999999996,,,
+A08-04,pasillo,A,8,4,,35.0,4.8,,,
+A08-05,pasillo,A,8,5,,35.0,6.0,,,
+A08-06,pasillo,A,8,6,,35.0,7.199999999999999,,,
+A08-07,pasillo,A,8,7,,35.0,8.4,,,
+A08-08,pasillo,A,8,8,,35.0,9.6,,,
+A08-09,pasillo,A,8,9,,35.0,10.799999999999999,,,
+A08-10,pasillo,A,8,10,,35.0,12.0,,,
+A08-11,pasillo,A,8,11,,35.0,13.2,,,
+A08-12,pasillo,A,8,12,,35.0,14.399999999999999,,,
+A08-13,pasillo,A,8,13,,35.0,15.6,,,
+A08-14,pasillo,A,8,14,,35.0,16.8,,,
+A08-15,pasillo,A,8,15,,35.0,18.0,,,
+A08-16,pasillo,A,8,16,,35.0,19.2,,,
+A08-17,pasillo,A,8,17,,35.0,20.4,,,
+A08-18,pasillo,A,8,18,,35.0,21.599999999999998,,,
+A08-19,pasillo,A,8,19,,35.0,22.8,,,
+A08-20,pasillo,A,8,20,,35.0,24.0,,,
+A08-21,pasillo,A,8,21,,35.0,25.2,,,
+A08-22,pasillo,A,8,22,,35.0,26.4,,,
+A08-23,pasillo,A,8,23,,35.0,27.599999999999998,,,
+A08-24,pasillo,A,8,24,,35.0,28.799999999999997,,,
+A08-25,pasillo,A,8,25,,35.0,30.0,,,
+A08-26,interseccion,A,8,26,,35.0,31.2,,,
+A08-01-I,estante,A,8,1,I,33.0,1.2,39475,Total Greek Strained Yogurt,dairy eggs
+A08-01-D,estante,A,8,1,D,37.0,1.2,18523,Total 2% All Natural Greek Strained Yogurt with Honey,dairy eggs
+A08-02-I,estante,A,8,2,I,33.0,2.4,24799,Vanilla Skyr Nonfat Yogurt,dairy eggs
+A08-02-D,estante,A,8,2,D,37.0,2.4,17600,"YoKids Squeezers Organic Low-Fat Yogurt, Strawberry",dairy eggs
+A08-03-I,estante,A,8,3,I,33.0,3.5999999999999996,28465,Icelandic Style Skyr Blueberry Non-fat Yogurt,dairy eggs
+A08-03-D,estante,A,8,3,D,37.0,3.5999999999999996,28156,Total 0% Nonfat Plain Greek Yogurt,dairy eggs
+A08-04-I,estante,A,8,4,I,33.0,4.8,40571,Total 2% Greek Strained Yogurt with Cherry 5.3 oz,dairy eggs
+A08-04-D,estante,A,8,4,D,37.0,4.8,4957,Total 2% Lowfat Greek Strained Yogurt With Blueberry,dairy eggs
+A08-05-I,estante,A,8,5,I,33.0,6.0,33787,Total 2% Lowfat Greek Strained Yogurt with Peach,dairy eggs
+A08-05-D,estante,A,8,5,D,37.0,6.0,30169,Total 2% All Natural Plain Greek Yogurt,dairy eggs
+A08-06-I,estante,A,8,6,I,33.0,7.199999999999999,17872,Total 2% Lowfat Plain Greek Yogurt,dairy eggs
+A08-06-D,estante,A,8,6,D,37.0,7.199999999999999,36865,Non Fat Raspberry Yogurt,dairy eggs
+A08-07-I,estante,A,8,7,I,33.0,8.4,6104,Whole Milk Plain Yogurt,dairy eggs
+A08-07-D,estante,A,8,7,D,37.0,8.4,42244,Total 2% All Natural Low Fat 2% Milkfat Greek Strained Yogurt,dairy eggs
+A08-08-I,estante,A,8,8,I,33.0,9.6,25138,Organic Plain Greek Whole Milk Yogurt,dairy eggs
+A08-08-D,estante,A,8,8,D,37.0,9.6,17758,Strawberry Rhubarb Yoghurt,dairy eggs
+A08-09-I,estante,A,8,9,I,33.0,10.799999999999999,40198,Blueberry Yoghurt,dairy eggs
+A08-09-D,estante,A,8,9,D,37.0,10.799999999999999,11422,Plain Greek Yogurt,dairy eggs
+A08-10-I,estante,A,8,10,I,33.0,12.0,46584,YoKids Blueberry & Strawberry/Vanilla Yogurt,dairy eggs
+A08-10-D,estante,A,8,10,D,37.0,12.0,31215,Lemon Yogurt,dairy eggs
+A08-11-I,estante,A,8,11,I,33.0,13.2,35628,Organic Strawberry Smoothie,dairy eggs
+A08-11-D,estante,A,8,11,D,37.0,13.2,22124,Total 0% Raspberry Yogurt,dairy eggs
+A08-12-I,estante,A,8,12,I,33.0,14.399999999999999,43662,"Yogurt, Strained Low-Fat, Coconut",dairy eggs
+A08-12-D,estante,A,8,12,D,37.0,14.399999999999999,42445,Organic Plain Whole Milk Yogurt,dairy eggs
+A08-13-I,estante,A,8,13,I,33.0,15.6,13263,Non Fat Acai & Mixed Berries Yogurt,dairy eggs
+A08-13-D,estante,A,8,13,D,37.0,15.6,38928,0% Greek Strained Yogurt,dairy eggs
+A08-14-I,estante,A,8,14,I,33.0,16.8,44008,Organic Greek Whole Milk Blended Vanilla Bean Yogurt,dairy eggs
+A08-14-D,estante,A,8,14,D,37.0,16.8,24954,Total 0% with Honey Nonfat Greek Strained Yogurt,dairy eggs
+A08-15-I,estante,A,8,15,I,33.0,18.0,11512,Honey Yoghurt,dairy eggs
+A08-15-D,estante,A,8,15,D,37.0,18.0,46886,Raspberry Yoghurt,dairy eggs
+A08-16-I,estante,A,8,16,I,33.0,19.2,8309,Nonfat Icelandic Style Strawberry Yogurt,dairy eggs
+A08-16-D,estante,A,8,16,D,37.0,19.2,18926,Fat Free Strawberry Yogurt,dairy eggs
+A08-17-I,estante,A,8,17,I,33.0,20.4,47912,Vanilla Skyr Style Yogurt,dairy eggs
+A08-17-D,estante,A,8,17,D,37.0,20.4,33548,Peach on the Bottom Nonfat Greek Yogurt,dairy eggs
+A08-18-I,estante,A,8,18,I,33.0,21.599999999999998,12099,Honey Greek Yogurt,dairy eggs
+A08-18-D,estante,A,8,18,D,37.0,21.599999999999998,47672,Uncured Hickory Smoked Sunday Bacon,meat seafood
+A08-19-I,estante,A,8,19,I,33.0,22.8,5646,Organic Turkey Bacon,meat seafood
+A08-19-D,estante,A,8,19,D,37.0,22.8,27695,Natural Chicken & Sage Breakfast Sausage,meat seafood
+A08-20-I,estante,A,8,20,I,33.0,24.0,12456,Organic Sunday Bacon,meat seafood
+A08-20-D,estante,A,8,20,D,37.0,24.0,9339,Organic Chicken & Apple Sausage,meat seafood
+A08-21-I,estante,A,8,21,I,33.0,25.2,46041,Beef Franks,meat seafood
+A08-21-D,estante,A,8,21,D,37.0,25.2,13198,85% Lean Ground Beef,meat seafood
+A08-22-I,estante,A,8,22,I,33.0,26.4,25890,Boneless Skinless Chicken Breasts,meat seafood
+A08-22-D,estante,A,8,22,D,37.0,26.4,17878,Grilled Chicken Breast Strips,meat seafood
+A08-23-I,estante,A,8,23,I,33.0,27.599999999999998,43565,Lean Ground Turky,meat seafood
+A08-23-D,estante,A,8,23,D,37.0,27.599999999999998,27360,Boneless Skinless Chicken Breast Fillets,meat seafood
+A08-24-I,estante,A,8,24,I,33.0,28.799999999999997,38293,Ground Turkey Breast,meat seafood
+A08-24-D,estante,A,8,24,D,37.0,28.799999999999997,6046,Boneless Skinless Chicken Breast,meat seafood
+A08-25-I,estante,A,8,25,I,33.0,30.0,17461,Air Chilled Organic Boneless Skinless Chicken Breasts,meat seafood
+A08-25-D,estante,A,8,25,D,37.0,30.0,9020,Boneless Skinless Chicken Thighs,meat seafood
+A09-00,interseccion,A,9,0,,40.0,0.0,,,
+A09-01,pasillo,A,9,1,,40.0,1.2,,,
+A09-02,pasillo,A,9,2,,40.0,2.4,,,
+A09-03,pasillo,A,9,3,,40.0,3.5999999999999996,,,
+A09-04,pasillo,A,9,4,,40.0,4.8,,,
+A09-05,pasillo,A,9,5,,40.0,6.0,,,
+A09-06,pasillo,A,9,6,,40.0,7.199999999999999,,,
+A09-07,pasillo,A,9,7,,40.0,8.4,,,
+A09-08,pasillo,A,9,8,,40.0,9.6,,,
+A09-09,pasillo,A,9,9,,40.0,10.799999999999999,,,
+A09-10,pasillo,A,9,10,,40.0,12.0,,,
+A09-11,pasillo,A,9,11,,40.0,13.2,,,
+A09-12,pasillo,A,9,12,,40.0,14.399999999999999,,,
+A09-13,pasillo,A,9,13,,40.0,15.6,,,
+A09-14,pasillo,A,9,14,,40.0,16.8,,,
+A09-15,pasillo,A,9,15,,40.0,18.0,,,
+A09-16,pasillo,A,9,16,,40.0,19.2,,,
+A09-17,pasillo,A,9,17,,40.0,20.4,,,
+A09-18,pasillo,A,9,18,,40.0,21.599999999999998,,,
+A09-19,pasillo,A,9,19,,40.0,22.8,,,
+A09-20,pasillo,A,9,20,,40.0,24.0,,,
+A09-21,pasillo,A,9,21,,40.0,25.2,,,
+A09-22,pasillo,A,9,22,,40.0,26.4,,,
+A09-23,pasillo,A,9,23,,40.0,27.599999999999998,,,
+A09-24,pasillo,A,9,24,,40.0,28.799999999999997,,,
+A09-25,pasillo,A,9,25,,40.0,30.0,,,
+A09-26,interseccion,A,9,26,,40.0,31.2,,,
+A09-01-I,estante,A,9,1,I,38.0,1.2,19068,Boneless And Skinless Chicken Breast,meat seafood
+A09-01-D,estante,A,9,1,D,42.0,1.2,10017,Tilapia Filet,meat seafood
+A09-02-I,estante,A,9,2,I,38.0,2.4,30489,Original Hummus,deli
+A09-02-D,estante,A,9,2,D,42.0,2.4,21019,Roasted Red Pepper Hummus,deli
+A09-03-I,estante,A,9,3,I,38.0,3.5999999999999996,33129,Classic Hummus,deli
+A09-03-D,estante,A,9,3,D,42.0,3.5999999999999996,40396,Guacamole,deli
+A09-04-I,estante,A,9,4,I,38.0,4.8,13646,Lemon Hummus,deli
+A09-04-D,estante,A,9,4,D,42.0,4.8,21573,Roasted Pine Nut Hummus,deli
+A09-05-I,estante,A,9,5,I,38.0,6.0,2825,Organic Original Hommus,deli
+A09-05-D,estante,A,9,5,D,42.0,6.0,7485,Garlic Hummus,deli
+A09-06-I,estante,A,9,6,I,38.0,7.199999999999999,8138,Traditional Hummus,deli
+A09-06-D,estante,A,9,6,D,42.0,7.199999999999999,33846,Roasted Garlic Hummus,deli
+A09-07-I,estante,A,9,7,I,38.0,8.4,27344,Uncured Genoa Salami,deli
+A09-07-D,estante,A,9,7,D,42.0,8.4,22963,Organic Roasted Turkey Breast,deli
+A09-08-I,estante,A,9,8,I,38.0,9.6,42342,Roasted Turkey Breast,deli
+A09-08-D,estante,A,9,8,D,42.0,9.6,40310,Oven Roasted Turkey Breast,deli
+A09-09-I,estante,A,9,9,I,38.0,10.799999999999999,5456,Green Tea With Ginseng and Honey,deli
+A09-09-D,estante,A,9,9,D,42.0,10.799999999999999,19019,Uncured Slow Cooked Ham,deli
+A09-10-I,estante,A,9,10,I,38.0,12.0,23029,Organic Uncured Sliced Black Forest Ham,deli
+A09-10-D,estante,A,9,10,D,42.0,12.0,36735,Organic Roasted Sliced Chicken Breast,deli
+A09-11-I,estante,A,9,11,I,38.0,13.2,49131,Smoked Turkey Breast Slices,deli
+A09-11-D,estante,A,9,11,D,42.0,13.2,28745,Oven Roasted Turkey,deli
+A09-12-I,estante,A,9,12,I,38.0,14.399999999999999,20574,Roasted Turkey,deli
+A09-12-D,estante,A,9,12,D,42.0,14.399999999999999,28373,Original Rotisserie Chicken,deli
+A09-13-I,estante,A,9,13,I,38.0,15.6,42585,Organic Extra Firm Tofu,deli
+A09-13-D,estante,A,9,13,D,42.0,15.6,41588,Firm Tofu,deli
+A09-14-I,estante,A,9,14,I,38.0,16.8,5077,100% Whole Wheat Bread,bakery
+A09-14-D,estante,A,9,14,D,42.0,16.8,18362,Organic Bread with 21 Whole Grains,bakery
+A09-15-I,estante,A,9,15,I,38.0,18.0,21267,Sourdough Bread,bakery
+A09-15-D,estante,A,9,15,D,42.0,18.0,18027,Ezekiel 4:9 Bread Organic Sprouted Whole Grain,bakery
+A09-16-I,estante,A,9,16,I,38.0,19.2,45123,Organic 21 Grain Thin Sliced Bread,bakery
+A09-16-D,estante,A,9,16,D,42.0,19.2,13517,Whole Wheat Bread,bakery
+A09-17-I,estante,A,9,17,I,38.0,20.4,2855,Organic Good Seed Bread,bakery
+A09-17-D,estante,A,9,17,D,42.0,20.4,48628,Organic Whole Wheat Bread,bakery
+A09-18-I,estante,A,9,18,I,38.0,21.599999999999998,3896,Organic Honey Sweet Whole Wheat Bread,bakery
+A09-18-D,estante,A,9,18,D,42.0,21.599999999999998,45948,Gluten Free 7 Grain Bread,bakery
+A09-19-I,estante,A,9,19,I,38.0,22.8,35383,Classic White Bread,bakery
+A09-19-D,estante,A,9,19,D,42.0,22.8,45064,Honey Wheat Bread,bakery
+A09-20-I,estante,A,9,20,I,38.0,24.0,10673,Original Nooks & Crannies English Muffins,bakery
+A09-20-D,estante,A,9,20,D,42.0,24.0,20738,Plain Bagels,bakery
+A09-21-I,estante,A,9,21,I,38.0,25.2,17706,Organic Whole Grain Wheat English Muffins,bakery
+A09-21-D,estante,A,9,21,D,42.0,25.2,42460,Plain Mini Bagels,bakery
+A09-22-I,estante,A,9,22,I,38.0,26.4,17341,Presliced Everything Bagels,bakery
+A09-22-D,estante,A,9,22,D,42.0,26.4,41658,Authentic French Brioche Hamburger Buns,bakery
+A09-23-I,estante,A,9,23,I,38.0,27.599999999999998,18987,Hot Dog Buns,bakery
+A09-23-D,estante,A,9,23,D,42.0,27.599999999999998,19508,Corn Tortillas,bakery
+A09-24-I,estante,A,9,24,I,38.0,28.799999999999997,29553,Super Soft Taco Flour Tortillas,bakery
+A09-24-D,estante,A,9,24,D,42.0,28.799999999999997,11461,White Corn Tortillas,bakery
+A09-25-I,estante,A,9,25,I,38.0,30.0,40348,Large Burrito Flour Tortillas,bakery
+A09-25-D,estante,A,9,25,D,42.0,30.0,2452,Naturals Chicken Nuggets,frozen
+A10-00,interseccion,A,10,0,,45.0,0.0,,,
+A10-01,pasillo,A,10,1,,45.0,1.2,,,
+A10-02,pasillo,A,10,2,,45.0,2.4,,,
+A10-03,pasillo,A,10,3,,45.0,3.5999999999999996,,,
+A10-04,pasillo,A,10,4,,45.0,4.8,,,
+A10-05,pasillo,A,10,5,,45.0,6.0,,,
+A10-06,pasillo,A,10,6,,45.0,7.199999999999999,,,
+A10-07,pasillo,A,10,7,,45.0,8.4,,,
+A10-08,pasillo,A,10,8,,45.0,9.6,,,
+A10-09,pasillo,A,10,9,,45.0,10.799999999999999,,,
+A10-10,pasillo,A,10,10,,45.0,12.0,,,
+A10-11,pasillo,A,10,11,,45.0,13.2,,,
+A10-12,pasillo,A,10,12,,45.0,14.399999999999999,,,
+A10-13,pasillo,A,10,13,,45.0,15.6,,,
+A10-14,pasillo,A,10,14,,45.0,16.8,,,
+A10-15,pasillo,A,10,15,,45.0,18.0,,,
+A10-16,pasillo,A,10,16,,45.0,19.2,,,
+A10-17,pasillo,A,10,17,,45.0,20.4,,,
+A10-18,pasillo,A,10,18,,45.0,21.599999999999998,,,
+A10-19,pasillo,A,10,19,,45.0,22.8,,,
+A10-20,pasillo,A,10,20,,45.0,24.0,,,
+A10-21,pasillo,A,10,21,,45.0,25.2,,,
+A10-22,pasillo,A,10,22,,45.0,26.4,,,
+A10-23,pasillo,A,10,23,,45.0,27.599999999999998,,,
+A10-24,pasillo,A,10,24,,45.0,28.799999999999997,,,
+A10-25,pasillo,A,10,25,,45.0,30.0,,,
+A10-26,interseccion,A,10,26,,45.0,31.2,,,
+A10-01-I,estante,A,10,1,I,43.0,1.2,31766,Cheese Pizza Snacks,frozen
+A10-01-D,estante,A,10,1,D,47.0,1.2,11440,Chicken Breast Tenders Breaded,frozen
+A10-02-I,estante,A,10,2,I,43.0,2.4,48171,Shredded Hash Browns,frozen
+A10-02-D,estante,A,10,2,D,47.0,2.4,17652,Air Chilled Breaded Chicken Breast Nuggets,frozen
+A10-03-I,estante,A,10,3,I,43.0,3.5999999999999996,1215,Kidz All Natural Baked Chicken Nuggets,frozen
+A10-03-D,estante,A,10,3,D,47.0,3.5999999999999996,7963,Gluten Free Whole Grain Bread,frozen
+A10-04-I,estante,A,10,4,I,43.0,4.8,37158,Chicken & Maple Breakfast Sausage,frozen
+A10-04-D,estante,A,10,4,D,47.0,4.8,30696,Eggo Homestyle Waffles,frozen
+A10-05-I,estante,A,10,5,I,43.0,6.0,9825,Organic Multigrain Waffles,frozen
+A10-05-D,estante,A,10,5,D,47.0,6.0,9515,Natural Classic Pork Breakfast Sausage,frozen
+A10-06-I,estante,A,10,6,I,43.0,7.199999999999999,25753,Organic Homestyle Waffles,frozen
+A10-06-D,estante,A,10,6,D,47.0,7.199999999999999,2326,Organic Blueberry Waffles,frozen
+A10-07-I,estante,A,10,7,I,43.0,8.4,42450,Macaroni & Cheese,frozen
+A10-07-D,estante,A,10,7,D,47.0,8.4,49075,Organic Brown Rice,frozen
+A10-08-I,estante,A,10,8,I,43.0,9.6,34217,Pesto Tortellini  Bowls,frozen
+A10-08-D,estante,A,10,8,D,47.0,9.6,9124,Broccoli & Cheddar Bake Meal Bowl,frozen
+A10-09-I,estante,A,10,9,I,43.0,10.799999999999999,13966,Chicken Pot Pie,frozen
+A10-09-D,estante,A,10,9,D,47.0,10.799999999999999,47792,Organic Beans & Rice Cheddar Cheese Burrito,frozen
+A10-10-I,estante,A,10,10,I,43.0,12.0,43504,Organic Chicken Strips,frozen
+A10-10-D,estante,A,10,10,D,47.0,12.0,24561,Organic Cheese Frozen Pizza,frozen
+A10-11-I,estante,A,10,11,I,43.0,13.2,20345,Thin Crust Pepperoni Pizza,frozen
+A10-11-D,estante,A,10,11,D,47.0,13.2,5449,Margherita Pizza,frozen
+A10-12-I,estante,A,10,12,I,43.0,14.399999999999999,9741,Cheese Pizza,frozen
+A10-12-D,estante,A,10,12,D,47.0,14.399999999999999,9076,Blueberries,frozen
+A10-13-I,estante,A,10,13,I,43.0,15.6,20995,Organic Broccoli Florets,frozen
+A10-13-D,estante,A,10,13,D,47.0,15.6,24489,Organic Whole Strawberries,frozen
+A10-14-I,estante,A,10,14,I,43.0,16.8,46802,Pineapple Chunks,frozen
+A10-14-D,estante,A,10,14,D,47.0,16.8,17948,Frozen Organic Wild Blueberries,frozen
+A10-15-I,estante,A,10,15,I,43.0,18.0,14678,Organic Frozen Peas,frozen
+A10-15-D,estante,A,10,15,D,47.0,18.0,1158,Mango Chunks,frozen
+A10-16-I,estante,A,10,16,I,43.0,19.2,28934,Frozen Broccoli Florets,frozen
+A10-16-D,estante,A,10,16,D,47.0,19.2,40545,Berry Medley,frozen
+A10-17-I,estante,A,10,17,I,43.0,20.4,32433,Green Peas,frozen
+A10-17-D,estante,A,10,17,D,47.0,20.4,34466,Sweet Potatoes,frozen
+A10-18-I,estante,A,10,18,I,43.0,21.599999999999998,18918,Organic Chopped Spinach,frozen
+A10-18-D,estante,A,10,18,D,47.0,21.599999999999998,35887,Organic Mixed Vegetables,frozen
+A10-19-I,estante,A,10,19,I,43.0,22.8,34584,Organic Sliced Peaches,frozen
+A10-19-D,estante,A,10,19,D,47.0,22.8,28553,Whole Strawberries,frozen
+A10-20-I,estante,A,10,20,I,43.0,24.0,23236,Chopped Spinach,frozen
+A10-20-D,estante,A,10,20,D,47.0,24.0,2228,Organic Frozen Mango Chunks,frozen
+A10-21-I,estante,A,10,21,I,43.0,25.2,31869,Organic Edamame,frozen
+A10-21-D,estante,A,10,21,D,47.0,25.2,26128,Organic Mango Chunks,frozen
+A10-22-I,estante,A,10,22,I,43.0,26.4,38944,Seven Grain Crispy Tenders,frozen
+A10-22-D,estante,A,10,22,D,47.0,26.4,16965,Chocolate Ice Cream,frozen
+A10-23-I,estante,A,10,23,I,43.0,27.599999999999998,32691,Vanilla Ice Cream,frozen
+A10-23-D,estante,A,10,23,D,47.0,27.599999999999998,12276,Chocolate Chip Cookie Dough Ice Cream,frozen
+A10-24-I,estante,A,10,24,I,43.0,28.799999999999997,2361,Mint Chip,frozen
+A10-24-D,estante,A,10,24,D,47.0,28.799999999999997,20754,Mediterranean Mint Gelato,frozen
+A10-25-I,estante,A,10,25,I,43.0,30.0,48523,Birthday Cake Light Ice Cream,frozen
+A10-25-D,estante,A,10,25,D,47.0,30.0,41319,Sea Salt Caramel Gelato,frozen
+B01-00,interseccion,B,1,0,,50.0,0.0,,,
+B01-01,pasillo,B,1,1,,50.0,1.2,,,
+B01-02,pasillo,B,1,2,,50.0,2.4,,,
+B01-03,pasillo,B,1,3,,50.0,3.5999999999999996,,,
+B01-04,pasillo,B,1,4,,50.0,4.8,,,
+B01-05,pasillo,B,1,5,,50.0,6.0,,,
+B01-06,pasillo,B,1,6,,50.0,7.199999999999999,,,
+B01-07,pasillo,B,1,7,,50.0,8.4,,,
+B01-08,pasillo,B,1,8,,50.0,9.6,,,
+B01-09,pasillo,B,1,9,,50.0,10.799999999999999,,,
+B01-10,pasillo,B,1,10,,50.0,12.0,,,
+B01-11,pasillo,B,1,11,,50.0,13.2,,,
+B01-12,pasillo,B,1,12,,50.0,14.399999999999999,,,
+B01-13,pasillo,B,1,13,,50.0,15.6,,,
+B01-14,pasillo,B,1,14,,50.0,16.8,,,
+B01-15,pasillo,B,1,15,,50.0,18.0,,,
+B01-16,pasillo,B,1,16,,50.0,19.2,,,
+B01-17,pasillo,B,1,17,,50.0,20.4,,,
+B01-18,pasillo,B,1,18,,50.0,21.599999999999998,,,
+B01-19,pasillo,B,1,19,,50.0,22.8,,,
+B01-20,pasillo,B,1,20,,50.0,24.0,,,
+B01-21,pasillo,B,1,21,,50.0,25.2,,,
+B01-22,pasillo,B,1,22,,50.0,26.4,,,
+B01-23,pasillo,B,1,23,,50.0,27.599999999999998,,,
+B01-24,pasillo,B,1,24,,50.0,28.799999999999997,,,
+B01-25,pasillo,B,1,25,,50.0,30.0,,,
+B01-26,interseccion,B,1,26,,50.0,31.2,,,
+B01-01-I,estante,B,1,1,I,48.0,1.2,23537,Light Brown Sugar,pantry
+B01-01-D,estante,B,1,1,D,52.0,1.2,23405,Pure Baking Soda,pantry
+B01-02-I,estante,B,1,2,I,48.0,2.4,49533,Cane Sugar,pantry
+B01-02-D,estante,B,1,2,D,52.0,2.4,27243,Premium Pure Cane Granulated Sugar,pantry
+B01-03-I,estante,B,1,3,I,48.0,3.5999999999999996,7500,Organic Vanilla Extract,pantry
+B01-03-D,estante,B,1,3,D,52.0,3.5999999999999996,23516,Organic Unbleached All-Purpose Flour,pantry
+B01-04-I,estante,B,1,4,I,48.0,4.8,15359,All Purpose Flour,pantry
+B01-04-D,estante,B,1,4,D,52.0,4.8,22142,100% Pure Pumpkin,pantry
+B01-05-I,estante,B,1,5,I,48.0,6.0,34551,Organic Cane Sugar,pantry
+B01-05-D,estante,B,1,5,D,52.0,6.0,22890,Toll House Semi-Sweet Chocolate Morsels,pantry
+B01-06-I,estante,B,1,6,I,48.0,7.199999999999999,41570,Active Dry Yeast,pantry
+B01-06-D,estante,B,1,6,D,52.0,7.199999999999999,44303,Organic Shredded Unsweetened Coconut,pantry
+B01-07-I,estante,B,1,7,I,48.0,8.4,397,Pure Granulated Cane Sugar,pantry
+B01-07-D,estante,B,1,7,D,52.0,8.4,8671,Semi-Sweet Chocolate Premium Baking Chips,pantry
+B01-08-I,estante,B,1,8,I,48.0,9.6,35855,Unbleached All-Purpose Flour,pantry
+B01-08-D,estante,B,1,8,D,52.0,9.6,27451,Almond Meal/Flour,pantry
+B01-09-I,estante,B,1,9,I,48.0,10.799999999999999,46473,Pure Vanilla Extract,pantry
+B01-09-D,estante,B,1,9,D,52.0,10.799999999999999,44912,Baking Powder,pantry
+B01-10-I,estante,B,1,10,I,48.0,12.0,2099,Natural Cane Turbinado Sugar,pantry
+B01-10-D,estante,B,1,10,D,52.0,12.0,2350,60% Cacao Bittersweet Premium Baking Chips,pantry
+B01-11-I,estante,B,1,11,I,48.0,13.2,7751,Tomato Ketchup,pantry
+B01-11-D,estante,B,1,11,D,52.0,13.2,18441,Organic Ketchup,pantry
+B01-12-I,estante,B,1,12,I,48.0,14.399999999999999,35898,Original Hot Sauce,pantry
+B01-12-D,estante,B,1,12,D,52.0,14.399999999999999,27796,Real Mayonnaise,pantry
+B01-13-I,estante,B,1,13,I,48.0,15.6,44628,Organic Dijon Mustard,pantry
+B01-13-D,estante,B,1,13,D,52.0,15.6,44234,Squeeze Tomato Ketchup,pantry
+B01-14-I,estante,B,1,14,I,48.0,16.8,15392,Organic Mayonnaise,pantry
+B01-14-D,estante,B,1,14,D,52.0,16.8,28785,Organic Tahini,pantry
+B01-15-I,estante,B,1,15,I,48.0,18.0,19468,Classic Yellow Mustard,pantry
+B01-15-D,estante,B,1,15,D,52.0,18.0,14332,Organic Yellow Mustard,pantry
+B01-16-I,estante,B,1,16,I,48.0,19.2,43262,Original Sauce,pantry
+B01-16-D,estante,B,1,16,D,52.0,19.2,32299,Dijon Mustard,pantry
+B01-17-I,estante,B,1,17,I,48.0,20.4,44014,Authentic Red Curry Paste,pantry
+B01-17-D,estante,B,1,17,D,52.0,20.4,37053,Just Mayo,pantry
+B01-18-I,estante,B,1,18,I,48.0,21.599999999999998,7632,Old Style Whole Grain Dijon Mustard,pantry
+B01-18-D,estante,B,1,18,D,52.0,21.599999999999998,36854,Hot Sauce,pantry
+B01-19-I,estante,B,1,19,I,48.0,22.8,47479,Squeeze Real Mayonnaise,pantry
+B01-19-D,estante,B,1,19,D,52.0,22.8,37642,Ccnut Raw Cocoaminos,pantry
+B01-20-I,estante,B,1,20,I,48.0,24.0,7559,Cinnamon Rolls with Icing,pantry
+B01-20-D,estante,B,1,20,D,52.0,24.0,13431,Flaky Biscuits,pantry
+B01-21-I,estante,B,1,21,I,48.0,25.2,33043,Crescent Rolls,pantry
+B01-21-D,estante,B,1,21,D,52.0,25.2,27288,Chocolate Chip Cookie Dough,pantry
+B01-22-I,estante,B,1,22,I,48.0,26.4,16020,Original Crescent Rolls,pantry
+B01-22-D,estante,B,1,22,D,52.0,26.4,22504,Organic Mountain Forest Amber Honey,pantry
+B01-23-I,estante,B,1,23,I,48.0,27.599999999999998,5067,Original Syrup,pantry
+B01-23-D,estante,B,1,23,D,52.0,27.599999999999998,18471,Organic Light Agave Nectar,pantry
+B01-24-I,estante,B,1,24,I,48.0,28.799999999999997,43129,Panko Bread Crumbs,pantry
+B01-24-D,estante,B,1,24,D,52.0,28.799999999999997,49481,Original Barbecue Sauce,pantry
+B01-25-I,estante,B,1,25,I,48.0,30.0,23541,Veri Veri Teriyaki Marinade & Sauce,pantry
+B01-25-D,estante,B,1,25,D,52.0,30.0,31506,Extra Virgin Olive Oil,pantry
+B02-00,interseccion,B,2,0,,55.0,0.0,,,
+B02-01,pasillo,B,2,1,,55.0,1.2,,,
+B02-02,pasillo,B,2,2,,55.0,2.4,,,
+B02-03,pasillo,B,2,3,,55.0,3.5999999999999996,,,
+B02-04,pasillo,B,2,4,,55.0,4.8,,,
+B02-05,pasillo,B,2,5,,55.0,6.0,,,
+B02-06,pasillo,B,2,6,,55.0,7.199999999999999,,,
+B02-07,pasillo,B,2,7,,55.0,8.4,,,
+B02-08,pasillo,B,2,8,,55.0,9.6,,,
+B02-09,pasillo,B,2,9,,55.0,10.799999999999999,,,
+B02-10,pasillo,B,2,10,,55.0,12.0,,,
+B02-11,pasillo,B,2,11,,55.0,13.2,,,
+B02-12,pasillo,B,2,12,,55.0,14.399999999999999,,,
+B02-13,pasillo,B,2,13,,55.0,15.6,,,
+B02-14,pasillo,B,2,14,,55.0,16.8,,,
+B02-15,pasillo,B,2,15,,55.0,18.0,,,
+B02-16,pasillo,B,2,16,,55.0,19.2,,,
+B02-17,pasillo,B,2,17,,55.0,20.4,,,
+B02-18,pasillo,B,2,18,,55.0,21.599999999999998,,,
+B02-19,pasillo,B,2,19,,55.0,22.8,,,
+B02-20,pasillo,B,2,20,,55.0,24.0,,,
+B02-21,pasillo,B,2,21,,55.0,25.2,,,
+B02-22,pasillo,B,2,22,,55.0,26.4,,,
+B02-23,pasillo,B,2,23,,55.0,27.599999999999998,,,
+B02-24,pasillo,B,2,24,,55.0,28.799999999999997,,,
+B02-25,pasillo,B,2,25,,55.0,30.0,,,
+B02-26,interseccion,B,2,26,,55.0,31.2,,,
+B02-01-I,estante,B,2,1,I,53.0,1.2,21195,Organic Extra Virgin Olive Oil,pantry
+B02-01-D,estante,B,2,1,D,57.0,1.2,10644,Italian Extra Virgin Olive Oil,pantry
+B02-02-I,estante,B,2,2,I,53.0,2.4,18963,Apple Cider Vinegar,pantry
+B02-02-D,estante,B,2,2,D,57.0,2.4,4461,Organic Raw Unfiltered Apple Cider Vinegar,pantry
+B02-03-I,estante,B,2,3,I,53.0,3.5999999999999996,12409,Organic Distilled White Vinegar,pantry
+B02-03-D,estante,B,2,3,D,57.0,3.5999999999999996,48697,Canola Oil,pantry
+B02-04-I,estante,B,2,4,I,53.0,4.8,40377,Unrefined Virgin Coconut Oil,pantry
+B02-04-D,estante,B,2,4,D,57.0,4.8,30021,Distilled White Vinegar,pantry
+B02-05-I,estante,B,2,5,I,53.0,6.0,45002,Organic Balsamic Vinegar Of Modena,pantry
+B02-05-D,estante,B,2,5,D,57.0,6.0,22922,Organic Canola Oil,pantry
+B02-06-I,estante,B,2,6,I,53.0,7.199999999999999,35217,Toasted Sesame Seed Oil,pantry
+B02-06-D,estante,B,2,6,D,57.0,7.199999999999999,20608,Grapeseed Oil,pantry
+B02-07-I,estante,B,2,7,I,53.0,8.4,18761,Balsamic Vinegar Of Modena,pantry
+B02-07-D,estante,B,2,7,D,57.0,8.4,49585,Organic Refined Coconut Oil,pantry
+B02-08-I,estante,B,2,8,I,53.0,9.6,14462,Sliced Black Olives,pantry
+B02-08-D,estante,B,2,8,D,57.0,9.6,8006,Chopped Organic Garlic,pantry
+B02-09-I,estante,B,2,9,I,53.0,10.799999999999999,40233,Organic Kosher Dill Pickles,pantry
+B02-09-D,estante,B,2,9,D,57.0,10.799999999999999,27881,"Olives, Organic, Kalamata, Pitted",pantry
+B02-10-I,estante,B,2,10,I,53.0,12.0,29439,"Wild Non-Pareil Capers, Sunkissed in the Mediterranean",pantry
+B02-10-D,estante,B,2,10,D,57.0,12.0,33407,Ripe Large Pitted Olives,pantry
+B02-11-I,estante,B,2,11,I,53.0,13.2,13535,Organic Medium Salsa,pantry
+B02-11-D,estante,B,2,11,D,57.0,13.2,13829,Mild Salsa,pantry
+B02-12-I,estante,B,2,12,I,53.0,14.399999999999999,28535,Cucumber & Garlic  Tzatziki,pantry
+B02-12-D,estante,B,2,12,D,57.0,14.399999999999999,7600,Mild Chunky Salsa,pantry
+B02-13-I,estante,B,2,13,I,53.0,15.6,11827,Chunky Medium Salsa,pantry
+B02-13-D,estante,B,2,13,D,57.0,15.6,19370,Roasted Tomato Salsa,pantry
+B02-14-I,estante,B,2,14,I,53.0,16.8,23594,Medium Salsa,pantry
+B02-14-D,estante,B,2,14,D,57.0,16.8,49139,Salsa Con Queso Medium,pantry
+B02-15-I,estante,B,2,15,I,53.0,18.0,11250,Organic Hot Salsa,pantry
+B02-15-D,estante,B,2,15,D,57.0,18.0,14780,Jalapeno Cilantro Salsa,pantry
+B02-16-I,estante,B,2,16,I,53.0,19.2,24382,Ranch Dressing,pantry
+B02-16-D,estante,B,2,16,D,57.0,19.2,9327,Garlic Powder,pantry
+B02-17-I,estante,B,2,17,I,53.0,20.4,7746,Oregano,pantry
+B02-17-D,estante,B,2,17,D,57.0,20.4,40136,Original Taco Seasoning Mix,pantry
+B02-18-I,estante,B,2,18,I,53.0,21.599999999999998,13212,Ground Black Pepper,pantry
+B02-18-D,estante,B,2,18,D,57.0,21.599999999999998,47226,Taco Seasoning Mix Original,pantry
+B02-19-I,estante,B,2,19,I,53.0,22.8,5621,Sea Salt Fine Crystals,pantry
+B02-19-D,estante,B,2,19,D,57.0,22.8,37107,Ground Cumin,pantry
+B02-20-I,estante,B,2,20,I,53.0,24.0,46962,Organic Ground Cumin,pantry
+B02-20-D,estante,B,2,20,D,57.0,24.0,10960,Nutritional Yeast Seasoning,pantry
+B02-21-I,estante,B,2,21,I,53.0,25.2,22034,Rosemary,pantry
+B02-21-D,estante,B,2,21,D,57.0,25.2,35973,Paprika,pantry
+B02-22-I,estante,B,2,22,I,53.0,26.4,45664,Onion Powder,pantry
+B02-22-D,estante,B,2,22,D,57.0,26.4,33884,Bay Leaves,pantry
+B02-23-I,estante,B,2,23,I,53.0,27.599999999999998,16953,Creamy Peanut Butter,pantry
+B02-23-D,estante,B,2,23,D,57.0,27.599999999999998,30450,Creamy Almond Butter,pantry
+B02-24-I,estante,B,2,24,I,53.0,28.799999999999997,43713,Organic Creamy Peanut Butter,pantry
+B02-24-D,estante,B,2,24,D,57.0,28.799999999999997,42356,Strawberry Preserves,pantry
+B02-25-I,estante,B,2,25,I,53.0,30.0,37220,Organic Strawberry Fruit Spread,pantry
+B02-25-D,estante,B,2,25,D,57.0,30.0,4656,Raspberry Preserves,pantry
+B03-00,interseccion,B,3,0,,60.0,0.0,,,
+B03-01,pasillo,B,3,1,,60.0,1.2,,,
+B03-02,pasillo,B,3,2,,60.0,2.4,,,
+B03-03,pasillo,B,3,3,,60.0,3.5999999999999996,,,
+B03-04,pasillo,B,3,4,,60.0,4.8,,,
+B03-05,pasillo,B,3,5,,60.0,6.0,,,
+B03-06,pasillo,B,3,6,,60.0,7.199999999999999,,,
+B03-07,pasillo,B,3,7,,60.0,8.4,,,
+B03-08,pasillo,B,3,8,,60.0,9.6,,,
+B03-09,pasillo,B,3,9,,60.0,10.799999999999999,,,
+B03-10,pasillo,B,3,10,,60.0,12.0,,,
+B03-11,pasillo,B,3,11,,60.0,13.2,,,
+B03-12,pasillo,B,3,12,,60.0,14.399999999999999,,,
+B03-13,pasillo,B,3,13,,60.0,15.6,,,
+B03-14,pasillo,B,3,14,,60.0,16.8,,,
+B03-15,pasillo,B,3,15,,60.0,18.0,,,
+B03-16,pasillo,B,3,16,,60.0,19.2,,,
+B03-17,pasillo,B,3,17,,60.0,20.4,,,
+B03-18,pasillo,B,3,18,,60.0,21.599999999999998,,,
+B03-19,pasillo,B,3,19,,60.0,22.8,,,
+B03-20,pasillo,B,3,20,,60.0,24.0,,,
+B03-21,pasillo,B,3,21,,60.0,25.2,,,
+B03-22,pasillo,B,3,22,,60.0,26.4,,,
+B03-23,pasillo,B,3,23,,60.0,27.599999999999998,,,
+B03-24,pasillo,B,3,24,,60.0,28.799999999999997,,,
+B03-25,pasillo,B,3,25,,60.0,30.0,,,
+B03-26,interseccion,B,3,26,,60.0,31.2,,,
+B03-01-I,estante,B,3,1,I,58.0,1.2,8239,Peanut Butter Creamy With Salt,pantry
+B03-01-D,estante,B,3,1,D,62.0,1.2,42557,Crunchy Almond Butter,pantry
+B03-02-I,estante,B,3,2,I,58.0,2.4,4006,Hazelnut Spread With Skim Milk & Cocoa,pantry
+B03-02-D,estante,B,3,2,D,62.0,2.4,1360,Crunchy Peanut Butter,pantry
+B03-03-I,estante,B,3,3,I,58.0,3.5999999999999996,31338,Classic Almond Butter,pantry
+B03-03-D,estante,B,3,3,D,62.0,3.5999999999999996,40261,Extra Crunchy Peanut Butter,pantry
+B03-04-I,estante,B,3,4,I,58.0,4.8,32338,Natural Jif Creamy Peanut Butter Spread,pantry
+B03-04-D,estante,B,3,4,D,62.0,4.8,41198,Classic Peanut Butter,pantry
+B03-05-I,estante,B,3,5,I,58.0,6.0,12962,Apricot Preserves,pantry
+B03-05-D,estante,B,3,5,D,62.0,6.0,34582,Natural Creamy Peanut Butter Spread,pantry
+B03-06-I,estante,B,3,6,I,58.0,7.199999999999999,18891,Classic Almond Butter All Natural,pantry
+B03-06-D,estante,B,3,6,D,62.0,7.199999999999999,32734,Spaghetti,dry goods pasta
+B03-07-I,estante,B,3,7,I,58.0,8.4,46522,Spaghetti Pasta,dry goods pasta
+B03-07-D,estante,B,3,7,D,62.0,8.4,12872,Penne Rigate,dry goods pasta
+B03-08-I,estante,B,3,8,I,58.0,9.6,14168,Penne Pasta,dry goods pasta
+B03-08-D,estante,B,3,8,D,62.0,9.6,2180,Angel Hair Pasta,dry goods pasta
+B03-09-I,estante,B,3,9,I,58.0,10.799999999999999,5240,Spaghetti  No 12,dry goods pasta
+B03-09-D,estante,B,3,9,D,62.0,10.799999999999999,9366,Penne Rigate #41 Pasta,dry goods pasta
+B03-10-I,estante,B,3,10,I,58.0,12.0,28278,Organic Penne Rigate,dry goods pasta
+B03-10-D,estante,B,3,10,D,62.0,12.0,37825,Organic Whole Wheat Fusilli,dry goods pasta
+B03-11-I,estante,B,3,11,I,58.0,13.2,24097,Rotini Pasta,dry goods pasta
+B03-11-D,estante,B,3,11,D,62.0,13.2,23801,Fusilli No. 34,dry goods pasta
+B03-12-I,estante,B,3,12,I,58.0,14.399999999999999,29898,Organic Spaghetti Pasta,dry goods pasta
+B03-12-D,estante,B,3,12,D,62.0,14.399999999999999,22952,Farfalle Pasta,dry goods pasta
+B03-13-I,estante,B,3,13,I,58.0,15.6,12564,Rigatoni Pasta,dry goods pasta
+B03-13-D,estante,B,3,13,D,62.0,15.6,20549,Organic Orzo,dry goods pasta
+B03-14-I,estante,B,3,14,I,58.0,16.8,40229,Organic Whole Wheat Penne Rigate,dry goods pasta
+B03-14-D,estante,B,3,14,D,62.0,16.8,45290,Thin Spaghetti Pasta,dry goods pasta
+B03-15-I,estante,B,3,15,I,58.0,18.0,44325,Elbow Macaroni Pasta,dry goods pasta
+B03-15-D,estante,B,3,15,D,62.0,18.0,6101,Farfalle No. 93,dry goods pasta
+B03-16-I,estante,B,3,16,I,58.0,19.2,43076,Wide Egg Noodles,dry goods pasta
+B03-16-D,estante,B,3,16,D,62.0,19.2,39719,"Freshly Made. Filled with Creamy Ricotta, Aged Parmesan and Romano Cheeses Three Cheese Tortellini",dry goods pasta
+B03-17-I,estante,B,3,17,I,58.0,20.4,48395,Original Rice Pilaf Mix,dry goods pasta
+B03-17-D,estante,B,3,17,D,62.0,20.4,24009,Organic Long Grain White Rice,dry goods pasta
+B03-18-I,estante,B,3,18,I,58.0,21.599999999999998,3142,Organic Short Grain Brown Rice,dry goods pasta
+B03-18-D,estante,B,3,18,D,62.0,21.599999999999998,38650,Organic Red Lentils,dry goods pasta
+B03-19-I,estante,B,3,19,I,58.0,22.8,25005,Organic Green Lentils,dry goods pasta
+B03-19-D,estante,B,3,19,D,62.0,22.8,33438,Rosemary & Olive Oil Quinoa Blend,dry goods pasta
+B03-20-I,estante,B,3,20,I,58.0,24.0,11481,Organic Quinoa & Brown Rice With Garlic,dry goods pasta
+B03-20-D,estante,B,3,20,D,62.0,24.0,46505,Organic Long Grain Brown Rice,dry goods pasta
+B03-21-I,estante,B,3,21,I,58.0,25.2,7010,Organic White Basmati Rice,dry goods pasta
+B03-21-D,estante,B,3,21,D,62.0,25.2,29311,Organic California White Basmati Rice,dry goods pasta
+B03-22-I,estante,B,3,22,I,58.0,26.4,39059,Extra Long Grain Enriched Rice,dry goods pasta
+B03-22-D,estante,B,3,22,D,62.0,26.4,35004,Macaroni Shells & White Cheddar Cheese,dry goods pasta
+B03-23-I,estante,B,3,23,I,58.0,27.599999999999998,42110,Organic Macaroni Shells & Real Aged Cheddar,dry goods pasta
+B03-23-D,estante,B,3,23,D,62.0,27.599999999999998,1090,Shells & Real Aged Cheddar Macaroni & Cheese,dry goods pasta
+B03-24-I,estante,B,3,24,I,58.0,28.799999999999997,36772,Bunny Pasta with Yummy Cheese Macaroni & Cheese,dry goods pasta
+B03-24-D,estante,B,3,24,D,62.0,28.799999999999997,18019,Macaroni & Cheese Dinner Original Flavor,dry goods pasta
+B03-25-I,estante,B,3,25,I,58.0,30.0,18599,Garlic Couscous,dry goods pasta
+B03-25-D,estante,B,3,25,D,62.0,30.0,32360,Creamy Deluxe Shells & Real Aged Cheddar Sauce,dry goods pasta
+B04-00,interseccion,B,4,0,,65.0,0.0,,,
+B04-01,pasillo,B,4,1,,65.0,1.2,,,
+B04-02,pasillo,B,4,2,,65.0,2.4,,,
+B04-03,pasillo,B,4,3,,65.0,3.5999999999999996,,,
+B04-04,pasillo,B,4,4,,65.0,4.8,,,
+B04-05,pasillo,B,4,5,,65.0,6.0,,,
+B04-06,pasillo,B,4,6,,65.0,7.199999999999999,,,
+B04-07,pasillo,B,4,7,,65.0,8.4,,,
+B04-08,pasillo,B,4,8,,65.0,9.6,,,
+B04-09,pasillo,B,4,9,,65.0,10.799999999999999,,,
+B04-10,pasillo,B,4,10,,65.0,12.0,,,
+B04-11,pasillo,B,4,11,,65.0,13.2,,,
+B04-12,pasillo,B,4,12,,65.0,14.399999999999999,,,
+B04-13,pasillo,B,4,13,,65.0,15.6,,,
+B04-14,pasillo,B,4,14,,65.0,16.8,,,
+B04-15,pasillo,B,4,15,,65.0,18.0,,,
+B04-16,pasillo,B,4,16,,65.0,19.2,,,
+B04-17,pasillo,B,4,17,,65.0,20.4,,,
+B04-18,pasillo,B,4,18,,65.0,21.599999999999998,,,
+B04-19,pasillo,B,4,19,,65.0,22.8,,,
+B04-20,pasillo,B,4,20,,65.0,24.0,,,
+B04-21,pasillo,B,4,21,,65.0,25.2,,,
+B04-22,pasillo,B,4,22,,65.0,26.4,,,
+B04-23,pasillo,B,4,23,,65.0,27.599999999999998,,,
+B04-24,pasillo,B,4,24,,65.0,28.799999999999997,,,
+B04-25,pasillo,B,4,25,,65.0,30.0,,,
+B04-26,interseccion,B,4,26,,65.0,31.2,,,
+B04-01-I,estante,B,4,1,I,63.0,1.2,33636,Organic Shells And White Cheddar,dry goods pasta
+B04-01-D,estante,B,4,1,D,67.0,1.2,18337,Classic Mild Cheddar Macaroni & Cheese,dry goods pasta
+B04-02-I,estante,B,4,2,I,63.0,2.4,4163,Spanish Rice Pilaf Mix,dry goods pasta
+B04-02-D,estante,B,4,2,D,67.0,2.4,12087,Chicken Flavor Ramen Noodle Soup,dry goods pasta
+B04-03-I,estante,B,4,3,I,63.0,3.5999999999999996,41238,Parmesan Couscous Mix,dry goods pasta
+B04-03-D,estante,B,4,3,D,67.0,3.5999999999999996,45679,Gluten Free Cheddar Macaroni & Cheese Rice Pasta,dry goods pasta
+B04-04-I,estante,B,4,4,I,63.0,4.8,40878,Macaroni And Cheese,dry goods pasta
+B04-04-D,estante,B,4,4,D,67.0,4.8,27423,Real Aged Cheddar Macaroni & Cheese,dry goods pasta
+B04-05-I,estante,B,4,5,I,63.0,6.0,39619,Organic Tomato Basil Pasta Sauce,dry goods pasta
+B04-05-D,estante,B,4,5,D,67.0,6.0,23375,Marinara Sauce,dry goods pasta
+B04-06-I,estante,B,4,6,I,63.0,7.199999999999999,12206,Basil Pesto,dry goods pasta
+B04-06-D,estante,B,4,6,D,67.0,7.199999999999999,38273,Marinara Pasta Sauce,dry goods pasta
+B04-07-I,estante,B,4,7,I,63.0,8.4,14197,Tomato Paste,dry goods pasta
+B04-07-D,estante,B,4,7,D,67.0,8.4,14852,All Natural Marinara Sauce,dry goods pasta
+B04-08-I,estante,B,4,8,I,63.0,9.6,19478,Organic Marinara Pasta Sauce,dry goods pasta
+B04-08-D,estante,B,4,8,D,67.0,9.6,8204,Traditional Favorites Tomato & Basil Pasta Sauce,dry goods pasta
+B04-09-I,estante,B,4,9,I,63.0,10.799999999999999,31927,Four Cheese Pasta Sauce,dry goods pasta
+B04-09-D,estante,B,4,9,D,67.0,10.799999999999999,21955,All Natural Marinara Pasta Sauce,dry goods pasta
+B04-10-I,estante,B,4,10,I,63.0,12.0,26751,Organic Tomato Basil Sauce,dry goods pasta
+B04-10-D,estante,B,4,10,D,67.0,12.0,38288,Pizza Sauce,dry goods pasta
+B04-11-I,estante,B,4,11,I,63.0,13.2,12320,Organic Italian Herb Pasta Sauce,dry goods pasta
+B04-11-D,estante,B,4,11,D,67.0,13.2,34034,Roasted Garlic Pasta Sauce,dry goods pasta
+B04-12-I,estante,B,4,12,I,63.0,14.399999999999999,210,Homemade Hot Arrabbiata Fra Diavolo Sauce,dry goods pasta
+B04-12-D,estante,B,4,12,D,67.0,14.399999999999999,43568,Traditional Italian Sauce,dry goods pasta
+B04-13-I,estante,B,4,13,I,63.0,15.6,2537,Tomato Basil Marinara Sauce,dry goods pasta
+B04-13-D,estante,B,4,13,D,67.0,15.6,26790,Organic AppleApple,canned goods
+B04-14-I,estante,B,4,14,I,63.0,16.8,45013,Apple Sauce,canned goods
+B04-14-D,estante,B,4,14,D,67.0,16.8,9598,Gogo Squeez Organic Apple Strawberry Applesauce on the Go,canned goods
+B04-15-I,estante,B,4,15,I,63.0,18.0,15995,Organic Cinnamon Apple Sauce,canned goods
+B04-15-D,estante,B,4,15,D,67.0,18.0,11009,Apple Apple Applesauce On The Go Pouches,canned goods
+B04-16-I,estante,B,4,16,I,63.0,19.2,15860,Natural Apple Sauce Cups,canned goods
+B04-16-D,estante,B,4,16,D,67.0,19.2,890,Organic Diced Tomatoes,canned goods
+B04-17-I,estante,B,4,17,I,63.0,20.4,7021,Organic Tomato Paste,canned goods
+B04-17-D,estante,B,4,17,D,67.0,20.4,8670,Diced Tomatoes,canned goods
+B04-18-I,estante,B,4,18,I,63.0,21.599999999999998,3376,Organic Whole Kernel Sweet Corn No Salt Added,canned goods
+B04-18-D,estante,B,4,18,D,67.0,21.599999999999998,44449,Organic Tomato Sauce,canned goods
+B04-19-I,estante,B,4,19,I,63.0,22.8,22395,Tomato Sauce,canned goods
+B04-19-D,estante,B,4,19,D,67.0,22.8,11408,Crushed Tomatoes,canned goods
+B04-20-I,estante,B,4,20,I,63.0,24.0,5373,Organic No Salt Added Diced Tomatoes,canned goods
+B04-20-D,estante,B,4,20,D,67.0,24.0,25544,Fresh Cut Golden Sweet Whole Kernel Corn,canned goods
+B04-21-I,estante,B,4,21,I,63.0,25.2,41544,Organic Crushed Fire Roasted Tomatoes,canned goods
+B04-21-D,estante,B,4,21,D,67.0,25.2,17862,Minced Garlic,canned goods
+B04-22-I,estante,B,4,22,I,63.0,26.4,20520,Mild Diced Green Chiles,canned goods
+B04-22-D,estante,B,4,22,D,67.0,26.4,30480,"Tomatoes, Whole Peeled",canned goods
+B04-23-I,estante,B,4,23,I,63.0,27.599999999999998,12797,Organic Whole Peeled Tomatoes,canned goods
+B04-23-D,estante,B,4,23,D,67.0,27.599999999999998,48094,Crushed Tomatoes With Basil,canned goods
+B04-24-I,estante,B,4,24,I,63.0,28.799999999999997,48871,Natural Tomato Paste,canned goods
+B04-24-D,estante,B,4,24,D,67.0,28.799999999999997,16525,Organic Chopped Garlic,canned goods
+B04-25-I,estante,B,4,25,I,63.0,30.0,40992,Chopped Tomatoes,canned goods
+B04-25-D,estante,B,4,25,D,67.0,30.0,34449,100% Natural Tomato Sauce,canned goods
+B05-00,interseccion,B,5,0,,70.0,0.0,,,
+B05-01,pasillo,B,5,1,,70.0,1.2,,,
+B05-02,pasillo,B,5,2,,70.0,2.4,,,
+B05-03,pasillo,B,5,3,,70.0,3.5999999999999996,,,
+B05-04,pasillo,B,5,4,,70.0,4.8,,,
+B05-05,pasillo,B,5,5,,70.0,6.0,,,
+B05-06,pasillo,B,5,6,,70.0,7.199999999999999,,,
+B05-07,pasillo,B,5,7,,70.0,8.4,,,
+B05-08,pasillo,B,5,8,,70.0,9.6,,,
+B05-09,pasillo,B,5,9,,70.0,10.799999999999999,,,
+B05-10,pasillo,B,5,10,,70.0,12.0,,,
+B05-11,pasillo,B,5,11,,70.0,13.2,,,
+B05-12,pasillo,B,5,12,,70.0,14.399999999999999,,,
+B05-13,pasillo,B,5,13,,70.0,15.6,,,
+B05-14,pasillo,B,5,14,,70.0,16.8,,,
+B05-15,pasillo,B,5,15,,70.0,18.0,,,
+B05-16,pasillo,B,5,16,,70.0,19.2,,,
+B05-17,pasillo,B,5,17,,70.0,20.4,,,
+B05-18,pasillo,B,5,18,,70.0,21.599999999999998,,,
+B05-19,pasillo,B,5,19,,70.0,22.8,,,
+B05-20,pasillo,B,5,20,,70.0,24.0,,,
+B05-21,pasillo,B,5,21,,70.0,25.2,,,
+B05-22,pasillo,B,5,22,,70.0,26.4,,,
+B05-23,pasillo,B,5,23,,70.0,27.599999999999998,,,
+B05-24,pasillo,B,5,24,,70.0,28.799999999999997,,,
+B05-25,pasillo,B,5,25,,70.0,30.0,,,
+B05-26,interseccion,B,5,26,,70.0,31.2,,,
+B05-01-I,estante,B,5,1,I,68.0,1.2,9689,Whole Hearts of Palm,canned goods
+B05-01-D,estante,B,5,1,D,72.0,1.2,12232,Original Diced Tomatoes & Green Chilies,canned goods
+B05-02-I,estante,B,5,2,I,68.0,2.4,21010,Organic Crushed Tomatoes with Basil,canned goods
+B05-02-D,estante,B,5,2,D,72.0,2.4,23400,Organic Premium Tomato Paste,canned goods
+B05-03-I,estante,B,5,3,I,68.0,3.5999999999999996,31727,"Organic Tomato Paste, No Salt Added",canned goods
+B05-03-D,estante,B,5,3,D,72.0,3.5999999999999996,27156,Organic Black Beans,canned goods
+B05-04-I,estante,B,5,4,I,68.0,4.8,28849,No Salt Added Black Beans,canned goods
+B05-04-D,estante,B,5,4,D,72.0,4.8,42768,Organic Garbanzo Beans,canned goods
+B05-05-I,estante,B,5,5,I,68.0,6.0,35042,Black Beans,canned goods
+B05-05-D,estante,B,5,5,D,72.0,6.0,49175,Organic Pinto Beans,canned goods
+B05-06-I,estante,B,5,6,I,68.0,7.199999999999999,16145,Organic Cannellini Beans,canned goods
+B05-06-D,estante,B,5,6,D,72.0,7.199999999999999,14267,Organic Refried Black Beans,canned goods
+B05-07-I,estante,B,5,7,I,68.0,8.4,5994,Traditional Refried Beans,canned goods
+B05-07-D,estante,B,5,7,D,72.0,8.4,27683,Black Beans No Salt Added,canned goods
+B05-08-I,estante,B,5,8,I,68.0,9.6,32717,Baked Beans,canned goods
+B05-08-D,estante,B,5,8,D,72.0,9.6,26668,Cannellini White Kidney Beans No Salt Added,canned goods
+B05-09-I,estante,B,5,9,I,68.0,10.799999999999999,17634,Chick Peas,canned goods
+B05-09-D,estante,B,5,9,D,72.0,10.799999999999999,790,Garbanzo Beans,canned goods
+B05-10-I,estante,B,5,10,I,68.0,12.0,7461,Pinto Beans No Salt Added,canned goods
+B05-10-D,estante,B,5,10,D,72.0,12.0,35750,Organic Garbanzo Beans No Salt Added,canned goods
+B05-11-I,estante,B,5,11,I,68.0,13.2,20127,Organic Lentil Beans,canned goods
+B05-11-D,estante,B,5,11,D,72.0,13.2,429,Dark Red Kidney Beans,canned goods
+B05-12-I,estante,B,5,12,I,68.0,14.399999999999999,4317,Solid White Albacore Tuna In Water,canned goods
+B05-12-D,estante,B,5,12,D,72.0,14.399999999999999,79,Wild Albacore Tuna No Salt Added,canned goods
+B05-13-I,estante,B,5,13,I,68.0,15.6,45149,Chunk Light Tuna In Water,canned goods
+B05-13-D,estante,B,5,13,D,72.0,15.6,45535,Organic Low Sodium Chicken Broth,canned goods
+B05-14-I,estante,B,5,14,I,68.0,16.8,46720,Organic Free Range Chicken Broth,canned goods
+B05-14-D,estante,B,5,14,D,72.0,16.8,5769,Organic Chicken Stock,canned goods
+B05-15-I,estante,B,5,15,I,68.0,18.0,1999,Organic Chicken Broth,canned goods
+B05-15-D,estante,B,5,15,D,72.0,18.0,9092,Organic Vegetable Broth,canned goods
+B05-16-I,estante,B,5,16,I,68.0,19.2,18479,Organic Low Sodium Vegetable Broth,canned goods
+B05-16-D,estante,B,5,16,D,72.0,19.2,14129,Organic Chicken Bone Broth,canned goods
+B05-17-I,estante,B,5,17,I,68.0,20.4,18880,Organic Free Range Low Sodium Chicken Broth,canned goods
+B05-17-D,estante,B,5,17,D,72.0,20.4,21417,Organic Creamy Tomato Soup,canned goods
+B05-18-I,estante,B,5,18,I,68.0,21.599999999999998,16823,Organic Beef Broth,canned goods
+B05-18-D,estante,B,5,18,D,72.0,21.599999999999998,20378,Chicken Broth,canned goods
+B05-19-I,estante,B,5,19,I,68.0,22.8,46900,Organic Chicken Noodle Soup,canned goods
+B05-19-D,estante,B,5,19,D,72.0,22.8,14536,Natural Goodness 33% Less Sodium Chicken Broth,canned goods
+B05-20-I,estante,B,5,20,I,68.0,24.0,11136,Organic Low Sodium Chicken Cooking Stock,canned goods
+B05-20-D,estante,B,5,20,D,72.0,24.0,20670,Organic Lentil Vegetable Soup,canned goods
+B05-21-I,estante,B,5,21,I,68.0,25.2,44843,Traditional Chicken Noodle Soup,canned goods
+B05-21-D,estante,B,5,21,D,72.0,25.2,23094,Organic Lentil Soup,canned goods
+B05-22-I,estante,B,5,22,I,68.0,26.4,3682,Organic Roasted Red Pepper & Tomato Soup,canned goods
+B05-22-D,estante,B,5,22,D,72.0,26.4,30591,Cinnamon Brown Sugar Breakfast Biscuits,breakfast
+B05-23-I,estante,B,5,23,I,68.0,27.599999999999998,41844,Honey Nut Cheerios,breakfast
+B05-23-D,estante,B,5,23,D,72.0,27.599999999999998,6187,Raisin Bran Cereal,breakfast
+B05-24-I,estante,B,5,24,I,68.0,28.799999999999997,20955,Cereal,breakfast
+B05-24-D,estante,B,5,24,D,72.0,28.799999999999997,31433,Organic Cinnamon Crunch Cereal,breakfast
+B05-25-I,estante,B,5,25,I,68.0,30.0,31759,Cherrios Honey Nut,breakfast
+B05-25-D,estante,B,5,25,D,72.0,30.0,4137,Whole Grain Oat Cereal,breakfast
+B06-00,interseccion,B,6,0,,75.0,0.0,,,
+B06-01,pasillo,B,6,1,,75.0,1.2,,,
+B06-02,pasillo,B,6,2,,75.0,2.4,,,
+B06-03,pasillo,B,6,3,,75.0,3.5999999999999996,,,
+B06-04,pasillo,B,6,4,,75.0,4.8,,,
+B06-05,pasillo,B,6,5,,75.0,6.0,,,
+B06-06,pasillo,B,6,6,,75.0,7.199999999999999,,,
+B06-07,pasillo,B,6,7,,75.0,8.4,,,
+B06-08,pasillo,B,6,8,,75.0,9.6,,,
+B06-09,pasillo,B,6,9,,75.0,10.799999999999999,,,
+B06-10,pasillo,B,6,10,,75.0,12.0,,,
+B06-11,pasillo,B,6,11,,75.0,13.2,,,
+B06-12,pasillo,B,6,12,,75.0,14.399999999999999,,,
+B06-13,pasillo,B,6,13,,75.0,15.6,,,
+B06-14,pasillo,B,6,14,,75.0,16.8,,,
+B06-15,pasillo,B,6,15,,75.0,18.0,,,
+B06-16,pasillo,B,6,16,,75.0,19.2,,,
+B06-17,pasillo,B,6,17,,75.0,20.4,,,
+B06-18,pasillo,B,6,18,,75.0,21.599999999999998,,,
+B06-19,pasillo,B,6,19,,75.0,22.8,,,
+B06-20,pasillo,B,6,20,,75.0,24.0,,,
+B06-21,pasillo,B,6,21,,75.0,25.2,,,
+B06-22,pasillo,B,6,22,,75.0,26.4,,,
+B06-23,pasillo,B,6,23,,75.0,27.599999999999998,,,
+B06-24,pasillo,B,6,24,,75.0,28.799999999999997,,,
+B06-25,pasillo,B,6,25,,75.0,30.0,,,
+B06-26,interseccion,B,6,26,,75.0,31.2,,,
+B06-01-I,estante,B,6,1,I,73.0,1.2,365,Cheerios Cereal,breakfast
+B06-01-D,estante,B,6,1,D,77.0,1.2,43409,Frosted Mini-Wheats Original Cereal,breakfast
+B06-02-I,estante,B,6,2,I,73.0,2.4,30183,Quaker Life Cinnamon Cereal,breakfast
+B06-02-D,estante,B,6,2,D,77.0,2.4,34,Peanut Butter Cereal,breakfast
+B06-03-I,estante,B,6,3,I,73.0,3.5999999999999996,39216,Original Multigrain Spoonfuls Cereal,breakfast
+B06-03-D,estante,B,6,3,D,77.0,3.5999999999999996,20512,Original Cereal,breakfast
+B06-04-I,estante,B,6,4,I,73.0,4.8,26177,Organic Honey Nut O's Cereal,breakfast
+B06-04-D,estante,B,6,4,D,77.0,4.8,30340,Oatmeal Squares Brown Sugar,breakfast
+B06-05-I,estante,B,6,5,I,73.0,6.0,41351,Family Size Naturally Flavored Whole Grain Oats Cereal,breakfast
+B06-05-D,estante,B,6,5,D,77.0,6.0,4792,Panda Puffs Peanut Butter Cereal,breakfast
+B06-06-I,estante,B,6,6,I,73.0,7.199999999999999,27663,GOLEAN Crunch! Cereal,breakfast
+B06-06-D,estante,B,6,6,D,77.0,7.199999999999999,31640,Original Puffins Cereal,breakfast
+B06-07-I,estante,B,6,7,I,73.0,8.4,39560,Go Lean Crunch! Honey Almond Flax Cereal,breakfast
+B06-07-D,estante,B,6,7,D,77.0,8.4,24253,Go Lean Cereal,breakfast
+B06-08-I,estante,B,6,8,I,73.0,9.6,21513,Heart to Heart Honey Toasted Oat Cereal,breakfast
+B06-08-D,estante,B,6,8,D,77.0,9.6,39411,Organic Cinnamon Harvest Cereal,breakfast
+B06-09-I,estante,B,6,9,I,73.0,10.799999999999999,13042,with Crispy Almonds Cereal,breakfast
+B06-09-D,estante,B,6,9,D,77.0,10.799999999999999,44475,Honey Bunches of Oats Honey Roasted with Almonds Cereal,breakfast
+B06-10-I,estante,B,6,10,I,73.0,12.0,28931,Honey Bunches of Oats Honey Roasted Cereal,breakfast
+B06-10-D,estante,B,6,10,D,77.0,12.0,13032,Cinnamon Toast Crunch,breakfast
+B06-11-I,estante,B,6,11,I,73.0,13.2,19376,Gluten Free Crunchy Vanilla Cereal,breakfast
+B06-11-D,estante,B,6,11,D,77.0,13.2,36994,Organic Graham Crunch Cereal,breakfast
+B06-12-I,estante,B,6,12,I,73.0,14.399999999999999,25691,Original Life Cereal,breakfast
+B06-12-D,estante,B,6,12,D,77.0,14.399999999999999,29363,Cinnamon Cereal,breakfast
+B06-13-I,estante,B,6,13,I,73.0,15.6,2519,Rice Krispies Cereal,breakfast
+B06-13-D,estante,B,6,13,D,77.0,15.6,25767,Organic Multi Grain Squares Cereal,breakfast
+B06-14-I,estante,B,6,14,I,73.0,16.8,21506,Organic Raisin Bran Cereal,breakfast
+B06-14-D,estante,B,6,14,D,77.0,16.8,32579,Organic Promise Autumn Wheat Cereal,breakfast
+B06-15-I,estante,B,6,15,I,73.0,18.0,31663,Vanilla Blueberry Clusters With Flax Seeds Granola,breakfast
+B06-15-D,estante,B,6,15,D,77.0,18.0,18352,Flax Plus Organic Pumpkin Flax Granola,breakfast
+B06-16-I,estante,B,6,16,I,73.0,19.2,9550,Ancient Grain Original Granola,breakfast
+B06-16-D,estante,B,6,16,D,77.0,19.2,812,Healthy Grains Oats & Honey Clusters with Toasted Coconut Gluten Free,breakfast
+B06-17-I,estante,B,6,17,I,73.0,20.4,34565,Peanut Butter Whole Grain Clusters,breakfast
+B06-17-D,estante,B,6,17,D,77.0,20.4,25630,Healthy Grains Fiber Cinnamon Oat Clusters,breakfast
+B06-18-I,estante,B,6,18,I,73.0,21.599999999999998,14553,Oats & Honey Granola,breakfast
+B06-18-D,estante,B,6,18,D,77.0,21.599999999999998,44422,Organic Old Fashioned Rolled Oats,breakfast
+B06-19-I,estante,B,6,19,I,73.0,22.8,21543,Organic Quick Oats,breakfast
+B06-19-D,estante,B,6,19,D,77.0,22.8,47966,Old Fashioned Rolled Oats,breakfast
+B06-20-I,estante,B,6,20,I,73.0,24.0,37464,Apple Cinnamon Instant Oatmeal,breakfast
+B06-20-D,estante,B,6,20,D,77.0,24.0,49111,Original Instant Oatmeal,breakfast
+B06-21-I,estante,B,6,21,I,73.0,25.2,25043,Instant Oatmeal Variety Pack,breakfast
+B06-21-D,estante,B,6,21,D,77.0,25.2,45965,Steel Cut Oats,breakfast
+B06-22-I,estante,B,6,22,I,73.0,26.4,46709,Gluten Free Old Fashioned Rolled Oats,breakfast
+B06-22-D,estante,B,6,22,D,77.0,26.4,13755,Instant Oatmeal Maple & Brown Sugar,breakfast
+B06-23-I,estante,B,6,23,I,73.0,27.599999999999998,38164,Almonds & Sea Salt in Dark Chocolate,snacks
+B06-23-D,estante,B,6,23,D,77.0,27.599999999999998,46616,Organic Dark Chocolate Peanut Butter Cups,snacks
+B06-24-I,estante,B,6,24,I,73.0,28.799999999999997,13424,Almonds,snacks
+B06-24-D,estante,B,6,24,D,77.0,28.799999999999997,39657,Milk Chocolate Almonds,snacks
+B06-25-I,estante,B,6,25,I,73.0,30.0,2480,Organic 85% Cacao Dark Chocolate Bar,snacks
+B06-25-D,estante,B,6,25,D,77.0,30.0,43192,Dark with 70% Cacao Content Organic Chocolate Bar,snacks
+B07-00,interseccion,B,7,0,,80.0,0.0,,,
+B07-01,pasillo,B,7,1,,80.0,1.2,,,
+B07-02,pasillo,B,7,2,,80.0,2.4,,,
+B07-03,pasillo,B,7,3,,80.0,3.5999999999999996,,,
+B07-04,pasillo,B,7,4,,80.0,4.8,,,
+B07-05,pasillo,B,7,5,,80.0,6.0,,,
+B07-06,pasillo,B,7,6,,80.0,7.199999999999999,,,
+B07-07,pasillo,B,7,7,,80.0,8.4,,,
+B07-08,pasillo,B,7,8,,80.0,9.6,,,
+B07-09,pasillo,B,7,9,,80.0,10.799999999999999,,,
+B07-10,pasillo,B,7,10,,80.0,12.0,,,
+B07-11,pasillo,B,7,11,,80.0,13.2,,,
+B07-12,pasillo,B,7,12,,80.0,14.399999999999999,,,
+B07-13,pasillo,B,7,13,,80.0,15.6,,,
+B07-14,pasillo,B,7,14,,80.0,16.8,,,
+B07-15,pasillo,B,7,15,,80.0,18.0,,,
+B07-16,pasillo,B,7,16,,80.0,19.2,,,
+B07-17,pasillo,B,7,17,,80.0,20.4,,,
+B07-18,pasillo,B,7,18,,80.0,21.599999999999998,,,
+B07-19,pasillo,B,7,19,,80.0,22.8,,,
+B07-20,pasillo,B,7,20,,80.0,24.0,,,
+B07-21,pasillo,B,7,21,,80.0,25.2,,,
+B07-22,pasillo,B,7,22,,80.0,26.4,,,
+B07-23,pasillo,B,7,23,,80.0,27.599999999999998,,,
+B07-24,pasillo,B,7,24,,80.0,28.799999999999997,,,
+B07-25,pasillo,B,7,25,,80.0,30.0,,,
+B07-26,interseccion,B,7,26,,80.0,31.2,,,
+B07-01-I,estante,B,7,1,I,78.0,1.2,45445,Organic Bagged Mini Dark Peanut Butter,snacks
+B07-01-D,estante,B,7,1,D,82.0,1.2,29077,Organic Milk Chocolate Peanut Butter Cups,snacks
+B07-02-I,estante,B,7,2,I,78.0,2.4,37276,"Bar, Toffee & Almonds in Milk Chocolate",snacks
+B07-02-D,estante,B,7,2,D,82.0,2.4,37496,Organic Deep Dark Sea Salt Chocolate,snacks
+B07-03-I,estante,B,7,3,I,78.0,3.5999999999999996,13870,Lightly Salted Baked Snap Pea Crisps,snacks
+B07-03-D,estante,B,7,3,D,82.0,3.5999999999999996,21376,Pretzel Crisps Original Deli Style Pretzel Crackers,snacks
+B07-04-I,estante,B,7,4,I,78.0,4.8,31040,Sea Salt Pita Chips,snacks
+B07-04-D,estante,B,7,4,D,82.0,4.8,35561,Organic Tortilla Chips,snacks
+B07-05-I,estante,B,7,5,I,78.0,6.0,40709,Sea Salt & Vinegar Potato Chips,snacks
+B07-05-D,estante,B,7,5,D,82.0,6.0,25824,Pita Chips Simply Naked,snacks
+B07-06-I,estante,B,7,6,I,78.0,7.199999999999999,18288,Sea Salt Potato Chips,snacks
+B07-06-D,estante,B,7,6,D,82.0,7.199999999999999,13380,Organic Blue Corn Tortilla Chips,snacks
+B07-07-I,estante,B,7,7,I,78.0,8.4,11759,Organic Simply Naked Pita Chips,snacks
+B07-07-D,estante,B,7,7,D,82.0,8.4,7644,Scoops! Tortilla Chips,snacks
+B07-08-I,estante,B,7,8,I,78.0,9.6,24841,Aged White Cheddar Baked Rice & Corn Puffs Gluten Free Lunch Packs,snacks
+B07-08-D,estante,B,7,8,D,82.0,9.6,19006,Dark Chocolate Pretzels with Sea Salt,snacks
+B07-09-I,estante,B,7,9,I,78.0,10.799999999999999,14633,Veggie Chips,snacks
+B07-09-D,estante,B,7,9,D,82.0,10.799999999999999,11576,Corn Chips,snacks
+B07-10-I,estante,B,7,10,I,78.0,12.0,47357,Original Restaurant Style Tortilla Chips,snacks
+B07-10-D,estante,B,7,10,D,82.0,12.0,6489,Backyard Barbeque Potato Chips,snacks
+B07-11-I,estante,B,7,11,I,78.0,13.2,23645,Sour Cream & Onion Potato Chips,snacks
+B07-11-D,estante,B,7,11,D,82.0,13.2,17835,Thin & Light Tortilla Chips,snacks
+B07-12-I,estante,B,7,12,I,78.0,14.399999999999999,14858,Multigrain Pita Chips,snacks
+B07-12-D,estante,B,7,12,D,82.0,14.399999999999999,16589,Plantain Chips,snacks
+B07-13-I,estante,B,7,13,I,78.0,15.6,46692,Multigrain Tortilla Chips,snacks
+B07-13-D,estante,B,7,13,D,82.0,15.6,20580,Original Real Vegetable Chips,snacks
+B07-14-I,estante,B,7,14,I,78.0,16.8,34862,Tiny Twists Pretzels,snacks
+B07-14-D,estante,B,7,14,D,82.0,16.8,46049,Salt & Pepper Krinkle Chips,snacks
+B07-15-I,estante,B,7,15,I,78.0,18.0,47866,Jalapeno Potato Chips,snacks
+B07-15-D,estante,B,7,15,D,82.0,18.0,3397,Organic Lightly Salted Sea Salt Thin & Crispy Restaurant Style Tortilla Chips,snacks
+B07-16-I,estante,B,7,16,I,78.0,19.2,46226,Thick & Crispy Tortilla Chips,snacks
+B07-16-D,estante,B,7,16,D,82.0,19.2,19863,Classic Potato Chips,snacks
+B07-17-I,estante,B,7,17,I,78.0,20.4,36076,Everything Deli Style Pretzel Crisps Crackers,snacks
+B07-17-D,estante,B,7,17,D,82.0,20.4,25952,Original Potato Chips,snacks
+B07-18-I,estante,B,7,18,I,78.0,21.599999999999998,44548,Barbecue Potato Chips,snacks
+B07-18-D,estante,B,7,18,D,82.0,21.599999999999998,38185,Hint of Lime Flavored Tortilla Chips,snacks
+B07-19-I,estante,B,7,19,I,78.0,22.8,8555,Sweet Potato Tortilla Chips,snacks
+B07-19-D,estante,B,7,19,D,82.0,22.8,19734,Classic Mix Variety,snacks
+B07-20-I,estante,B,7,20,I,78.0,24.0,33651,Harvest Cheddar Multigrain Chips,snacks
+B07-20-D,estante,B,7,20,D,82.0,24.0,33647,Blue Chips Corn Tortilla Chips,snacks
+B07-21-I,estante,B,7,21,I,78.0,25.2,15386,Whole Grain White Corn Salted Tortilla Chips,snacks
+B07-21-D,estante,B,7,21,D,82.0,25.2,19051,"Pita Chips, Simply Naked, Party Size",snacks
+B07-22-I,estante,B,7,22,I,78.0,26.4,46260,"Tortilla Chips, Mexican Kitchen Style, Salted",snacks
+B07-22-D,estante,B,7,22,D,82.0,26.4,2732,Gluten Free Pretzel Sticks,snacks
+B07-23-I,estante,B,7,23,I,78.0,27.599999999999998,41165,Cheese Puffs,snacks
+B07-23-D,estante,B,7,23,D,82.0,27.599999999999998,32573,Pretzel Sticks,snacks
+B07-24-I,estante,B,7,24,I,78.0,28.799999999999997,48109,"Tortilla Chips, Clasico, Jalapeno Lime",snacks
+B07-24-D,estante,B,7,24,D,82.0,28.799999999999997,18721,"Baked Rice and Corn Puffs, Aged White Cheddar",snacks
+B07-25-I,estante,B,7,25,I,78.0,30.0,45051,Pub Mix,snacks
+B07-25-D,estante,B,7,25,D,82.0,30.0,39491,Pirate's Booty Aged White Cheddar Baked Rice and Corn Puffs,snacks
+B08-00,interseccion,B,8,0,,85.0,0.0,,,
+B08-01,pasillo,B,8,1,,85.0,1.2,,,
+B08-02,pasillo,B,8,2,,85.0,2.4,,,
+B08-03,pasillo,B,8,3,,85.0,3.5999999999999996,,,
+B08-04,pasillo,B,8,4,,85.0,4.8,,,
+B08-05,pasillo,B,8,5,,85.0,6.0,,,
+B08-06,pasillo,B,8,6,,85.0,7.199999999999999,,,
+B08-07,pasillo,B,8,7,,85.0,8.4,,,
+B08-08,pasillo,B,8,8,,85.0,9.6,,,
+B08-09,pasillo,B,8,9,,85.0,10.799999999999999,,,
+B08-10,pasillo,B,8,10,,85.0,12.0,,,
+B08-11,pasillo,B,8,11,,85.0,13.2,,,
+B08-12,pasillo,B,8,12,,85.0,14.399999999999999,,,
+B08-13,pasillo,B,8,13,,85.0,15.6,,,
+B08-14,pasillo,B,8,14,,85.0,16.8,,,
+B08-15,pasillo,B,8,15,,85.0,18.0,,,
+B08-16,pasillo,B,8,16,,85.0,19.2,,,
+B08-17,pasillo,B,8,17,,85.0,20.4,,,
+B08-18,pasillo,B,8,18,,85.0,21.599999999999998,,,
+B08-19,pasillo,B,8,19,,85.0,22.8,,,
+B08-20,pasillo,B,8,20,,85.0,24.0,,,
+B08-21,pasillo,B,8,21,,85.0,25.2,,,
+B08-22,pasillo,B,8,22,,85.0,26.4,,,
+B08-23,pasillo,B,8,23,,85.0,27.599999999999998,,,
+B08-24,pasillo,B,8,24,,85.0,28.799999999999997,,,
+B08-25,pasillo,B,8,25,,85.0,30.0,,,
+B08-26,interseccion,B,8,26,,85.0,31.2,,,
+B08-01-I,estante,B,8,1,I,83.0,1.2,12914,Corn Tortilla Chips,snacks
+B08-01-D,estante,B,8,1,D,87.0,1.2,28571,Pretzel Rods,snacks
+B08-02-I,estante,B,8,2,I,83.0,2.4,27471,Parmesan Garlic Pita Chips,snacks
+B08-02-D,estante,B,8,2,D,87.0,2.4,45437,Sea Salt Made With Organic Grain Rice Chips,snacks
+B08-03-I,estante,B,8,3,I,83.0,3.5999999999999996,28647,Nacho Cheese Tortilla Chips,snacks
+B08-03-D,estante,B,8,3,D,87.0,3.5999999999999996,1313,Tortilla Strips Restaurant Style,snacks
+B08-04-I,estante,B,8,4,I,83.0,4.8,34160,of Hanover 100 Calorie Pretzels Mini,snacks
+B08-04-D,estante,B,8,4,D,87.0,4.8,141,Restaurant Style Organic Chia & Quinoa Tortilla Chips,snacks
+B08-05-I,estante,B,8,5,I,83.0,6.0,7412,Gluten-Free Red Hot Blues Made with Organic Blue  Corn Tortilla Chips,snacks
+B08-05-D,estante,B,8,5,D,87.0,6.0,6297,Cheese Puffs Original,snacks
+B08-06-I,estante,B,8,6,I,83.0,7.199999999999999,18200,Aged White Cheddar Gluten-Free Baked Rice And Corn Puffs,snacks
+B08-06-D,estante,B,8,6,D,87.0,7.199999999999999,40199,Chocolate Chip Cookies,snacks
+B08-07-I,estante,B,8,7,I,83.0,8.4,40063,Gluten Free Chocolate Chip Cookies,snacks
+B08-07-D,estante,B,8,7,D,87.0,8.4,12481,Oreo Chocolate Sandwich Cookies,snacks
+B08-08-I,estante,B,8,8,I,83.0,9.6,45866,Fig Newmans Fruit Filled Cookies,snacks
+B08-08-D,estante,B,8,8,D,87.0,9.6,26634,"Cookies, Chocolate Chip Walnut",snacks
+B08-09-I,estante,B,8,9,I,83.0,10.799999999999999,11281,Double Stuf Oreo Sandwich Cookies,snacks
+B08-09-D,estante,B,8,9,D,87.0,10.799999999999999,49054,Original Chocolate Chip Cookies,snacks
+B08-10-I,estante,B,8,10,I,83.0,12.0,42193,Chocolate Chip Cookie,snacks
+B08-10-D,estante,B,8,10,D,87.0,12.0,22362,Original Rice Krispies Treats,snacks
+B08-11-I,estante,B,8,11,I,83.0,13.2,42139,Fudge Mint Cookies,snacks
+B08-11-D,estante,B,8,11,D,87.0,13.2,34262,Hint Of Sea Salt Almond Nut Thins,snacks
+B08-12-I,estante,B,8,12,I,83.0,14.399999999999999,39561,Crackers Cheddar Bunnies Snack Packs,snacks
+B08-12-D,estante,B,8,12,D,87.0,14.399999999999999,22474,Cheddar Bunnies Snack Crackers,snacks
+B08-13-I,estante,B,8,13,I,83.0,15.6,17616,Goldfish Cheddar Baked Snack Crackers,snacks
+B08-13-D,estante,B,8,13,D,87.0,15.6,24810,Organic Lightly Salted Brown Rice Cakes,snacks
+B08-14-I,estante,B,8,14,I,83.0,16.8,2091,Almond Nut & Rice Cracker Snacks,snacks
+B08-14-D,estante,B,8,14,D,87.0,16.8,7736,Premium Original Saltine Crackers,snacks
+B08-15-I,estante,B,8,15,I,83.0,18.0,18382,Saltine Crackers,snacks
+B08-15-D,estante,B,8,15,D,87.0,18.0,6128,Original Fresh Stack Crackers,snacks
+B08-16-I,estante,B,8,16,I,83.0,19.2,8479,Original Black Box Tablewater Cracker,snacks
+B08-16-D,estante,B,8,16,D,87.0,19.2,32455,Whole Grain Cheddar Baked Snack Crackers,snacks
+B08-17-I,estante,B,8,17,I,83.0,20.4,40268,Organic Wheat-Free & Gluten-Free Original Crackers,snacks
+B08-17-D,estante,B,8,17,D,87.0,20.4,48595,Organic Wheat Square Crackers,snacks
+B08-18-I,estante,B,8,18,I,83.0,21.599999999999998,33894,Goldfish Cheddar Baked Snack Crackers Multi Packs,snacks
+B08-18-D,estante,B,8,18,D,87.0,21.599999999999998,21009,"Crispy Wheat, Crackers",snacks
+B08-19-I,estante,B,8,19,I,83.0,22.8,11352,Organic Mini Sandwich Crackers Peanut Butter,snacks
+B08-19-D,estante,B,8,19,D,87.0,22.8,21614,Crackers Harvest Whole Wheat,snacks
+B08-20-I,estante,B,8,20,I,83.0,24.0,39041,Original Wheat Thins,snacks
+B08-20-D,estante,B,8,20,D,87.0,24.0,31564,Crackers,snacks
+B08-21-I,estante,B,8,21,I,83.0,25.2,12817,Original Baked Whole Grain Wheat Crackers,snacks
+B08-21-D,estante,B,8,21,D,87.0,25.2,12572,6 OZ LA PANZANELLA CROSTINI ORIGINAL CRACKERS,snacks
+B08-22-I,estante,B,8,22,I,83.0,26.4,44245,Honey Maid Graham Crackers,snacks
+B08-22-D,estante,B,8,22,D,87.0,26.4,28597,Organic Stoneground Wheat Crackers,snacks
+B08-23-I,estante,B,8,23,I,83.0,27.599999999999998,4778,Wheat Thins Reduced Fat Crackers,snacks
+B08-23-D,estante,B,8,23,D,87.0,27.599999999999998,44487,Lightly Salted Rice Cakes,snacks
+B08-24-I,estante,B,8,24,I,83.0,28.799999999999997,3696,Original Baked Snack Crackers,snacks
+B08-24-D,estante,B,8,24,D,87.0,28.799999999999997,21572,Cheez-It Cheddar Cracker,snacks
+B08-25-I,estante,B,8,25,I,83.0,30.0,22993,Super Seed Crispy Crackers,snacks
+B08-25-D,estante,B,8,25,D,87.0,30.0,35132,Cheese Square Crackers,snacks
+B09-00,interseccion,B,9,0,,90.0,0.0,,,
+B09-01,pasillo,B,9,1,,90.0,1.2,,,
+B09-02,pasillo,B,9,2,,90.0,2.4,,,
+B09-03,pasillo,B,9,3,,90.0,3.5999999999999996,,,
+B09-04,pasillo,B,9,4,,90.0,4.8,,,
+B09-05,pasillo,B,9,5,,90.0,6.0,,,
+B09-06,pasillo,B,9,6,,90.0,7.199999999999999,,,
+B09-07,pasillo,B,9,7,,90.0,8.4,,,
+B09-08,pasillo,B,9,8,,90.0,9.6,,,
+B09-09,pasillo,B,9,9,,90.0,10.799999999999999,,,
+B09-10,pasillo,B,9,10,,90.0,12.0,,,
+B09-11,pasillo,B,9,11,,90.0,13.2,,,
+B09-12,pasillo,B,9,12,,90.0,14.399999999999999,,,
+B09-13,pasillo,B,9,13,,90.0,15.6,,,
+B09-14,pasillo,B,9,14,,90.0,16.8,,,
+B09-15,pasillo,B,9,15,,90.0,18.0,,,
+B09-16,pasillo,B,9,16,,90.0,19.2,,,
+B09-17,pasillo,B,9,17,,90.0,20.4,,,
+B09-18,pasillo,B,9,18,,90.0,21.599999999999998,,,
+B09-19,pasillo,B,9,19,,90.0,22.8,,,
+B09-20,pasillo,B,9,20,,90.0,24.0,,,
+B09-21,pasillo,B,9,21,,90.0,25.2,,,
+B09-22,pasillo,B,9,22,,90.0,26.4,,,
+B09-23,pasillo,B,9,23,,90.0,27.599999999999998,,,
+B09-24,pasillo,B,9,24,,90.0,28.799999999999997,,,
+B09-25,pasillo,B,9,25,,90.0,30.0,,,
+B09-26,interseccion,B,9,26,,90.0,31.2,,,
+B09-01-I,estante,B,9,1,I,88.0,1.2,7361,Herb Crackers,snacks
+B09-01-D,estante,B,9,1,D,92.0,1.2,32052,Organic Brown Rice Cake Salt-Free,snacks
+B09-02-I,estante,B,9,2,I,88.0,2.4,33527,Organic Classic Rich Crackers,snacks
+B09-02-D,estante,B,9,2,D,92.0,2.4,13914,Cheez-It Baked Snack Crackers,snacks
+B09-03-I,estante,B,9,3,I,88.0,3.5999999999999996,38622,Cheddar Snack Crackers Cheddar Bunnies,snacks
+B09-03-D,estante,B,9,3,D,92.0,3.5999999999999996,44201,Original Gluten Free Crackers,snacks
+B09-04-I,estante,B,9,4,I,88.0,4.8,4565,Baked Snack Crackers Original,snacks
+B09-04-D,estante,B,9,4,D,92.0,4.8,23630,Multi-Seed Original Crackers,snacks
+B09-05-I,estante,B,9,5,I,88.0,6.0,27454,Organic Mini Sandwich Crackers Cheddar Cheese,snacks
+B09-05-D,estante,B,9,5,D,92.0,6.0,21526,Organic Golden Round Crackers,snacks
+B09-06-I,estante,B,9,6,I,88.0,7.199999999999999,45537,Classic Round Crackers,snacks
+B09-06-D,estante,B,9,6,D,92.0,7.199999999999999,7185,Rosemary Mini Croccantini,snacks
+B09-07-I,estante,B,9,7,I,88.0,8.4,15700,Cheddar Cheese Nut Thins Cracker Snacks,snacks
+B09-07-D,estante,B,9,7,D,92.0,8.4,7088,Organic Cheddar Bunnies,snacks
+B09-08-I,estante,B,9,8,I,88.0,9.6,46107,Whole Wheat Crackers,snacks
+B09-08-D,estante,B,9,8,D,92.0,9.6,44560,Kids Organic Chocolate Chip ZBars,snacks
+B09-09-I,estante,B,9,9,I,88.0,10.799999999999999,5322,Gluten Free Dark Chocolate Chunk Chewy with a Crunch Granola Bars,snacks
+B09-09-D,estante,B,9,9,D,92.0,10.799999999999999,41400,Crunchy Oats 'n Honey Granola Bars,snacks
+B09-10-I,estante,B,9,10,I,88.0,12.0,16254,ZBar Organic Chocolate Brownie Energy Snack,snacks
+B09-10-D,estante,B,9,10,D,92.0,12.0,17224,Oats & Honey Gluten Free Granola,snacks
+B09-11-I,estante,B,9,11,I,88.0,13.2,14778,Organic Chocolate Chip Chewy Granola Bars,snacks
+B09-11-D,estante,B,9,11,D,92.0,13.2,23579,Peanut Butter Chocolate Chip Fruit & Nut Food Bar,snacks
+B09-12-I,estante,B,9,12,I,88.0,14.399999999999999,34137,Chocolate Sea Salt,snacks
+B09-12-D,estante,B,9,12,D,92.0,14.399999999999999,33716,Apple Pie Fruit & Nut Food Bar,snacks
+B09-13-I,estante,B,9,13,I,88.0,15.6,38656,Gluten Free Peanut Butter Dark Chocolate Chewy With a Crunch Granola Bars,snacks
+B09-13-D,estante,B,9,13,D,92.0,15.6,43263,Crunchy Oats N' Honey Granola Bars,snacks
+B09-14-I,estante,B,9,14,I,88.0,16.8,10753,Peanut Butter Bar,snacks
+B09-14-D,estante,B,9,14,D,92.0,16.8,25197,Iced Oatmeal Cookie Kid Z Bar,snacks
+B09-15-I,estante,B,9,15,I,88.0,18.0,5250,Blueberry Muffin Bar,snacks
+B09-15-D,estante,B,9,15,D,92.0,18.0,26629,Cherry Pie Fruit & Nut Bar,snacks
+B09-16-I,estante,B,9,16,I,88.0,19.2,24035,Coconut  Chocolate Bar,snacks
+B09-16-D,estante,B,9,16,D,92.0,19.2,35633,Chocolate Peanut Butter,snacks
+B09-17-I,estante,B,9,17,I,88.0,20.4,47990,White Chocolate Macadamia Nut Energy Bar,snacks
+B09-17-D,estante,B,9,17,D,92.0,20.4,23291,Coconut Chia Bar,snacks
+B09-18-I,estante,B,9,18,I,88.0,21.599999999999998,11688,Lemon Fruit & Nut Food Bar,snacks
+B09-18-D,estante,B,9,18,D,92.0,21.599999999999998,20876,Crunchy Peanut Butter Energy Bar,snacks
+B09-19-I,estante,B,9,19,I,88.0,22.8,24518,Gluten Free Lemonzest Nutrition bar,snacks
+B09-19-D,estante,B,9,19,D,92.0,22.8,47717,Peanut Butter Cookie,snacks
+B09-20-I,estante,B,9,20,I,88.0,24.0,19821,Chocolate Chip,snacks
+B09-20-D,estante,B,9,20,D,92.0,24.0,46562,Sweet & Salty Nut Granola Bars Peanut,snacks
+B09-21-I,estante,B,9,21,I,88.0,25.2,36205,Peanut Butter Egg White Protein Bar,snacks
+B09-21-D,estante,B,9,21,D,92.0,25.2,38730,Brownie Crunch High Protein Bar,snacks
+B09-22-I,estante,B,9,22,I,88.0,26.4,22227,Coconut Cream Pie,snacks
+B09-22-D,estante,B,9,22,D,92.0,26.4,6069,Maple Pumpkin Seeds with Sea Salt Chewy with a Crunch Granola Bars,snacks
+B09-23-I,estante,B,9,23,I,88.0,27.599999999999998,25346,Peanut Butter Dark Chocolate + Protein Bar,snacks
+B09-23-D,estante,B,9,23,D,92.0,27.599999999999998,45645,Dark Chocolate Nuts & Sea Salt Bars,snacks
+B09-24-I,estante,B,9,24,I,88.0,28.799999999999997,31730,Chewy Granola Bar Chocolate Chip Granola,snacks
+B09-24-D,estante,B,9,24,D,92.0,28.799999999999997,34448,Original Veggie Straws,snacks
+B09-25-I,estante,B,9,25,I,88.0,30.0,26348,Mixed Fruit Fruit Snacks,snacks
+B09-25-D,estante,B,9,25,D,92.0,30.0,5194,Organic Bunny Fruit Snacks Berry Patch,snacks
+B10-00,interseccion,B,10,0,,95.0,0.0,,,
+B10-01,pasillo,B,10,1,,95.0,1.2,,,
+B10-02,pasillo,B,10,2,,95.0,2.4,,,
+B10-03,pasillo,B,10,3,,95.0,3.5999999999999996,,,
+B10-04,pasillo,B,10,4,,95.0,4.8,,,
+B10-05,pasillo,B,10,5,,95.0,6.0,,,
+B10-06,pasillo,B,10,6,,95.0,7.199999999999999,,,
+B10-07,pasillo,B,10,7,,95.0,8.4,,,
+B10-08,pasillo,B,10,8,,95.0,9.6,,,
+B10-09,pasillo,B,10,9,,95.0,10.799999999999999,,,
+B10-10,pasillo,B,10,10,,95.0,12.0,,,
+B10-11,pasillo,B,10,11,,95.0,13.2,,,
+B10-12,pasillo,B,10,12,,95.0,14.399999999999999,,,
+B10-13,pasillo,B,10,13,,95.0,15.6,,,
+B10-14,pasillo,B,10,14,,95.0,16.8,,,
+B10-15,pasillo,B,10,15,,95.0,18.0,,,
+B10-16,pasillo,B,10,16,,95.0,19.2,,,
+B10-17,pasillo,B,10,17,,95.0,20.4,,,
+B10-18,pasillo,B,10,18,,95.0,21.599999999999998,,,
+B10-19,pasillo,B,10,19,,95.0,22.8,,,
+B10-20,pasillo,B,10,20,,95.0,24.0,,,
+B10-21,pasillo,B,10,21,,95.0,25.2,,,
+B10-22,pasillo,B,10,22,,95.0,26.4,,,
+B10-23,pasillo,B,10,23,,95.0,27.599999999999998,,,
+B10-24,pasillo,B,10,24,,95.0,28.799999999999997,,,
+B10-25,pasillo,B,10,25,,95.0,30.0,,,
+B10-26,interseccion,B,10,26,,95.0,31.2,,,
+B10-01-I,estante,B,10,1,I,93.0,1.2,13740,Organic Summer Strawberry Bunny Fruit Snacks,snacks
+B10-01-D,estante,B,10,1,D,97.0,1.2,42803,Organic Apple Slices,snacks
+B10-02-I,estante,B,10,2,I,93.0,2.4,27690,Apple Cinnamon GoGo Squeez,snacks
+B10-02-D,estante,B,10,2,D,97.0,2.4,41177,Sea Salt Roasted Seaweed,snacks
+B10-03-I,estante,B,10,3,I,93.0,3.5999999999999996,18618,Baked Caesar Snapea Crisps,snacks
+B10-03-D,estante,B,10,3,D,97.0,3.5999999999999996,20169,Annie Peely Fruit 4.5 Z,snacks
+B10-04-I,estante,B,10,4,I,93.0,4.8,23265,Chives,snacks
+B10-04-D,estante,B,10,4,D,97.0,4.8,38313,Organic Apple Banana GoGo Squeez,snacks
+B10-05-I,estante,B,10,5,I,93.0,6.0,32293,Organic Bunny Fruit Tropical Treat Fruit Snacks,snacks
+B10-05-D,estante,B,10,5,D,97.0,6.0,5134,Organic Thompson Seedless Raisins,snacks
+B10-06-I,estante,B,10,6,I,93.0,7.199999999999999,35140,Organic Whole Cashews,snacks
+B10-06-D,estante,B,10,6,D,97.0,7.199999999999999,7503,Whole Almonds,snacks
+B10-07-I,estante,B,10,7,I,93.0,8.4,12845,Chopped Walnuts,snacks
+B10-07-D,estante,B,10,7,D,97.0,8.4,20734,Organic Medjool Dates,snacks
+B10-08-I,estante,B,10,8,I,93.0,9.6,16521,Walnut Halves & Pieces,snacks
+B10-08-D,estante,B,10,8,D,97.0,9.6,29926,Roasted & Salted Almonds,snacks
+B10-09-I,estante,B,10,9,I,93.0,10.799999999999999,31651,Extra Fancy Unsalted Mixed Nuts,snacks
+B10-09-D,estante,B,10,9,D,97.0,10.799999999999999,14901,Raisins,snacks
+B10-10-I,estante,B,10,10,I,93.0,12.0,13819,Roasted Salted Cashews,snacks
+B10-10-D,estante,B,10,10,D,97.0,12.0,248,Dried Sweetened Cranberries,snacks
+B10-11-I,estante,B,10,11,I,93.0,13.2,34590,Pitted Dates,snacks
+B10-11-D,estante,B,10,11,D,97.0,13.2,28918,Marcona Almonds,snacks
+B10-12-I,estante,B,10,12,I,93.0,14.399999999999999,7179,Chopped Pecans,snacks
+B10-12-D,estante,B,10,12,D,97.0,14.399999999999999,17568,Pitted Prunes,snacks
+B10-13-I,estante,B,10,13,I,93.0,15.6,11266,Dried Mangos,snacks
+B10-13-D,estante,B,10,13,D,97.0,15.6,39332,Dried Mangoes,snacks
+B10-14-I,estante,B,10,14,I,93.0,16.8,15902,100 Calorie  Per Bag Popcorn,snacks
+B10-14-D,estante,B,10,14,D,97.0,16.8,3599,Baked Aged White Cheddar Rice and Corn Puffs,snacks
+B10-15-I,estante,B,10,15,I,93.0,18.0,25513,Boomchickapop Sea Salt Popcorn,snacks
+B10-15-D,estante,B,10,15,D,97.0,18.0,1700,White Cheddar Popcorn,snacks
+B10-16-I,estante,B,10,16,I,93.0,19.2,9755,Original Popcorn,snacks
+B10-16-D,estante,B,10,16,D,97.0,19.2,29370,Organic White Cheddar Popcorn,snacks
+B10-17-I,estante,B,10,17,I,93.0,20.4,46061,Popcorn,snacks
+B10-17-D,estante,B,10,17,D,97.0,20.4,12427,Original Beef Jerky,snacks
+B10-18-I,estante,B,10,18,I,93.0,21.599999999999998,6448,Smartfood White Cheddar Cheese Popcorn,snacks
+B10-18-D,estante,B,10,18,D,97.0,21.599999999999998,21083,Corn Puffs with Aged White Cheddar (Lunch Packs),snacks
+B10-19-I,estante,B,10,19,I,93.0,22.8,26088,Aged White Cheddar Popcorn,snacks
+B10-19-D,estante,B,10,19,D,97.0,22.8,21070,Lightly Sweet Popcorn,snacks
+B10-20-I,estante,B,10,20,I,93.0,24.0,31487,Boomchickapop Sweet & Salty Kettle Corn,snacks
+B10-20-D,estante,B,10,20,D,97.0,24.0,37710,Trail Mix,snacks
+B10-21-I,estante,B,10,21,I,93.0,25.2,25072,Organic Cheddar Snack Mix,snacks
+B10-21-D,estante,B,10,21,D,97.0,25.2,36724,Organic Sea Salt Roasted Seaweed Snacks,international
+B10-22-I,estante,B,10,22,I,93.0,26.4,23032,Sriracha Chili Sauce,international
+B10-22-D,estante,B,10,22,D,97.0,26.4,10492,Coconut Milk,international
+B10-23-I,estante,B,10,23,I,93.0,27.599999999999998,22275,Sriracha Hot Chili Sauce,international
+B10-23-D,estante,B,10,23,D,97.0,27.599999999999998,2450,Taco Seasoning,international
+B10-24-I,estante,B,10,24,I,93.0,28.799999999999997,39430,New Mexico Taco Skillet Sauce For Chicken,international
+B10-24-D,estante,B,10,24,D,97.0,28.799999999999997,35167,Organic Spicy Taco Seasoning,international
+B10-25-I,estante,B,10,25,I,93.0,30.0,5161,Dried Mango,bulk
+B10-25-D,estante,B,10,25,D,97.0,30.0,22260,Organic Rolled Oats,bulk
+C01-00,interseccion,C,1,0,,100.0,0.0,,,
+C01-01,pasillo,C,1,1,,100.0,1.2,,,
+C01-02,pasillo,C,1,2,,100.0,2.4,,,
+C01-03,pasillo,C,1,3,,100.0,3.5999999999999996,,,
+C01-04,pasillo,C,1,4,,100.0,4.8,,,
+C01-05,pasillo,C,1,5,,100.0,6.0,,,
+C01-06,pasillo,C,1,6,,100.0,7.199999999999999,,,
+C01-07,pasillo,C,1,7,,100.0,8.4,,,
+C01-08,pasillo,C,1,8,,100.0,9.6,,,
+C01-09,pasillo,C,1,9,,100.0,10.799999999999999,,,
+C01-10,pasillo,C,1,10,,100.0,12.0,,,
+C01-11,pasillo,C,1,11,,100.0,13.2,,,
+C01-12,pasillo,C,1,12,,100.0,14.399999999999999,,,
+C01-13,pasillo,C,1,13,,100.0,15.6,,,
+C01-14,pasillo,C,1,14,,100.0,16.8,,,
+C01-15,pasillo,C,1,15,,100.0,18.0,,,
+C01-16,pasillo,C,1,16,,100.0,19.2,,,
+C01-17,pasillo,C,1,17,,100.0,20.4,,,
+C01-18,pasillo,C,1,18,,100.0,21.599999999999998,,,
+C01-19,pasillo,C,1,19,,100.0,22.8,,,
+C01-20,pasillo,C,1,20,,100.0,24.0,,,
+C01-21,pasillo,C,1,21,,100.0,25.2,,,
+C01-22,pasillo,C,1,22,,100.0,26.4,,,
+C01-23,pasillo,C,1,23,,100.0,27.599999999999998,,,
+C01-24,pasillo,C,1,24,,100.0,28.799999999999997,,,
+C01-25,pasillo,C,1,25,,100.0,30.0,,,
+C01-26,interseccion,C,1,26,,100.0,31.2,,,
+C01-01-I,estante,C,1,1,I,98.0,1.2,17956,Cocoa Powder,beverages
+C01-01-D,estante,C,1,1,D,102.0,1.2,25718,Cold Brew Coffee,beverages
+C01-02-I,estante,C,1,2,I,98.0,2.4,1695,Major Dickason's Blend Ground Coffee Dark Roast,beverages
+C01-02-D,estante,C,1,2,D,102.0,2.4,32740,Cold-Brew Black Coffee,beverages
+C01-03-I,estante,C,1,3,I,98.0,3.5999999999999996,30850,French Roast Ground Coffee,beverages
+C01-03-D,estante,C,1,3,D,102.0,3.5999999999999996,7521,New Orleans Iced Coffee,beverages
+C01-04-I,estante,C,1,4,I,98.0,4.8,9411,Unsweetened Iced Coffee,beverages
+C01-04-D,estante,C,1,4,D,102.0,4.8,5794,House Blend Deep Roast Ground Coffee,beverages
+C01-05-I,estante,C,1,5,I,98.0,6.0,41774,XX Espresso Iced Coffee With Almond Milk,beverages
+C01-05-D,estante,C,1,5,D,102.0,6.0,40386,Major Dickason's Blend Whole Bean Coffee,beverages
+C01-06-I,estante,C,1,6,I,98.0,7.199999999999999,8501,Breakfast Blend Medium Keurig Brewed K-Cups Ground Coffee,beverages
+C01-06-D,estante,C,1,6,D,102.0,7.199999999999999,14127,Tesora Medium Roast,beverages
+C01-07-I,estante,C,1,7,I,98.0,8.4,15780,Breakfast Blend Medium Roast Ground Coffee,beverages
+C01-07-D,estante,C,1,7,D,102.0,8.4,16714,Mocha Frappucino Chilled Coffee Drink,beverages
+C01-08-I,estante,C,1,8,I,98.0,9.6,20392,Hair Bender Whole Bean Coffee,beverages
+C01-08-D,estante,C,1,8,D,102.0,9.6,34063,Medium Roast Original Blend Ground Coffee,beverages
+C01-09-I,estante,C,1,9,I,98.0,10.799999999999999,25305,Cold Brew Coffee Nitro Can,beverages
+C01-09-D,estante,C,1,9,D,102.0,10.799999999999999,17638,Vanilla Coffee Concentrate,beverages
+C01-10-I,estante,C,1,10,I,98.0,12.0,27464,Direct Trade House Blend Medium Roast Ground Coffee,beverages
+C01-10-D,estante,C,1,10,D,102.0,12.0,43744,Medium Roast Ground Coffee,beverages
+C01-11-I,estante,C,1,11,I,98.0,13.2,14891,Black Coffee,beverages
+C01-11-D,estante,C,1,11,D,102.0,13.2,49192,Holler Mountain Organic Coffee,beverages
+C01-12-I,estante,C,1,12,I,98.0,14.399999999999999,1891,Instant Coffee,beverages
+C01-12-D,estante,C,1,12,D,102.0,14.399999999999999,17355,Compostable Coffee Filters,beverages
+C01-13-I,estante,C,1,13,I,98.0,15.6,40742,French Roast Whole Bean Coffee,beverages
+C01-13-D,estante,C,1,13,D,102.0,15.6,16908,Jacob's Wonderbar Dark Roast,beverages
+C01-14-I,estante,C,1,14,I,98.0,16.8,33452,Fruit Punch Sports Drink,beverages
+C01-14-D,estante,C,1,14,D,102.0,16.8,11123,Vitamin Water Zero Squeezed Lemonade,beverages
+C01-15-I,estante,C,1,15,I,98.0,18.0,41276,Energy Drink,beverages
+C01-15-D,estante,C,1,15,D,102.0,18.0,25783,Lemon Lime Thirst Quencher,beverages
+C01-16-I,estante,C,1,16,I,98.0,19.2,31102,Sugar Free Energy Drink,beverages
+C01-16-D,estante,C,1,16,D,102.0,19.2,31231,Vitamin Water Zero Rise Orange,beverages
+C01-17-I,estante,C,1,17,I,98.0,20.4,8580,VitaminWater Zero™ XXX Acai Blueberry Pomegranate,beverages
+C01-17-D,estante,C,1,17,D,102.0,20.4,2876,vitaminwater® XXX Acai Blueberry Pomegranate,beverages
+C01-18-I,estante,C,1,18,I,98.0,21.599999999999998,29103,Zero Go-Go Mixed Berry Vitamin Water,beverages
+C01-18-D,estante,C,1,18,D,102.0,21.599999999999998,49030,Glacier Freeze Frost,beverages
+C01-19-I,estante,C,1,19,I,98.0,22.8,44051,Zero Vitamin Water,beverages
+C01-19-D,estante,C,1,19,D,102.0,22.8,21240,Orange Sports Drink,beverages
+C01-20-I,estante,C,1,20,I,98.0,24.0,33589,G2 Grape Sports Drink,beverages
+C01-20-D,estante,C,1,20,D,102.0,24.0,6799,Revive Zero Vitamin Water,beverages
+C01-21-I,estante,C,1,21,I,98.0,25.2,38433,Glacier Freeze,beverages
+C01-21-D,estante,C,1,21,D,102.0,25.2,23540,Orange,beverages
+C01-22-I,estante,C,1,22,I,98.0,26.4,12672,G Series Perform Lemon Lime Sports Drink,beverages
+C01-22-D,estante,C,1,22,D,102.0,26.4,2966,Pure Coconut Water,beverages
+C01-23-I,estante,C,1,23,I,98.0,27.599999999999998,18811,Organic Apple Juice,beverages
+C01-23-D,estante,C,1,23,D,102.0,27.599999999999998,42719,Natural Premium Coconut Water,beverages
+C01-24-I,estante,C,1,24,I,98.0,28.799999999999997,19173,Orange Calcium & Vitamin D Pulp Free,beverages
+C01-24-D,estante,C,1,24,D,102.0,28.799999999999997,14715,Coconut Water,beverages
+C01-25-I,estante,C,1,25,I,98.0,30.0,26317,Organic Lemonade,beverages
+C01-25-D,estante,C,1,25,D,102.0,30.0,38890,No Pulp Calcium & Vitamin D Pure Premium 100% Pure Orange Juice,beverages
+C02-00,interseccion,C,2,0,,105.0,0.0,,,
+C02-01,pasillo,C,2,1,,105.0,1.2,,,
+C02-02,pasillo,C,2,2,,105.0,2.4,,,
+C02-03,pasillo,C,2,3,,105.0,3.5999999999999996,,,
+C02-04,pasillo,C,2,4,,105.0,4.8,,,
+C02-05,pasillo,C,2,5,,105.0,6.0,,,
+C02-06,pasillo,C,2,6,,105.0,7.199999999999999,,,
+C02-07,pasillo,C,2,7,,105.0,8.4,,,
+C02-08,pasillo,C,2,8,,105.0,9.6,,,
+C02-09,pasillo,C,2,9,,105.0,10.799999999999999,,,
+C02-10,pasillo,C,2,10,,105.0,12.0,,,
+C02-11,pasillo,C,2,11,,105.0,13.2,,,
+C02-12,pasillo,C,2,12,,105.0,14.399999999999999,,,
+C02-13,pasillo,C,2,13,,105.0,15.6,,,
+C02-14,pasillo,C,2,14,,105.0,16.8,,,
+C02-15,pasillo,C,2,15,,105.0,18.0,,,
+C02-16,pasillo,C,2,16,,105.0,19.2,,,
+C02-17,pasillo,C,2,17,,105.0,20.4,,,
+C02-18,pasillo,C,2,18,,105.0,21.599999999999998,,,
+C02-19,pasillo,C,2,19,,105.0,22.8,,,
+C02-20,pasillo,C,2,20,,105.0,24.0,,,
+C02-21,pasillo,C,2,21,,105.0,25.2,,,
+C02-22,pasillo,C,2,22,,105.0,26.4,,,
+C02-23,pasillo,C,2,23,,105.0,27.599999999999998,,,
+C02-24,pasillo,C,2,24,,105.0,28.799999999999997,,,
+C02-25,pasillo,C,2,25,,105.0,30.0,,,
+C02-26,interseccion,C,2,26,,105.0,31.2,,,
+C02-01-I,estante,C,2,1,I,103.0,1.2,30639,Organic Orange Juice,beverages
+C02-01-D,estante,C,2,1,D,107.0,1.2,32156,Cranberry Juice Cocktail,beverages
+C02-02-I,estante,C,2,2,I,103.0,2.4,35199,100% Apple Juice,beverages
+C02-02-D,estante,C,2,2,D,107.0,2.4,24850,Organic Super Fruit Punch Juice Drink,beverages
+C02-03-I,estante,C,2,3,I,103.0,3.5999999999999996,45840,100% Pure Apple Juice,beverages
+C02-03-D,estante,C,2,3,D,107.0,3.5999999999999996,36036,Organic Orange Fruit Juice,beverages
+C02-04-I,estante,C,2,4,I,103.0,4.8,44098,Appley Ever After Organic Juice Drink,beverages
+C02-04-D,estante,C,2,4,D,107.0,4.8,18339,100% Lemon Juice,beverages
+C02-05-I,estante,C,2,5,I,103.0,6.0,37215,100% Cranberry Juice,beverages
+C02-05-D,estante,C,2,5,D,107.0,6.0,13259,Organic Variety Pack,beverages
+C02-06-I,estante,C,2,6,I,103.0,7.199999999999999,34335,Ruby Red Grapefruit Juice,beverages
+C02-06-D,estante,C,2,6,D,107.0,7.199999999999999,37552,Sparkling Blackberry Juice,beverages
+C02-07-I,estante,C,2,7,I,103.0,8.4,32553,"Country Stand Juice, Medium Pulp",beverages
+C02-07-D,estante,C,2,7,D,107.0,8.4,23178,Pure Lemon Juice,beverages
+C02-08-I,estante,C,2,8,I,103.0,9.6,44116,Goodness Grapeness Organic Juice Drink,beverages
+C02-08-D,estante,C,2,8,D,107.0,9.6,33671,100% Pineapple Juice,beverages
+C02-09-I,estante,C,2,9,I,103.0,10.799999999999999,28913,100% Lime Juice,beverages
+C02-09-D,estante,C,2,9,D,107.0,10.799999999999999,36085,Berry Berry Good Lemonade Organic Juice Drink,beverages
+C02-10-I,estante,C,2,10,I,103.0,12.0,32047,Original Apple 100% Juice,beverages
+C02-10-D,estante,C,2,10,D,107.0,12.0,47325,100% Pomegranate Juice,beverages
+C02-11-I,estante,C,2,11,I,103.0,13.2,5883,Organic Strawberry Lemonade,beverages
+C02-11-D,estante,C,2,11,D,107.0,13.2,8968,Tangerine Juice,beverages
+C02-12-I,estante,C,2,12,I,103.0,14.399999999999999,13113,Organic Apple Juice Boxes,beverages
+C02-12-D,estante,C,2,12,D,107.0,14.399999999999999,37971,Organic Cranberry Pomegranate Juice,beverages
+C02-13-I,estante,C,2,13,I,103.0,15.6,34423,Pure Organic Pineapple Juice,beverages
+C02-13-D,estante,C,2,13,D,107.0,15.6,25332,Unsweetened Coconut Water,beverages
+C02-14-I,estante,C,2,14,I,103.0,16.8,3835,"Coconut Water, Pure Organic",beverages
+C02-14-D,estante,C,2,14,D,107.0,16.8,945,Fruit Punch Juice Drink,beverages
+C02-15-I,estante,C,2,15,I,103.0,18.0,1896,Organic Sensible Sipper Apple Juice,beverages
+C02-15-D,estante,C,2,15,D,107.0,18.0,16387,Cold-Pressed Organic Grapefruit,beverages
+C02-16-I,estante,C,2,16,I,103.0,19.2,35504,Real Coconut Water,beverages
+C02-16-D,estante,C,2,16,D,107.0,19.2,14086,Sparkling Apple Juice,beverages
+C02-17-I,estante,C,2,17,I,103.0,20.4,49615,Cran-Apple Juice Drink,beverages
+C02-17-D,estante,C,2,17,D,107.0,20.4,3957,100% Raw Coconut Water,beverages
+C02-18-I,estante,C,2,18,I,103.0,21.599999999999998,25146,Original Orange Juice,beverages
+C02-18-D,estante,C,2,18,D,107.0,21.599999999999998,30776,Organic Raw Kombucha Gingerade,beverages
+C02-19-I,estante,C,2,19,I,103.0,22.8,31683,Original No Pulp 100% Florida Orange Juice,beverages
+C02-19-D,estante,C,2,19,D,107.0,22.8,41290,Lemonade,beverages
+C02-20-I,estante,C,2,20,I,103.0,24.0,45603,Trilogy Kombucha Drink,beverages
+C02-20-D,estante,C,2,20,D,107.0,24.0,34050,Orange Juice,beverages
+C02-21-I,estante,C,2,21,I,103.0,25.2,6631,No Pulp Calcium & Vitamin D Pure Orange Juice,beverages
+C02-21-D,estante,C,2,21,D,107.0,25.2,39108,Pulp Free Orange Juice,beverages
+C02-22-I,estante,C,2,22,I,103.0,26.4,48559,Synergy Organic Kombucha Gingerberry,beverages
+C02-22-D,estante,C,2,22,D,107.0,26.4,38200,Apple Juice,beverages
+C02-23-I,estante,C,2,23,I,103.0,27.599999999999998,35336,Naked Green Machine Boosted Juice Smoothie,beverages
+C02-23-D,estante,C,2,23,D,107.0,27.599999999999998,8087,Florida Orange Juice With Calcium & Vitamin D,beverages
+C02-24-I,estante,C,2,24,I,103.0,28.799999999999997,13292,"Juice Beverage, Cold Pressed, Kale Apple Ginger Romaine Spinach Cucumber Celery Parsley Lemon",beverages
+C02-24-D,estante,C,2,24,D,107.0,28.799999999999997,9421,Organic Raw Multigreen Kobmbucha,beverages
+C02-25-I,estante,C,2,25,I,103.0,30.0,6287,Organic & Raw Strawberry Serenity Kombucha,beverages
+C02-25-D,estante,C,2,25,D,107.0,30.0,36127,Freshly Squeezed Orange Juice,beverages
+C03-00,interseccion,C,3,0,,110.0,0.0,,,
+C03-01,pasillo,C,3,1,,110.0,1.2,,,
+C03-02,pasillo,C,3,2,,110.0,2.4,,,
+C03-03,pasillo,C,3,3,,110.0,3.5999999999999996,,,
+C03-04,pasillo,C,3,4,,110.0,4.8,,,
+C03-05,pasillo,C,3,5,,110.0,6.0,,,
+C03-06,pasillo,C,3,6,,110.0,7.199999999999999,,,
+C03-07,pasillo,C,3,7,,110.0,8.4,,,
+C03-08,pasillo,C,3,8,,110.0,9.6,,,
+C03-09,pasillo,C,3,9,,110.0,10.799999999999999,,,
+C03-10,pasillo,C,3,10,,110.0,12.0,,,
+C03-11,pasillo,C,3,11,,110.0,13.2,,,
+C03-12,pasillo,C,3,12,,110.0,14.399999999999999,,,
+C03-13,pasillo,C,3,13,,110.0,15.6,,,
+C03-14,pasillo,C,3,14,,110.0,16.8,,,
+C03-15,pasillo,C,3,15,,110.0,18.0,,,
+C03-16,pasillo,C,3,16,,110.0,19.2,,,
+C03-17,pasillo,C,3,17,,110.0,20.4,,,
+C03-18,pasillo,C,3,18,,110.0,21.599999999999998,,,
+C03-19,pasillo,C,3,19,,110.0,22.8,,,
+C03-20,pasillo,C,3,20,,110.0,24.0,,,
+C03-21,pasillo,C,3,21,,110.0,25.2,,,
+C03-22,pasillo,C,3,22,,110.0,26.4,,,
+C03-23,pasillo,C,3,23,,110.0,27.599999999999998,,,
+C03-24,pasillo,C,3,24,,110.0,28.799999999999997,,,
+C03-25,pasillo,C,3,25,,110.0,30.0,,,
+C03-26,interseccion,C,3,26,,110.0,31.2,,,
+C03-01-I,estante,C,3,1,I,108.0,1.2,8736,Synergy Organic & Raw Cosmic Cranberry,beverages
+C03-01-D,estante,C,3,1,D,112.0,1.2,28836,Grapefruit Juice,beverages
+C03-02-I,estante,C,3,2,I,108.0,2.4,43967,Raspberry Lemonade,beverages
+C03-02-D,estante,C,3,2,D,112.0,2.4,32578,Organic Fresh Squeezed Orange Juice,beverages
+C03-03-I,estante,C,3,3,I,108.0,3.5999999999999996,17615,Calcium Pulp Free Orange Juice,beverages
+C03-03-D,estante,C,3,3,D,112.0,3.5999999999999996,19894,Enlightened Organic Raw Kombucha,beverages
+C03-04-I,estante,C,3,4,I,108.0,4.8,9018,All Natural Virgin Lemonade,beverages
+C03-04-D,estante,C,3,4,D,112.0,4.8,47280,California Orange Juice,beverages
+C03-05-I,estante,C,3,5,I,108.0,6.0,37317,Wonderful 100% Pomegranate Juice,beverages
+C03-05-D,estante,C,3,5,D,112.0,6.0,35121,Lemon Ginger Sparkling Probiotic Drink,beverages
+C03-06-I,estante,C,3,6,I,108.0,7.199999999999999,34270,"Cold-pressed, Deliciously Hydrating Watermelon Water",beverages
+C03-06-D,estante,C,3,6,D,112.0,7.199999999999999,27316,"Trop50 No Pulp Orange Juice w/ Calcium + Vitamin D, 50% Less Sugar & Calories",beverages
+C03-07-I,estante,C,3,7,I,108.0,8.4,35045,Original No Pulp Pure 100% Florida Orange Juice,beverages
+C03-07-D,estante,C,3,7,D,112.0,8.4,36406,Essential Greens With Lime  Vegetable and Fruit Juice Blend,beverages
+C03-08-I,estante,C,3,8,I,108.0,9.6,35842,Organic Lemon Cayenne Sparkling Probiotic Drink,beverages
+C03-08-D,estante,C,3,8,D,112.0,9.6,48246,Green Machine Juice Smoothie,beverages
+C03-09-I,estante,C,3,9,I,108.0,10.799999999999999,14996,Ruby Red Grapefruit,beverages
+C03-09-D,estante,C,3,9,D,112.0,10.799999999999999,29270,Beet Apple Carrot Lemon Ginger Organic Cold Pressed Juice Beverage,beverages
+C03-10-I,estante,C,3,10,I,108.0,12.0,17487,Orange Juice 100% Juice,beverages
+C03-10-D,estante,C,3,10,D,112.0,12.0,20794,"Kombucha, Organic Raw, Citrus",beverages
+C03-11-I,estante,C,3,11,I,108.0,13.2,14399,Limeade,beverages
+C03-11-D,estante,C,3,11,D,112.0,13.2,11143,Defense Up Cold Pressed Fruit Smoothie,beverages
+C03-12-I,estante,C,3,12,I,108.0,14.399999999999999,33956,Mighty Mango Juice Smoothie,beverages
+C03-12-D,estante,C,3,12,D,112.0,14.399999999999999,27413,100% Mighty Mango Juice Smoothie,beverages
+C03-13-I,estante,C,3,13,I,108.0,15.6,38490,Coconut Water Organic,beverages
+C03-13-D,estante,C,3,13,D,112.0,15.6,16398,Guava Goddess Organic Kambucha,beverages
+C03-14-I,estante,C,3,14,I,108.0,16.8,19731,Organic Orange Juice With Calcium & Vitamin D,beverages
+C03-14-D,estante,C,3,14,D,112.0,16.8,15153,Blue Machine Boosted 100% Juice Smoothie,beverages
+C03-15-I,estante,C,3,15,I,108.0,18.0,12440,California Lemonade,beverages
+C03-15-D,estante,C,3,15,D,112.0,18.0,23576,Sweet Greens and Lemon Vegetable and Fruit Juice Blend,beverages
+C03-16-I,estante,C,3,16,I,108.0,19.2,2913,Mango Tango Fruit Smoothie Blend,beverages
+C03-16-D,estante,C,3,16,D,112.0,19.2,35782,Mango Flavor Probiotic Juice Drink,beverages
+C03-17-I,estante,C,3,17,I,108.0,20.4,24703,Fruit Punch,beverages
+C03-17-D,estante,C,3,17,D,112.0,20.4,20282,Blue Machine 100% Juice Smoothie,beverages
+C03-18-I,estante,C,3,18,I,108.0,21.599999999999998,45774,Organic Sweet Greens and Ginger Juice Blend,beverages
+C03-18-D,estante,C,3,18,D,112.0,21.599999999999998,46402,With Raspberry Lemonade,beverages
+C03-19-I,estante,C,3,19,I,108.0,22.8,20339,Chocolate Protein Soy & Dairy Protein Shake,beverages
+C03-19-D,estante,C,3,19,D,112.0,22.8,35065,Orange Strawberry Banana Juice,beverages
+C03-20-I,estante,C,3,20,I,108.0,24.0,20947,Passionberry Bliss Kombucha Drink,beverages
+C03-20-D,estante,C,3,20,D,112.0,24.0,24363,Lemon Cayenne Agave Cold Pressed Juice Beverage,beverages
+C03-21-I,estante,C,3,21,I,108.0,25.2,31299,Some Pulp Orange Juice,beverages
+C03-21-D,estante,C,3,21,D,112.0,25.2,27729,Cold-Pressed Organic Orange,beverages
+C03-22-I,estante,C,3,22,I,108.0,26.4,4142,Trilogy Kombucha,beverages
+C03-22-D,estante,C,3,22,D,112.0,26.4,20084,Pineapple Apple Mint Organic Cold Pressed Juicd,beverages
+C03-23-I,estante,C,3,23,I,108.0,27.599999999999998,45954,Premium Calcium & Vitamin D No Pulp Orange Juice,beverages
+C03-23-D,estante,C,3,23,D,112.0,27.599999999999998,28577,No Pulp Orange Juice,beverages
+C03-24-I,estante,C,3,24,I,108.0,28.799999999999997,12846,Pomegranate Blackberry Probiotics Juice Drink,beverages
+C03-24-D,estante,C,3,24,D,112.0,28.799999999999997,34688,Good Belly Probiotics Juice Drink Blueberry Acai Flavor,beverages
+C03-25-I,estante,C,3,25,I,108.0,30.0,1710,Kombucha Gingerade,beverages
+C03-25-D,estante,C,3,25,D,112.0,30.0,36923,Trop50 No Pulp Orange Juice,beverages
+C04-00,interseccion,C,4,0,,115.0,0.0,,,
+C04-01,pasillo,C,4,1,,115.0,1.2,,,
+C04-02,pasillo,C,4,2,,115.0,2.4,,,
+C04-03,pasillo,C,4,3,,115.0,3.5999999999999996,,,
+C04-04,pasillo,C,4,4,,115.0,4.8,,,
+C04-05,pasillo,C,4,5,,115.0,6.0,,,
+C04-06,pasillo,C,4,6,,115.0,7.199999999999999,,,
+C04-07,pasillo,C,4,7,,115.0,8.4,,,
+C04-08,pasillo,C,4,8,,115.0,9.6,,,
+C04-09,pasillo,C,4,9,,115.0,10.799999999999999,,,
+C04-10,pasillo,C,4,10,,115.0,12.0,,,
+C04-11,pasillo,C,4,11,,115.0,13.2,,,
+C04-12,pasillo,C,4,12,,115.0,14.399999999999999,,,
+C04-13,pasillo,C,4,13,,115.0,15.6,,,
+C04-14,pasillo,C,4,14,,115.0,16.8,,,
+C04-15,pasillo,C,4,15,,115.0,18.0,,,
+C04-16,pasillo,C,4,16,,115.0,19.2,,,
+C04-17,pasillo,C,4,17,,115.0,20.4,,,
+C04-18,pasillo,C,4,18,,115.0,21.599999999999998,,,
+C04-19,pasillo,C,4,19,,115.0,22.8,,,
+C04-20,pasillo,C,4,20,,115.0,24.0,,,
+C04-21,pasillo,C,4,21,,115.0,25.2,,,
+C04-22,pasillo,C,4,22,,115.0,26.4,,,
+C04-23,pasillo,C,4,23,,115.0,27.599999999999998,,,
+C04-24,pasillo,C,4,24,,115.0,28.799999999999997,,,
+C04-25,pasillo,C,4,25,,115.0,30.0,,,
+C04-26,interseccion,C,4,26,,115.0,31.2,,,
+C04-01-I,estante,C,4,1,I,113.0,1.2,1017,Strawberry Banana Juice,beverages
+C04-01-D,estante,C,4,1,D,117.0,1.2,40541,Sparkling Probiotic Drink Mojita Lime Mint Coconut,beverages
+C04-02-I,estante,C,4,2,I,113.0,2.4,4289,15 Calories Light Lemonade,beverages
+C04-02-D,estante,C,4,2,D,117.0,2.4,29603,Pink Virgin Lemonade,beverages
+C04-03-I,estante,C,4,3,I,113.0,3.5999999999999996,45599,Organic Strawberry Lemonade Fruit Juice Drink,beverages
+C04-03-D,estante,C,4,3,D,117.0,3.5999999999999996,21704,Original Superfood Fruit Smoothie Blend,beverages
+C04-04-I,estante,C,4,4,I,113.0,4.8,31422,100% Orange Juice,beverages
+C04-04-D,estante,C,4,4,D,117.0,4.8,11543,Vanilla Protein Protein Shake,beverages
+C04-05-I,estante,C,4,5,I,113.0,6.0,25670,High Pulp Orange Juice,beverages
+C04-05-D,estante,C,4,5,D,117.0,6.0,23737,Organic 100% Grapefruit  Juice,beverages
+C04-06-I,estante,C,4,6,I,113.0,7.199999999999999,196,Soda,beverages
+C04-06-D,estante,C,4,6,D,117.0,7.199999999999999,10957,Fridge Pack Cola,beverages
+C04-07-I,estante,C,4,7,I,113.0,8.4,12916,Ginger Ale,beverages
+C04-07-D,estante,C,4,7,D,117.0,8.4,47141,Cola,beverages
+C04-08-I,estante,C,4,8,I,113.0,9.6,16696,Coke Classic,beverages
+C04-08-D,estante,C,4,8,D,117.0,9.6,43631,Diet Coke,beverages
+C04-09-I,estante,C,4,9,I,113.0,10.799999999999999,46149,Zero Calorie Cola,beverages
+C04-09-D,estante,C,4,9,D,117.0,10.799999999999999,40910,Root Beer,beverages
+C04-10-I,estante,C,4,10,I,113.0,12.0,47877,Coke Zero,beverages
+C04-10-D,estante,C,4,10,D,117.0,12.0,4138,Arancita Rossa,beverages
+C04-11-I,estante,C,4,11,I,113.0,13.2,24759,Club Soda,beverages
+C04-11-D,estante,C,4,11,D,117.0,13.2,10032,Cola Soft Drink,beverages
+C04-12-I,estante,C,4,12,I,113.0,14.399999999999999,44375,Canned Aranciata Orange,beverages
+C04-12-D,estante,C,4,12,D,117.0,14.399999999999999,17191,Tangerine,beverages
+C04-13-I,estante,C,4,13,I,113.0,15.6,34024,Classic Soda,beverages
+C04-13-D,estante,C,4,13,D,117.0,15.6,19125,Extra Ginger Brew Jamaican Style Ginger Beer,beverages
+C04-14-I,estante,C,4,14,I,113.0,16.8,16290,Sparkling Clementine Juice,beverages
+C04-14-D,estante,C,4,14,D,117.0,16.8,39921,Lemon Lime Soda,beverages
+C04-15-I,estante,C,4,15,I,113.0,18.0,18564,Diet Ginger Ale All Natural Soda,beverages
+C04-15-D,estante,C,4,15,D,117.0,18.0,42731,Original Citrus Sparkling Flavored Soda,beverages
+C04-16-I,estante,C,4,16,I,113.0,19.2,18418,Ginger Ale Soda,beverages
+C04-16-D,estante,C,4,16,D,117.0,19.2,3389,Diet Dr.Pepper Soda Pack,beverages
+C04-17-I,estante,C,4,17,I,113.0,20.4,18610,Cola Soda,beverages
+C04-17-D,estante,C,4,17,D,117.0,20.4,18389,Blood Orange Italian Soda,beverages
+C04-18-I,estante,C,4,18,I,113.0,21.599999999999998,8475,Diet 12 Oz Ginger Ale,beverages
+C04-18-D,estante,C,4,18,D,117.0,21.599999999999998,39409,"Ginger Root Beer, Naturally Flavored Zero Calorie Soda, Caffeine Free",beverages
+C04-19-I,estante,C,4,19,I,113.0,22.8,42500,Orange & Lemon Flavor Variety Pack Sparkling Fruit Beverage,beverages
+C04-19-D,estante,C,4,19,D,117.0,22.8,277,Diet Root Beer,beverages
+C04-20-I,estante,C,4,20,I,113.0,24.0,48142,Diet,beverages
+C04-20-D,estante,C,4,20,D,117.0,24.0,8390,Diet Ginger Ale,beverages
+C04-21-I,estante,C,4,21,I,113.0,25.2,32141,Diet Coke Soda,beverages
+C04-21-D,estante,C,4,21,D,117.0,25.2,6846,Diet Pepsi Pack,beverages
+C04-22-I,estante,C,4,22,I,113.0,26.4,21131,Lemon-Lime Fridge Pack Soda,beverages
+C04-22-D,estante,C,4,22,D,117.0,26.4,49198,Zero Soda,beverages
+C04-23-I,estante,C,4,23,I,113.0,27.599999999999998,12140,Diet Soda,beverages
+C04-23-D,estante,C,4,23,D,117.0,27.599999999999998,9175,Diet Coke Caffeine Free Soda,beverages
+C04-24-I,estante,C,4,24,I,113.0,28.799999999999997,31808,Lemon-Lime 12 Pack Soda,beverages
+C04-24-D,estante,C,4,24,D,117.0,28.799999999999997,8615,Sparkling Pomegranate,beverages
+C04-25-I,estante,C,4,25,I,113.0,30.0,29503,Coke,beverages
+C04-25-D,estante,C,4,25,D,117.0,30.0,7898,Ginger Beer,beverages
+C05-00,interseccion,C,5,0,,120.0,0.0,,,
+C05-01,pasillo,C,5,1,,120.0,1.2,,,
+C05-02,pasillo,C,5,2,,120.0,2.4,,,
+C05-03,pasillo,C,5,3,,120.0,3.5999999999999996,,,
+C05-04,pasillo,C,5,4,,120.0,4.8,,,
+C05-05,pasillo,C,5,5,,120.0,6.0,,,
+C05-06,pasillo,C,5,6,,120.0,7.199999999999999,,,
+C05-07,pasillo,C,5,7,,120.0,8.4,,,
+C05-08,pasillo,C,5,8,,120.0,9.6,,,
+C05-09,pasillo,C,5,9,,120.0,10.799999999999999,,,
+C05-10,pasillo,C,5,10,,120.0,12.0,,,
+C05-11,pasillo,C,5,11,,120.0,13.2,,,
+C05-12,pasillo,C,5,12,,120.0,14.399999999999999,,,
+C05-13,pasillo,C,5,13,,120.0,15.6,,,
+C05-14,pasillo,C,5,14,,120.0,16.8,,,
+C05-15,pasillo,C,5,15,,120.0,18.0,,,
+C05-16,pasillo,C,5,16,,120.0,19.2,,,
+C05-17,pasillo,C,5,17,,120.0,20.4,,,
+C05-18,pasillo,C,5,18,,120.0,21.599999999999998,,,
+C05-19,pasillo,C,5,19,,120.0,22.8,,,
+C05-20,pasillo,C,5,20,,120.0,24.0,,,
+C05-21,pasillo,C,5,21,,120.0,25.2,,,
+C05-22,pasillo,C,5,22,,120.0,26.4,,,
+C05-23,pasillo,C,5,23,,120.0,27.599999999999998,,,
+C05-24,pasillo,C,5,24,,120.0,28.799999999999997,,,
+C05-25,pasillo,C,5,25,,120.0,30.0,,,
+C05-26,interseccion,C,5,26,,120.0,31.2,,,
+C05-01-I,estante,C,5,1,I,118.0,1.2,14766,Sparkling Grapefruit,beverages
+C05-01-D,estante,C,5,1,D,122.0,1.2,29529,Lemon-Lime Soda,beverages
+C05-02-I,estante,C,5,2,I,118.0,2.4,27959,Premium Indian Tonic Water,beverages
+C05-02-D,estante,C,5,2,D,122.0,2.4,37103,Sparkling Peach,beverages
+C05-03-I,estante,C,5,3,I,118.0,3.5999999999999996,23020,Diet Tonic Water,beverages
+C05-03-D,estante,C,5,3,D,122.0,3.5999999999999996,41406,Orange Soda,beverages
+C05-04-I,estante,C,5,4,I,118.0,4.8,47931,Diet Cola,beverages
+C05-04-D,estante,C,5,4,D,122.0,4.8,6475,Limonata Sparkling Lemon Beverage,beverages
+C05-05-I,estante,C,5,5,I,118.0,6.0,2974,Regular,beverages
+C05-05-D,estante,C,5,5,D,122.0,6.0,14252,Coke Zero Diet Soda,beverages
+C05-06-I,estante,C,5,6,I,118.0,7.199999999999999,21462,Zero Calorie Cola Soda,beverages
+C05-06-D,estante,C,5,6,D,122.0,7.199999999999999,33911,Zero Calorie Cream Soda,beverages
+C05-07-I,estante,C,5,7,I,118.0,8.4,4462,Pink Lady Apple Kombucha,beverages
+C05-07-D,estante,C,5,7,D,122.0,8.4,44292,Premium Unsweetened Iced Tea,beverages
+C05-08-I,estante,C,5,8,I,118.0,9.6,10312,Zen Tea,beverages
+C05-08-D,estante,C,5,8,D,122.0,9.6,35749,Ginger Tea,beverages
+C05-09-I,estante,C,5,9,I,118.0,10.799999999999999,48946,Earl Grey Tea,beverages
+C05-09-D,estante,C,5,9,D,122.0,10.799999999999999,40411,Calm Chamomile Herbal Tea,beverages
+C05-10-I,estante,C,5,10,I,118.0,12.0,45223,Just Green Unsweetened Tea,beverages
+C05-10-D,estante,C,5,10,D,122.0,12.0,48988,Unsweetened Premium Iced Tea,beverages
+C05-11-I,estante,C,5,11,I,118.0,13.2,18606,Moroccan Mint Green Tea,beverages
+C05-11-D,estante,C,5,11,D,122.0,13.2,14788,Unsweetened Iced Tea,beverages
+C05-12-I,estante,C,5,12,I,118.0,14.399999999999999,3274,Black Tea Pyramids,beverages
+C05-12-D,estante,C,5,12,D,122.0,14.399999999999999,27117,Refresh Herbal Tea,beverages
+C05-13-I,estante,C,5,13,I,118.0,15.6,15693,Organic Peach Oo La Long Tea,beverages
+C05-13-D,estante,C,5,13,D,122.0,15.6,29640,Unsweetened Ice Tea,beverages
+C05-14-I,estante,C,5,14,I,118.0,16.8,41621,Lemon Ginger Tea Bags,beverages
+C05-14-D,estante,C,5,14,D,122.0,16.8,43739,Variety Diet Tea,beverages
+C05-15-I,estante,C,5,15,I,118.0,18.0,29848,Diet Peach Tea,beverages
+C05-15-D,estante,C,5,15,D,122.0,18.0,40749,Organic Green Tea Bags,beverages
+C05-16-I,estante,C,5,16,I,118.0,19.2,6760,Organic Iced Green Tea,beverages
+C05-16-D,estante,C,5,16,D,122.0,19.2,20767,Organic Peppermint Herbal Tea,beverages
+C05-17-I,estante,C,5,17,I,118.0,20.4,42183,Super Antioxidant Green Tea,beverages
+C05-17-D,estante,C,5,17,D,122.0,20.4,44632,Sparkling Water Grapefruit,beverages
+C05-18-I,estante,C,5,18,I,118.0,21.599999999999998,19660,Spring Water,beverages
+C05-18-D,estante,C,5,18,D,122.0,21.599999999999998,35221,Lime Sparkling Water,beverages
+C05-19-I,estante,C,5,19,I,118.0,22.8,33198,Sparkling Natural Mineral Water,beverages
+C05-19-D,estante,C,5,19,D,122.0,22.8,21709,Sparkling Lemon Water,beverages
+C05-20-I,estante,C,5,20,I,118.0,24.0,5479,Italian Sparkling Mineral Water,beverages
+C05-20-D,estante,C,5,20,D,122.0,24.0,14947,Pure Sparkling Water,beverages
+C05-21-I,estante,C,5,21,I,118.0,25.2,8859,Natural Spring Water,beverages
+C05-21-D,estante,C,5,21,D,122.0,25.2,26620,Peach Pear Flavored Sparkling Water,beverages
+C05-22-I,estante,C,5,22,I,118.0,26.4,26165,Electrolyte Enhanced Water,beverages
+C05-22-D,estante,C,5,22,D,122.0,26.4,23288,Distilled Water,beverages
+C05-23-I,estante,C,5,23,I,118.0,27.599999999999998,20119,Sparkling Water Berry,beverages
+C05-23-D,estante,C,5,23,D,122.0,27.599999999999998,25466,Water,beverages
+C05-24-I,estante,C,5,24,I,118.0,28.799999999999997,43154,Sparkling Mineral Water,beverages
+C05-24-D,estante,C,5,24,D,122.0,28.799999999999997,5258,Sparkling Water,beverages
+C05-25-I,estante,C,5,25,I,118.0,30.0,49520,Orange Sparkling Water,beverages
+C05-25-D,estante,C,5,25,D,122.0,30.0,47977,Grapefruit Sparkling Water,beverages
+C06-00,interseccion,C,6,0,,125.0,0.0,,,
+C06-01,pasillo,C,6,1,,125.0,1.2,,,
+C06-02,pasillo,C,6,2,,125.0,2.4,,,
+C06-03,pasillo,C,6,3,,125.0,3.5999999999999996,,,
+C06-04,pasillo,C,6,4,,125.0,4.8,,,
+C06-05,pasillo,C,6,5,,125.0,6.0,,,
+C06-06,pasillo,C,6,6,,125.0,7.199999999999999,,,
+C06-07,pasillo,C,6,7,,125.0,8.4,,,
+C06-08,pasillo,C,6,8,,125.0,9.6,,,
+C06-09,pasillo,C,6,9,,125.0,10.799999999999999,,,
+C06-10,pasillo,C,6,10,,125.0,12.0,,,
+C06-11,pasillo,C,6,11,,125.0,13.2,,,
+C06-12,pasillo,C,6,12,,125.0,14.399999999999999,,,
+C06-13,pasillo,C,6,13,,125.0,15.6,,,
+C06-14,pasillo,C,6,14,,125.0,16.8,,,
+C06-15,pasillo,C,6,15,,125.0,18.0,,,
+C06-16,pasillo,C,6,16,,125.0,19.2,,,
+C06-17,pasillo,C,6,17,,125.0,20.4,,,
+C06-18,pasillo,C,6,18,,125.0,21.599999999999998,,,
+C06-19,pasillo,C,6,19,,125.0,22.8,,,
+C06-20,pasillo,C,6,20,,125.0,24.0,,,
+C06-21,pasillo,C,6,21,,125.0,25.2,,,
+C06-22,pasillo,C,6,22,,125.0,26.4,,,
+C06-23,pasillo,C,6,23,,125.0,27.599999999999998,,,
+C06-24,pasillo,C,6,24,,125.0,28.799999999999997,,,
+C06-25,pasillo,C,6,25,,125.0,30.0,,,
+C06-26,interseccion,C,6,26,,125.0,31.2,,,
+C06-01-I,estante,C,6,1,I,123.0,1.2,14233,Natural Artesian Water,beverages
+C06-01-D,estante,C,6,1,D,127.0,1.2,15424,Purified Water,beverages
+C06-02-I,estante,C,6,2,I,123.0,2.4,39947,Blackberry Cucumber Sparkling Water,beverages
+C06-02-D,estante,C,6,2,D,127.0,2.4,49191,Cran Raspberry Sparkling Water,beverages
+C06-03-I,estante,C,6,3,I,123.0,3.5999999999999996,31964,Passionfruit Sparkling Water,beverages
+C06-03-D,estante,C,6,3,D,127.0,3.5999999999999996,12576,Kiwi Sandia Sparkling Water,beverages
+C06-04-I,estante,C,6,4,I,123.0,4.8,36316,Lemon Sparkling Water,beverages
+C06-04-D,estante,C,6,4,D,127.0,4.8,27325,Alpine Spring Water,beverages
+C06-05-I,estante,C,6,5,I,123.0,6.0,1194,Natural Artisan Water,beverages
+C06-05-D,estante,C,6,5,D,127.0,6.0,30353,Curate Cherry Lime Sparkling Water,beverages
+C06-06-I,estante,C,6,6,I,123.0,7.199999999999999,21386,Smartwater,beverages
+C06-06-D,estante,C,6,6,D,127.0,7.199999999999999,12606,100% Natural Spring Water,beverages
+C06-07-I,estante,C,6,7,I,123.0,8.4,22802,Mineral Water,beverages
+C06-07-D,estante,C,6,7,D,127.0,8.4,40939,Drinking Water,beverages
+C06-08-I,estante,C,6,8,I,123.0,9.6,45747,Curate Melon Pomelo Sparking Water,beverages
+C06-08-D,estante,C,6,8,D,127.0,9.6,9623,Sparkling Natural Spring Water,beverages
+C06-09-I,estante,C,6,9,I,123.0,10.799999999999999,3873,Mountain Spring Water,beverages
+C06-09-D,estante,C,6,9,D,127.0,10.799999999999999,36107,smartwater® Electrolyte Enhanced Water,beverages
+C06-10-I,estante,C,6,10,I,123.0,12.0,13944,Pure Water,beverages
+C06-10-D,estante,C,6,10,D,127.0,12.0,27985,Smartwater Electrolyte Enhanced Water,beverages
+C06-11-I,estante,C,6,11,I,123.0,13.2,22556,All Natural Apricot Sparkling Water,beverages
+C06-11-D,estante,C,6,11,D,127.0,13.2,18023,Organic Coconut Water,beverages
+C06-12-I,estante,C,6,12,I,123.0,14.399999999999999,35989,Coconut Flavored Sparkling Water,beverages
+C06-12-D,estante,C,6,12,D,127.0,14.399999999999999,6182,Natural Artesian Bottled Water,beverages
+C06-13-I,estante,C,6,13,I,123.0,15.6,5428,1 Liter,beverages
+C06-13-D,estante,C,6,13,D,127.0,15.6,24186,Slim Can Pink Grapefruit Natural Mineral Water,beverages
+C06-14-I,estante,C,6,14,I,123.0,16.8,35948,Tonic Water,beverages
+C06-14-D,estante,C,6,14,D,127.0,16.8,35507,Pure Life Purified Water,beverages
+C06-15-I,estante,C,6,15,I,123.0,18.0,7693,Cran-Raspberry Flavored Sparkling Water,beverages
+C06-15-D,estante,C,6,15,D,127.0,18.0,2717,Mango Sparkling Water,beverages
+C06-16-I,estante,C,6,16,I,123.0,19.2,4658,Imported Mineral Water,beverages
+C06-16-D,estante,C,6,16,D,127.0,19.2,12919,Coconut Sparkling Water,beverages
+C06-17-I,estante,C,6,17,I,123.0,20.4,13245,"Natural Artesian Water, Mini & Mobile",beverages
+C06-17-D,estante,C,6,17,D,127.0,20.4,27275,Pineapple Strawberry Sparkling Water,beverages
+C06-18-I,estante,C,6,18,I,123.0,21.599999999999998,48015,Lime Slim Can,beverages
+C06-18-D,estante,C,6,18,D,127.0,21.599999999999998,17530,Unsweetened Watermelon Water,beverages
+C06-19-I,estante,C,6,19,I,123.0,22.8,1831,Peach-Pear Sparkling Water,beverages
+C06-19-D,estante,C,6,19,D,127.0,22.8,7350,Natural Lime Flavor Sparkling Mineral Water,beverages
+C06-20-I,estante,C,6,20,I,123.0,24.0,36216,Lime Italian Sparkling Mineral Water,beverages
+C06-20-D,estante,C,6,20,D,127.0,24.0,36691,Purified Drinking Water,beverages
+C06-21-I,estante,C,6,21,I,123.0,25.2,42972,Natural Pure Sparkling Water,beverages
+C06-21-D,estante,C,6,21,D,127.0,25.2,41682,Curate Pomme Baya-Apple Berry Sparkling Water,beverages
+C06-22-I,estante,C,6,22,I,123.0,26.4,10,Sparkling Orange Juice & Prickly Pear Beverage,beverages
+C06-22-D,estante,C,6,22,D,127.0,26.4,23650,Electrolyte Water,beverages
+C06-23-I,estante,C,6,23,I,123.0,27.599999999999998,9138,Lemon Italian Sparkling Mineral Water,beverages
+C06-23-D,estante,C,6,23,D,127.0,27.599999999999998,17924,Seltzer Water,beverages
+C06-24-I,estante,C,6,24,I,123.0,28.799999999999997,33852,Black Raspberry Sparkling Water Drink,beverages
+C06-24-D,estante,C,6,24,D,127.0,28.799999999999997,10339,Unsweetened Blackberry Water,beverages
+C06-25-I,estante,C,6,25,I,123.0,30.0,4493,Italian Sparkling Pomegranate And Orange Soda,beverages
+C06-25-D,estante,C,6,25,D,127.0,30.0,40997,Lemon Sparkling Mountain Spring Water,beverages
+C07-00,interseccion,C,7,0,,130.0,0.0,,,
+C07-01,pasillo,C,7,1,,130.0,1.2,,,
+C07-02,pasillo,C,7,2,,130.0,2.4,,,
+C07-03,pasillo,C,7,3,,130.0,3.5999999999999996,,,
+C07-04,pasillo,C,7,4,,130.0,4.8,,,
+C07-05,pasillo,C,7,5,,130.0,6.0,,,
+C07-06,pasillo,C,7,6,,130.0,7.199999999999999,,,
+C07-07,pasillo,C,7,7,,130.0,8.4,,,
+C07-08,pasillo,C,7,8,,130.0,9.6,,,
+C07-09,pasillo,C,7,9,,130.0,10.799999999999999,,,
+C07-10,pasillo,C,7,10,,130.0,12.0,,,
+C07-11,pasillo,C,7,11,,130.0,13.2,,,
+C07-12,pasillo,C,7,12,,130.0,14.399999999999999,,,
+C07-13,pasillo,C,7,13,,130.0,15.6,,,
+C07-14,pasillo,C,7,14,,130.0,16.8,,,
+C07-15,pasillo,C,7,15,,130.0,18.0,,,
+C07-16,pasillo,C,7,16,,130.0,19.2,,,
+C07-17,pasillo,C,7,17,,130.0,20.4,,,
+C07-18,pasillo,C,7,18,,130.0,21.599999999999998,,,
+C07-19,pasillo,C,7,19,,130.0,22.8,,,
+C07-20,pasillo,C,7,20,,130.0,24.0,,,
+C07-21,pasillo,C,7,21,,130.0,25.2,,,
+C07-22,pasillo,C,7,22,,130.0,26.4,,,
+C07-23,pasillo,C,7,23,,130.0,27.599999999999998,,,
+C07-24,pasillo,C,7,24,,130.0,28.799999999999997,,,
+C07-25,pasillo,C,7,25,,130.0,30.0,,,
+C07-26,interseccion,C,7,26,,130.0,31.2,,,
+C07-01-I,estante,C,7,1,I,128.0,1.2,38889,Perrier Lime,beverages
+C07-01-D,estante,C,7,1,D,132.0,1.2,42504,Original Seltzer Water,beverages
+C07-02-I,estante,C,7,2,I,128.0,2.4,46485,Natural Lemon Flavor Sparkling Mineral Water,beverages
+C07-02-D,estante,C,7,2,D,132.0,2.4,17080,Clementina Sparkling Beverage,beverages
+C07-03-I,estante,C,7,3,I,128.0,3.5999999999999996,46088,Beer,alcohol
+C07-03-D,estante,C,7,3,D,132.0,3.5999999999999996,41131,India Pale Ale,alcohol
+C07-04-I,estante,C,7,4,I,128.0,4.8,33065,Cabernet Sauvignon,alcohol
+C07-04-D,estante,C,7,4,D,132.0,4.8,12013,Pinot Noir,alcohol
+C07-05-I,estante,C,7,5,I,128.0,6.0,27885,Malbec,alcohol
+C07-05-D,estante,C,7,5,D,132.0,6.0,37923,Prosecco Sparkling Wine,alcohol
+C07-06-I,estante,C,7,6,I,128.0,7.199999999999999,45190,Vodka,alcohol
+C07-06-D,estante,C,7,6,D,132.0,7.199999999999999,27652,Handmade Vodka,alcohol
+C07-07-I,estante,C,7,7,I,128.0,8.4,2120,Sauvignon Blanc,alcohol
+C07-07-D,estante,C,7,7,D,132.0,8.4,38444,Chardonnay,alcohol
+C07-08-I,estante,C,7,8,I,128.0,9.6,1160,Pinot Grigio,alcohol
+C07-08-D,estante,C,7,8,D,132.0,9.6,36425,Chardonnay Wine,alcohol
+C07-09-I,estante,C,7,9,I,128.0,10.799999999999999,21847,Lemongrass Citrus Scent Disinfecting Wipes,household
+C07-09-D,estante,C,7,9,D,132.0,10.799999999999999,34287,"Disinfecting Wipes, Lemon",household
+C07-10-I,estante,C,7,10,I,128.0,12.0,881,Heavy Duty Scrub Sponges,household
+C07-10-D,estante,C,7,10,D,132.0,12.0,20590,Disinfecting Wipes Fresh Scent,household
+C07-11-I,estante,C,7,11,I,128.0,13.2,45566,Clean Up Cleaner with Bleach Fresh Scent,household
+C07-11-D,estante,C,7,11,D,132.0,13.2,48118,Max Gel Clog Remover,household
+C07-12-I,estante,C,7,12,I,128.0,14.399999999999999,5586,Original Glass Cleaner,household
+C07-12-D,estante,C,7,12,D,132.0,14.399999999999999,500,Non-Scratch Scrub Sponges,household
+C07-13-I,estante,C,7,13,I,128.0,15.6,6210,Kitchen Scrubber Sponge,household
+C07-13-D,estante,C,7,13,D,132.0,15.6,48532,All Purpose Cleaner,household
+C07-14-I,estante,C,7,14,I,128.0,16.8,717,Sweeper Open Window Fresh Scent Wet Mopping Cloths Refill,household
+C07-14-D,estante,C,7,14,D,132.0,16.8,32939,Disinfecting Wipes Fresh Scent & Lemon,household
+C07-15-I,estante,C,7,15,I,128.0,18.0,22565,"Disinfecting Wipes, Lemon Scent",household
+C07-15-D,estante,C,7,15,D,132.0,18.0,36051,Glass Cleaner,household
+C07-16-I,estante,C,7,16,I,128.0,19.2,13838,Natural Free & Clear Dish Liquid,household
+C07-16-D,estante,C,7,16,D,132.0,19.2,33290,Lemon Verbena Dish Soap,household
+C07-17-I,estante,C,7,17,I,128.0,20.4,7014,Dishwasher Gel Free & Clear,household
+C07-17-D,estante,C,7,17,D,132.0,20.4,22950,Natural Free & Clear Dishwasher Detergent Packs,household
+C07-18-I,estante,C,7,18,I,128.0,21.599999999999998,2581,Lavender Floral & Mint Natural Dish Liquid,household
+C07-18-D,estante,C,7,18,D,132.0,21.599999999999998,3098,Lavender Dish Soap,household
+C07-19-I,estante,C,7,19,I,128.0,22.8,12442,Basil Dish Soap,household
+C07-19-D,estante,C,7,19,D,132.0,22.8,33316,Lemongrass & Clementine Zest Natural Dish Liquid,household
+C07-20-I,estante,C,7,20,I,128.0,24.0,46673,Ultra Original Scent Dishwashing Liquid,household
+C07-20-D,estante,C,7,20,D,132.0,24.0,33810,Citrus Dish Soap,household
+C07-21-I,estante,C,7,21,I,128.0,25.2,2707,Complete™ ActionPacs™ Fresh Scent Dishwasher Detergent,household
+C07-21-D,estante,C,7,21,D,132.0,25.2,42677,Ultra Apple Blossom Antibacterial Dish Liquid,household
+C07-22-I,estante,C,7,22,I,128.0,26.4,26717,Ginger Yuzu Scented Dish Soap,household
+C07-22-D,estante,C,7,22,D,132.0,26.4,40925,Ultra Concentrated Original Scent Dishwashing Liquid,household
+C07-23-I,estante,C,7,23,I,128.0,27.599999999999998,1939,Geranium Liquid Dish Soap,household
+C07-23-D,estante,C,7,23,D,132.0,27.599999999999998,31066,Aluminum Foil,household
+C07-24-I,estante,C,7,24,I,128.0,28.799999999999997,48812,Variety Pack,household
+C07-24-D,estante,C,7,24,D,132.0,28.799999999999997,31268,Sandwich Bags,household
+C07-25-I,estante,C,7,25,I,128.0,30.0,47865,Quart Storage Bags,household
+C07-25-D,estante,C,7,25,D,132.0,30.0,5047,Easy Open TabsBags,household
+C08-00,interseccion,C,8,0,,135.0,0.0,,,
+C08-01,pasillo,C,8,1,,135.0,1.2,,,
+C08-02,pasillo,C,8,2,,135.0,2.4,,,
+C08-03,pasillo,C,8,3,,135.0,3.5999999999999996,,,
+C08-04,pasillo,C,8,4,,135.0,4.8,,,
+C08-05,pasillo,C,8,5,,135.0,6.0,,,
+C08-06,pasillo,C,8,6,,135.0,7.199999999999999,,,
+C08-07,pasillo,C,8,7,,135.0,8.4,,,
+C08-08,pasillo,C,8,8,,135.0,9.6,,,
+C08-09,pasillo,C,8,9,,135.0,10.799999999999999,,,
+C08-10,pasillo,C,8,10,,135.0,12.0,,,
+C08-11,pasillo,C,8,11,,135.0,13.2,,,
+C08-12,pasillo,C,8,12,,135.0,14.399999999999999,,,
+C08-13,pasillo,C,8,13,,135.0,15.6,,,
+C08-14,pasillo,C,8,14,,135.0,16.8,,,
+C08-15,pasillo,C,8,15,,135.0,18.0,,,
+C08-16,pasillo,C,8,16,,135.0,19.2,,,
+C08-17,pasillo,C,8,17,,135.0,20.4,,,
+C08-18,pasillo,C,8,18,,135.0,21.599999999999998,,,
+C08-19,pasillo,C,8,19,,135.0,22.8,,,
+C08-20,pasillo,C,8,20,,135.0,24.0,,,
+C08-21,pasillo,C,8,21,,135.0,25.2,,,
+C08-22,pasillo,C,8,22,,135.0,26.4,,,
+C08-23,pasillo,C,8,23,,135.0,27.599999999999998,,,
+C08-24,pasillo,C,8,24,,135.0,28.799999999999997,,,
+C08-25,pasillo,C,8,25,,135.0,30.0,,,
+C08-26,interseccion,C,8,26,,135.0,31.2,,,
+C08-01-I,estante,C,8,1,I,133.0,1.2,36618,"12\"" Aluminium Foil",household
+C08-01-D,estante,C,8,1,D,137.0,1.2,10243,Parchment Paper,household
+C08-02-I,estante,C,8,2,I,133.0,2.4,49441,Slider Stand & Fill Storage Gallon Bags,household
+C08-02-D,estante,C,8,2,D,137.0,2.4,44643,Gallon Freezer Bags,household
+C08-03-I,estante,C,8,3,I,133.0,3.5999999999999996,204,Free & Clear Natural Laundry Detergent For Sensitive Skin,household
+C08-03-D,estante,C,8,3,D,137.0,3.5999999999999996,605,Natural Liquid Laundry Detergent - Blue Eucalyptus and Lavender,household
+C08-04-I,estante,C,8,4,I,133.0,4.8,9358,April Fresh Liquid Fabric Softener,household
+C08-04-D,estante,C,8,4,D,137.0,4.8,14419,Fresh Scent Laundry Detergent,household
+C08-05-I,estante,C,8,5,I,133.0,6.0,5748,Free and Gentle High Efficiency Liquid Laundry Detergent,household
+C08-05-D,estante,C,8,5,D,137.0,6.0,46129,Versatile Stain Remover,household
+C08-06-I,estante,C,8,6,I,133.0,7.199999999999999,1957,Fabric Softener Dryer Sheet Outdoor Fresh 160CT Fabric Enhancers,household
+C08-06-D,estante,C,8,6,D,137.0,7.199999999999999,42441,Regular Concentrated Bleach,household
+C08-07-I,estante,C,8,7,I,133.0,8.4,37357,"Natural Laundry Detergent, Free & Clear 33",household
+C08-07-D,estante,C,8,7,D,137.0,8.4,23892,Original High Efficiency Liquid Laundry Detergent,household
+C08-08-I,estante,C,8,8,I,133.0,9.6,21849,Original Scent HE Laundry Detergent,household
+C08-08-D,estante,C,8,8,D,137.0,9.6,41694,Free & Clear Bleach,household
+C08-09-I,estante,C,8,9,I,133.0,10.799999999999999,1947,Tulips 10 Stem,household
+C08-09-D,estante,C,8,9,D,137.0,10.799999999999999,8021,100% Recycled Paper Towels,household
+C08-10-I,estante,C,8,10,I,133.0,12.0,2086,Sustainably Soft Bath Tissue,household
+C08-10-D,estante,C,8,10,D,137.0,12.0,32650,White Giant Paper Towel Rolls,household
+C08-11-I,estante,C,8,11,I,133.0,13.2,19488,Select-A-Size White Paper Towels,household
+C08-11-D,estante,C,8,11,D,137.0,13.2,42240,Ultra Soft Facial Tissues,household
+C08-12-I,estante,C,8,12,I,133.0,14.399999999999999,8230,100% Recycled Bathroom Tissue,household
+C08-12-D,estante,C,8,12,D,137.0,14.399999999999999,30290,100% Recycled Bath Tissue Rolls,household
+C08-13-I,estante,C,8,13,I,133.0,15.6,1217,"Select-A-Size Paper Towels, White, 2 Huge Rolls = 5 Regular Rolls  Towels/Napkins",household
+C08-13-D,estante,C,8,13,D,137.0,15.6,37229,"Bathroom Tissue Softness & Strength, Double Rolls",household
+C08-14-I,estante,C,8,14,I,133.0,16.8,2536,Ultra Plush 3 ply Toilet Paper 12 Double Rolls,household
+C08-14-D,estante,C,8,14,D,137.0,16.8,48370,Sensitive Toilet Paper,household
+C08-15-I,estante,C,8,15,I,133.0,18.0,45622,"Paper Towels Choose-A-Sheet, Mega Rolls, One-Ply",household
+C08-15-D,estante,C,8,15,D,137.0,18.0,10255,Clean Care Mega Rolls Toilet Paper,household
+C08-16-I,estante,C,8,16,I,133.0,19.2,38371,Plus Lotion Facial Tissues,household
+C08-16-D,estante,C,8,16,D,137.0,19.2,29628,Ultra Strong Toilet Paper Double Rolls Bathroom Tissue,household
+C08-17-I,estante,C,8,17,I,133.0,20.4,27903,CleanCare 1-Ply Double Rolls Toilet Paper,household
+C08-17-D,estante,C,8,17,D,137.0,20.4,34658,100% Recycled 2 Ply Jumbo Paper Towel Roll,household
+C08-18-I,estante,C,8,18,I,133.0,21.599999999999998,12212,Unscented 1000 Sheets Per Roll Bathroom Tissue,household
+C08-18-D,estante,C,8,18,D,137.0,21.599999999999998,35986,2-Ply 100% Recycled Bathroom Tissue,household
+C08-19-I,estante,C,8,19,I,133.0,22.8,21050,"Bathroom Tissue, 1‑Ply, 1000 Sheet Rolls",household
+C08-19-D,estante,C,8,19,D,137.0,22.8,45698,One Ply Choose A Size Big Roll Paper Towel Rolls,household
+C08-20-I,estante,C,8,20,I,133.0,24.0,8195,Paper Towels,household
+C08-20-D,estante,C,8,20,D,137.0,24.0,17858,Everyday 2 Ply Premium Napkins,household
+C08-21-I,estante,C,8,21,I,133.0,25.2,29345,Choose-A-Sheet Regular Roll Paper Towels,household
+C08-21-D,estante,C,8,21,D,137.0,25.2,29801,100% Recycled White Paper Towels,household
+C08-22-I,estante,C,8,22,I,133.0,26.4,23410,Bathroom Tissue Double Rolls,household
+C08-22-D,estante,C,8,22,D,137.0,26.4,38511,1 Ply Paper Towels,household
+C08-23-I,estante,C,8,23,I,133.0,27.599999999999998,4374,Ultra Soft Bathroom Tissue Double Rolls,household
+C08-23-D,estante,C,8,23,D,137.0,27.599999999999998,48642,2-Ply Right Size 100% Recycled Paper Towels,household
+C08-24-I,estante,C,8,24,I,133.0,28.799999999999997,20711,Choose-A-Size White Paper Towels 8 Giant Rolls,household
+C08-24-D,estante,C,8,24,D,137.0,28.799999999999997,31992,"Select-A-Size Paper Towels, White",household
+C08-25-I,estante,C,8,25,I,133.0,30.0,26405,XL Pick-A-Size Paper Towel Rolls,household
+C08-25-D,estante,C,8,25,D,137.0,30.0,17747,Plastic Wrap,household
+C09-00,interseccion,C,9,0,,140.0,0.0,,,
+C09-01,pasillo,C,9,1,,140.0,1.2,,,
+C09-02,pasillo,C,9,2,,140.0,2.4,,,
+C09-03,pasillo,C,9,3,,140.0,3.5999999999999996,,,
+C09-04,pasillo,C,9,4,,140.0,4.8,,,
+C09-05,pasillo,C,9,5,,140.0,6.0,,,
+C09-06,pasillo,C,9,6,,140.0,7.199999999999999,,,
+C09-07,pasillo,C,9,7,,140.0,8.4,,,
+C09-08,pasillo,C,9,8,,140.0,9.6,,,
+C09-09,pasillo,C,9,9,,140.0,10.799999999999999,,,
+C09-10,pasillo,C,9,10,,140.0,12.0,,,
+C09-11,pasillo,C,9,11,,140.0,13.2,,,
+C09-12,pasillo,C,9,12,,140.0,14.399999999999999,,,
+C09-13,pasillo,C,9,13,,140.0,15.6,,,
+C09-14,pasillo,C,9,14,,140.0,16.8,,,
+C09-15,pasillo,C,9,15,,140.0,18.0,,,
+C09-16,pasillo,C,9,16,,140.0,19.2,,,
+C09-17,pasillo,C,9,17,,140.0,20.4,,,
+C09-18,pasillo,C,9,18,,140.0,21.599999999999998,,,
+C09-19,pasillo,C,9,19,,140.0,22.8,,,
+C09-20,pasillo,C,9,20,,140.0,24.0,,,
+C09-21,pasillo,C,9,21,,140.0,25.2,,,
+C09-22,pasillo,C,9,22,,140.0,26.4,,,
+C09-23,pasillo,C,9,23,,140.0,27.599999999999998,,,
+C09-24,pasillo,C,9,24,,140.0,28.799999999999997,,,
+C09-25,pasillo,C,9,25,,140.0,30.0,,,
+C09-26,interseccion,C,9,26,,140.0,31.2,,,
+C09-01-I,estante,C,9,1,I,138.0,1.2,47000,Ultra Soft Toilet Paper,household
+C09-01-D,estante,C,9,1,D,142.0,1.2,44290,Unscented Bathroom Tissue,household
+C09-02-I,estante,C,9,2,I,138.0,2.4,48226,Select-A-Size White Giant Roll Paper Towels,household
+C09-02-D,estante,C,9,2,D,142.0,2.4,15057,Fresh Care Flushable Cleansing Cloths Refills,household
+C09-03-I,estante,C,9,3,I,138.0,3.5999999999999996,25844,Double Rolls Bath Tissue,household
+C09-03-D,estante,C,9,3,D,142.0,3.5999999999999996,18988,Ultra Soft & Strong® Toilet Paper Double Rolls,household
+C09-04-I,estante,C,9,4,I,138.0,4.8,40592,Ultra Soft Facial 3-Ply White Facial Tissues,household
+C09-04-D,estante,C,9,4,D,142.0,4.8,35473,Everyday 2-Ply White Facial Tissues,household
+C09-05-I,estante,C,9,5,I,138.0,6.0,30638,White Paper Towels,household
+C09-05-D,estante,C,9,5,D,142.0,6.0,27629,Trusted Care 2-Ply Tissues,household
+C09-06-I,estante,C,9,6,I,138.0,7.199999999999999,859,2-Ply Everyday Napkins,household
+C09-06-D,estante,C,9,6,D,142.0,7.199999999999999,37606,White Quilted Napkins,household
+C09-07-I,estante,C,9,7,I,138.0,8.4,31801,9 Inch Plates,household
+C09-07-D,estante,C,9,7,D,142.0,8.4,15680,Red Plastic Cups,household
+C09-08-I,estante,C,9,8,I,138.0,9.6,28031,"8.5\"" Microwavable Cut Resistant Plates",household
+C09-08-D,estante,C,9,8,D,142.0,9.6,32085,Grab 'N Go® Cups & Lids 12 Ounce,household
+C09-09-I,estante,C,9,9,I,138.0,10.799999999999999,39132,Plastic Cup Squared Base - 30 CT,household
+C09-09-D,estante,C,9,9,D,142.0,10.799999999999999,49113,Tall Kitchen Drawstring Bags,household
+C09-10-I,estante,C,9,10,I,138.0,12.0,38300,Tall Kitchen Bag With Febreze Odor Shield,household
+C09-10-D,estante,C,9,10,D,142.0,12.0,20607,Fresh Vanilla Odor Shield Tall 13 Gallon Drawstring Bags,household
+C09-11-I,estante,C,9,11,I,138.0,13.2,38949,Febreze Fresh Clean Garbage Bags,household
+C09-11-D,estante,C,9,11,D,142.0,13.2,8075,Small Compostable Waste Bag,household
+C09-12-I,estante,C,9,12,I,138.0,14.399999999999999,33439,Deep Moisture Body Wash,personal care
+C09-12-D,estante,C,9,12,D,142.0,14.399999999999999,3868,White Beauty Bar,personal care
+C09-13-I,estante,C,9,13,I,138.0,15.6,35601,Sensitive Skin Moisturizing Cream Soap Bars,personal care
+C09-13-D,estante,C,9,13,D,142.0,15.6,14711,Organic Lowfat Mango Kefir,personal care
+C09-14-I,estante,C,9,14,I,138.0,16.8,33493,Cotton Swabs,personal care
+C09-14-D,estante,C,9,14,D,142.0,16.8,280,Makeup Remover Cleansing Towelettes,personal care
+C09-15-I,estante,C,9,15,I,138.0,18.0,39858,Hydrogen Peroxide,personal care
+C09-15-D,estante,C,9,15,D,142.0,18.0,9047,Premium Epsom Salt,personal care
+C09-16-I,estante,C,9,16,I,138.0,19.2,36534,Epsom Salt,personal care
+C09-16-D,estante,C,9,16,D,142.0,19.2,29418,Fluoride-Free Antiplaque & Whitening Peppermint Toothpaste,personal care
+C09-17-I,estante,C,9,17,I,138.0,20.4,3007,Natural Anticavity Silly Strawberry Fluoride Toothpaste for Children,personal care
+C09-17-D,estante,C,9,17,D,142.0,20.4,26606,Simply White Natural Clean Mint Fluoride Toothpaste,personal care
+C09-18-I,estante,C,9,18,I,138.0,21.599999999999998,35206,Whitening Plus Scope Crest Complete Whitening + Scope Multi-Benefit Minty Fresh Striped Toothpaste 6.2oz Dentifrice,personal care
+C09-18-D,estante,C,9,18,D,142.0,21.599999999999998,2272,Peppermint,personal care
+C09-19-I,estante,C,9,19,I,138.0,22.8,28450,Colagate Total Whitening Toothpaste,personal care
+C09-19-D,estante,C,9,19,D,142.0,22.8,14650,Vanilla Whey Protein Powder,personal care
+C09-20-I,estante,C,9,20,I,138.0,24.0,12312,Lavender Hand Soap,personal care
+C09-20-D,estante,C,9,20,D,142.0,24.0,27544,Lemon Verbena Hand Soap,personal care
+C09-21-I,estante,C,9,21,I,138.0,25.2,39162,Clean Day Basil Hand Soap,personal care
+C09-21-D,estante,C,9,21,D,142.0,25.2,32463,Olive Oil & Aloe Vera Hand Soap,personal care
+C09-22-I,estante,C,9,22,I,138.0,26.4,2996,Honeysuckle Hand Soap,personal care
+C09-22-D,estante,C,9,22,D,142.0,26.4,2238,Vitamin C Super Orange Dietary Supplement,personal care
+C09-23-I,estante,C,9,23,I,138.0,27.599999999999998,2309,Organic Ground Flaxseed,personal care
+C09-23-D,estante,C,9,23,D,142.0,27.599999999999998,44471,Free & Clear Unscented Baby Wipes,babies
+C09-24-I,estante,C,9,24,I,138.0,28.799999999999997,43875,Baby Food Stage 2 Blueberry Pear & Purple Carrot,babies
+C09-24-D,estante,C,9,24,D,142.0,28.799999999999997,34134,Spinach Peas & Pear Stage 2 Baby Food,babies
+C09-25-I,estante,C,9,25,I,138.0,30.0,2611,Gluten Free SpongeBob Spinach Littles,babies
+C09-25-D,estante,C,9,25,D,142.0,30.0,3020,Broccoli & Apple Stage 2 Baby Food,babies
+C10-00,interseccion,C,10,0,,145.0,0.0,,,
+C10-01,pasillo,C,10,1,,145.0,1.2,,,
+C10-02,pasillo,C,10,2,,145.0,2.4,,,
+C10-03,pasillo,C,10,3,,145.0,3.5999999999999996,,,
+C10-04,pasillo,C,10,4,,145.0,4.8,,,
+C10-05,pasillo,C,10,5,,145.0,6.0,,,
+C10-06,pasillo,C,10,6,,145.0,7.199999999999999,,,
+C10-07,pasillo,C,10,7,,145.0,8.4,,,
+C10-08,pasillo,C,10,8,,145.0,9.6,,,
+C10-09,pasillo,C,10,9,,145.0,10.799999999999999,,,
+C10-10,pasillo,C,10,10,,145.0,12.0,,,
+C10-11,pasillo,C,10,11,,145.0,13.2,,,
+C10-12,pasillo,C,10,12,,145.0,14.399999999999999,,,
+C10-13,pasillo,C,10,13,,145.0,15.6,,,
+C10-14,pasillo,C,10,14,,145.0,16.8,,,
+C10-15,pasillo,C,10,15,,145.0,18.0,,,
+C10-16,pasillo,C,10,16,,145.0,19.2,,,
+C10-17,pasillo,C,10,17,,145.0,20.4,,,
+C10-18,pasillo,C,10,18,,145.0,21.599999999999998,,,
+C10-19,pasillo,C,10,19,,145.0,22.8,,,
+C10-20,pasillo,C,10,20,,145.0,24.0,,,
+C10-21,pasillo,C,10,21,,145.0,25.2,,,
+C10-22,pasillo,C,10,22,,145.0,26.4,,,
+C10-23,pasillo,C,10,23,,145.0,27.599999999999998,,,
+C10-24,pasillo,C,10,24,,145.0,28.799999999999997,,,
+C10-25,pasillo,C,10,25,,145.0,30.0,,,
+C10-26,interseccion,C,10,26,,145.0,31.2,,,
+C10-01-I,estante,C,10,1,I,143.0,1.2,49215,Kids Sensible Foods Broccoli Littles,babies
+C10-01-D,estante,C,10,1,D,147.0,1.2,5114,"Peach,  Apricot & Banana Stage 2 Baby Food",babies
+C10-02-I,estante,C,10,2,I,143.0,2.4,21162,Organic Mixed Berry Yogurt & Fruit Snack,babies
+C10-02-D,estante,C,10,2,D,147.0,2.4,18176,Organic Strawberry Yogurt & Fruit Snack,babies
+C10-03-I,estante,C,10,3,I,143.0,3.5999999999999996,14211,Baby Food Stage 2 Pumpkin Banana,babies
+C10-03-D,estante,C,10,3,D,147.0,3.5999999999999996,23025,Organic Stage 4 Green Bean Pear & Pea Baby Food,babies
+C10-04-I,estante,C,10,4,I,143.0,4.8,14491,"Happy Baby Spinach, Mango, and Pear Baby Food",babies
+C10-04-D,estante,C,10,4,D,147.0,4.8,5491,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,babies
+C10-05-I,estante,C,10,5,I,143.0,6.0,38192,Pear & Mango Stage 2 Baby Food,babies
+C10-05-D,estante,C,10,5,D,147.0,6.0,39468,"Apples, Kale & Avocados Organic Baby Food",babies
+C10-06-I,estante,C,10,6,I,143.0,7.199999999999999,39427,Apples + Strawberries Organic Nibbly Fingers,babies
+C10-06-D,estante,C,10,6,D,147.0,7.199999999999999,1202,Organic Whole Grain Oatmeal Cereal Baby Food,babies
+C10-07-I,estante,C,10,7,I,143.0,8.4,47888,Apple and Carrot Stage 2 Baby Food,babies
+C10-07-D,estante,C,10,7,D,147.0,8.4,38985,Organic Stage 4 Spinach Mango & Pear Baby Food,babies
+C10-08-I,estante,C,10,8,I,143.0,9.6,45767,Sunny Days Strawberry Snack Bars,babies
+C10-08-D,estante,C,10,8,D,147.0,9.6,32018,Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,babies
+C10-09-I,estante,C,10,9,I,143.0,10.799999999999999,49044,"Organic Pears, Peas and Broccoli Puree Stage 1",babies
+C10-09-D,estante,C,10,9,D,147.0,10.799999999999999,28378,Stage 2 Sweet Potato Corn & Apple Baby Food,babies
+C10-10-I,estante,C,10,10,I,143.0,12.0,19046,Banana & Mango Organic Yogurt & Fruit Snacks ,babies
+C10-10-D,estante,C,10,10,D,147.0,12.0,46807,"Bananas, Raspberries & Oats Organic Baby Food",babies
+C10-11-I,estante,C,10,11,I,143.0,13.2,38984,Kale & Spinach Superfood Puffs,babies
+C10-11-D,estante,C,10,11,D,147.0,13.2,47167,Organic Sunny Days Apple Snack Bars,babies
+C10-12-I,estante,C,10,12,I,143.0,14.399999999999999,34249,Strawberry Puffs,babies
+C10-12-D,estante,C,10,12,D,147.0,14.399999999999999,24413,Organic Strawberry Banana Fruit Yogurt Smoothie,babies
+C10-13-I,estante,C,10,13,I,143.0,15.6,30192,Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,babies
+C10-13-D,estante,C,10,13,D,147.0,15.6,8912,"Pears, Kale & Spinach Organic Baby Food",babies
+C10-14-I,estante,C,10,14,I,143.0,16.8,44787,Stage 1 - Just Prunes,babies
+C10-14-D,estante,C,10,14,D,147.0,16.8,2664,First Prunes,babies
+C10-15-I,estante,C,10,15,I,143.0,18.0,22210,Organic Stage 2 Broccoli Pears & Peas Baby Food,babies
+C10-15-D,estante,C,10,15,D,147.0,18.0,22969,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",babies
+C10-16-I,estante,C,10,16,I,143.0,19.2,38141,"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",babies
+C10-16-D,estante,C,10,16,D,147.0,19.2,24834,Organic Sweet Potato Puffs,babies
+C10-17-I,estante,C,10,17,I,143.0,20.4,34745,Organic Stage 3 Pear Carrot Apricot Baby Food,babies
+C10-17-D,estante,C,10,17,D,147.0,20.4,4812,Stage 1 Apples & Strawberries Organic Pureed Baby Food,babies
+C10-18-I,estante,C,10,18,I,143.0,21.599999999999998,25371,Organic Banana Blueberry Baby Food Puree,babies
+C10-18-D,estante,C,10,18,D,147.0,21.599999999999998,31504,Organic Stage 2 Peaches & Bananas Baby Food,babies
+C10-19-I,estante,C,10,19,I,143.0,22.8,12020,"Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack",babies
+C10-19-D,estante,C,10,19,D,147.0,22.8,41375,Organic Atage 3 Nibbly Fingers Mangoes Carrots,babies
+C10-20-I,estante,C,10,20,I,143.0,24.0,16560,Organic Stage 2 Carrots Baby Food,babies
+C10-20-D,estante,C,10,20,D,147.0,24.0,32647,"Apples, Guavas & Beets Organic Baby Food",babies
+C10-21-I,estante,C,10,21,I,143.0,25.2,6188,Organic Apple & Butternut Squash Baby Food,babies
+C10-21-D,estante,C,10,21,D,147.0,25.2,39578,Organic Go Go Apple Peach Applesauce,babies
+C10-22-I,estante,C,10,22,I,143.0,26.4,29557,"Apples, Pumpkin & Carrots Organic Baby Food",babies
+C10-22-D,estante,C,10,22,D,147.0,26.4,12492,Baby Food Pears Squash,babies
+C10-23-I,estante,C,10,23,I,143.0,27.599999999999998,12955,"Super Foods/Organic Apples, Spinach, Peas & Broccoli + Super Chia Snack Pouch",babies
+C10-23-D,estante,C,10,23,D,147.0,27.599999999999998,36441,Baby Wipes,babies
+C10-24-I,estante,C,10,24,I,143.0,28.799999999999997,5922,"Honest Face, Hand, & Baby Wipes",babies
+C10-24-D,estante,C,10,24,D,147.0,28.799999999999997,16647,Double Duty Advanced Odor Control Clumping Cat Litter,pets
+C10-25-I,estante,C,10,25,I,143.0,30.0,54,24/7 Performance Cat Litter,pets
+C10-25-D,estante,C,10,25,D,147.0,30.0,49355,Instant Action Cat Litter,pets
+DEPOSITO,deposito,,,,,75.0,-5.0,,,

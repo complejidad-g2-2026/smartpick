@@ -1,0 +1,244 @@
+"""Genera las figuras y la tabla de estadísticas del informe.
+
+Salida en figuras/:
+- grafo_completo.png:      el almacén entero, coloreado por zona.
+- subgrafo_zona_A/B/C.png: cada zona, coloreada por departamento.
+- pedido_ejemplo.png:      un pedido real marcado sobre el almacén.
+- estadisticas.csv:        nodos, aristas y productos por zona.
+
+Uso:
+    python src/visualizar.py
+"""
+
+import matplotlib.pyplot as plt
+import networkx as nx
+import pandas as pd
+from matplotlib.lines import Line2D
+
+import config
+from grafo import cargar_grafo
+
+# Paleta categórica validada para daltonismo (orden fijo, nunca se recicla)
+# y tintas neutras para lo que no es dato.
+SERIES = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7", "#e34948"]
+TINTA = "#0b0b0b"
+TINTA_SECUNDARIA = "#52514e"
+TINTA_TENUE = "#898781"
+LINEA_TENUE = "#e1e0d9"
+FONDO = "#fcfcfb"
+
+COLOR_ZONA = dict(zip(config.ZONAS, SERIES))
+ANCHO_FIGURA = 8      # pulgadas; a 200 ppp son 1600 px, el ancho de una página
+PPP = 200
+
+plt.rcParams.update({
+    "font.family": ["Segoe UI", "DejaVu Sans"],
+    "font.size": 8,
+    "axes.titlesize": 10,
+    "axes.titleweight": "bold",
+    "axes.titlelocation": "left",
+    "figure.facecolor": FONDO,
+    "axes.facecolor": FONDO,
+    "savefig.facecolor": FONDO,
+})
+
+
+def posiciones(g: nx.Graph) -> dict:
+    return {n: (d["x"], d["y"]) for n, d in g.nodes(data=True)}
+
+
+def nodos_de_tipo(g: nx.Graph, tipo: str, zona: str | None = None) -> list:
+    return [n for n, d in g.nodes(data=True)
+            if d["tipo"] == tipo and (zona is None or d.get("zona") == zona)]
+
+
+def miles(n: int) -> str:
+    """2311 -> '2 311', separador de miles en español."""
+    return f"{n:,}".replace(",", " ")
+
+
+def dibujar_base(ax, g: nx.Graph, pos: dict, color_pasillo: str = TINTA_TENUE) -> None:
+    """Aristas, puntos de pasillo, intersecciones y depósito, en tonos neutros."""
+    nx.draw_networkx_edges(g, pos, ax=ax, edge_color=LINEA_TENUE, width=0.6)
+    nx.draw_networkx_nodes(g, pos, ax=ax, nodelist=nodos_de_tipo(g, "pasillo"),
+                           node_size=1.2, node_color=color_pasillo)
+    nx.draw_networkx_nodes(g, pos, ax=ax, nodelist=nodos_de_tipo(g, "interseccion"),
+                           node_size=6, node_color=TINTA_SECUNDARIA, node_shape="s")
+    if "DEPOSITO" in g:
+        nx.draw_networkx_nodes(g, pos, ax=ax, nodelist=["DEPOSITO"], node_size=60,
+                               node_color=TINTA, node_shape="s")
+
+
+def leyenda_estructura() -> list:
+    return [
+        Line2D([], [], ls="", marker="o", ms=2.5, color=TINTA_TENUE, label="Punto de pasillo"),
+        Line2D([], [], ls="", marker="s", ms=3.5, color=TINTA_SECUNDARIA, label="Intersección"),
+        Line2D([], [], ls="", marker="s", ms=6, color=TINTA, label="Depósito"),
+    ]
+
+
+def preparar_ejes(ax) -> None:
+    ax.set_aspect("equal")
+    ax.set_xlabel("metros", color=TINTA_TENUE)
+    ax.tick_params(colors=TINTA_TENUE, labelsize=7, left=True, bottom=True,
+                   labelleft=True, labelbottom=True)
+    for lado, spine in ax.spines.items():
+        spine.set_visible(lado in ("left", "bottom"))
+        spine.set_color(LINEA_TENUE)
+
+
+def guardar(fig, nombre: str) -> None:
+    config.FIGURAS.mkdir(parents=True, exist_ok=True)
+    fig.savefig(config.FIGURAS / nombre, dpi=PPP, bbox_inches="tight")
+    plt.close(fig)
+    print(f"  figuras/{nombre}")
+
+
+def figura_grafo_completo(g: nx.Graph) -> None:
+    pos = posiciones(g)
+    fig, ax = plt.subplots(figsize=(ANCHO_FIGURA, 3.4))
+    dibujar_base(ax, g, pos)
+
+    handles = []
+    for zona, datos in config.ZONAS.items():
+        estantes = nodos_de_tipo(g, "estante", zona)
+        nx.draw_networkx_nodes(g, pos, ax=ax, nodelist=estantes, node_size=2.5,
+                               node_color=COLOR_ZONA[zona])
+        xs = [pos[n][0] for n in estantes]
+        ax.text((min(xs) + max(xs)) / 2, max(p[1] for p in pos.values()) + 2.5,
+                f"Zona {zona} · {datos['nombre']}", ha="center", color=TINTA, fontsize=8)
+        handles.append(Line2D([], [], ls="", marker="o", ms=4, color=COLOR_ZONA[zona],
+                              label=f"Estante zona {zona}"))
+
+    ax.set_title(f"Grafo completo del almacén: {miles(g.number_of_nodes())} nodos, "
+                 f"{miles(g.number_of_edges())} aristas", pad=18)
+    ax.legend(handles=handles + leyenda_estructura(), loc="upper center",
+              bbox_to_anchor=(0.5, -0.22), ncol=6, frameon=False, fontsize=7)
+    preparar_ejes(ax)
+    guardar(fig, "grafo_completo.png")
+
+
+def figura_subgrafo_zona(g: nx.Graph, zona: str) -> None:
+    datos = config.ZONAS[zona]
+    nodos_zona = [n for n, d in g.nodes(data=True) if d.get("zona") == zona]
+    sub = g.subgraph(nodos_zona)
+    pos = posiciones(sub)
+
+    fig, ax = plt.subplots(figsize=(ANCHO_FIGURA, 5.2))
+    dibujar_base(ax, sub, pos)
+
+    handles = []
+    for departamento, color in zip(datos["departamentos"], SERIES):
+        estantes = [n for n in nodos_de_tipo(sub, "estante")
+                    if sub.nodes[n].get("departamento") == departamento]
+        if not estantes:
+            continue
+        nx.draw_networkx_nodes(sub, pos, ax=ax, nodelist=estantes, node_size=9,
+                               node_color=color)
+        nombre = config.DEPARTAMENTOS_ES[departamento]
+        handles.append(Line2D([], [], ls="", marker="o", ms=5, color=color,
+                              label=f"{nombre} ({len(estantes)})"))
+
+    # Número de pasillo sobre cada uno.
+    y_fondo = max(p[1] for p in pos.values())
+    for pasillo in range(1, config.PASILLOS_POR_ZONA + 1):
+        x = pos[f"{zona}{pasillo:02d}-00"][0]
+        ax.text(x, y_fondo + 1.5, f"P{pasillo}", ha="center", color=TINTA_SECUNDARIA, fontsize=7)
+
+    ax.set_title(f"Subgrafo zona {zona} · {datos['nombre']}: {sub.number_of_nodes()} nodos, "
+                 f"{sub.number_of_edges()} aristas", pad=16)
+    ax.legend(handles=handles + leyenda_estructura()[:2], loc="center left",
+              bbox_to_anchor=(1.01, 0.5), frameon=False, fontsize=7,
+              title="Ubicaciones por departamento", title_fontsize=7)
+    preparar_ejes(ax)
+    guardar(fig, f"subgrafo_zona_{zona}.png")
+
+
+def elegir_pedido_ejemplo(g: nx.Graph, pedidos: pd.DataFrame) -> pd.DataFrame:
+    """El primer pedido de 8 a 12 productos que pasa por las tres zonas."""
+    zona_de = {d["product_id"]: d["zona"] for _, d in g.nodes(data=True) if "product_id" in d}
+    pedidos = pedidos.assign(zona=pedidos["product_id"].map(zona_de))
+    resumen = pedidos.groupby("order_id").agg(n=("product_id", "size"), zonas=("zona", "nunique"))
+    candidato = resumen[(resumen["n"].between(8, 12)) & (resumen["zonas"] == 3)].index[0]
+    return pedidos[pedidos["order_id"] == candidato]
+
+
+def figura_pedido(g: nx.Graph, pedidos: pd.DataFrame) -> None:
+    pedido = elegir_pedido_ejemplo(g, pedidos)
+    ubicacion_de = {d["product_id"]: n for n, d in g.nodes(data=True) if "product_id" in d}
+    pos = posiciones(g)
+
+    fig, ax = plt.subplots(figsize=(ANCHO_FIGURA, 3.4))
+    dibujar_base(ax, g, pos, color_pasillo=LINEA_TENUE)
+    nx.draw_networkx_nodes(g, pos, ax=ax, nodelist=nodos_de_tipo(g, "estante"),
+                           node_size=1.5, node_color=LINEA_TENUE)
+
+    puntos = [ubicacion_de[p] for p in pedido["product_id"]]
+    nx.draw_networkx_nodes(g, pos, ax=ax, nodelist=puntos, node_size=36,
+                           node_color=SERIES[0], edgecolors=FONDO, linewidths=1)
+    for orden, nodo in enumerate(puntos, start=1):
+        ax.annotate(str(orden), pos[nodo], xytext=(0, 5), textcoords="offset points",
+                    ha="center", fontsize=6.5, color=TINTA, fontweight="bold")
+
+    ax.set_title(f"Pedido real #{pedido['order_id'].iloc[0]}: {len(puntos)} productos "
+                 f"en las 3 zonas (numerados en el orden del carrito)", pad=10)
+    handles = [Line2D([], [], ls="", marker="o", ms=6, color=SERIES[0],
+                      label="Producto del pedido")] + leyenda_estructura()[1:]
+    ax.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, -0.22),
+              ncol=4, frameon=False, fontsize=7)
+    preparar_ejes(ax)
+    guardar(fig, "pedido_ejemplo.png")
+
+    tabla = pedido.assign(ubicacion=puntos,
+                          producto=[g.nodes[n]["producto"] for n in puntos])
+    tabla[["add_to_cart_order", "ubicacion", "zona", "producto"]].to_csv(
+        config.FIGURAS / "pedido_ejemplo.csv", index=False)
+
+
+def estadisticas(g: nx.Graph, pedidos: pd.DataFrame) -> pd.DataFrame:
+    filas = []
+    for zona, datos in config.ZONAS.items():
+        nodos = [n for n, d in g.nodes(data=True) if d.get("zona") == zona]
+        sub = g.subgraph(nodos)
+        tipos = pd.Series([g.nodes[n]["tipo"] for n in nodos]).value_counts()
+        filas.append({
+            "zona": f"{zona} · {datos['nombre']}",
+            "nodos": len(nodos),
+            "estantes": tipos.get("estante", 0),
+            "puntos_pasillo": tipos.get("pasillo", 0),
+            "intersecciones": tipos.get("interseccion", 0),
+            "aristas_internas": sub.number_of_edges(),
+            "departamentos": len(datos["departamentos"]),
+        })
+    total = pd.DataFrame(filas)
+    fila_total = total.select_dtypes("number").sum()
+    fila_total["zona"] = "Total (incluye depósito y enlaces entre zonas)"
+    fila_total["nodos"] = g.number_of_nodes()
+    fila_total["aristas_internas"] = g.number_of_edges()
+    total = pd.concat([total, fila_total.to_frame().T], ignore_index=True)
+    total.to_csv(config.FIGURAS / "estadisticas.csv", index=False)
+
+    tamanos = pedidos.groupby("order_id").size()
+    grados = [d for _, d in g.degree()]
+    print(total.to_string(index=False))
+    print(f"\nGrado promedio: {sum(grados) / len(grados):.2f}  ·  "
+          f"conexo: {'sí' if nx.is_connected(g) else 'no'}")
+    print(f"Pedidos: {len(tamanos):,}  ·  productos por pedido: "
+          f"media {tamanos.mean():.1f}, mediana {tamanos.median():.0f}, máx. {tamanos.max()}")
+    return total
+
+
+def main() -> None:
+    g = cargar_grafo()
+    pedidos = pd.read_csv(config.DATA_PROCESSED / "pedidos.csv")
+    print("Figuras:")
+    figura_grafo_completo(g)
+    for zona in config.ZONAS:
+        figura_subgrafo_zona(g, zona)
+    figura_pedido(g, pedidos)
+    print()
+    estadisticas(g, pedidos)
+
+
+if __name__ == "__main__":
+    main()
