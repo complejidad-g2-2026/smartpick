@@ -155,7 +155,7 @@ Están en `figuras/` y se regeneran con `python src/visualizar.py`.
 
 1. [x] Descargar el dataset de Kaggle.
 2. [x] Construir el grafo y las visualizaciones.
-3. [ ] Asignar una zona a cada integrante.
+3. [x] Asignar una zona a cada integrante (ver el reparto en [CONTRIBUTING.md](../CONTRIBUTING.md)).
 4. [ ] Redactar el informe en Google Docs y pegar las figuras.
 5. [ ] Escribir la declaración de uso de IA.
 6. [ ] Exportar a .docx, revisar formato y páginas, y entregar antes del **domingo 04/10**.

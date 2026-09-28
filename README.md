@@ -5,11 +5,11 @@ Optimización de rutas de *picking* en almacenes inteligentes mediante grafos.
 Trabajo del curso **1ACC0184 Complejidad Algorítmica (2026-20)**, Grupo 2, Caso de
 estudio 2: *Gestión de almacenes inteligentes*.
 
-| Integrante | Código |
-| --- | --- |
-| Palma de los Santos, Elynor Mikela | U20241A972 |
-| Flores Pinchi, José Fernando | U20241A290 |
-| Julca Cruz, Renso Anthony | U202121579 |
+| Integrante | Código | GitHub | Zona |
+| --- | --- | --- | --- |
+| Palma de los Santos, Elynor Mikela | U20241A972 | @elynorpalma | A · Frescos |
+| Flores Pinchi, José Fernando | U20241A290 | @Ferdinant12-ops | B · Despensa |
+| Julca Cruz, Renso Anthony | U202121579 | @rajc02 | C · Bebidas y hogar |
 
 ![Grafo completo del almacén](figuras/grafo_completo.png)
 

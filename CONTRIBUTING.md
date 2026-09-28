@@ -20,6 +20,19 @@ Lo que acordamos como equipo. Si algo cambia, se actualiza aquí.
    `.docx` para entregarlo. Este repositorio es solo para el código, los datos y
    las figuras.
 
+## Reparto del trabajo
+
+| | Palma (@elynorpalma) | Flores (@Ferdinant12-ops) | Julca (@rajc02) |
+| --- | --- | --- | --- |
+| **Zona del grafo** | A · Frescos | B · Despensa | C · Bebidas y hogar |
+| **Sección del informe TB1** | 1. Descripción del problema y objetivos | 2. Dataset y 3. Visualización | 4. Propuesta: técnicas y respaldo bibliográfico |
+| **Conclusiones** (mínimo 3) | Una | Una | Una |
+| **Extra** | | Arma el .docx final (formato y páginas) y coordina la declaración de IA | Revisa las Pull Requests de código |
+| **Exposición** | Problema y subgrafo de la zona A | Dataset y subgrafo de la zona B | Propuesta y subgrafo de la zona C |
+
+Cada zona tiene 770 nodos, por encima de los 500 por integrante que pide el curso.
+Cada uno debe poder explicar el subgrafo de su zona y el código que lo genera.
+
 ## Commits
 
 Los mensajes van **en inglés** y siguen
