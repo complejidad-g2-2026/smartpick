@@ -150,6 +150,9 @@ Están en `figuras/` y se regeneran con `python src/visualizar.py`.
 | `subgrafo_zona_A.png`, `_B`, `_C` | 3. Visualización: un subgrafo por integrante |
 | `pedido_ejemplo.png` y `.csv` | 4. Propuesta: un pedido real sobre el almacén |
 | `estadisticas.csv` | 2. Dataset: nodos y aristas por zona |
+| `mapa_demanda.png` | 3. Visualización: demanda de cada ubicación |
+| `tamano_pedidos.png` | 2. Dataset: productos por pedido |
+| `propiedades.csv` | 2. Dataset: propiedades generales del grafo |
 
 ## 9. Próximos pasos
 
