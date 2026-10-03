@@ -3,6 +3,7 @@
 Salida en figuras/:
 - grafo_completo.png:      el almacén entero, coloreado por zona.
 - subgrafo_zona_A/B/C.png: cada zona, coloreada por departamento.
+- subgrafos_integrantes.png: las tres zonas en una sola figura.
 - pedido_ejemplo.png:      un pedido real marcado sobre el almacén.
 - mapa_demanda.png:        cuántas veces se pidió el producto de cada estante.
 - tamano_pedidos.png:      cuántos productos tienen los pedidos reales.
@@ -126,13 +127,12 @@ def figura_grafo_completo(g: nx.Graph) -> None:
     guardar(fig, "grafo_completo.png")
 
 
-def figura_subgrafo_zona(g: nx.Graph, zona: str) -> None:
+def dibujar_subgrafo(ax, g: nx.Graph, zona: str, tam_estante: float = 9) -> None:
+    """Dibuja la zona en `ax`, con los estantes coloreados por departamento."""
     datos = config.ZONAS[zona]
     nodos_zona = [n for n, d in g.nodes(data=True) if d.get("zona") == zona]
     sub = g.subgraph(nodos_zona)
     pos = posiciones(sub)
-
-    fig, ax = plt.subplots(figsize=(ANCHO_FIGURA, 5.2))
     dibujar_base(ax, sub, pos)
 
     handles = []
@@ -141,7 +141,7 @@ def figura_subgrafo_zona(g: nx.Graph, zona: str) -> None:
                     if sub.nodes[n].get("departamento") == departamento]
         if not estantes:
             continue
-        nx.draw_networkx_nodes(sub, pos, ax=ax, nodelist=estantes, node_size=9,
+        nx.draw_networkx_nodes(sub, pos, ax=ax, nodelist=estantes, node_size=tam_estante,
                                node_color=color)
         nombre = config.DEPARTAMENTOS_ES[departamento]
         handles.append(Line2D([], [], ls="", marker="o", ms=5, color=color,
@@ -159,7 +159,21 @@ def figura_subgrafo_zona(g: nx.Graph, zona: str) -> None:
               bbox_to_anchor=(1.01, 0.5), frameon=False, fontsize=7,
               title="Ubicaciones por departamento", title_fontsize=7)
     preparar_ejes(ax)
+
+
+def figura_subgrafo_zona(g: nx.Graph, zona: str) -> None:
+    fig, ax = plt.subplots(figsize=(ANCHO_FIGURA, 5.2))
+    dibujar_subgrafo(ax, g, zona)
     guardar(fig, f"subgrafo_zona_{zona}.png")
+
+
+def figura_subgrafos(g: nx.Graph) -> None:
+    """Los tres subgrafos en una sola figura, para ahorrar espacio en el informe."""
+    fig, axes = plt.subplots(len(config.ZONAS), 1, figsize=(ANCHO_FIGURA, 9.6))
+    for ax, zona in zip(axes, config.ZONAS):
+        dibujar_subgrafo(ax, g, zona, tam_estante=4)
+    fig.tight_layout(h_pad=1.5)
+    guardar(fig, "subgrafos_integrantes.png")
 
 
 def elegir_pedido_ejemplo(g: nx.Graph, pedidos: pd.DataFrame) -> pd.DataFrame:
@@ -317,6 +331,7 @@ def main() -> None:
     figura_grafo_completo(g)
     for zona in config.ZONAS:
         figura_subgrafo_zona(g, zona)
+    figura_subgrafos(g)
     figura_pedido(g, pedidos)
     figura_mapa_demanda(g, productos)
     figura_tamano_pedidos(pedidos)
