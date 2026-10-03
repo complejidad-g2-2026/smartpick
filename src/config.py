@@ -39,15 +39,18 @@ SEPARACION_PASILLOS = ANCHO_PASILLO + 2 * PROFUNDIDAD_ESTANTE
 ZONAS = {
     "A": {
         "nombre": "Frescos",
+        "responsable": "Palma",
         "departamentos": ["produce", "dairy eggs", "meat seafood", "deli", "bakery", "frozen"],
     },
     "B": {
         "nombre": "Despensa",
+        "responsable": "Flores",
         "departamentos": ["pantry", "dry goods pasta", "canned goods", "breakfast",
                           "snacks", "international", "bulk"],
     },
     "C": {
         "nombre": "Bebidas y hogar",
+        "responsable": "Julca",
         "departamentos": ["beverages", "alcohol", "household", "personal care",
                           "babies", "pets"],
     },

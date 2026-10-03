@@ -1,0 +1,10 @@
+propiedad,valor
+Vértices,2 311
+Aristas,2 339
+Grado promedio,2.02
+Grado máximo,4
+Vértices de grado 1 (estantes y depósito),1 501
+Componentes conexas,1
+Suma de pesos de las aristas (m),3 481.0
+Distancia media depósito-estante (m),59.6
+Distancia máxima depósito-estante (m),111.5

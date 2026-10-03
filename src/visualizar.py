@@ -3,8 +3,12 @@
 Salida en figuras/:
 - grafo_completo.png:      el almacén entero, coloreado por zona.
 - subgrafo_zona_A/B/C.png: cada zona, coloreada por departamento.
+- subgrafos_integrantes.png: las tres zonas en una sola figura.
 - pedido_ejemplo.png:      un pedido real marcado sobre el almacén.
+- mapa_demanda.png:        cuántas veces se pidió el producto de cada estante.
+- tamano_pedidos.png:      cuántos productos tienen los pedidos reales.
 - estadisticas.csv:        nodos, aristas y productos por zona.
+- propiedades.csv:         propiedades generales del grafo.
 
 Uso:
     python src/visualizar.py
@@ -13,6 +17,7 @@ Uso:
 import matplotlib.pyplot as plt
 import networkx as nx
 import pandas as pd
+from matplotlib.colors import LinearSegmentedColormap, LogNorm
 from matplotlib.lines import Line2D
 
 import config
@@ -26,6 +31,10 @@ TINTA_SECUNDARIA = "#52514e"
 TINTA_TENUE = "#898781"
 LINEA_TENUE = "#e1e0d9"
 FONDO = "#fcfcfb"
+
+# Rampa secuencial de un solo tono (azul) para magnitudes: claro = poco, oscuro = mucho.
+RAMPA_AZUL = LinearSegmentedColormap.from_list(
+    "azul", ["#cde2fb", "#86b6ef", "#3987e5", "#256abf", "#184f95", "#0d366b"])
 
 COLOR_ZONA = dict(zip(config.ZONAS, SERIES))
 ANCHO_FIGURA = 8      # pulgadas; a 200 ppp son 1600 px, el ancho de una página
@@ -118,13 +127,12 @@ def figura_grafo_completo(g: nx.Graph) -> None:
     guardar(fig, "grafo_completo.png")
 
 
-def figura_subgrafo_zona(g: nx.Graph, zona: str) -> None:
+def dibujar_subgrafo(ax, g: nx.Graph, zona: str, tam_estante: float = 9) -> None:
+    """Dibuja la zona en `ax`, con los estantes coloreados por departamento."""
     datos = config.ZONAS[zona]
     nodos_zona = [n for n, d in g.nodes(data=True) if d.get("zona") == zona]
     sub = g.subgraph(nodos_zona)
     pos = posiciones(sub)
-
-    fig, ax = plt.subplots(figsize=(ANCHO_FIGURA, 5.2))
     dibujar_base(ax, sub, pos)
 
     handles = []
@@ -133,7 +141,7 @@ def figura_subgrafo_zona(g: nx.Graph, zona: str) -> None:
                     if sub.nodes[n].get("departamento") == departamento]
         if not estantes:
             continue
-        nx.draw_networkx_nodes(sub, pos, ax=ax, nodelist=estantes, node_size=9,
+        nx.draw_networkx_nodes(sub, pos, ax=ax, nodelist=estantes, node_size=tam_estante,
                                node_color=color)
         nombre = config.DEPARTAMENTOS_ES[departamento]
         handles.append(Line2D([], [], ls="", marker="o", ms=5, color=color,
@@ -145,13 +153,27 @@ def figura_subgrafo_zona(g: nx.Graph, zona: str) -> None:
         x = pos[f"{zona}{pasillo:02d}-00"][0]
         ax.text(x, y_fondo + 1.5, f"P{pasillo}", ha="center", color=TINTA_SECUNDARIA, fontsize=7)
 
-    ax.set_title(f"Subgrafo zona {zona} · {datos['nombre']}: {sub.number_of_nodes()} nodos, "
-                 f"{sub.number_of_edges()} aristas", pad=16)
+    ax.set_title(f"Subgrafo {datos['responsable']} · Zona {zona} ({datos['nombre']}): "
+                 f"{sub.number_of_nodes()} nodos, {sub.number_of_edges()} aristas", pad=16)
     ax.legend(handles=handles + leyenda_estructura()[:2], loc="center left",
               bbox_to_anchor=(1.01, 0.5), frameon=False, fontsize=7,
               title="Ubicaciones por departamento", title_fontsize=7)
     preparar_ejes(ax)
+
+
+def figura_subgrafo_zona(g: nx.Graph, zona: str) -> None:
+    fig, ax = plt.subplots(figsize=(ANCHO_FIGURA, 5.2))
+    dibujar_subgrafo(ax, g, zona)
     guardar(fig, f"subgrafo_zona_{zona}.png")
+
+
+def figura_subgrafos(g: nx.Graph) -> None:
+    """Los tres subgrafos en una sola figura, para ahorrar espacio en el informe."""
+    fig, axes = plt.subplots(len(config.ZONAS), 1, figsize=(ANCHO_FIGURA, 9.6))
+    for ax, zona in zip(axes, config.ZONAS):
+        dibujar_subgrafo(ax, g, zona, tam_estante=4)
+    fig.tight_layout(h_pad=1.5)
+    guardar(fig, "subgrafos_integrantes.png")
 
 
 def elegir_pedido_ejemplo(g: nx.Graph, pedidos: pd.DataFrame) -> pd.DataFrame:
@@ -195,6 +217,79 @@ def figura_pedido(g: nx.Graph, pedidos: pd.DataFrame) -> None:
         config.FIGURAS / "pedido_ejemplo.csv", index=False)
 
 
+def figura_mapa_demanda(g: nx.Graph, productos: pd.DataFrame) -> None:
+    """Cada estante coloreado según cuántas veces se pidió su producto."""
+    pos = posiciones(g)
+    demanda = productos.set_index("ubicacion")["pedidos"]
+    estantes = nodos_de_tipo(g, "estante")
+    valores = [max(demanda.get(n, 1), 1) for n in estantes]
+
+    fig, ax = plt.subplots(figsize=(ANCHO_FIGURA, 3.6))
+    dibujar_base(ax, g, pos, color_pasillo=LINEA_TENUE)
+    puntos = ax.scatter([pos[n][0] for n in estantes], [pos[n][1] for n in estantes],
+                        s=4, c=valores, cmap=RAMPA_AZUL, zorder=3,
+                        norm=LogNorm(vmin=min(valores), vmax=max(valores)))
+    barra = fig.colorbar(puntos, ax=ax, orientation="horizontal", fraction=0.05, pad=0.2,
+                         aspect=50)
+    barra.set_label("Veces que se pidió el producto (escala logarítmica)", color=TINTA_SECUNDARIA)
+    barra.ax.tick_params(labelsize=7, colors=TINTA_TENUE)
+    barra.outline.set_visible(False)
+
+    for zona, datos in config.ZONAS.items():
+        xs = [pos[n][0] for n in nodos_de_tipo(g, "estante", zona)]
+        ax.text((min(xs) + max(xs)) / 2, max(p[1] for p in pos.values()) + 2.5,
+                f"Zona {zona} · {datos['nombre']}", ha="center", color=TINTA, fontsize=8)
+    ax.set_title("Mapa de demanda: frecuencia con que se pide cada ubicación", pad=18)
+    preparar_ejes(ax)
+    guardar(fig, "mapa_demanda.png")
+
+
+def figura_tamano_pedidos(pedidos: pd.DataFrame) -> None:
+    """Histograma del número de productos por pedido."""
+    tamanos = pedidos.groupby("order_id").size()
+    conteo = tamanos.value_counts().sort_index()
+    hasta_15 = (tamanos <= 15).mean()
+
+    fig, ax = plt.subplots(figsize=(ANCHO_FIGURA, 3.2))
+    ax.bar(conteo.index, conteo.values, width=0.8, color=SERIES[0])
+    ax.axvline(15.5, color=TINTA_SECUNDARIA, lw=1, ls="--")
+    ax.text(15.8, conteo.max() * 0.9,
+            f"{hasta_15:.1%}".replace(".", ",") + " de los pedidos\ntiene 15 productos o menos",
+            color=TINTA_SECUNDARIA, fontsize=7.5, va="top")
+    ax.set_title(f"Tamaño de los {miles(len(tamanos))} pedidos reales", pad=10)
+    ax.set_xlabel("Productos por pedido", color=TINTA_TENUE)
+    ax.set_ylabel("Número de pedidos", color=TINTA_TENUE)
+    ax.set_xticks(range(2, int(tamanos.max()) + 1, 2))
+    ax.yaxis.grid(True, color=LINEA_TENUE, lw=0.6)
+    ax.set_axisbelow(True)
+    ax.tick_params(colors=TINTA_TENUE, labelsize=7)
+    for lado, spine in ax.spines.items():
+        spine.set_visible(lado == "bottom")
+        spine.set_color(LINEA_TENUE)
+    guardar(fig, "tamano_pedidos.png")
+
+
+def propiedades(g: nx.Graph) -> pd.DataFrame:
+    """Propiedades generales del grafo y distancias desde el depósito."""
+    grados = [d for _, d in g.degree()]
+    distancia = nx.single_source_dijkstra_path_length(g, "DEPOSITO", weight="peso")
+    a_estantes = [distancia[n] for n in nodos_de_tipo(g, "estante")]
+    filas = [
+        ("Vértices", miles(g.number_of_nodes())),
+        ("Aristas", miles(g.number_of_edges())),
+        ("Grado promedio", f"{sum(grados) / len(grados):.2f}"),
+        ("Grado máximo", max(grados)),
+        ("Vértices de grado 1 (estantes y depósito)", miles(grados.count(1))),
+        ("Componentes conexas", nx.number_connected_components(g)),
+        ("Suma de pesos de las aristas (m)", f"{g.size(weight='peso'):,.1f}".replace(",", " ")),
+        ("Distancia media depósito-estante (m)", f"{sum(a_estantes) / len(a_estantes):.1f}"),
+        ("Distancia máxima depósito-estante (m)", f"{max(a_estantes):.1f}"),
+    ]
+    tabla = pd.DataFrame(filas, columns=["propiedad", "valor"])
+    tabla.to_csv(config.FIGURAS / "propiedades.csv", index=False)
+    return tabla
+
+
 def estadisticas(g: nx.Graph, pedidos: pd.DataFrame) -> pd.DataFrame:
     filas = []
     for zona, datos in config.ZONAS.items():
@@ -231,13 +326,19 @@ def estadisticas(g: nx.Graph, pedidos: pd.DataFrame) -> pd.DataFrame:
 def main() -> None:
     g = cargar_grafo()
     pedidos = pd.read_csv(config.DATA_PROCESSED / "pedidos.csv")
+    productos = pd.read_csv(config.DATA_PROCESSED / "productos.csv")
     print("Figuras:")
     figura_grafo_completo(g)
     for zona in config.ZONAS:
         figura_subgrafo_zona(g, zona)
+    figura_subgrafos(g)
     figura_pedido(g, pedidos)
+    figura_mapa_demanda(g, productos)
+    figura_tamano_pedidos(pedidos)
     print()
     estadisticas(g, pedidos)
+    print()
+    print(propiedades(g).to_string(index=False))
 
 
 if __name__ == "__main__":
