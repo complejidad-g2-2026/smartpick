@@ -19,7 +19,10 @@ estudio 2: *Gestión de almacenes inteligentes*.
 2. Guarda los 1 500 productos más pedidos en un almacén de 3 zonas y 30 pasillos.
 3. Modela el almacén como un grafo de **2 311 nodos** (estantes, pasillos,
    intersecciones y depósito) con aristas pesadas en metros.
-4. Genera las figuras y estadísticas del informe.
+4. Calcula la ruta de picking de cada pedido: Dijkstra para las distancias y
+   Held-Karp, vecino más cercano, backtracking y recorrido en "S" para el orden
+   de visita.
+5. Muestra la ruta en una interfaz gráfica (Tkinter) y compara las técnicas.
 
 El contexto completo del proyecto (entregas, rúbrica, modelo y técnicas) está en
 [docs/CONTEXTO.md](docs/CONTEXTO.md). Las reglas de trabajo, en
@@ -39,6 +42,18 @@ git config core.hooksPath .githooks
 La última línea activa el control de mensajes de commit (ver CONTRIBUTING).
 
 ## Uso
+
+Abrir la aplicación:
+
+```
+.venv\Scripts\python src/gui.py
+```
+
+Correr los experimentos (unos 30 s; escribe `figuras/experimentos.*`):
+
+```
+.venv\Scripts\python src/experimentos.py
+```
 
 Los datos ya procesados están en `data/processed/`, así que se puede ir directo a
 las figuras:
@@ -66,7 +81,11 @@ smartpick/
 │   ├── config.py       parámetros del almacén: pasillos, distancias, zonas
 │   ├── dataset.py      Instacart -> productos y pedidos del almacén
 │   ├── grafo.py        productos -> grafo del almacén (nodos.csv, aristas.csv)
-│   └── visualizar.py   grafo -> figuras y estadísticas
+│   ├── visualizar.py   grafo -> figuras y estadísticas
+│   ├── almacen.py      carga el grafo como diccionario lag y los pedidos
+│   ├── algoritmos/     Dijkstra, Held-Karp, vecino más cercano, backtracking, recorrido en S
+│   ├── gui.py          interfaz gráfica
+│   └── experimentos.py evaluación de las técnicas con pedidos reales
 ├── figuras/            imágenes y tablas para el informe
 └── docs/               contexto del proyecto
 ```
