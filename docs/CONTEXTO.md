@@ -180,10 +180,4 @@ Se regeneran con código; nunca se editan a mano.
 | `figuras/diseno/` | `diagramas.py` | arquitectura, diagrama de flujo, boceto de la interfaz |
 | `figuras/resultados/` | `experimentos.py` | gráfico de tiempo y brecha, tablas por pedido y resumen |
 
-## 8. Próximos pasos
 
-1. [ ] Hito 2 (dom 22/11): subir el informe al Word online del equipo, revisar
-       los cambios de los compañeros y entregar con el nombre pedido.
-2. [ ] Declaración de uso de IA en los anexos.
-3. [ ] TB2 (dom 29/11): grabar el video (4 min por integrante), armar el .zip con el
-       código y el dataset, y preparar la exposición.
