@@ -23,14 +23,13 @@ from collections import deque
 import config
 
 ZONAS = list(config.ZONAS)
-POSICION_FONDO = config.POSICIONES_POR_PASILLO + 1
 COLUMNAS_NODO = ["id", "tipo", "zona", "pasillo", "posicion", "lado", "x", "y",
                  "product_id", "producto", "departamento"]
 
 
 def id_punto(zona: str, pasillo: int, posicion: int) -> str:
     """Punto del pasillo, p. ej. 'A03-12'. La posición 0 es la intersección del
-    frente y POSICION_FONDO la del fondo."""
+    frente y config.POSICION_FONDO la del fondo."""
     return f"{zona}{pasillo:02d}-{posicion:02d}"
 
 
@@ -58,8 +57,8 @@ def construir_grafo(productos: list[dict]) -> tuple[dict, list]:
             x = coordenada_x(zona, pasillo)
 
             # Puntos del pasillo, del frente al fondo
-            for posicion in range(POSICION_FONDO + 1):
-                extremo = posicion in (0, POSICION_FONDO)
+            for posicion in range(config.POSICION_FONDO + 1):
+                extremo = posicion in (0, config.POSICION_FONDO)
                 nodos[id_punto(zona, pasillo, posicion)] = {
                     "tipo": "interseccion" if extremo else "pasillo", "zona": zona,
                     "pasillo": pasillo, "posicion": posicion,
@@ -86,7 +85,7 @@ def construir_grafo(productos: list[dict]) -> tuple[dict, list]:
     # Pasillos transversales del frente y del fondo
     pasillos = [(z, p) for z in ZONAS for p in range(1, config.PASILLOS_POR_ZONA + 1)]
     for (z1, p1), (z2, p2) in zip(pasillos, pasillos[1:]):
-        for posicion in (0, POSICION_FONDO):
+        for posicion in (0, config.POSICION_FONDO):
             aristas.append((id_punto(z1, p1, posicion), id_punto(z2, p2, posicion),
                             config.SEPARACION_PASILLOS))
 

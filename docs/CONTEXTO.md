@@ -122,7 +122,7 @@ Para un pedido de n productos, la aplicación:
 
 | Técnica | Tipo | Complejidad | Para qué |
 | --- | --- | --- | --- |
-| Dijkstra | Voraz (BFS con pesos) | O((V + E) log V) por ejecución | Distancia y camino entre dos puntos del almacén |
+| Dijkstra | Voraz | O((V + E) log V) por ejecución | Distancia y camino entre dos puntos del almacén |
 | Held-Karp | Programación dinámica | O(n² · 2ⁿ) | Ruta óptima, hasta 15 productos |
 | Backtracking con poda | Backtracking | O(n!) peor caso | Ruta óptima, hasta 10 productos; valida a Held-Karp |
 | Vecino más cercano | Voraz | O(n²) | Ruta rápida para cualquier tamaño |
