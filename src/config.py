@@ -1,40 +1,27 @@
-"""Parámetros del almacén y rutas del proyecto.
-
-Todo lo que se puede ajustar del modelo vive aquí, para que los demás
-scripts no tengan números sueltos.
-"""
+"""Parámetros del almacén, de los algoritmos y rutas del proyecto."""
 
 from pathlib import Path
 
-# --- Rutas -------------------------------------------------------------------
-
 RAIZ = Path(__file__).resolve().parent.parent
-DATA_RAW = RAIZ / "data" / "raw"              # CSV originales de Instacart (no se suben)
-DATA_PROCESSED = RAIZ / "data" / "processed"  # versión reducida (sí se sube)
-FIGURAS = RAIZ / "figuras"                    # imágenes para el informe
+DATA_RAW = RAIZ / "data" / "raw"
+DATA_PROCESSED = RAIZ / "data" / "processed"
 
-# --- Geometría del almacén (en metros) -----------------------------------------
-#
-# Layout clásico de picking manual: pasillos paralelos con un pasillo
-# transversal al frente y otro al fondo. El picker camina por el centro del
-# pasillo y toma los productos de los estantes a su izquierda y derecha.
+FIGURAS = RAIZ / "figuras"
+FIG_VISUALIZACION = FIGURAS / "visualizacion"
+FIG_DISENO = FIGURAS / "diseno"
+FIG_RESULTADOS = FIGURAS / "resultados"
 
+# Almacén en metros
 PASILLOS_POR_ZONA = 10
-POSICIONES_POR_PASILLO = 25   # posiciones de estante a lo largo de cada pasillo
-LARGO_POSICION = 1.2          # ancho de un módulo de estantería
-ANCHO_PASILLO = 3.0           # espacio por donde camina el picker
-PROFUNDIDAD_ESTANTE = 1.0     # cada pasillo tiene estantes a ambos lados
-DISTANCIA_DEPOSITO = 5.0      # del depósito al pasillo transversal del frente
+POSICIONES_POR_PASILLO = 25
+LARGO_POSICION = 1.2
+ANCHO_PASILLO = 3.0
+PROFUNDIDAD_ESTANTE = 1.0
+DISTANCIA_DEPOSITO = 5.0
 
-# Distancia entre el centro de un pasillo y el del siguiente:
-# medio pasillo + estante + estante + medio pasillo.
+# Distancia entre los centros de dos pasillos vecinos
 SEPARACION_PASILLOS = ANCHO_PASILLO + 2 * PROFUNDIDAD_ESTANTE
-
-# --- Zonas -------------------------------------------------------------------
-#
-# Cada zona agrupa departamentos de Instacart y ocupa PASILLOS_POR_ZONA
-# pasillos contiguos. Se excluyen "missing" y "other" porque no clasifican
-# sus productos.
+# Departamentos de Instacart de cada zona (sin "missing" ni "other")
 
 ZONAS = {
     "A": {
@@ -56,7 +43,7 @@ ZONAS = {
     },
 }
 
-# Nombres en español para las figuras y tablas.
+# Nombres en español para las figuras
 DEPARTAMENTOS_ES = {
     "produce": "Frutas y verduras",
     "dairy eggs": "Lácteos y huevos",
@@ -79,5 +66,12 @@ DEPARTAMENTOS_ES = {
     "pets": "Mascotas",
 }
 
-# Cada ubicación de estante guarda un producto: los N más pedidos de cada zona.
+# Un producto por estante
 UBICACIONES_POR_ZONA = PASILLOS_POR_ZONA * POSICIONES_POR_PASILLO * 2
+# Tamaño máximo de pedido para las técnicas exactas
+
+LIMITE_HELD_KARP = 15
+LIMITE_BACKTRACKING = 10
+
+# Pedido de ejemplo del informe (8 productos en las tres zonas)
+PEDIDO_EJEMPLO = 1682

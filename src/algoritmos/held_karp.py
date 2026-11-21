@@ -11,10 +11,9 @@ subconjunto S (máscara de bits) y terminar en k.
 Complejidad: O(n² · 2ⁿ) en tiempo y O(n · 2ⁿ) en memoria.
 """
 
-LIMITE = 15
-
 
 def held_karp(D):
+    """Devuelve (orden de los productos, distancia de la ruta óptima)."""
     n = len(D) - 1
     if n == 0:
         return [], 0
@@ -42,6 +41,7 @@ def held_karp(D):
     todos = total - 1
     costo, k = min((C[todos][k] + D[k + 1][0], k) for k in range(n))
 
+    # Reconstrucción del orden
     orden, S = [], todos
     while k != -1:
         orden.append(k + 1)

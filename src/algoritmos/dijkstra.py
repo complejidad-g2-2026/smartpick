@@ -7,6 +7,7 @@ import heapq
 
 
 def dijkstra(lag, origen):
+    """Devuelve (distancia a cada nodo, nodo previo en el camino más corto)."""
     dist = {origen: 0}
     previo = {origen: None}
     visitados = set()
@@ -25,6 +26,7 @@ def dijkstra(lag, origen):
 
 
 def camino(previo, destino):
+    """Reconstruye el camino del origen al destino."""
     nodos = []
     while destino is not None:
         nodos.append(destino)
@@ -33,7 +35,7 @@ def camino(previo, destino):
 
 
 class Distancias:
-    """Guarda el Dijkstra de cada punto para no repetirlo."""
+    """Dijkstra de cada punto, calculado una sola vez."""
 
     def __init__(self, lag):
         self.lag = lag
@@ -51,4 +53,5 @@ class Distancias:
         return camino(self.desde(a)[1], b)
 
     def matriz(self, puntos):
+        """Matriz de distancias entre los puntos dados."""
         return [[self.distancia(a, b) for b in puntos] for a in puntos]

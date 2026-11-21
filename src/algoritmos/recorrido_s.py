@@ -1,4 +1,4 @@
-"""Recorrido en "S" (método de referencia, no es una optimización).
+"""Recorrido en "S" (método de referencia de la literatura, no es una optimización).
 
 El operario entra, de izquierda a derecha, a cada pasillo con algún producto
 del pedido y lo recorre completo, alternando el sentido. Si le toca subir por

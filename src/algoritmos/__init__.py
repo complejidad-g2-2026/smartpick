@@ -10,10 +10,10 @@ El tiempo de cada técnica es solo el del cálculo del orden de visita.
 
 import time
 
-from .backtracking import LIMITE as LIMITE_BACKTRACKING
+import config
+
 from .backtracking import backtracking
 from .dijkstra import Distancias
-from .held_karp import LIMITE as LIMITE_HELD_KARP
 from .held_karp import held_karp
 from .recorrido_s import recorrido_s
 from .vecino_mas_cercano import longitud, vecino_mas_cercano
@@ -22,6 +22,8 @@ TECNICAS = ["Held-Karp", "Vecino más cercano", "Backtracking", "Recorrido en S"
 
 
 class Resultado:
+    """Ruta de un pedido calculada con una técnica."""
+
     def __init__(self, tecnica):
         self.tecnica = tecnica
         self.distancia = None
@@ -36,12 +38,14 @@ class Resultado:
 
 
 def medir(funcion):
+    """Ejecuta funcion() y devuelve (resultado, milisegundos)."""
     inicio = time.perf_counter()
     salida = funcion()
     return salida, (time.perf_counter() - inicio) * 1000
 
 
 def unir_caminos(distancias, puntos):
+    """Camino completo depósito -> puntos -> depósito, nodo por nodo."""
     tramos = ["DEPOSITO", *puntos, "DEPOSITO"]
     nodos = ["DEPOSITO"]
     for a, b in zip(tramos, tramos[1:]):
@@ -60,8 +64,8 @@ def resolver(lag, nodos, ubicaciones, tecnicas=TECNICAS):
     for tecnica in tecnicas:
         r = Resultado(tecnica)
         if tecnica == "Held-Karp":
-            if n > LIMITE_HELD_KARP:
-                r.nota = f"solo hasta {LIMITE_HELD_KARP} productos"
+            if n > config.LIMITE_HELD_KARP:
+                r.nota = f"solo hasta {config.LIMITE_HELD_KARP} productos"
             else:
                 (orden, r.distancia), r.tiempo_ms = medir(lambda: held_karp(D))
                 r.orden = [puntos[k] for k in orden]
@@ -69,8 +73,8 @@ def resolver(lag, nodos, ubicaciones, tecnicas=TECNICAS):
             (orden, r.distancia), r.tiempo_ms = medir(lambda: vecino_mas_cercano(D))
             r.orden = [puntos[k] for k in orden]
         elif tecnica == "Backtracking":
-            if n > LIMITE_BACKTRACKING:
-                r.nota = f"solo hasta {LIMITE_BACKTRACKING} productos"
+            if n > config.LIMITE_BACKTRACKING:
+                r.nota = f"solo hasta {config.LIMITE_BACKTRACKING} productos"
             else:
                 (orden, r.distancia, explorados), r.tiempo_ms = medir(lambda: backtracking(D))
                 r.orden = [puntos[k] for k in orden]

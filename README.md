@@ -11,27 +11,25 @@ estudio 2: *Gestión de almacenes inteligentes*.
 | Flores Pinchi, José Fernando | U20241A290 | @Ferdinant12-ops | B · Despensa |
 | Julca Cruz, Renso Anthony | U202121579 | @rajc02 | C · Bebidas y hogar |
 
-![Grafo completo del almacén](figuras/grafo_completo.png)
+![Grafo completo del almacén](figuras/visualizacion/grafo_completo.png)
 
 ## Qué hace
 
 1. Toma productos y pedidos **reales** del dataset público de Instacart.
 2. Guarda los 1 500 productos más pedidos en un almacén de 3 zonas y 30 pasillos.
-3. Modela el almacén como un grafo de **2 311 nodos** (estantes, pasillos,
-   intersecciones y depósito) con aristas pesadas en metros.
-4. Calcula la ruta de picking de cada pedido: Dijkstra para las distancias y
-   Held-Karp, vecino más cercano, backtracking y recorrido en "S" para el orden
-   de visita.
+3. Modela el almacén como un grafo de **2 311 nodos y 2 339 aristas** (estantes,
+   pasillos, intersecciones y depósito), con pesos en metros, guardado como lista de
+   adyacencia. BFS verifica que es conexo.
+4. Calcula la ruta de picking de cada pedido: Dijkstra para las distancias entre
+   productos; Held-Karp, backtracking con poda y vecino más cercano para el orden de
+   visita. El recorrido en "S" y el orden del carrito sirven de referencia.
 5. Muestra la ruta en una interfaz gráfica (Tkinter) y compara las técnicas.
 
-El contexto completo del proyecto (entregas, rúbrica, modelo y técnicas) está en
-[docs/CONTEXTO.md](docs/CONTEXTO.md). Las reglas de trabajo, en
-[CONTRIBUTING.md](CONTRIBUTING.md).
+Todos los algoritmos están implementados a mano: no se usa ninguna librería de grafos.
 
 ## Instalación
 
-Se necesita Python 3.12 o superior. Desde la carpeta del proyecto, en la terminal de
-VS Code:
+Python 3.12 o superior. Desde la carpeta del proyecto, en la terminal de VS Code:
 
 ```
 python -m venv .venv
@@ -39,55 +37,52 @@ python -m venv .venv
 git config core.hooksPath .githooks
 ```
 
-La última línea activa el control de mensajes de commit (ver CONTRIBUTING).
+Solo se instalan `pandas` (lectura del dataset y tablas de resultados) y `matplotlib`
+(figuras). Tkinter viene con Python. La última línea activa el control de mensajes de
+commit (ver [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ## Uso
 
-Abrir la aplicación:
+| Para | Comando | Escribe en |
+| --- | --- | --- |
+| Abrir la aplicación: rutas, y pestañas con el grafo y los resultados | `.venv\Scripts\python src/gui.py` | |
+| Comparar las técnicas (≈ 40 s) | `.venv\Scripts\python src/experimentos.py` | `figuras/resultados/` |
+| Figuras del grafo y del dataset | `.venv\Scripts\python src/visualizar.py` | `figuras/visualizacion/` |
+| Diagramas del diseño del aplicativo | `.venv\Scripts\python src/diagramas.py` | `figuras/diseno/` |
+| Regenerar el grafo | `.venv\Scripts\python src/grafo.py` | `data/processed/` |
+| Regenerar productos y pedidos | `.venv\Scripts\python src/dataset.py` | `data/processed/` |
 
-```
-.venv\Scripts\python src/gui.py
-```
-
-Correr los experimentos (unos 30 s; escribe `figuras/experimentos.*`):
-
-```
-.venv\Scripts\python src/experimentos.py
-```
-
-Los datos ya procesados están en `data/processed/`, así que se puede ir directo a
-las figuras:
-
-```
-.venv\Scripts\python src/visualizar.py
-```
-
-Para regenerar todo desde los CSV originales (ver [data/raw/README.md](data/raw/README.md)):
-
-```
-.venv\Scripts\python src/dataset.py
-.venv\Scripts\python src/grafo.py
-.venv\Scripts\python src/visualizar.py
-```
+Los datos procesados ya están en `data/processed/`. Solo `dataset.py` necesita los CSV
+originales de Instacart (ver [data/raw/README.md](data/raw/README.md)).
 
 ## Estructura
 
 ```
 smartpick/
 ├── data/
-│   ├── raw/            CSV originales de Instacart (no se suben)
-│   └── processed/      productos, pedidos, nodos y aristas del almacén
+│   ├── raw/                CSV originales de Instacart (no se suben)
+│   └── processed/          productos, pedidos, nodos y aristas del almacén
 ├── src/
-│   ├── config.py       parámetros del almacén: pasillos, distancias, zonas
-│   ├── dataset.py      Instacart -> productos y pedidos del almacén
-│   ├── grafo.py        productos -> grafo del almacén (nodos.csv, aristas.csv)
-│   ├── visualizar.py   grafo -> figuras y estadísticas
-│   ├── almacen.py      carga el grafo como diccionario lag y los pedidos
-│   ├── algoritmos/     Dijkstra, Held-Karp, vecino más cercano, backtracking, recorrido en S
-│   ├── gui.py          interfaz gráfica
-│   └── experimentos.py evaluación de las técnicas con pedidos reales
-├── figuras/            imágenes y tablas para el informe
-└── docs/               contexto del proyecto
+│   ├── config.py           parámetros del almacén y de los algoritmos
+│   ├── dataset.py          Instacart -> productos.csv y pedidos.csv
+│   ├── grafo.py            productos -> grafo (lista de adyacencia), carga y BFS
+│   ├── algoritmos/
+│   │   ├── dijkstra.py             distancias entre puntos del almacén (voraz)
+│   │   ├── held_karp.py            orden óptimo (programación dinámica)
+│   │   ├── backtracking.py         orden óptimo con poda
+│   │   ├── vecino_mas_cercano.py   orden aproximado (voraz)
+│   │   ├── recorrido_s.py          método de referencia
+│   │   └── __init__.py             resolver(): corre las técnicas sobre un pedido
+│   ├── gui.py              interfaz gráfica: rutas, grafo y resultados
+│   ├── experimentos.py     evaluación de las técnicas con pedidos reales
+│   ├── visualizar.py       figuras y tablas del grafo y del dataset
+│   ├── diagramas.py        arquitectura, flujo y boceto de la interfaz
+│   └── estilo.py           colores y funciones de dibujo comunes
+├── figuras/
+│   ├── visualizacion/      grafo, subgrafos por integrante, demanda, pedidos
+│   ├── diseno/             diagramas del aplicativo (Hito 2)
+│   └── resultados/         comparación de técnicas
+└── docs/CONTEXTO.md        entregas, rúbrica, modelo, técnicas y resultados
 ```
 
 ## Datos
