@@ -9,16 +9,13 @@ Complejidad: O(n log n), por el ordenamiento.
 
 import config
 
-ZONAS = list(config.ZONAS)
-FONDO = config.POSICIONES_POR_PASILLO + 1
-
 
 def recorrido_s(nodos, ubicaciones):
     """Devuelve (orden de los productos, puntos de paso con la salida de cada pasillo)."""
     por_pasillo = {}
     for u in ubicaciones:
         d = nodos[u]
-        indice = ZONAS.index(d["zona"]) * config.PASILLOS_POR_ZONA + d["pasillo"]
+        indice = list(config.ZONAS).index(d["zona"]) * config.PASILLOS_POR_ZONA + d["pasillo"]
         por_pasillo.setdefault(indice, []).append(u)
 
     pasillos = sorted(por_pasillo)
@@ -30,7 +27,7 @@ def recorrido_s(nodos, ubicaciones):
         ultimo = i == len(pasillos) - 1
         if not (ultimo and subiendo):
             d = nodos[productos[0]]
-            extremo = FONDO if subiendo else 0
+            extremo = config.POSICION_FONDO if subiendo else 0
             puntos.append(f"{d['zona']}{d['pasillo']:02d}-{extremo:02d}")
             subiendo = not subiendo
     return orden, puntos

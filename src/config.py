@@ -68,8 +68,11 @@ DEPARTAMENTOS_ES = {
 
 # Un producto por estante
 UBICACIONES_POR_ZONA = PASILLOS_POR_ZONA * POSICIONES_POR_PASILLO * 2
-# Tamaño máximo de pedido para las técnicas exactas
 
+# Posición de la intersección del fondo de cada pasillo (la del frente es 0)
+POSICION_FONDO = POSICIONES_POR_PASILLO + 1
+
+# Tamaño máximo de pedido para las técnicas exactas
 LIMITE_HELD_KARP = 15
 LIMITE_BACKTRACKING = 10
 

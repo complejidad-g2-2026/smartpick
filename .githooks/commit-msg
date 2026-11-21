@@ -1,0 +1,28 @@
+#!/bin/sh
+# Valida el mensaje de cada commit antes de crearlo:
+#   1. La primera línea sigue Conventional Commits: "tipo: descripción".
+#   2. No hay coautores ni referencias a herramientas de IA.
+# Se activa con: git config core.hooksPath .githooks
+
+mensaje="$1"
+primera=$(head -n 1 "$mensaje")
+
+# Los commits de merge y revert que genera git quedan exentos.
+case "$primera" in
+  Merge*|Revert*) exit 0 ;;
+esac
+
+tipos='feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert'
+if ! printf '%s\n' "$primera" | grep -Eq "^($tipos)(\([a-z0-9-]+\))?!?: .+"; then
+  echo "ERROR: la primera línea debe seguir Conventional Commits, p. ej.:" >&2
+  echo "  feat: build warehouse graph" >&2
+  echo "Tipos válidos: $tipos" >&2
+  exit 1
+fi
+
+# Solo se revisan las líneas que no son comentarios de git.
+if grep -v '^#' "$mensaje" | grep -Eiq 'co-authored-by|generated with|claude|anthropic|chatgpt|openai|copilot|gemini'; then
+  echo "ERROR: el mensaje incluye un coautor o una referencia a IA." >&2
+  echo "Los commits se atribuyen solo a los integrantes del equipo." >&2
+  exit 1
+fi
