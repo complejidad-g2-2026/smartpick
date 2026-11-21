@@ -1,8 +1,11 @@
 """Interfaz gráfica de SmartPick (Tkinter + Matplotlib).
 
-Permite elegir un pedido real, calcular su ruta con cada técnica, ver la ruta
-dibujada sobre el almacén y comparar distancia, tiempo y brecha frente a la
-ruta óptima.
+Pestañas:
+- Rutas: elegir un pedido real, calcular su ruta con cada técnica, verla
+  dibujada sobre el almacén y comparar distancia, tiempo y brecha frente a la
+  ruta óptima.
+- Grafo y dataset, Resultados: figuras del almacén y de la comparación de
+  técnicas, que generan visualizar.py y experimentos.py.
 
 Uso:
     python src/gui.py
@@ -13,30 +16,73 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from matplotlib.collections import LineCollection
 from matplotlib.figure import Figure
 from matplotlib.lines import Line2D
 
+import config
 from algoritmos import TECNICAS, distancia_optima, resolver
-from almacen import cargar_almacen, cargar_pedidos
-
-SERIES = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7", "#e34948"]
-TINTA = "#0b0b0b"
-TINTA_SECUNDARIA = "#52514e"
-LINEA_TENUE = "#e1e0d9"
-FONDO = "#fcfcfb"
-COLOR_TECNICA = dict(zip(TECNICAS, [SERIES[0], SERIES[1], SERIES[6], SERIES[3], SERIES[7]]))
-PEDIDO_INICIAL = 1682
+from estilo import (COLOR_TECNICA, FONDO, LINEA_TENUE, SERIES, TINTA, TINTA_SECUNDARIA,
+                    de_tipo, dibujar_almacen, etiquetar_zonas, metros, milisegundos,
+                    preparar_ejes, puntos)
+from grafo import cargar_grafo, cargar_pedidos
 
 
-def metros(valor) -> str:
-    return "—" if valor is None else f"{valor:,.1f}".replace(",", " ").replace(".", ",") + " m"
+# Pestañas de figuras
+VIS, RES = config.FIG_VISUALIZACION, config.FIG_RESULTADOS
+GALERIAS = [
+    ("Grafo y dataset", "visualizar.py", [
+        ("Grafo completo del almacén", VIS / "grafo_completo.png"),
+        *[(f"Subgrafo zona {z} · {d['nombre']}", VIS / f"subgrafo_zona_{z}.png")
+          for z, d in config.ZONAS.items()],
+        ("Pedido de ejemplo", VIS / "pedido_ejemplo.png"),
+        ("Mapa de demanda", VIS / "mapa_demanda.png"),
+        ("Tamaño de los pedidos", VIS / "tamano_pedidos.png"),
+    ]),
+    ("Resultados", "experimentos.py", [
+        ("Tiempo y distancia extra de cada técnica", RES / "experimentos.png"),
+    ]),
+]
 
 
-def milisegundos(valor) -> str:
-    if valor is None:
-        return "—"
-    return (f"{valor:.2f}" if valor < 10 else f"{valor:.0f}").replace(".", ",") + " ms"
+class Galeria(ttk.Frame):
+    """Pestaña que muestra figuras PNG."""
+
+    def __init__(self, contenedor, figuras, script):
+        super().__init__(contenedor, padding=14)
+        self.figuras = dict(figuras)
+        self.script = script
+        self.cargadas = {}
+        self.imagen = None
+
+        fila = ttk.Frame(self)
+        fila.pack(fill="x")
+        self.var = tk.StringVar(value=figuras[0][0])
+        lista = ttk.Combobox(fila, textvariable=self.var, values=list(self.figuras),
+                             state="readonly", width=45)
+        lista.pack(side="left")
+        lista.bind("<<ComboboxSelected>>", lambda _: self.mostrar())
+        ttk.Label(fila, text=f"Se regeneran con: python src/{script}",
+                  foreground=TINTA_SECUNDARIA).pack(side="left", padx=12)
+
+        self.vista = tk.Label(self, background=FONDO, foreground=TINTA_SECUNDARIA)
+        self.vista.pack(fill="both", expand=True, pady=(10, 0))
+        self.vista.bind("<Configure>", lambda _: self.mostrar())
+
+    def mostrar(self):
+        """Muestra la figura elegida ajustada a la pestaña."""
+        archivo = self.figuras[self.var.get()]
+        if not archivo.exists():
+            self.imagen = None
+            self.vista.config(image="", text=f"Falta {archivo.name}. "
+                                             f"Genérala con: python src/{self.script}")
+            return
+        if archivo not in self.cargadas:
+            self.cargadas[archivo] = tk.PhotoImage(file=str(archivo))
+        original = self.cargadas[archivo]
+        ancho, alto = max(self.vista.winfo_width(), 1), max(self.vista.winfo_height(), 1)
+        factor = max(1, -(-original.width() // ancho), -(-original.height() // alto))
+        self.imagen = original.subsample(factor)
+        self.vista.config(image=self.imagen, text="")
 
 
 class SmartPick(tk.Tk):
@@ -47,7 +93,7 @@ class SmartPick(tk.Tk):
         self.minsize(1050, 650)
         self.configure(bg=FONDO)
 
-        self.lag, self.nodos = cargar_almacen()
+        self.lag, self.nodos = cargar_grafo()
         self.pos = {n: (d["x"], d["y"]) for n, d in self.nodos.items()}
         self.pedidos = cargar_pedidos(self.nodos)
         self.ids = sorted(self.pedidos)
@@ -55,11 +101,17 @@ class SmartPick(tk.Tk):
         self.artistas = []
 
         self._estilos()
-        self._panel_izquierdo()
-        self._panel_derecho()
+        pestanas = ttk.Notebook(self)
+        pestanas.pack(fill="both", expand=True)
+        rutas = ttk.Frame(pestanas)
+        pestanas.add(rutas, text="  Rutas  ")
+        self._panel_izquierdo(rutas)
+        self._panel_derecho(rutas)
         self._dibujar_almacen()
+        for titulo, script, figuras in GALERIAS:
+            pestanas.add(Galeria(pestanas, figuras, script), text=f"  {titulo}  ")
 
-        self.var_pedido.set(self._etiqueta(PEDIDO_INICIAL))
+        self.var_pedido.set(self._etiqueta(config.PEDIDO_EJEMPLO))
         self.calcular()
 
     def _estilos(self):
@@ -73,12 +125,14 @@ class SmartPick(tk.Tk):
         estilo.map("Accion.TButton", background=[("active", "#d55a2a")])
         estilo.configure("Treeview", rowheight=26, font=("Segoe UI", 10))
         estilo.configure("Treeview.Heading", font=("Segoe UI", 10, "bold"))
+        estilo.configure("TNotebook", background=FONDO)
+        estilo.configure("TNotebook.Tab", font=("Segoe UI", 10), padding=(10, 4))
 
     def _etiqueta(self, pedido: int) -> str:
         return f"#{pedido} · {len(self.pedidos[pedido])} productos"
 
-    def _panel_izquierdo(self):
-        panel = ttk.Frame(self, padding=14)
+    def _panel_izquierdo(self, contenedor):
+        panel = ttk.Frame(contenedor, padding=14)
         panel.pack(side="left", fill="y")
 
         ttk.Label(panel, text="SmartPick", style="Titulo.TLabel").pack(anchor="w")
@@ -115,8 +169,8 @@ class SmartPick(tk.Tk):
                                 highlightcolor=LINEA_TENUE, font=("Segoe UI", 9), activestyle="none")
         self.lista.pack(fill="both", expand=True, pady=(4, 0))
 
-    def _panel_derecho(self):
-        panel = ttk.Frame(self, padding=(0, 14, 14, 14))
+    def _panel_derecho(self, contenedor):
+        panel = ttk.Frame(contenedor, padding=(0, 14, 14, 14))
         panel.pack(side="left", fill="both", expand=True)
 
         self.fig = Figure(figsize=(9, 4), dpi=100, facecolor=FONDO)
@@ -145,23 +199,14 @@ class SmartPick(tk.Tk):
                   foreground=TINTA_SECUNDARIA, font=("Segoe UI", 8)).pack(anchor="w", pady=(4, 0))
 
     def _dibujar_almacen(self):
+        """El almacén en tonos neutros; la ruta se dibuja encima."""
         ax = self.ax
-        aristas = [(self.pos[u], self.pos[v]) for u in self.lag for v in self.lag[u] if u < v]
-        ax.add_collection(LineCollection(aristas, colors=LINEA_TENUE, linewidths=0.6, zorder=1))
-        for tipo, tam, forma, color in [("estante", 1.2, "o", LINEA_TENUE),
-                                        ("interseccion", 6, "s", TINTA_SECUNDARIA),
-                                        ("deposito", 60, "s", TINTA)]:
-            puntos = [self.pos[n] for n, d in self.nodos.items() if d["tipo"] == tipo]
-            ax.scatter(*zip(*puntos), s=tam, marker=forma, color=color, zorder=2)
-        for zona, x in zip("ABC", (22.5, 72.5, 122.5)):
-            ax.text(x, 33.5, f"Zona {zona}", ha="center", fontsize=8, color=TINTA_SECUNDARIA)
+        dibujar_almacen(ax, self.lag, self.nodos, color_pasillo=LINEA_TENUE)
+        puntos(ax, self.nodos, de_tipo(self.nodos, "estante"), s=1.2, color=LINEA_TENUE, zorder=2)
+        etiquetar_zonas(ax, self.nodos)
         ax.set_aspect("equal")
-        ax.set_xlim(-5, 150)
-        ax.set_ylim(-8, 36)
-        ax.tick_params(colors=TINTA_SECUNDARIA, labelsize=7)
-        for lado, borde in ax.spines.items():
-            borde.set_visible(lado in ("left", "bottom"))
-            borde.set_color(LINEA_TENUE)
+        ax.margins(0.03, 0.12)
+        preparar_ejes(ax, etiqueta_x=None)
 
     def _pedido_elegido(self):
         texto = self.var_pedido.get().strip().lstrip("#").split(" ")[0]

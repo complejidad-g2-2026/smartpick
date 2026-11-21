@@ -12,13 +12,15 @@ Lo que acordamos como equipo. Si algo cambia, se actualiza aquí.
    cualquiera en la sustentación y penaliza si no lo sabe explicar.
 4. **Solo técnicas del curso**: fuerza bruta, backtracking, divide y vencerás,
    BFS/DFS, ordenamiento topológico, SCC, UFDS, MST (Kruskal o Prim), flujo máximo
-   (Ford-Fulkerson), programación dinámica, voraces, Bellman-Ford y Floyd-Warshall.
+   (Ford-Fulkerson), programación dinámica, voraces (Dijkstra, vecino más cercano),
+   Bellman-Ford y Floyd-Warshall. El recorrido en "S" y el orden del carrito solo se
+   usan como referencia para comparar.
 5. **Fuentes y datos se citan en APA**, con su licencia.
 6. **Primero se discute, después se implementa.** Nada de cambios grandes sin avisar
    al grupo.
-7. **El informe va en Google Docs**, sobre la plantilla oficial, y se exporta a
-   `.docx` para entregarlo. Este repositorio es solo para el código, los datos y
-   las figuras.
+7. **El informe va en Word online** (SharePoint de la UPC), sobre la plantilla
+   oficial. El repositorio es público y solo lleva código, datos y figuras: nunca se
+   pone aquí el link del informe.
 
 ## Reparto del trabajo
 
@@ -77,10 +79,16 @@ otro integrante la revise.
 
 ## Código
 
-- Los parámetros del almacén (pasillos, distancias, zonas) viven en `src/config.py`.
-  Nada de números sueltos en los demás scripts.
+- **Prohibido usar networkx o cualquier librería de grafos.** El grafo es una lista
+  de adyacencia propia (`src/grafo.py`) y todos los algoritmos se implementan a mano.
+- Solo se usan estas librerías: `pandas` (dataset y tablas de resultados),
+  `matplotlib` (figuras) y `tkinter` (interfaz, viene con Python). Para agregar otra,
+  primero se discute.
+- Los parámetros del almacén y de los algoritmos viven en `src/config.py`; los colores
+  y el dibujo del almacén, en `src/estilo.py`. Nada de números sueltos en los demás
+  scripts.
 - Cada función lleva un docstring corto que diga qué hace.
-- Los algoritmos del curso se implementan a mano; `networkx` solo se usa para
-  guardar y dibujar el grafo, no para resolverlo.
-- Las figuras se generan con código, nunca se editan a mano, para que se puedan
-  regenerar si cambia el modelo.
+- No se sube código que no funcione ni scripts sueltos de prueba: todo lo que está en
+  `src/` se usa y se puede ejecutar.
+- Las figuras se generan con código, nunca se editan a mano. Cada script escribe en su
+  carpeta de `figuras/`.

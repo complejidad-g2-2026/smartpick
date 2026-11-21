@@ -1,2 +1,9 @@
-# Los hooks de git son scripts de shell: deben conservar finales de línea LF.
+# Finales de línea: el repositorio guarda LF y cada quien los ve como su sistema
+# (CRLF en Windows). Así git no marca archivos "modificados" sin cambios reales.
+* text=auto
+
+# Los hooks de git son scripts de shell: deben conservar LF siempre.
 .githooks/* text eol=lf
+
+# Binarios
+*.png binary

@@ -1,36 +1,45 @@
-"""Genera los diagramas de la sección "Diseño del aplicativo" del informe.
+"""Diagramas de la sección "Diseño del aplicativo" del informe.
 
-Salida en figuras/:
+Salida en figuras/diseno/:
 - arquitectura.png: módulos de la aplicación y cómo se pasan los datos.
-- flujo.png:        diagrama de flujo de una consulta de ruta.
-- interfaz.png:     boceto de la interfaz gráfica, con la ruta óptima del
-                    pedido de ejemplo dibujada sobre el almacén.
+- flujo.png:        diagrama de flujo del cálculo de la ruta de un pedido.
+- interfaz.png:     boceto de la interfaz, con los resultados reales del
+                    pedido de ejemplo.
 
 Uso:
     python src/diagramas.py
 """
 
-from itertools import permutations
-
 import matplotlib.pyplot as plt
-import networkx as nx
-import pandas as pd
 from matplotlib.patches import FancyArrowPatch, FancyBboxPatch, Polygon
 
 import config
-from grafo import cargar_grafo
-from visualizar import (FONDO, LINEA_TENUE, SERIES, TINTA, TINTA_SECUNDARIA,
-                        TINTA_TENUE, dibujar_base, guardar, nodos_de_tipo, posiciones)
+from algoritmos import TECNICAS, distancia_optima, resolver
+from estilo import (ANCHO_FIGURA, COLOR_TECNICA, FONDO, LINEA_TENUE, SERIES, TINTA,
+                    TINTA_SECUNDARIA, TINTA_TENUE, de_tipo, dibujar_almacen, guardar,
+                    metros, milisegundos, miles, puntos)
+from grafo import cargar_grafo, cargar_pedidos, numero_de_aristas
 
+SALIDA = config.FIG_DISENO
 AZUL, NARANJA = SERIES[0], SERIES[1]
 CAJA = "#ffffff"
+GRIS_PANEL = "#eef1f6"
 OSCURO = "#14213D"
 
 
-def caja(ax, x, y, w, h, titulo, lineas=(), color=AZUL, relleno=CAJA):
+def lienzo(ancho, alto, xmax, ymin, ymax, titulo):
+    fig, ax = plt.subplots(figsize=(ancho, alto))
+    ax.set_xlim(0, xmax)
+    ax.set_ylim(ymin, ymax)
+    ax.axis("off")
+    ax.set_title(titulo, pad=8)
+    return fig, ax
+
+
+def caja(ax, x, y, w, h, titulo, lineas=(), color=AZUL):
     """Rectángulo redondeado con un título y líneas de texto debajo."""
     ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0,rounding_size=0.15",
-                                facecolor=relleno, edgecolor=color, linewidth=1.6))
+                                facecolor=CAJA, edgecolor=color, linewidth=1.6))
     ax.text(x + w / 2, y + h - 0.32, titulo, ha="center", va="top",
             fontsize=9, fontweight="bold", color=color)
     for i, linea in enumerate(lineas):
@@ -38,50 +47,13 @@ def caja(ax, x, y, w, h, titulo, lineas=(), color=AZUL, relleno=CAJA):
                 fontsize=7.5, color=TINTA_SECUNDARIA)
 
 
-def flecha(ax, origen, destino, texto=None, lado="arriba"):
-    ax.add_patch(FancyArrowPatch(origen, destino, arrowstyle="-|>", mutation_scale=12,
-                                 color=TINTA_SECUNDARIA, linewidth=1.2))
-    if texto:
-        x, y = (origen[0] + destino[0]) / 2, (origen[1] + destino[1]) / 2
-        dy = 0.18 if lado == "arriba" else -0.18
-        ax.text(x, y + dy, texto, ha="center", va="bottom" if dy > 0 else "top",
-                fontsize=7, color=TINTA_TENUE)
-
-
-def lienzo(ancho, alto, xmax, ymax, titulo):
-    fig, ax = plt.subplots(figsize=(ancho, alto))
-    ax.set_xlim(0, xmax)
-    ax.set_ylim(0, ymax)
-    ax.axis("off")
-    ax.set_title(titulo, pad=8)
-    return fig, ax
-
-
-def diagrama_arquitectura() -> None:
-    fig, ax = lienzo(8, 3.9, 16, 7.8, "Arquitectura de SmartPick: módulos y flujo de datos")
-
-    caja(ax, 0.2, 3.0, 3.4, 2.6, "1. Datos", ["dataset.py", "Instacart (CSV)",
-                                               "→ productos, pedidos"])
-    caja(ax, 4.3, 3.0, 3.4, 2.6, "2. Grafo", ["grafo.py", "lista de adyacencia",
-                                               "2 311 nodos · 2 339 aristas"])
-    caja(ax, 8.4, 3.0, 3.4, 2.6, "3. Algoritmos", ["algoritmos/", "Dijkstra · Held-Karp",
-                                                    "voraz · backtracking · S"],
-         color=NARANJA)
-    caja(ax, 12.5, 3.0, 3.3, 2.6, "4. Interfaz", ["gui.py (Tkinter)", "elegir pedido",
-                                                   "ver ruta y comparar"])
-    flecha(ax, (3.6, 4.3), (4.3, 4.3))
-    flecha(ax, (7.7, 4.3), (8.4, 4.3))
-    flecha(ax, (11.8, 4.3), (12.5, 4.3))
-
-    caja(ax, 4.3, 0.2, 7.5, 1.9, "Evaluación (experimentos.py)",
-         ["Corre cada técnica sobre una muestra de pedidos reales",
-          "y registra distancia, tiempo y brecha frente a la óptima"], color=TINTA_SECUNDARIA)
-    flecha(ax, (10.1, 3.0), (10.1, 2.1))
-    flecha(ax, (6.0, 3.0), (6.0, 2.1))
-
-    ax.text(8.0, 6.6, "config.py: parámetros del almacén (pasillos, distancias, zonas), "
-            "usados por todos los módulos", ha="center", fontsize=7.5, color=TINTA_TENUE)
-    guardar(fig, "arquitectura.png")
+def paso(ax, cx, cy, texto, w=7.6, h=0.8, color=AZUL, relleno=CAJA):
+    """Paso del diagrama de flujo, centrado en (cx, cy)."""
+    ax.add_patch(FancyBboxPatch((cx - w / 2, cy - h / 2), w, h,
+                                boxstyle="round,pad=0,rounding_size=0.15",
+                                facecolor=relleno, edgecolor=color, linewidth=1.5))
+    ax.text(cx, cy, texto, ha="center", va="center", fontsize=8,
+            color="#ffffff" if relleno != CAJA else TINTA)
 
 
 def rombo(ax, cx, cy, w, h, texto):
@@ -91,147 +63,167 @@ def rombo(ax, cx, cy, w, h, texto):
     ax.text(cx, cy, texto, ha="center", va="center", fontsize=8, color=TINTA)
 
 
-def paso(ax, cx, cy, texto, w=6.4, h=0.75, color=AZUL, relleno=CAJA):
-    ax.add_patch(FancyBboxPatch((cx - w / 2, cy - h / 2), w, h,
-                                boxstyle="round,pad=0,rounding_size=0.15",
-                                facecolor=relleno, edgecolor=color, linewidth=1.5))
-    ax.text(cx, cy, texto, ha="center", va="center", fontsize=8,
-            color="#ffffff" if relleno != CAJA else TINTA)
+def flecha(ax, *puntos_ruta, texto=None):
+    """Flecha que pasa por los puntos dados; la punta queda en el último."""
+    for a, b in zip(puntos_ruta[:-2], puntos_ruta[1:-1]):
+        ax.plot([a[0], b[0]], [a[1], b[1]], color=TINTA_SECUNDARIA, lw=1.2)
+    ax.add_patch(FancyArrowPatch(puntos_ruta[-2], puntos_ruta[-1], arrowstyle="-|>",
+                                 mutation_scale=12, color=TINTA_SECUNDARIA, linewidth=1.2))
+    if texto:
+        (x1, y1), (x2, y2) = puntos_ruta[0], puntos_ruta[1]
+        ax.text((x1 + x2) / 2 + 0.15, (y1 + y2) / 2 + 0.12, texto, fontsize=7.5, color=TINTA_TENUE)
+
+
+def diagrama_arquitectura(lag, nodos) -> None:
+    fig, ax = lienzo(ANCHO_FIGURA, 3.9, 16, 0, 7.8, "Arquitectura de SmartPick: módulos y flujo de datos")
+
+    caja(ax, 0.05, 3.0, 3.75, 2.6, "1. Datos", ["dataset.py", "Instacart (CSV)", "→ productos, pedidos"])
+    caja(ax, 4.1, 3.0, 3.75, 2.6, "2. Grafo", ["grafo.py", "lista de adyacencia + BFS",
+                                               f"{miles(len(nodos))} nodos · {miles(numero_de_aristas(lag))} aristas"])
+    caja(ax, 8.15, 3.0, 3.75, 2.6, "3. Algoritmos", ["algoritmos/", "Dijkstra · Held-Karp",
+                                                    "voraz · backtracking · S"], color=NARANJA)
+    caja(ax, 12.2, 3.0, 3.75, 2.6, "4. Interfaz", ["gui.py (Tkinter)", "elegir pedido",
+                                                   "ver ruta y comparar"])
+    flecha(ax, (3.8, 4.3), (4.1, 4.3))
+    flecha(ax, (7.85, 4.3), (8.15, 4.3))
+    flecha(ax, (11.9, 4.3), (12.2, 4.3))
+
+    caja(ax, 3.8, 0.2, 8.5, 1.9, "Evaluación (experimentos.py)",
+         ["Corre cada técnica sobre una muestra de pedidos reales",
+          "y registra distancia, tiempo y brecha frente a la óptima"], color=TINTA_SECUNDARIA)
+    flecha(ax, (6.0, 3.0), (6.0, 2.1))
+    flecha(ax, (10.1, 3.0), (10.1, 2.1))
+
+    ax.text(8.0, 6.6, "config.py: parámetros del almacén y de los algoritmos · "
+            "estilo.py: colores y dibujo comunes", ha="center", fontsize=7.5, color=TINTA_TENUE)
+    guardar(fig, SALIDA, "arquitectura.png")
 
 
 def diagrama_flujo() -> None:
-    fig, ax = lienzo(8, 6.6, 16, 16.6, "Diagrama de flujo: cálculo de la ruta de un pedido")
-    ax.set_ylim(3.0, 16.6)
-    cx = 5.2
-    y = [16.0, 14.8, 13.6, 12.4, 11.2, 9.6, 7.6, 6.0, 4.8, 3.6]
-    cx = 5.6
+    fig, ax = lienzo(ANCHO_FIGURA, 7.2, 18, 3.9, 18.0, "Diagrama de flujo: cálculo de la ruta de un pedido")
+    cx, dx = 5.0, 11.6
 
-    paso(ax, cx, y[0], "Inicio", w=2.4, color=OSCURO, relleno=OSCURO)
-    paso(ax, cx, y[1], "Cargar grafo y pedidos (CSV)")
-    paso(ax, cx, y[2], "El usuario elige un pedido (n productos)")
-    paso(ax, cx, y[3], "Dijkstra desde el depósito y cada producto")
-    paso(ax, cx, y[4], "Matriz de distancias (n+1) × (n+1)")
-    rombo(ax, cx, y[5], 3.6, 1.6, "¿n ≤ 15?")
-    paso(ax, 2.2, y[6], "Held-Karp (óptima)", w=3.8, color=NARANJA)
-    paso(ax, 9.0, y[6], "Vecino más cercano", w=3.8, color=NARANJA)
-    paso(ax, cx, y[7], "Comparar: voraz · backtracking · recorrido en S", w=7.6)
-    paso(ax, cx, y[8], "Mostrar ruta en el grafo y tabla de resultados", w=7.6)
-    paso(ax, cx, y[9], "Fin", w=2.4, color=OSCURO, relleno=OSCURO)
+    paso(ax, cx, 17.4, "Inicio", w=2.4, color=OSCURO, relleno=OSCURO)
+    paso(ax, cx, 16.2, "Cargar grafo (lista de adyacencia) y pedidos")
+    paso(ax, cx, 15.0, "Elegir un pedido (n productos) y las técnicas")
+    paso(ax, cx, 13.7, "Dijkstra desde el depósito y cada producto\n→ matriz de distancias (n+1)×(n+1)", h=1.1)
+    rombo(ax, cx, 11.6, 4.4, 2.0, "¿Quedan técnicas\npor calcular?")
+    rombo(ax, dx, 11.6, 4.4, 2.0, "¿n dentro del\nlímite de la técnica?")
+    paso(ax, dx, 9.3, "Calcular orden de\nvisita y distancia", w=4.0, h=1.1, color=NARANJA)
+    paso(ax, 16.2, 9.3, "Marcar\n«no aplica»", w=2.8, h=1.1, color=TINTA_TENUE)
+    paso(ax, cx, 7.0, "Tabla: distancia, tiempo y brecha vs. óptima")
+    paso(ax, cx, 5.8, "Dibujar la ruta más corta sobre el almacén")
+    paso(ax, cx, 4.6, "Fin", w=2.4, color=OSCURO, relleno=OSCURO)
 
-    for a, b in [(0, 1), (1, 2), (2, 3), (3, 4)]:
-        flecha(ax, (cx, y[a] - 0.38), (cx, y[b] + 0.38))
-    flecha(ax, (cx, y[4] - 0.38), (cx, y[5] + 0.8))
-    flecha(ax, (cx - 1.8, y[5]), (2.2, y[6] + 0.38), "sí")
-    flecha(ax, (cx + 1.8, y[5]), (9.0, y[6] + 0.38), "no")
-    flecha(ax, (2.2, y[6] - 0.38), (cx - 1.5, y[7] + 0.38))
-    flecha(ax, (9.0, y[6] - 0.38), (cx + 1.5, y[7] + 0.38))
-    flecha(ax, (cx, y[7] - 0.38), (cx, y[8] + 0.38))
-    flecha(ax, (cx, y[8] - 0.38), (cx, y[9] + 0.38))
+    for y1, y2 in [(17.4, 16.2), (16.2, 15.0)]:
+        flecha(ax, (cx, y1 - 0.4), (cx, y2 + 0.4))
+    flecha(ax, (cx, 14.6), (cx, 14.25))
+    flecha(ax, (cx, 13.15), (cx, 12.6))
+    flecha(ax, (cx + 2.2, 11.6), (dx - 2.2, 11.6), texto="sí")
+    flecha(ax, (dx, 10.6), (dx, 9.85), texto="sí")
+    flecha(ax, (dx + 2.2, 11.6), (16.2, 11.6), (16.2, 9.85), texto="no")
+    # Vuelta del ciclo
+    flecha(ax, (dx, 8.75), (dx, 8.2), (9.3, 8.2), (9.3, 12.88), (cx + 0.05, 12.88))
+    ax.plot([16.2, 16.2, dx], [8.75, 8.2, 8.2], color=TINTA_SECUNDARIA, lw=1.2)
+    ax.text(9.45, 10.0, "siguiente\ntécnica", fontsize=7, color=TINTA_TENUE)
+    flecha(ax, (cx, 10.6), (cx, 7.4), texto="no")
+    flecha(ax, (cx, 6.6), (cx, 6.2))
+    flecha(ax, (cx, 5.4), (cx, 5.0))
 
     notas = [
-        (y[3], "O((V + E) log V) por ejecución"),
-        (y[4], "Reduce 2 311 nodos a n + 1 puntos"),
-        (y[5], "99,4 % de los pedidos reales"),
-        (y[7], "Backtracking solo si n ≤ 10"),
+        "Complejidad de cada técnica:",
+        "Dijkstra: O((V + E) log V) por ejecución",
+        f"Held-Karp (PD): O(n²·2ⁿ), n ≤ {config.LIMITE_HELD_KARP}",
+        f"Backtracking con poda: O(n!), n ≤ {config.LIMITE_BACKTRACKING}",
+        "Vecino más cercano (voraz): O(n²)",
+        "Recorrido en S (referencia): O(n log n)",
     ]
-    for yy, texto in notas:
-        ax.text(12.0, yy, texto, va="center", fontsize=7.5, color=TINTA_TENUE)
-    guardar(fig, "flujo.png")
+    for i, texto in enumerate(notas):
+        ax.text(10.3, 7.3 - i * 0.48, texto, fontsize=7.5, va="center",
+                color=TINTA_SECUNDARIA if i == 0 else TINTA_TENUE,
+                fontweight="bold" if i == 0 else "normal")
+    guardar(fig, SALIDA, "flujo.png")
 
 
-def ruta_optima(g: nx.Graph, puntos: list) -> list:
-    """Orden óptimo por fuerza bruta (solo para dibujar el boceto)."""
-    dist = {p: nx.single_source_dijkstra_path_length(g, p, weight="peso")
-            for p in ["DEPOSITO", *puntos]}
+def boceto_interfaz(lag, nodos, pedidos) -> None:
+    pedido = config.PEDIDO_EJEMPLO
+    ubicaciones = pedidos[pedido]
+    resultados, _ = resolver(lag, nodos, ubicaciones)
+    optima = distancia_optima(resultados)
+    mejor = min((r for r in resultados if r.calculado), key=lambda r: r.distancia)
 
-    def largo(r):
-        t = ["DEPOSITO", *r, "DEPOSITO"]
-        return sum(dist[a][b] for a, b in zip(t, t[1:]))
-
-    mejor = min(permutations(puntos), key=largo)
-    return ["DEPOSITO", *mejor, "DEPOSITO"], largo(mejor)
-
-
-def boceto_interfaz() -> None:
-    g = cargar_grafo()
-    puntos = list(pd.read_csv(config.FIGURAS / "pedido_ejemplo.csv")["ubicacion"])
-    orden, _ = ruta_optima(g, puntos)
-    camino = []
-    for a, b in zip(orden, orden[1:]):
-        tramo = nx.shortest_path(g, a, b, weight="peso")
-        camino.extend(tramo if not camino else tramo[1:])
-    pos = posiciones(g)
-
-    fig = plt.figure(figsize=(8, 5.2))
+    fig = plt.figure(figsize=(ANCHO_FIGURA, 5.2))
     fig.suptitle("Boceto de la interfaz gráfica de SmartPick", x=0.02, ha="left",
                  fontsize=10, fontweight="bold")
 
-    # Panel de controles (izquierda).
+    # Panel izquierdo
     panel = fig.add_axes([0.02, 0.06, 0.24, 0.84])
     panel.set_xlim(0, 10)
     panel.set_ylim(0, 20)
     panel.axis("off")
     panel.add_patch(FancyBboxPatch((0, 0), 10, 20, boxstyle="round,pad=0,rounding_size=0.4",
-                                   facecolor="#eef1f6", edgecolor=LINEA_TENUE))
+                                   facecolor=GRIS_PANEL, edgecolor=LINEA_TENUE))
     panel.text(0.6, 19, "Pedido", fontsize=8, fontweight="bold", color=TINTA)
     panel.add_patch(FancyBboxPatch((0.6, 17.2), 8.8, 1.2, boxstyle="round,pad=0,rounding_size=0.2",
                                    facecolor=CAJA, edgecolor=TINTA_TENUE))
-    panel.text(1.0, 17.8, "#1682 · 8 productos   ▾", va="center", fontsize=7.5, color=TINTA)
+    panel.text(1.0, 17.8, f"#{pedido} · {len(ubicaciones)} productos   ▾", va="center",
+               fontsize=7.5, color=TINTA)
     panel.text(0.6, 16.0, "Técnicas", fontsize=8, fontweight="bold", color=TINTA)
-    for i, t in enumerate(["Held-Karp", "Vecino más cercano", "Backtracking", "Recorrido en S"]):
-        yy = 14.8 - i * 1.3
-        panel.add_patch(FancyBboxPatch((0.6, yy - 0.35), 0.7, 0.7, boxstyle="round,pad=0,rounding_size=0.1",
+    for i, t in enumerate(TECNICAS):
+        yy = 15.0 - i * 1.1
+        panel.add_patch(FancyBboxPatch((0.6, yy - 0.3), 0.6, 0.6, boxstyle="round,pad=0,rounding_size=0.1",
                                        facecolor=AZUL, edgecolor=AZUL))
-        panel.text(1.7, yy, t, va="center", fontsize=7.5, color=TINTA)
-    panel.add_patch(FancyBboxPatch((0.6, 8.2), 8.8, 1.4, boxstyle="round,pad=0,rounding_size=0.3",
+        panel.text(1.6, yy, t, va="center", fontsize=7.5, color=TINTA)
+    panel.add_patch(FancyBboxPatch((0.6, 8.2), 8.8, 1.3, boxstyle="round,pad=0,rounding_size=0.3",
                                    facecolor=NARANJA, edgecolor=NARANJA))
-    panel.text(5.0, 8.9, "Calcular ruta", ha="center", va="center", fontsize=8.5,
+    panel.text(5.0, 8.85, "Calcular ruta", ha="center", va="center", fontsize=8.5,
                fontweight="bold", color="#ffffff")
-    panel.text(0.6, 6.8, "Productos del pedido", fontsize=8, fontweight="bold", color=TINTA)
-    nombres = ["Bathroom Tissue", "Organic Yellow Onion", "Peanut Butter", "Chicken Broth",
-               "Beef Broth", "Romaine Lettuce", "Organic Lemon", "Vine Ripe Tomatoes"]
-    for i, n in enumerate(nombres):
-        panel.text(0.6, 5.9 - i * 0.7, f"{i + 1}. {n}", fontsize=6.5, color=TINTA_SECUNDARIA)
+    panel.text(0.6, 7.0, "Orden de visita", fontsize=8, fontweight="bold", color=TINTA)
+    for i, u in enumerate(mejor.orden):
+        nombre = nodos[u]["producto"]
+        nombre = nombre if len(nombre) <= 24 else nombre[:23] + "…"
+        panel.text(0.6, 6.1 - i * 0.7, f"{i + 1}. {nombre}", fontsize=6.5, color=TINTA_SECUNDARIA)
 
-    # Vista del almacén con la ruta (arriba a la derecha).
+    # Almacén con la ruta
     vista = fig.add_axes([0.29, 0.36, 0.69, 0.54])
-    dibujar_base(vista, g, pos, color_pasillo=LINEA_TENUE)
-    nx.draw_networkx_nodes(g, pos, ax=vista, nodelist=nodos_de_tipo(g, "estante"),
-                           node_size=0.8, node_color=LINEA_TENUE)
-    xs, ys = zip(*[pos[n] for n in camino])
-    vista.plot(xs, ys, color=NARANJA, linewidth=1.6, zorder=4)
-    nx.draw_networkx_nodes(g, pos, ax=vista, nodelist=puntos, node_size=22,
-                           node_color=AZUL, edgecolors=FONDO, linewidths=0.8)
+    dibujar_almacen(vista, lag, nodos, color_pasillo=LINEA_TENUE)
+    puntos(vista, nodos, de_tipo(nodos, "estante"), s=0.8, color=LINEA_TENUE, zorder=2)
+    vista.plot([nodos[n]["x"] for n in mejor.camino], [nodos[n]["y"] for n in mejor.camino],
+               color=COLOR_TECNICA[mejor.tecnica], linewidth=1.6, zorder=4)
+    puntos(vista, nodos, mejor.orden, s=22, color=COLOR_TECNICA[mejor.tecnica],
+           edgecolors=FONDO, linewidths=0.8, zorder=5)
     vista.set_aspect("equal")
     vista.axis("off")
-    vista.set_title("Ruta óptima sobre el almacén", fontsize=8, loc="left")
+    vista.set_title(f"Ruta más corta ({mejor.tecnica}): {metros(mejor.distancia)}", fontsize=8)
 
-    # Tabla de resultados (abajo a la derecha).
+    # Tabla de resultados
     tabla = fig.add_axes([0.29, 0.06, 0.69, 0.26])
     tabla.axis("off")
-    filas = [["Técnica", "Distancia", "Tiempo", "Brecha vs. óptima"],
-             ["Held-Karp", "434,0 m", "por medir", "0 %"],
-             ["Vecino más cercano", "452,8 m", "por medir", "+4,3 %"],
-             ["Backtracking", "434,0 m", "por medir", "0 %"],
-             ["Recorrido en S", "por medir", "por medir", "por medir"],
-             ["Orden del carrito", "594,8 m", "—", "+37,0 %"]]
+    filas = [["Técnica", "Distancia", "Tiempo", "Brecha vs. óptima"]]
+    for r in resultados:
+        brecha = "—" if not r.calculado else f"+{(r.distancia / optima - 1) * 100:.1f} %".replace(".", ",")
+        if r.calculado and r.distancia - optima < 1e-6:
+            brecha = "0 % (óptima)"
+        filas.append([r.tecnica, metros(r.distancia), milisegundos(r.tiempo_ms), brecha])
     t = tabla.table(cellText=filas, loc="center", cellLoc="left", colWidths=[0.34, 0.2, 0.18, 0.28])
     t.auto_set_font_size(False)
     t.set_fontsize(7.5)
     t.scale(1, 1.1)
-    for (r, _), celda in t.get_celld().items():
+    for (fila, _), celda in t.get_celld().items():
         celda.set_edgecolor(LINEA_TENUE)
-        if r == 0:
+        if fila == 0:
             celda.set_text_props(fontweight="bold", color=TINTA)
-            celda.set_facecolor("#eef1f6")
-    guardar(fig, "interfaz.png")
+            celda.set_facecolor(GRIS_PANEL)
+    guardar(fig, SALIDA, "interfaz.png")
 
 
 def main() -> None:
-    print("Figuras:")
-    diagrama_arquitectura()
+    lag, nodos = cargar_grafo()
+    pedidos = cargar_pedidos(nodos)
+    print("Diagramas:")
+    diagrama_arquitectura(lag, nodos)
     diagrama_flujo()
-    boceto_interfaz()
+    boceto_interfaz(lag, nodos, pedidos)
 
 
 if __name__ == "__main__":

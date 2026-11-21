@@ -1,19 +1,17 @@
-"""Backtracking con poda: arma la ruta producto por producto y abandona toda
-ruta parcial que ya mida más que la mejor ruta completa encontrada.
+"""Backtracking con poda: arma la ruta producto por producto y descarta las
+rutas parciales que ya miden más que la mejor ruta encontrada.
 
-Empieza con la ruta del vecino más cercano como mejor ruta y prueba primero
-los productos más cercanos, para podar antes.
+La mejor ruta inicial es la del vecino más cercano.
 
 Complejidad: O(n!) en el peor caso.
 """
 
 from .vecino_mas_cercano import vecino_mas_cercano
 
-LIMITE = 10
-
 
 def backtracking(D):
-    """Devuelve (orden, distancia, rutas parciales exploradas)."""
+    """D: matriz de distancias (índice 0 = depósito).
+    Devuelve (orden, distancia, rutas parciales exploradas)."""
     n = len(D) - 1
     orden, costo = vecino_mas_cercano(D)
     mejor = {"orden": orden, "costo": costo, "explorados": 0}

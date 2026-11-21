@@ -1,0 +1,99 @@
+n,tecnica,pedidos,distancia_m,tiempo_ms,dijkstra_ms,brecha_pct
+2,Backtracking,30,189.947,0.014,5.728,0.0
+2,Held-Karp,30,189.947,0.016,5.728,0.0
+2,Orden del carrito,30,189.947,,5.728,0.0
+2,Recorrido en S,30,199.947,0.013,5.728,6.13
+2,Vecino más cercano,30,189.947,0.009,5.728,0.0
+3,Backtracking,30,241.667,0.045,7.909,0.0
+3,Held-Karp,30,241.667,0.027,7.909,0.0
+3,Orden del carrito,30,254.12,,7.909,5.317
+3,Recorrido en S,30,264.467,0.017,7.909,9.401
+3,Vecino más cercano,30,242.467,0.01,7.909,0.343
+4,Backtracking,30,257.88,0.044,9.812,0.0
+4,Held-Karp,30,257.88,0.045,9.812,0.0
+4,Orden del carrito,30,298.933,,9.812,16.166
+4,Recorrido en S,30,282.187,0.019,9.812,9.105
+4,Vecino más cercano,30,262.133,0.012,9.812,1.59
+5,Backtracking,30,288.467,0.114,12.032,0.0
+5,Held-Karp,30,288.467,0.089,12.032,0.0
+5,Orden del carrito,30,359.68,,12.032,24.646
+5,Recorrido en S,30,325.667,0.02,12.032,12.42
+5,Vecino más cercano,30,297.653,0.014,12.032,3.019
+6,Backtracking,30,293.187,0.389,14.754,0.0
+6,Held-Karp,30,293.187,0.194,14.754,0.0
+6,Orden del carrito,30,388.52,,14.754,32.33
+6,Recorrido en S,30,342.693,0.023,14.754,16.944
+6,Vecino más cercano,30,300.027,0.017,14.754,2.108
+7,Backtracking,30,319.267,1.484,17.646,0.0
+7,Held-Karp,30,319.267,0.435,17.646,0.0
+7,Orden del carrito,30,461.08,,17.646,43.573
+7,Recorrido en S,30,375.093,0.025,17.646,17.681
+7,Vecino más cercano,30,326.52,0.017,17.646,2.128
+8,Backtracking,30,335.547,6.337,18.822,0.0
+8,Held-Karp,30,335.547,0.907,18.822,0.0
+8,Orden del carrito,30,503.173,,18.822,49.904
+8,Recorrido en S,30,389.853,0.029,18.822,16.081
+8,Vecino más cercano,30,347.027,0.018,18.822,3.221
+9,Backtracking,30,341.773,29.283,20.712,0.0
+9,Held-Karp,30,341.773,2.056,20.712,0.0
+9,Orden del carrito,30,537.72,,20.712,57.413
+9,Recorrido en S,30,406.96,0.034,20.712,19.081
+9,Vecino más cercano,30,354.933,0.019,20.712,3.792
+10,Backtracking,30,350.947,123.527,21.947,0.0
+10,Held-Karp,30,350.947,4.643,21.947,0.0
+10,Orden del carrito,30,577.827,,21.947,65.008
+10,Recorrido en S,30,412.76,0.035,21.947,17.245
+10,Vecino más cercano,30,365.813,0.021,21.947,4.226
+11,Held-Karp,30,381.0,12.318,26.862,0.0
+11,Orden del carrito,30,613.76,,26.862,60.845
+11,Recorrido en S,30,449.92,0.039,26.862,17.812
+11,Vecino más cercano,30,396.867,0.026,26.862,3.987
+12,Held-Karp,30,399.133,29.865,26.638,0.0
+12,Orden del carrito,30,692.08,,26.638,74.241
+12,Recorrido en S,30,481.28,0.042,26.638,20.717
+12,Vecino más cercano,30,421.893,0.03,26.638,5.614
+13,Held-Karp,30,406.827,63.804,28.011,0.0
+13,Orden del carrito,30,753.707,,28.011,85.172
+13,Recorrido en S,30,485.787,0.042,28.011,19.132
+13,Vecino más cercano,30,427.44,0.033,28.011,4.919
+14,Held-Karp,30,412.227,146.402,30.596,0.0
+14,Orden del carrito,30,763.52,,30.596,85.01
+14,Recorrido en S,30,497.72,0.052,30.596,20.862
+14,Vecino más cercano,30,428.427,0.038,30.596,3.81
+15,Held-Karp,30,429.413,327.573,30.327,0.0
+15,Orden del carrito,30,840.16,,30.327,95.149
+15,Recorrido en S,30,524.293,0.054,30.327,22.411
+15,Vecino más cercano,30,451.4,0.046,30.327,5.036
+16,Orden del carrito,14,857.314,,33.721,
+16,Recorrido en S,14,505.914,0.043,33.721,
+16,Vecino más cercano,14,436.886,0.046,33.721,
+17,Orden del carrito,14,931.4,,34.796,
+17,Recorrido en S,14,566.771,0.046,34.796,
+17,Vecino más cercano,14,498.771,0.054,34.796,
+18,Orden del carrito,6,1054.0,,37.665,
+18,Recorrido en S,6,611.333,0.048,37.665,
+18,Vecino más cercano,6,568.267,0.065,37.665,
+19,Orden del carrito,5,1041.4,,38.526,
+19,Recorrido en S,5,554.2,0.048,38.526,
+19,Vecino más cercano,5,468.76,0.059,38.526,
+20,Orden del carrito,4,881.5,,44.125,
+20,Recorrido en S,4,511.9,0.046,44.125,
+20,Vecino más cercano,4,442.1,0.07,44.125,
+21,Orden del carrito,5,1267.48,,49.146,
+21,Recorrido en S,5,644.84,0.068,49.146,
+21,Vecino más cercano,5,566.28,0.086,49.146,
+22,Orden del carrito,1,916.0,,47.74,
+22,Recorrido en S,1,538.0,0.088,47.74,
+22,Vecino más cercano,1,451.6,0.082,47.74,
+23,Orden del carrito,1,1278.6,,52.3,
+23,Recorrido en S,1,768.2,0.085,52.3,
+23,Vecino más cercano,1,618.6,0.108,52.3,
+25,Orden del carrito,1,1429.0,,53.19,
+25,Recorrido en S,1,679.4,0.112,53.19,
+25,Vecino más cercano,1,563.4,0.121,53.19,
+27,Orden del carrito,1,1212.6,,54.87,
+27,Recorrido en S,1,627.4,0.083,54.87,
+27,Vecino más cercano,1,527.8,0.11,54.87,
+30,Orden del carrito,1,1526.8,,60.36,
+30,Recorrido en S,1,776.8,0.132,60.36,
+30,Vecino más cercano,1,714.4,0.124,60.36,
